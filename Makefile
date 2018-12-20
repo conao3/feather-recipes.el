@@ -15,7 +15,7 @@ all:
 
 recipe: $(FETCHER:%=$(PREFIX)-%.el)
 
-$(PREFIX)-%.el: $(PREFIX)-%.json
+$(PREFIX)-%.el: $(PREFIX)-%.json feather-recipes.el
 	emacs --script feather-recipes.el $< $@
 
 $(PREFIX)-melpa.json:
@@ -41,5 +41,5 @@ $(SSHKEY):
 	git config --global user.email conao3@gmail.com
 
 clean-recipe:
-	-rm -rf $(FETCHER:%=recipe-%.el)
-	-rm -rf $(FETCHER:%=recipe-%.json)
+	-rm -rf $(FETCHER:%=$(PREFIX)-%.el)
+	-rm -rf $(FETCHER:%=$(PREFIX)-%.json)

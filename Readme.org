@@ -1,0 +1,10 @@
+#+author: conao
+#+date: <2018-10-25 Thu>
+
+* feather-recipes
+[[https://github.com/conao3/feather-recipes][https://img.shields.io/github/tag/conao3/feather-recipes.svg?style=flat-square]]
+[[https://travis-ci.org/conao3/feather-recipes][https://img.shields.io/travis/conao3/feather-recipes/master.svg?style=flat-square]]
+[[https://github.com/conao3/feather-recipes][https://img.shields.io/github/license/conao3/feather-recipes.svg?style=flat-square]]
+
+* What is it?
+This is [[https://github.com/conao3/feather.el][feather.el]] fetching recipes repository.

@@ -11,7 +11,7 @@ jobs:
   include:
     - if: branch = master
       stage: "Create recipe"
-      script
+      script:
         - make clean-recipe
         - make recipe
         - make commit

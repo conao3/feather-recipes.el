@@ -18,7 +18,7 @@
             (setq val (pop obj))
 
             (puthash key (cdr
-                           `(:dammy-symbol
+                          `(:dammy-symbol
                             :ver  ,(plist-get val :ver)
                             :deps ,(plist-get val :deps)
                             :url  ,(plist-get (plist-get val :props) :url)))

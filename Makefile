@@ -2,7 +2,7 @@
 SSHKEY     := ~/.ssh/id_rsa
 
 DATE       := $(shell date '+%Y_%m_%d')
-DATEDETIAL := $(shell date '+%Y/%m/%d %H:%M:%S')
+DATEDETAIL := $(shell date '+%Y/%m/%d %H:%M:%S')
 
 FETCHER    := melpa
 
@@ -22,7 +22,7 @@ recipe-melpa.json:
 	mv archive.json $@
 
 commit: $(SSHKEY)
-	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATE))" >> commit.log
+	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
 
 	git remote -v
 	git remote set-url origin git@github.com:conao3/feather-recipes.git
@@ -39,3 +39,6 @@ $(SSHKEY):
 	git config --global user.name "conao3"
 	git config --global user.email conao3@gmail.com
 
+clean-recipe:
+	-rm -rf $(FETCHER:%=recipe-%.el)
+	-rm -rf $(FETCHER:%=recipe-%.json)

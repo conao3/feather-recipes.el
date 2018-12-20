@@ -6,5 +6,6 @@ git:
 
 script:
   - emacs --version
+  - make clean-recipe
   - make recipe
   - make commit

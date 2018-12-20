@@ -1,12 +1,25 @@
 
-SSHKEY := ~/.ssh/id_rsa
-DATE   := $(shell date '+%Y/%m/%d %H:%M:%S')
+SSHKEY     := ~/.ssh/id_rsa
+
+DATE       := $(shell date '+%Y_%m_%d')
+DATEDETIAL := $(shell date '+%Y/%m/%d %H:%M:%S')
+
+FETCHER    := melpa
 
 ##################################################
 
 .PHONY: all commit log
 
 all:
+
+recipe: $(FETCHER:%=recipe-%.el)
+
+recipe-%.el: recipe-%.json
+	emacs --script json-converter.el $< $@
+
+recipe-melpa.json:
+	curl -O https://melpa.org/archive.json
+	mv archive.json $@
 
 commit: $(SSHKEY)
 	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATE))" >> commit.log
@@ -19,11 +32,6 @@ commit: $(SSHKEY)
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 
 	git push origin master
-
-melpa-archive:
-	curl -O https://melpa.org/archive.json
-	mv -f archive.json ./travis-ci/
-	emacs --script ./travis-ci/archive.el
 
 $(SSHKEY):
 	openssl aes-256-cbc -K $$encrypted_875c55c1bd3d_key -iv $$encrypted_875c55c1bd3d_iv -in feather-recipes_rsa.enc -out ~/.ssh/id_rsa -d

@@ -8,8 +8,6 @@
          (read-file   (concat current-dir (nth 0 command-line-args-left)))
          (write-file  (concat current-dir (nth 1 command-line-args-left)))
          (contents))
-    (princ (format "Process completed!!\nRead file: %s\nWrite file: %s\n"
-                   read-file write-file))
     (if (and (file-writable-p write-file)
              (file-readable-p read-file))
         (progn
@@ -17,6 +15,6 @@
             (setq contents (prin1-to-string (json-read-file read-file)))
             (insert contents)
             (insert "\n"))
-          (princ (format "Process completed!!\nRead file: %s\nWrite file: %s\n"
+          (princ (format "Process completed!!\nRead file:  %s\nWrite file: %s\n"
                          read-file write-file)))
       (error "File open error"))))

@@ -6,6 +6,12 @@ git:
 
 script:
   - emacs --version
-  - make clean-recipe
-  - make recipe
-  - make commit
+
+jobs:
+  include:
+    - if: branch = master
+      stage: "Create recipe"
+      script
+        - make clean-recipe
+        - make recipe
+        - make commit

@@ -6,22 +6,32 @@
   (let* ((current-dir (file-name-directory
                        (directory-file-name load-file-name)))
          (read-file   (concat current-dir (nth 0 command-line-args-left)))
-         (write-file  (concat current-dir (nth 1 command-line-args-left))))
+         (write-file  (concat current-dir (nth 1 command-line-args-left)))
+         (hash-p      (nth 2 command-line-args-left))
+         (detail-p    (nth 3 command-line-args-left)))
     (if (and (file-readable-p read-file)
              (file-writable-p read-file)
              (file-writable-p write-file))
         (let ((hash (make-hash-table :test 'eq :size 6000))
               (obj  (json-read-file read-file))
-              (key) (val))
+              (key) (val) (props))
           (while obj
             (setq key (pop obj))
             (setq val (pop obj))
-
+            (setq props (plist-get val :props))
+            
             (puthash key (cdr
                           `(:dammy-symbol
                             :ver  ,(plist-get val :ver)
                             :deps ,(plist-get val :deps)
-                            :url  ,(plist-get (plist-get val :props) :url)))
+                            :url  ,(plist-get props :url)
+                            ,@(when detail-p
+                                (cdr
+                                 `(:dammy-symbol
+                                   :description ,(plist-get props :desc)
+                                   :keywords    ,(plist-get props :keywords)
+                                   :authors     ,(plist-get props :authors)
+                                   :maintainer  ,(plist-get props :maintainer))))))
                      hash))
 
           (with-temp-file write-file

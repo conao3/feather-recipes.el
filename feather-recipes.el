@@ -8,6 +8,7 @@
          (read-file   (concat current-dir (nth 0 command-line-args-left)))
          (write-file  (concat current-dir (nth 1 command-line-args-left))))
     (if (and (file-readable-p read-file)
+             (file-writable-p read-file)
              (file-writable-p write-file))
         (let ((hash (make-hash-table :test 'eq :size 6000))
               (obj  (json-read-file read-file))
@@ -28,18 +29,30 @@
             (newline)
 
             (goto-char (point-min))
-            (search-forward "(")
-            (search-forward "(")
+            (search-forward "(") (search-forward "(")
             (backward-char)
-            (newline)
+            (newline) (insert (make-string 3 ? ))
             (forward-char)
             
             (condition-case err
                 (while t
                   (forward-sexp)
                   (forward-sexp)
-                  (newline))
+                  (newline) (insert (make-string 3 ? )))
               (error #'ignore)))
+
+          (with-temp-file read-file
+            (insert-file-contents read-file)
+            (when (= (count-lines (point-min) (point-max)) 1)
+              (goto-char (point-min))
+              (forward-char)
+
+              (condition-case err
+                  (while t
+                    (forward-sexp) (forward-sexp)
+                    (forward-char)
+                    (newline) (insert " "))
+                (error #'ignore))))
           
           (princ (format "Process completed!!\nRead file:  %s\nWrite file: %s\n"
                          read-file write-file)))

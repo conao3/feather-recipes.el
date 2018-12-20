@@ -14,10 +14,10 @@ all:
 
 recipe: $(FETCHER:%=recipe-%.el)
 
-recipes-%.el: recipes-%.json
+feather-recipes-%.el: feather-recipes-%.json
 	emacs --script feather-recipes.el $< $@
 
-recipes-melpa.json:
+feather-recipes-melpa.json:
 	curl -O https://melpa.org/archive.json
 	mv archive.json $@
 

@@ -13,4 +13,5 @@ git:
 
 script:
   - emacs --version
+  - make commit
   

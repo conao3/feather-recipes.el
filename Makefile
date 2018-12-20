@@ -1,0 +1,33 @@
+
+SSHKEY := ~/.ssh/id_rsa
+DATE   := $(shell date '+%Y/%m/%d %H:%M:%S')
+
+##################################################
+
+.PHONY: all commit log
+
+all:
+
+commit: $(SSHKEY)
+	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATE))" >> commit.log
+
+	git remote -v
+	git remote set-url origin git@github.com:conao3/feather-recipes.git
+
+	git checkout master
+	git add .
+	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+
+	git push origin master
+
+melpa-archive:
+	curl -O https://melpa.org/archive.json
+	mv -f archive.json ./travis-ci/
+	emacs --script ./travis-ci/archive.el
+
+$(SSHKEY):
+	openssl aes-256-cbc -K $$encrypted_875c55c1bd3d_key -iv $$encrypted_875c55c1bd3d_iv -in feather-recipes_rsa.enc -out ~/.ssh/id_rsa -d
+	chmod 600 ~/.ssh/id_rsa
+	git config --global user.name "conao3"
+	git config --global user.email conao3@gmail.com
+

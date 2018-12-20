@@ -4,6 +4,7 @@ SSHKEY     := ~/.ssh/id_rsa
 DATE       := $(shell date '+%Y_%m_%d')
 DATEDETAIL := $(shell date '+%Y/%m/%d %H:%M:%S')
 
+PREFIX     := feather-recipes
 FETCHER    := melpa
 
 ##################################################
@@ -12,12 +13,12 @@ FETCHER    := melpa
 
 all:
 
-recipe: $(FETCHER:%=recipe-%.el)
+recipe: $(FETCHER:%=$(PREFIX)-%.el)
 
-feather-recipes-%.el: feather-recipes-%.json
+$(PREFIX)-%.el: $(PREFIX)-%.json
 	emacs --script feather-recipes.el $< $@
 
-feather-recipes-melpa.json:
+$(PREFIX)-melpa.json:
 	curl -O https://melpa.org/archive.json
 	mv archive.json $@
 

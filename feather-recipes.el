@@ -56,8 +56,8 @@
                     (error #'ignore))
 
                   (goto-char (point-min))
-                  (while (search-forward ":feather--@" nil t)
-                    (replace-match ":@" nil t)))
+                  (while (search-forward ":feather--@ " nil t)
+                    (replace-match ":@ " nil t)))
               
               (insert (replace-regexp-in-string ":@ " ":feather--@ "
                                                 (prin1-to-string hash)))
@@ -77,8 +77,8 @@
                 (error #'ignore))
 
               (goto-char (point-min))
-              (while (search-forward ":feather--@" nil t)
-                (replace-match ":@" nil t))))
+              (while (search-forward ":feather--@ " nil t)
+                (replace-match ":@ " nil t))))
 
           (with-temp-file read-file
             (insert-file-contents read-file)

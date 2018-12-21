@@ -12,6 +12,6 @@ jobs:
     - if: branch = master
       stage: "Create recipe"
       script:
-        - make clean-recipe
+        - make clean
         - make recipe
         - make commit

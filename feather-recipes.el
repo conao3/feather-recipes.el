@@ -14,7 +14,7 @@
     (if (and (file-readable-p read-file)
              (file-writable-p read-file)
              (file-writable-p write-file))
-        (let ((hash (make-hash-table :test 'eq :size 6000))
+        (let ((hash (make-hash-table :test 'eq))
               (obj  (json-read-file read-file))
               (key) (val) (props))
           (while obj

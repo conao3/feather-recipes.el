@@ -75,7 +75,7 @@
     (:ver (20181121 1148) :deps (:f (0 17 0) :emacs (24 4)) :url "https://github.com/wlemuel/alarm-clock") :alchemist
     (:ver (20180312 1304) :deps (:s (1 11 0) :pkg-info (0 4) :company (0 8 0) :emacs (24 4) :dash (2 11 0) :elixir-mode (2 2 5)) :url "http://www.github.com/tonini/alchemist.el") :alda-mode
     (:ver (20180608 605) :deps (:emacs (24 0)) :url "http://gitlab.com/jgkamat/alda-mode") :alect-themes
-    (:ver (20180504 1720) :deps (:emacs (24 0)) :url "https://github.com/alezost/alect-themes") :alert
+    (:ver (20181220 1935) :deps (:emacs (24 0)) :url "https://github.com/alezost/alect-themes") :alert
     (:ver (20181022 1742) :deps (:cl-lib (0 5) :log4e (0 3 0) :gntp (0 1)) :url "https://github.com/jwiegley/alert") :alert-termux
     (:ver (20181119 951) :deps (:emacs (24 4)) :url "https://github.com/gergelypolonkai/alert-termux") :align-cljlet
     (:ver (20160112 2101) :deps (:clojure-mode (1 11 5)) :url "https://github.com/gstamp/align-cljlet") :all-ext
@@ -118,7 +118,7 @@
     (:ver (20110121 418) :deps nil :url nil) :applescript-mode
     (:ver (20090321 632) :deps nil :url nil) :aproject
     (:ver (20150605 906) :deps nil :url "https://github.com/vietor/aproject") :apropospriate-theme
-    (:ver (20181214 2026) :deps nil :url "https://github.com/waymondo/apropospriate-theme") :apt-sources-list
+    (:ver (20181220 2106) :deps nil :url "https://github.com/waymondo/apropospriate-theme") :apt-sources-list
     (:ver (20180527 1241) :deps (:emacs (24 4)) :url "https://git.korewanetadesu.com/apt-sources-list.git") :arch-packer
     (:ver (20170730 1321) :deps (:dash (2 12 0) :async (1 9 2) :s (1 11 0) :emacs (25 1)) :url "https://github.com/brotzeitmacher/arch-packer") :archive-region
     (:ver (20140201 2342) :deps nil :url "http://www.emacswiki.org/cgi-bin/wiki/download/archive-region.el") :archive-rpm
@@ -427,7 +427,7 @@
     (:ver (20180114 1711) :deps (:clojure-mode (3 0)) :url "http://github.com/clojure-emacs/clojure-mode") :clojure-quick-repls
     (:ver (20150814 736) :deps (:dash (2 9 0) :cider (0 8 1)) :url "https://github.com/symfrog/clojure-quick-repls") :clojure-snippets
     (:ver (20180314 1308) :deps (:yasnippet (0 10 0)) :url nil) :clomacs
-    (:ver (20181218 1418) :deps (:simple-httpd (1 4 6) :s (1 12 0) :cider (0 18 0) :emacs (24 3)) :url "https://github.com/clojure-emacs/clomacs") :closql
+    (:ver (20181221 116) :deps (:simple-httpd (1 4 6) :s (1 12 0) :cider (0 18 0) :emacs (24 3)) :url "https://github.com/clojure-emacs/clomacs") :closql
     (:ver (20181031 2158) :deps (:emacsql-sqlite (3 0 0) :emacs (25 1)) :url "https://github.com/emacscollective/closql") :closure-lint-mode
     (:ver (20101118 2124) :deps nil :url "https://github.com/r0man/closure-lint-mode") :cloud-to-butt-erc
     (:ver (20130627 2308) :deps nil :url "http://www.github.com/leathekd/cloud-to-butt-erc") :clues-theme
@@ -653,7 +653,7 @@
     (:ver (20160105 1240) :deps (:ht (1 5) :mustache (0 22) :uuid (0 0 3)) :url "https://github.com/mori-dev/emacs-dayone") :db
     (:ver (20140421 2111) :deps (:kv (0 0 11)) :url nil) :db-pg
     (:ver (20130131 1902) :deps (:db (0 0 6) :pg (0 12)) :url nil) :ddskk
-    (:ver (20180707 532) :deps (:cdb (20141201 754) :ccc (1 43)) :url nil) :deadgrep
+    (:ver (20181220 2002) :deps (:cdb (20141201 754) :ccc (1 43)) :url nil) :deadgrep
     (:ver (20181021 1349) :deps (:spinner (1 7 3) :s (1 11 0) :dash (2 12 0) :emacs (25 1)) :url "https://github.com/Wilfred/deadgrep") :debian-el
     (:ver (20181020 1513) :deps nil :url nil) :debpaste
     (:ver (20160113 2347) :deps (:xml-rpc (1 6 7)) :url "http://github.com/alezost/debpaste.el") :debug-print
@@ -1376,7 +1376,7 @@
     (:ver (20180224 1121) :deps nil :url nil) :foreman-mode
     (:ver (20170725 1422) :deps (:emacs (24) :f (0 17 2) :dash-functional (1 2 0) :dash (2 10 0) :s (1 9 0)) :url "http://github.com/zweifisch/foreman-mode") :forest-blue-theme
     (:ver (20160627 842) :deps (:emacs (24)) :url nil) :forge
-    (:ver (20181220 1527) :deps (:markdown-mode (2 3) :magit-popup (2 12 5) :magit (2 90 1) :let-alist (1 0 5) :graphql (0 1 1) :ghub (3 0 0) :emacsql-sqlite (3 0 0) :dash (2 14 1) :closql (1 0 0) :emacs (25 1)) :url nil) :form-feed
+    (:ver (20181220 2053) :deps (:markdown-mode (2 3) :magit-popup (2 12 5) :magit (2 90 1) :let-alist (1 0 5) :graphql (0 1 1) :ghub (3 0 0) :emacsql-sqlite (3 0 0) :dash (2 14 1) :closql (1 0 0) :emacs (25 1)) :url nil) :form-feed
     (:ver (20160102 2253) :deps nil :url "https://github.com/wasamasa/form-feed") :format-all
     (:ver (20181207 2019) :deps (:cl-lib (0 5) :emacs (24)) :url "https://github.com/lassik/emacs-format-all-the-code") :format-sql
     (:ver (20150422 1333) :deps nil :url "https://github.com/paetzke/format-sql.el") :format-table
@@ -2263,7 +2263,7 @@
     (:ver (20181211 204) :deps (:s (1 2 0) :lsp-mode (3 0) :emacs (25 1)) :url "https://github.com/tigersoldier/lsp-javacomp") :lsp-javascript-flow
     (:ver (20181219 442) :deps (:emacs (25 1) :lsp-mode (3 0)) :url "https://github.com/emacs-lsp/lsp-javascript") :lsp-javascript-typescript
     (:ver (20181219 442) :deps (:emacs (25 1) :typescript-mode (0 1) :lsp-mode (3 0)) :url "https://github.com/emacs-lsp/lsp-javascript") :lsp-mode
-    (:ver (20181219 833) :deps (:spinner (1 7 3) :ht (2 0) :f (0 20 0) :dash-functional (2 14 1) :dash (2 14 1) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-mode") :lsp-ocaml
+    (:ver (20181220 2118) :deps (:spinner (1 7 3) :ht (2 0) :f (0 20 0) :dash-functional (2 14 1) :dash (2 14 1) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-mode") :lsp-ocaml
     (:ver (20180610 1854) :deps (:lsp-mode (3 0) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-ocaml") :lsp-p4
     (:ver (20180728 1915) :deps (:lsp-mode (3 0)) :url "https://github.com/dmakarov/p4ls") :lsp-php
     (:ver (20180331 1644) :deps (:lsp-mode (3 4) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-php") :lsp-python
@@ -2272,7 +2272,7 @@
     (:ver (20180305 1308) :deps (:markdown-mode (2 3) :dash (1 0) :rust-mode (0 3 0) :lsp-mode (3 0) :emacs (25)) :url "https://github.com/emacs-lsp/lsp-rust") :lsp-sh
     (:ver (20180913 158) :deps (:lsp-mode (3 0)) :url "https://github.com/wilkystyle/lsp-sh") :lsp-typescript
     (:ver (20181219 442) :deps (:emacs (25 1) :typescript-mode (0 1) :lsp-mode (3 0)) :url "https://github.com/emacs-lsp/lsp-javascript") :lsp-ui
-    (:ver (20181218 809) :deps (:markdown-mode (2 3) :lsp-mode (5 0) :dash-functional (1 2 0) :dash (2 14) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-ui") :lsp-vue
+    (:ver (20181220 1949) :deps (:markdown-mode (2 3) :lsp-mode (5 0) :dash-functional (1 2 0) :dash (2 14) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-ui") :lsp-vue
     (:ver (20181030 1136) :deps (:lsp-mode (3 0) :emacs (25 1)) :url "https://github.com/emacs-lsp/lsp-vue") :lua-mode
     (:ver (20180323 1021) :deps nil :url "http://immerrr.github.com/lua-mode") :luarocks
     (:ver (20170430 2305) :deps (:cl-lib (0 5) :emacs (24)) :url "https://github.com/emacs-pe/luarocks.el") :lush-theme
@@ -2896,7 +2896,7 @@
     (:ver (20160423 846) :deps nil :url "https://gitlab.com/alezost-emacs/pathify") :paxedit
     (:ver (20160730 1727) :deps (:paredit (23) :cl-lib (0 5)) :url "https://github.com/promethial/paxedit") :pbcopy
     (:ver (20150225 459) :deps nil :url "https://github.com/jkp/pbcopy.el") :pc-bufsw
-    (:ver (20180107 1840) :deps nil :url "https://github.com/ibukanov/pc-bufsw") :pcache
+    (:ver (20181220 2040) :deps nil :url nil) :pcache
     (:ver (20170105 2214) :deps (:eieio (1 3)) :url nil) :pcap-mode
     (:ver (20161025 1448) :deps (:emacs (24 3)) :url nil) :pcmpl-args
     (:ver (20120912 524) :deps nil :url "https://github.com/JonWaltman/pcmpl-args.el") :pcmpl-git

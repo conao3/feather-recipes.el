@@ -1,23 +1,7 @@
-(:0blayout
-   (:props
-    (:url "https://github.com/etu/0blayout"
-     :maintainer "Elis \"etu\" Axelsson"
-     :authors ("Elis \"etu\" Axelsson")
-     :keywords ("convenience" "window-management")
-     :commit "873732ddb99a3ec18845a37467ee06bce4e61d87")
-    :type "single"
-    :desc "Layout grouping with ease"
-    :deps nil
-    :ver (20161008 607))
- :0xc
-  (:props
-   (:url "http://github.com/AdamNiederer/0xc"
-    :commit "12c2c6118c062a49594965c69e6a17bb46339eb2")
-   :deps (:s (1 11 0)
-          :emacs (24 4))
-   :ver (20170126 353))
- :2048-game
-  (:props
-   (:url "https://bitbucket.org/zck/2048.el")
-   :deps nil
-   :ver (20151026 1933)))
+#s(hash-table size 6000 test eq rehash-size 1.5 rehash-threshold 0.8125 data 
+   (:zzz-to-char (:ver (20180101 619) :deps (:emacs (24 4) :cl-lib (0 5) :avy (0 3 0)) :url "https://github.com/mrkkrp/zzz-to-char")
+    :zygospore (:ver (20140703 852) :deps nil :url "https://github.com/louiskottmann/zygospore.el")
+    :zweilight-theme (:ver (20170113 605) :deps nil :url "http://github.com/philiparvidsson/zweilight-emacs")
+    :ztree (:ver (20180512 1850) :deps (:cl-lib (0)) :url "https://github.com/fourier/ztree")
+    :zprint-mode (:ver (20181111 1945) :deps (:emacs (24 3)) :url "https://github.com/pesterhazy/zprint-mode.el")
+   ))

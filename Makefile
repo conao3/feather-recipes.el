@@ -17,6 +17,8 @@ DETAILS       := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%.el)
 RECIPES-L     := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%-$(LIST).el)
 DETAILS-L     := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%-$(LIST).el)
 
+EMACS         ?= emacs
+
 ##################################################
 
 .PHONY: all commit
@@ -28,16 +30,20 @@ recipe: $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)
 ##############################
 
 $(PREFIX)-$(RECIPE)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	emacs --script feather-recipes.el $< $@ nil nil
+	$(EMACS) --script feather-recipes.el $< $@ nil nil
+	@echo
 
 $(PREFIX)-$(DETAIL)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	emacs --script feather-recipes.el $< $@ detail nil
+	$(EMACS) --script feather-recipes.el $< $@ detail nil
+	@echo
 
 $(PREFIX)-$(RECIPE)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	emacs --script feather-recipes.el $< $@ nil list
+	$(EMACS) --script feather-recipes.el $< $@ nil list
+	@echo
 
 $(PREFIX)-$(DETAIL)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	emacs --script feather-recipes.el $< $@ detail list
+	$(EMACS) --script feather-recipes.el $< $@ detail list
+	@echo
 
 ##############################
 

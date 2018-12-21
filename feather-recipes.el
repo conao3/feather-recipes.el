@@ -44,7 +44,7 @@
                            hash)
                   (setq str (concat str ")\n"))
                   
-                  (insert str)
+                  (insert (replace-regexp-in-string ":@ " ":feather--@ " str))
                   (goto-char (point-min))
                   (delete-char 1) (insert "(")
 
@@ -53,9 +53,14 @@
                         (forward-sexp)
                         (forward-sexp)
                         (newline))
-                    (error #'ignore)))
+                    (error #'ignore))
+
+                  (goto-char (point-min))
+                  (while (search-forward ":feather--@" nil t)
+                    (replace-match ":@" nil t)))
               
-              (insert (prin1-to-string hash))
+              (insert (replace-regexp-in-string ":@ " ":feather--@ "
+                                                (prin1-to-string hash)))
               (newline)
 
               (goto-char (point-min))
@@ -69,7 +74,11 @@
                     (forward-sexp)
                     (forward-sexp)
                     (newline) (insert (make-string 3 ? )))
-                (error #'ignore))))
+                (error #'ignore))
+
+              (goto-char (point-min))
+              (while (search-forward ":feather--@" nil t)
+                (replace-match ":@" nil t))))
 
           (with-temp-file read-file
             (insert-file-contents read-file)

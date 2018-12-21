@@ -1,4 +1,4 @@
-#s(hash-table size 6000 test eq rehash-size 1.5 rehash-threshold 0.8 data 
+#s(hash-table size 5541 test eq rehash-size 1.5 rehash-threshold 0.8 data 
    (:0blayout (:ver (20161008 607) :deps nil :url "https://github.com/etu/0blayout" :description nil :keywords ("convenience" "window-management") :authors ("Elis \"etu\" Axelsson") :maintainer "Elis \"etu\" Axelsson")
     :0xc (:ver (20170126 353) :deps (:s (1 11 0) :emacs (24 4)) :url "http://github.com/AdamNiederer/0xc" :description nil :keywords ("base" "conversion") :authors ("Adam Niederer <adam.niederer@gmail.com>") :maintainer "Adam Niederer <adam.niederer@gmail.com>")
     :2048-game (:ver (20151026 1933) :deps nil :url "https://bitbucket.org/zck/2048.el" :description nil :keywords nil :authors ("Zachary Kanfer <zkanfer@gmail.com>") :maintainer "Zachary Kanfer <zkanfer@gmail.com>")

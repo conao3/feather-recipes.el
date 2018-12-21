@@ -1,26 +1,51 @@
 
-SSHKEY     := ~/.ssh/id_rsa
+SSHKEY        := ~/.ssh/id_rsa
 
-DATE       := $(shell date '+%Y_%m_%d')
-DATEDETAIL := $(shell date '+%Y/%m/%d %H:%M:%S')
+DATE          := $(shell date '+%Y_%m_%d')
+DATEDETAIL    := $(shell date '+%Y/%m/%d %H:%M:%S')
 
-PREFIX     := feather-recipes
-FETCHER    := melpa
+PREFIX        := feather
+SOURCE        := source
+RECIPE        := recipes
+DETAIL        := detail
+LIST          := list
+
+FETCHER       := lite melpa
+SOURCES       := $(FETCHER:%=$(PREFIX)-$(SOURCE)-%.el)
+RECIPES       := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%.el)
+DETAILS       := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%.el)
+RECIPES-L     := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%-$(LIST).el)
+DETAILS-L     := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%-$(LIST).el)
 
 ##################################################
 
-.PHONY: all commit log
+.PHONY: all commit
 
-all:
+all: recipe
 
-recipe: $(FETCHER:%=$(PREFIX)-%.el)
+recipe: $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)
 
-$(PREFIX)-%.el: $(PREFIX)-%.json feather-recipes.el
-	emacs --script feather-recipes.el $< $@
+##############################
 
-$(PREFIX)-melpa.json:
+$(PREFIX)-$(RECIPE)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
+	emacs --script feather-recipes.el $< $@ nil nil
+
+$(PREFIX)-$(DETAIL)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
+	emacs --script feather-recipes.el $< $@ detail nil
+
+$(PREFIX)-$(RECIPE)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
+	emacs --script feather-recipes.el $< $@ nil list
+
+$(PREFIX)-$(DETAIL)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
+	emacs --script feather-recipes.el $< $@ detail list
+
+##############################
+
+$(PREFIX)-$(SOURCE)-melpa.json:
 	curl -O https://melpa.org/archive.json
 	mv archive.json $@
+
+##############################
 
 commit: $(SSHKEY)
 	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
@@ -40,6 +65,9 @@ $(SSHKEY):
 	git config --global user.name "conao3"
 	git config --global user.email conao3@gmail.com
 
-clean-recipe:
-	-rm -rf $(FETCHER:%=$(PREFIX)-%.el)
-	-rm -rf $(FETCHER:%=$(PREFIX)-%.json)
+##############################
+
+clean:
+	-rm -rf $(SOURCES)
+	-rm -rf $(RECIPES) $(DETAILS)
+	-rm -rf $(RECIPES-L) $(DETAILS-L)

@@ -10,7 +10,7 @@ RECIPE        := recipes
 DETAIL        := detail
 LIST          := list
 
-FETCHER       := lite melpa
+FETCHER       := lite melpa melpa_stable
 SOURCES       := $(FETCHER:%=$(PREFIX)-$(SOURCE)-%.json)
 RECIPES       := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%.el)
 DETAILS       := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%.el)
@@ -52,6 +52,9 @@ $(PREFIX)-$(SOURCE)-lite.json:
 
 $(PREFIX)-$(SOURCE)-melpa.json:
 	curl https://melpa.org/archive.json > $@
+
+$(PREFIX)-$(SOURCE)-melpa_stable.json:
+	curl https://stable.melpa.org/archive.json > $@
 
 ##############################
 

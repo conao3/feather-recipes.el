@@ -60,9 +60,12 @@ commit: $(SSHKEY)
 	git remote set-url origin git@github.com:conao3/feather-recipes.git
 
 	git checkout master
+	git checkout -b travis-$$TRAVIS_JOB_NUMBER
 	git add .
-	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER)"
 
+	git checkout master
+	git merge --no-ff travis-$$TRAVIS_JOB_NUMBER -m "Merge travis-$$TRAVIS_JOB_NUMBER [skip ci]"
 	git push origin master
 
 $(SSHKEY):

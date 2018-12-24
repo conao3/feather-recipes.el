@@ -15,9 +15,6 @@ install:
   - tar xf emacs-bin-${EMACS_VERSION}.tar.gz -C /
   - export EMACS=/tmp/emacs/bin/emacs
 
-script:
-  - emacs --version
-
 jobs:
   include:
     - if: branch = master

@@ -20,7 +20,6 @@ jobs:
     - if: branch = master
       stage: "Create recipe"
       script:
-        - emacs --version
         - make clean
         - make recipe
         - make commit

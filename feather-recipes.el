@@ -37,48 +37,40 @@
                      hash))
 
           (with-temp-file write-file
-            (if list-p
-                (let ((str ""))
-                  (maphash (lambda (key val)
-                             (setq str (format "%s %s %s" str key val)))
-                           hash)
-                  (setq str (concat str ")\n"))
-                  
-                  (insert (replace-regexp-in-string ":@ " ":feather--@ " str))
-                  (goto-char (point-min))
-                  (delete-char 1) (insert "(")
+            (insert
+             (replace-regexp-in-string ":@ " ":feather--@ "
+                                       (prin1-to-string hash)))
 
-                  (condition-case err
-                      (while t
-                        (forward-sexp)
-                        (forward-sexp)
-                        (newline))
-                    (error #'ignore))
+            (newline)
 
-                  (goto-char (point-min))
-                  (while (search-forward ":feather--@ " nil t)
-                    (replace-match ":@ " nil t)))
-              
-              (insert (replace-regexp-in-string ":@ " ":feather--@ "
-                                                (prin1-to-string hash)))
-              (newline)
+            (goto-char (point-min))
+            (search-forward "(") (search-forward "(")
+            (backward-char)
+            (newline) (insert (make-string 3 ? ))
+            (forward-char)            
 
+            (condition-case err
+                (while t
+                  (forward-sexp)
+                  (forward-sexp)
+                  (newline) (insert (make-string 3 ? )))
+              (error #'ignore))
+
+            (goto-char (point-min))
+            (while (search-forward ":feather--@ " nil t)
+              (replace-match ":@ " nil t))
+
+            (when list-p
               (goto-char (point-min))
-              (search-forward "(") (search-forward "(")
-              (backward-char)
-              (newline) (insert (make-string 3 ? ))
-              (forward-char)
-              
-              (condition-case err
-                  (while t
-                    (forward-sexp)
-                    (forward-sexp)
-                    (newline) (insert (make-string 3 ? )))
-                (error #'ignore))
-
-              (goto-char (point-min))
-              (while (search-forward ":feather--@ " nil t)
-                (replace-match ":@ " nil t))))
+              (let ((kill-whole-line t)) (kill-line))
+            
+              (goto-char (point-max))
+              (search-backward ")") (delete-char 1)
+              (let ((end (progn (goto-char (point-max))
+                                (beginning-of-line 0)
+                                (forward-char 3)
+                                (point))))
+                (delete-rectangle (point-min) end))))
 
           (with-temp-file read-file
             (insert-file-contents read-file)

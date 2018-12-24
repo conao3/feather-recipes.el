@@ -54,7 +54,7 @@ $(PREFIX)-$(SOURCE)-melpa.json:
 ##############################
 
 commit: $(SSHKEY)
-	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
+	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))  [skip ci]" >> commit.log
 
 	git remote -v
 	git remote set-url origin git@github.com:conao3/feather-recipes.git

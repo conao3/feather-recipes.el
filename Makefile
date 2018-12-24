@@ -31,19 +31,15 @@ recipe: $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)
 
 $(PREFIX)-$(RECIPE)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
 	$(EMACS) --script feather-recipes.el $< $@ nil nil
-	@echo
 
 $(PREFIX)-$(DETAIL)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
 	$(EMACS) --script feather-recipes.el $< $@ detail nil
-	@echo
 
 $(PREFIX)-$(RECIPE)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
 	$(EMACS) --script feather-recipes.el $< $@ nil list
-	@echo
 
 $(PREFIX)-$(DETAIL)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
 	$(EMACS) --script feather-recipes.el $< $@ detail list
-	@echo
 
 ##############################
 

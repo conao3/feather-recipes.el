@@ -83,9 +83,5 @@
                     (forward-sexp) (forward-sexp)
                     (forward-char)
                     (newline) (insert " "))
-                (error #'ignore))))
-          
-          (princ (format "Process completed!!\nRead file:  %s\nWrite file: %s\n"
-                         read-file write-file)))
-      
+                (error #'ignore)))))
       (error "File open error"))))

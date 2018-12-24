@@ -11,7 +11,7 @@ DETAIL        := detail
 LIST          := list
 
 FETCHER       := lite melpa
-SOURCES       := $(FETCHER:%=$(PREFIX)-$(SOURCE)-%.el)
+SOURCES       := $(FETCHER:%=$(PREFIX)-$(SOURCE)-%.json)
 RECIPES       := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%.el)
 DETAILS       := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%.el)
 RECIPES-L     := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%-$(LIST).el)
@@ -47,9 +47,11 @@ $(PREFIX)-$(DETAIL)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
 
 ##############################
 
+$(PREFIX)-$(SOURCE)-lite.json:
+	curl http://dotfiles.conao3.com/feather-source-lite.json > $@
+
 $(PREFIX)-$(SOURCE)-melpa.json:
-	curl -O https://melpa.org/archive.json
-	mv archive.json $@
+	curl https://melpa.org/archive.json > $@
 
 ##############################
 

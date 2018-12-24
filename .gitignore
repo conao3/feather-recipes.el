@@ -3,3 +3,6 @@
 
 # elisp compiled files
 *.elc
+
+# emacs-bin file (on travis commit)
+emacs-bin-*

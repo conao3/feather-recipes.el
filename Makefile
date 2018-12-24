@@ -78,7 +78,10 @@ $(SSHKEY):
 
 ##############################
 
+clean-v:
+	@echo $(SOURCES) $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)\
+	  | xargs -n1
+
 clean:
-	-rm -rf $(SOURCES)
-	-rm -rf $(RECIPES) $(DETAILS)
-	-rm -rf $(RECIPES-L) $(DETAILS-L)
+	echo $(SOURCES) $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)\
+	  | xargs rm

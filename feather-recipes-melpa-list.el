@@ -3623,7 +3623,7 @@
  :clmemo (:ver (20160326 1623) :deps nil :url "https://github.com/ataka/clmemo")
  :cljsbuild-mode (:ver (20160402 1700) :deps nil :url "http://github.com/kototama/cljsbuild-mode")
  :cljr-helm (:ver (20160913 828) :deps (:clj-refactor (0 13 0) :helm-core (1 7 7) :cl-lib (0 5)) :url "https://github.com/philjackson/cljr-helm")
- :clj-refactor (:ver (20180826 2149) :deps (:emacs (25 1) :seq (2 19) :yasnippet (0 6 1) :paredit (24) :multiple-cursors (1 2 2) :clojure-mode (5 6 1) :cider (0 17 0) :edn (1 1 2) :inflections (2 3) :hydra (0 13 2)) :url nil)
+ :clj-refactor (:ver (20181224 1310) :deps (:emacs (25 1) :seq (2 19) :yasnippet (0 6 1) :paredit (24) :multiple-cursors (1 2 2) :clojure-mode (5 6 1) :cider (0 17 0) :edn (1 1 2) :inflections (2 3) :hydra (0 13 2)) :url nil)
  :clips-mode (:ver (20170909 823) :deps nil :url nil)
  :clippy (:ver (20161028 1954) :deps (:pos-tip (1 0)) :url "https://github.com/Fuco1/clippy.el")
  :clipmon (:ver (20180129 1054) :deps nil :url "https://github.com/bburns/clipmon")

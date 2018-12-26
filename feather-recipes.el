@@ -11,8 +11,7 @@
                            (not (string= "nil" (nth 2 command-line-args-left)))))
          (list-p      (and (nth 3 command-line-args-left)
                            (not (string= "nil" (nth 3 command-line-args-left))))))
-    (if (and (file-readable-p read-file)
-             (file-writable-p read-file)
+    (if (and (file-readable-p read-file) (file-writable-p read-file)
              (file-writable-p write-file))
         (let ((hash (make-hash-table :test 'eq))
               (obj  (json-read-file read-file))
@@ -22,23 +21,25 @@
             (setq val (pop obj))
             (setq props (plist-get val :props))
             
-            (puthash key (cdr
-                          `(:dammy-symbol
-                            :ver  ,(plist-get val :ver)
-                            :deps ,(plist-get val :deps)
-                            :url  ,(plist-get props :url)
-                            ,@(when detail-p
-                                (cdr
-                                 `(:dammy-symbol
-                                   :description ,(plist-get props :desc)
-                                   :keywords    ,(plist-get props :keywords)
-                                   :authors     ,(plist-get props :authors)
-                                   :maintainer  ,(plist-get props :maintainer))))))
+            (puthash (intern
+                      (replace-regexp-in-string "^:" "" (symbol-name key)))
+                     (cdr
+                      `(:dammy-symbol
+                        :ver  ,(plist-get val :ver)
+                        :deps ,(plist-get val :deps)
+                        :url  ,(plist-get props :url)
+                        ,@(when detail-p
+                            (cdr
+                             `(:dammy-symbol
+                               :description ,(plist-get props :desc)
+                               :keywords    ,(plist-get props :keywords)
+                               :authors     ,(plist-get props :authors)
+                               :maintainer  ,(plist-get props :maintainer))))))
                      hash))
 
           (with-temp-file write-file
             (insert
-             (replace-regexp-in-string ":@ " ":feather--@ "
+             (replace-regexp-in-string "@ (:ver" "feather--@ (:ver"
                                        (prin1-to-string hash)))
 
             (newline)
@@ -46,31 +47,33 @@
             (goto-char (point-min))
             (search-forward "(") (search-forward "(")
             (backward-char)
-            (newline) (insert (make-string 3 ? ))
+            (newline) (insert (make-string 3 ?\s))
             (forward-char)            
 
             (condition-case err
                 (while t
                   (forward-sexp)
                   (forward-sexp)
-                  (newline) (insert (make-string 3 ? )))
+                  (newline) (insert (make-string 3 ?\s)))
               (error #'ignore))
 
             (goto-char (point-min))
-            (while (search-forward ":feather--@ " nil t)
-              (replace-match ":@ " nil t))
+            (while (search-forward "feather--@ (:ver" nil t)
+              (replace-match "@ (:ver" nil t))
 
             (when list-p
               (goto-char (point-min))
               (let ((kill-whole-line t)) (kill-line))
-            
+
               (goto-char (point-max))
               (search-backward ")") (delete-char 1)
+
               (let ((end (progn (goto-char (point-max))
                                 (beginning-of-line 0)
-                                (forward-char 3)
+                                (forward-char 2)
                                 (point))))
-                (delete-rectangle (point-min) end))))
+                (delete-rectangle (point-min) end))
+              (goto-char (point-min)) (delete-char 1) (insert "'")))
 
           (with-temp-file read-file
             (insert-file-contents read-file)

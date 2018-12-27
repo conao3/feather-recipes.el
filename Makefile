@@ -4,53 +4,56 @@ SSHKEY        := ~/.ssh/id_rsa
 DATE          := $(shell date '+%Y_%m_%d')
 DATEDETAIL    := $(shell date '+%Y/%m/%d %H:%M:%S')
 
-PREFIX        := feather
-SOURCE        := source
+SOURCEDIR     := sources
+SCRIPTDIR     := scripts
+RECIPEDIR     := recipes
+DETAILDIR     := detail
+
 RECIPE        := recipes
 DETAIL        := detail
 LIST          := list
 
 FETCHER       := lite melpa melpa_stable
-SOURCES       := $(FETCHER:%=$(PREFIX)-$(SOURCE)-%.json)
-RECIPES       := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%.el)
-DETAILS       := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%.el)
-RECIPES-L     := $(FETCHER:%=$(PREFIX)-$(RECIPE)-%-$(LIST).el)
-DETAILS-L     := $(FETCHER:%=$(PREFIX)-$(DETAIL)-%-$(LIST).el)
+
+SOURCES       := $(FETCHER:%=$(SOURCEDIR)/%.json)
+
+RECIPES       := $(FETCHER:%=$(RECIPEDIR)/%.el)
+RECIPES-L     := $(FETCHER:%=$(RECIPEDIR)/%-$(LIST).el)
+
+DETAILS       := $(FETCHER:%=$(DETAILDIR)/%.el)
+DETAILS-L     := $(FETCHER:%=$(DETAILDIR)/%-$(LIST).el)
 
 EMACS         ?= emacs
+EVALEL        := feather-recipes.el
 
 ##################################################
 
 .PHONY: all commit
 
-all: recipe
+all: sources recipes recipes-list
 
-recipe: $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)
-
-##############################
-
-$(PREFIX)-$(RECIPE)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	$(EMACS) --script feather-recipes.el $< $@ nil nil
-
-$(PREFIX)-$(DETAIL)-%.el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	$(EMACS) --script feather-recipes.el $< $@ detail nil
-
-$(PREFIX)-$(RECIPE)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	$(EMACS) --script feather-recipes.el $< $@ nil list
-
-$(PREFIX)-$(DETAIL)-%-$(LIST).el: $(PREFIX)-$(SOURCE)-%.json feather-recipes.el
-	$(EMACS) --script feather-recipes.el $< $@ detail list
+sources: $(SOURCES)
+recipes: $(RECIPES) $(DETAILS)
+recipes-list: $(RECIPES-L) $(DETAILS-L)
 
 ##############################
 
-$(PREFIX)-$(SOURCE)-lite.json:
-	curl http://dotfiles.conao3.com/feather-source-lite.json > $@
+$(RECIPEDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
+	$(EMACS) --script $(EVALEL) $< $@ nil nil
 
-$(PREFIX)-$(SOURCE)-melpa.json:
-	curl https://melpa.org/archive.json > $@
+$(RECIPEDIR)/%-$(LIST).el: $(SOURCEDIR)/%.json $(EVALEL)
+	$(EMACS) --script $(EVALEL) $< $@ nil list
 
-$(PREFIX)-$(SOURCE)-melpa_stable.json:
-	curl https://stable.melpa.org/archive.json > $@
+$(DETAILDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
+	$(EMACS) --script $(EVALEL) $< $@ detail nil
+
+$(DETAILDIR)/%-$(LIST).el: $(SOURCEDIR)/%.json $(EVALEL)
+	$(EMACS) --script $(EVALEL) $< $@ detail list
+
+##############################
+
+$(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
+	ruby $(SCRIPTDIR)/create-$*-json.rb > $@
 
 ##############################
 

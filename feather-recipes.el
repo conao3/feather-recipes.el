@@ -1,5 +1,9 @@
 (require 'json)
 
+;; silent below message.
+;;   `ls does not support --dired; see ‘dired-use-ls-dired’ for more details.`
+(setq dired-use-ls-dired nil)
+
 (let ((json-object-type 'plist)
       (json-array-type  'list)
       (json-key-type    'keyword))
@@ -25,13 +29,16 @@
                       (replace-regexp-in-string "^:" "" (symbol-name key)))
                      (cdr
                       `(:dammy-symbol
-                        :ver  ,(plist-get val :ver)
-                        :deps ,(plist-get val :deps)
-                        :url  ,(plist-get props :url)
+                        :ver     ,(plist-get val :ver)
+                        :deps    ,(plist-get val :deps)
+                        :fetcher ,(plist-get val :fetcher)
+                        :repo    ,(plist-get val :repo)
+                        :files   ,(plist-get val :files)
                         ,@(when detail-p
                             (cdr
                              `(:dammy-symbol
                                :description ,(plist-get props :desc)
+                               :url         ,(plist-get props :url)
                                :keywords    ,(plist-get props :keywords)
                                :authors     ,(plist-get props :authors)
                                :maintainer  ,(plist-get props :maintainer))))))
@@ -87,4 +94,7 @@
                     (forward-char)
                     (newline) (insert " "))
                 (error #'ignore)))))
-      (error "File open error"))))
+      (error (format "File open error, %s %s %s"
+                     (file-readable-p read-file)
+                     (file-writable-p read-file)
+                     (file-writable-p write-file))))))

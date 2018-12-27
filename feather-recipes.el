@@ -37,7 +37,7 @@
                              `(:dammy-symbol
                                :ver         ,(plist-get val :ver)
                                :deps        ,(plist-get val :deps)
-                               :description ,(plist-get props :desc)
+                               :description ,(plist-get val :desc)
                                :url         ,(plist-get props :url)
                                :keywords    ,(plist-get props :keywords)
                                :authors     ,(plist-get props :authors)

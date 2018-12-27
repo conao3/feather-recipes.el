@@ -85,5 +85,5 @@ clean-v:
 	  | xargs -n1
 
 clean:
-	echo $(SOURCES) $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)\
+	-echo $(SOURCES) $(RECIPES) $(DETAILS) $(RECIPES-L) $(DETAILS-L)\
 	  | xargs rm

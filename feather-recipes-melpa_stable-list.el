@@ -55,7 +55,7 @@
   wolfram (:ver (1 1 1) :deps nil :url nil)
   wn-mode (:ver (1 4) :deps (:emacs (24)) :url "https://github.com/luismbo/wn-mode")
   with-simulated-input (:ver (2 2) :deps (:emacs (24 4) :seq (2 0) :s (0)) :url nil)
-  with-editor (:ver (2 8 0) :deps (:emacs (24 4) :async (1 9)) :url "https://github.com/magit/with-editor")
+  with-editor (:ver (2 8 1) :deps (:emacs (24 4) :async (1 9)) :url "https://github.com/magit/with-editor")
   wispjs-mode (:ver (0 2 0) :deps (:clojure-mode (0)) :url "https://github.com/krisajenkins/wispjs-mode")
   winum (:ver (2 1 0) :deps (:cl-lib (0 5) :dash (2 13 0)) :url "http://github.com/deb0ch/winum.el")
   winring (:ver (5 1) :deps nil :url "https://gitlab.com/warsaw/winring")

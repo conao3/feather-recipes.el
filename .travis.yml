@@ -21,5 +21,4 @@ jobs:
       stage: "Create recipe"
       script:
         - make clean
-        - make recipe
-        - make commit
+        - make && make commit

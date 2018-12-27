@@ -29,14 +29,14 @@
                       (replace-regexp-in-string "^:" "" (symbol-name key)))
                      (cdr
                       `(:dammy-symbol
-                        :ver     ,(plist-get val :ver)
-                        :deps    ,(plist-get val :deps)
                         :fetcher ,(plist-get val :fetcher)
                         :repo    ,(plist-get val :repo)
                         :files   ,(plist-get val :files)
                         ,@(when detail-p
                             (cdr
                              `(:dammy-symbol
+                               :ver         ,(plist-get val :ver)
+                               :deps        ,(plist-get val :deps)
                                :description ,(plist-get props :desc)
                                :url         ,(plist-get props :url)
                                :keywords    ,(plist-get props :keywords)

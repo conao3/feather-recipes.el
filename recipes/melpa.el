@@ -267,6 +267,7 @@
     unicode-whitespace (:fetcher "github" :repo "rolandwalker/unicode-whitespace" :files nil)
     unicode-troll-stopper (:fetcher "github" :repo "camsaul/emacs-unicode-troll-stopper" :files nil)
     unicode-progress-reporter (:fetcher "github" :repo "rolandwalker/unicode-progress-reporter" :files nil)
+    unicode-math-input (:fetcher nil :repo nil :files nil)
     unicode-input (:fetcher "bitbucket" :repo "m00nlight/unicode-input" :files nil)
     unicode-fonts (:fetcher "github" :repo "rolandwalker/unicode-fonts" :files nil)
     unicode-escape (:fetcher "github" :repo "kosh04/unicode-escape.el" :files nil)

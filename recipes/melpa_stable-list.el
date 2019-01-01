@@ -123,6 +123,7 @@
   v2ex-mode (:fetcher "github" :repo "aborn/v2ex-mode" :files nil)
   utop (:fetcher "github" :repo "diml/utop" :files ("src/top/utop.el"))
   usql (:fetcher "github" :repo "nickbarnwell/usql.el" :files nil)
+  use-package-hydra (:fetcher nil :repo nil :files nil)
   use-package-ensure-system-package (:fetcher "github" :repo "jwiegley/use-package" :files ("use-package-ensure-system-package.el"))
   use-package-el-get (:fetcher "gitlab" :repo "edvorg/use-package-el-get" :files nil)
   use-package-chords (:fetcher "github" :repo "jwiegley/use-package" :files ("use-package-chords.el"))

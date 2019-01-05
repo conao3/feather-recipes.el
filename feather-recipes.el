@@ -30,7 +30,9 @@
                      (cdr
                       `(:dammy-symbol
                         :fetcher ,(plist-get val :fetcher)
-                        :repo    ,(plist-get val :repo)
+                        :repo    ,(if (string= (plist-get val :fetcher) "git")
+                                      (plist-get val :repo)
+                                    (plist-get val :url))
                         :files   ,(plist-get val :files)
                         ,@(when detail-p
                             (cdr

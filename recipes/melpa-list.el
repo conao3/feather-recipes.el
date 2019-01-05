@@ -4054,6 +4054,7 @@
   ac-c-headers (:fetcher "github" :repo "zk-phi/ac-c-headers" :files nil)
   ac-alchemist (:fetcher "github" :repo "syohex/emacs-ac-alchemist" :files nil)
   abyss-theme (:fetcher "github" :repo "mgrbyte/emacs-abyss-theme" :files nil)
+  abs-mode (:fetcher nil :repo nil :files nil)
   abl-mode (:fetcher "github" :repo "afroisalreadyinu/abl-mode" :files nil)
   abgaben (:fetcher "gitlab" :repo "akoehn/abgaben" :files nil)
   abc-mode (:fetcher "github" :repo "mkjunker/abc-mode" :files nil)

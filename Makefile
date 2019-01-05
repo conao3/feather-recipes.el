@@ -73,7 +73,7 @@ commit: $(SSHKEY)
 	git push origin master
 
 $(SSHKEY):
-	openssl aes-256-cbc -K $$encrypted_875c55c1bd3d_key -iv $$encrypted_875c55c1bd3d_iv -in feather-recipes_rsa.enc -out ~/.ssh/id_rsa -d
+	openssl aes-256-cbc -K $$encrypted_875c55c1bd3d_key -iv $$encrypted_875c55c1bd3d_iv -in .travis_rsa.enc -out ~/.ssh/id_rsa -d
 	chmod 600 ~/.ssh/id_rsa
 	git config --global user.name "conao3"
 	git config --global user.email conao3@gmail.com

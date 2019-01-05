@@ -54,7 +54,7 @@
   wonderland (:fetcher "github" :repo "kurisuwhyte/emacs-wonderland" :files ("source/*.el"))
   wolfram (:fetcher "github" :repo "hsjunnesson/wolfram.el" :files nil)
   wn-mode (:fetcher "github" :repo "luismbo/wn-mode" :files nil)
-  with-venv (:fetcher nil :repo nil :files nil)
+  with-venv (:fetcher "github" :repo "10sr/with-venv-el" :files nil)
   with-simulated-input (:fetcher "github" :repo "DarwinAwardWinner/with-simulated-input" :files nil)
   with-editor (:fetcher "github" :repo "magit/with-editor" :files nil)
   wispjs-mode (:fetcher "github" :repo "krisajenkins/wispjs-mode" :files nil)
@@ -123,11 +123,11 @@
   v2ex-mode (:fetcher "github" :repo "aborn/v2ex-mode" :files nil)
   utop (:fetcher "github" :repo "diml/utop" :files ("src/top/utop.el"))
   usql (:fetcher "github" :repo "nickbarnwell/usql.el" :files nil)
-  use-package-hydra (:fetcher nil :repo nil :files nil)
+  use-package-hydra (:fetcher "gitlab" :repo "to1ne/use-package-hydra" :files nil)
   use-package-ensure-system-package (:fetcher "github" :repo "jwiegley/use-package" :files ("use-package-ensure-system-package.el"))
   use-package-el-get (:fetcher "gitlab" :repo "edvorg/use-package-el-get" :files nil)
   use-package-chords (:fetcher "github" :repo "jwiegley/use-package" :files ("use-package-chords.el"))
-  use-package (:fetcher "github" :repo "jwiegley/use-package" :files ("//:defaults//" ("//:exclude//" "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el")))
+  use-package (:fetcher "github" :repo "jwiegley/use-package" :files ("//:defaults//" (:exclude ("bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el"))))
   uptimes (:fetcher "github" :repo "davep/uptimes.el" :files nil)
   unkillable-scratch (:fetcher "github" :repo "EricCrosson/unkillable-scratch" :files nil)
   unify-opening (:fetcher "github" :repo "DamienCassou/unify-opening" :files nil)
@@ -144,7 +144,7 @@
   ubuntu-theme (:fetcher "github" :repo "rocher/ubuntu-theme" :files nil)
   typo (:fetcher "github" :repo "jorgenschaefer/typoel" :files nil)
   typit (:fetcher "github" :repo "mrkkrp/typit" :files ("//:defaults//" "dict"))
-  typescript-mode (:fetcher "github" :repo "ananthakumaran/typescript.el" :files nil)
+  typescript-mode (:fetcher "github" :repo "emacs-typescript/typescript.el" :files nil)
   twittering-mode (:fetcher "github" :repo "hayamiz/twittering-mode" :files nil)
   twilight-anti-bright-theme (:fetcher "github" :repo "jimeh/twilight-anti-bright-theme" :files nil)
   turing-machine (:fetcher "github" :repo "dieggsy/turing-machine" :files nil)
@@ -157,9 +157,9 @@
   trr (:fetcher "github" :repo "kawabata/emacs-trr" :files ("//:defaults//" "record" "text" "CONTENTS"))
   trinary (:fetcher "github" :repo "emacs-elsa/trinary-logic" :files nil)
   treepy (:fetcher "github" :repo "volrath/treepy.el" :files nil)
-  treemacs-projectile (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("src/elisp/treemacs-projectile.el"))
-  treemacs-evil (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("src/elisp/treemacs-evil.el"))
-  treemacs (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("//:defaults//" "icons" "src/elisp/treemacs*.el" "src/scripts/treemacs*.py" ("//:exclude//" "src/elisp/treemacs-evil.el" "src/elisp/treemacs-projectile.el")))
+  treemacs-projectile (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("src/extra/treemacs-projectile.el"))
+  treemacs-evil (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("src/extra/treemacs-evil.el"))
+  treemacs (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("//:defaults//" "icons" "src/elisp/treemacs*.el" "src/scripts/treemacs*.py" (:exclude ("src/extra/*"))))
   travis (:fetcher "github" :repo "nlamirault/emacs-travis" :files nil)
   transmission (:fetcher "github" :repo "holomorph/transmission" :files nil)
   tracking (:fetcher "github" :repo "jorgenschaefer/circe" :files ("tracking.el" "shorten.el"))
@@ -184,7 +184,7 @@
   test-kitchen (:fetcher "github" :repo "jjasghar/test-kitchen-el" :files nil)
   test-case-mode (:fetcher "github" :repo "ieure/test-case-mode" :files nil)
   terraform-mode (:fetcher "github" :repo "syohex/emacs-terraform-mode" :files nil)
-  tern-django (:fetcher "github" :repo "proofit404/tern-django" :files ("*.el" "*.py" ("//:exclude//" "setup.py")))
+  tern-django (:fetcher "github" :repo "proofit404/tern-django" :files ("*.el" "*.py" (:exclude ("setup.py"))))
   tern-context-coloring (:fetcher "github" :repo "jacksonrayhamilton/tern-context-coloring" :files ("emacs/tern-context-coloring.el"))
   tern-auto-complete (:fetcher "github" :repo "ternjs/tern" :files ("emacs/tern-auto-complete.el"))
   tern (:fetcher "github" :repo "ternjs/tern" :files ("emacs/tern.el"))
@@ -232,7 +232,7 @@
   sudo-edit (:fetcher "github" :repo "nflath/sudo-edit" :files nil)
   sudden-death (:fetcher "github" :repo "yewton/sudden-death.el" :files nil)
   sublimity (:fetcher "github" :repo "zk-phi/sublimity" :files nil)
-  subemacs (:fetcher "github" :repo "kbauer/subemacs" :files ("//:defaults//" ("//:exclude//" "*experimental*")))
+  subemacs (:fetcher "github" :repo "kbauer/subemacs" :files ("//:defaults//" (:exclude ("*experimental*"))))
   subatomic-theme (:fetcher "github" :repo "cryon/subatomic" :files nil)
   stylus-mode (:fetcher "github" :repo "brianc/jade-mode" :files ("stylus-mode.el"))
   stumpwm-mode (:fetcher "git" :repo nil :files ("contrib/stumpwm-mode.el"))
@@ -243,7 +243,7 @@
   stgit (:fetcher "github" :repo "ctmarinas/stgit" :files ("contrib/stgit.el"))
   status (:fetcher "github" :repo "tromey/emacs-status" :files ("//:defaults//" "*.py" "*.png"))
   stash (:fetcher "github" :repo "vermiculus/stash.el" :files nil)
-  stan-snippets (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-snippets/stan-snippets.el" ("snippets/stan-mode" "stan-snippets/snippets/stan-mode/.yas-*")))
+  stan-snippets (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-snippets/stan-snippets.el" "snippets/stan-mode" "stan-snippets/snippets/stan-mode/.yas-*"))
   stan-mode (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-mode/*.el"))
   ssh-deploy (:fetcher "github" :repo "cjohansson/emacs-ssh-deploy" :files nil)
   ssh-agency (:fetcher "github" :repo "magit/ssh-agency" :files nil)
@@ -273,7 +273,7 @@
   sotlisp (:fetcher "github" :repo "Malabarba/speed-of-thought-lisp" :files nil)
   sotclojure (:fetcher "github" :repo "Malabarba/speed-of-thought-clojure" :files nil)
   sos (:fetcher "github" :repo "rudolfolah/emacs-sos" :files nil)
-  solidity-mode (:fetcher "github" :repo "ethereum/emacs-solidity" :files ("//:defaults//" ("//:exclude//" "company-solidity.el" "solidity-flycheck.el")))
+  solidity-mode (:fetcher "github" :repo "ethereum/emacs-solidity" :files ("//:defaults//" (:exclude ("company-solidity.el" "solidity-flycheck.el"))))
   solidity-flycheck (:fetcher "github" :repo "ethereum/emacs-solidity" :files ("solidity-flycheck.el"))
   solarized-theme (:fetcher "github" :repo "bbatsov/solarized-emacs" :files nil)
   solaire-mode (:fetcher "github" :repo "hlissner/emacs-solaire-mode" :files nil)
@@ -295,12 +295,12 @@
   smart-semicolon (:fetcher "github" :repo "iquiw/smart-semicolon" :files nil)
   smart-mode-line-powerline-theme (:fetcher "github" :repo "Malabarba/smart-mode-line" :files ("themes/*.el"))
   smart-mode-line (:fetcher "github" :repo "Malabarba/smart-mode-line" :files nil)
-  sly (:fetcher "github" :repo "joaotavora/sly" :files ("*.el" ("lib" "lib/*") ("slynk/backend" "slynk/backend/*") ("slynk" "slynk/*") ("contrib" "contrib/*") "doc/*.texi" "doc/*.info" "doc/dir"))
+  sly (:fetcher "github" :repo "joaotavora/sly" :files ("*.el" "lib" "lib/*" "slynk/backend" "slynk/backend/*" "slynk" "slynk/*" "contrib" "contrib/*" "doc/*.texi" "doc/*.info" "doc/dir"))
   slstats (:fetcher "github" :repo "davep/slstats.el" :files nil)
   slime-volleyball (:fetcher "github" :repo "fitzsim/slime-volleyball" :files ("*.el" "*.gz" "*.svg" "*.b64"))
   slime-docker (:fetcher "github" :repo "daewok/slime-docker" :files ("//:defaults//" "bin" "resources"))
   slime-company (:fetcher "github" :repo "anwyn/slime-company" :files nil)
-  slime (:fetcher "github" :repo "slime/slime" :files ("*.el" ("lib" "lib/hyperspec.el") "swank" "*.lisp" "*.asd" ("contrib" "contrib/*" ("//:exclude//" "contrib/test")) "doc/slime.texi" "doc/slime.info" "doc/dir" "ChangeLog"))
+  slime (:fetcher "github" :repo "slime/slime" :files ("*.el" "lib" "lib/hyperspec.el" "swank" "*.lisp" "*.asd" "contrib" "contrib/*" (:exclude ("contrib/test")) "doc/slime.texi" "doc/slime.info" "doc/dir" "ChangeLog"))
   slim-mode (:fetcher "github" :repo "slim-template/emacs-slim" :files nil)
   slideview (:fetcher "github" :repo "mhayashi1120/Emacs-slideview" :files nil)
   sl (:fetcher "github" :repo "xuchunyang/sl.el" :files ("//:defaults//" "*.txt"))
@@ -322,7 +322,7 @@
   shr-tag-pre-highlight (:fetcher "github" :repo "xuchunyang/shr-tag-pre-highlight.el" :files nil)
   shpec-mode (:fetcher "github" :repo "shpec/shpec-mode" :files nil)
   showtip (:fetcher "github" :repo "emacsorphanage/showtip" :files nil)
-  shm (:fetcher "github" :repo "chrisdone/structured-haskell-mode" :files ("elisp/*.el" ("//:exclude//" "shm-test.el" "shm-tests.el")))
+  shm (:fetcher "github" :repo "chrisdone/structured-haskell-mode" :files ("elisp/*.el" (:exclude ("shm-test.el" "shm-tests.el"))))
   shift-number (:fetcher "github" :repo "alezost/shift-number.el" :files nil)
   shen-elisp (:fetcher "github" :repo "deech/shen-elisp" :files ("shen*.el"))
   shelltest-mode (:fetcher "github" :repo "rtrn/shelltest-mode" :files nil)
@@ -347,7 +347,7 @@
   secretaria (:fetcher "gitlab" :repo "shackra/secretaria" :files nil)
   search-web (:fetcher "github" :repo "tomoya/search-web.el" :files nil)
   scss-mode (:fetcher "github" :repo "antonj/scss-mode" :files nil)
-  scrollkeeper (:fetcher nil :repo nil :files nil)
+  scrollkeeper (:fetcher "github" :repo "alphapapa/scrollkeeper.el" :files nil)
   scpaste (:fetcher "github" :repo "technomancy/scpaste" :files nil)
   schrute (:fetcher "git" :repo nil :files nil)
   scala-mode (:fetcher "github" :repo "ensime/emacs-scala-mode" :files nil)
@@ -357,7 +357,7 @@
   sauron (:fetcher "github" :repo "djcb/sauron" :files nil)
   sass-mode (:fetcher "github" :repo "nex3/sass-mode" :files nil)
   salt-mode (:fetcher "github" :repo "glynnforrest/salt-mode" :files nil)
-  sage-shell-mode (:fetcher "github" :repo "sagemath/sage-shell-mode" :files ("//:defaults//" "*.py" ("//:exclude//" "*test.py")))
+  sage-shell-mode (:fetcher "github" :repo "sagemath/sage-shell-mode" :files ("//:defaults//" "*.py" (:exclude ("*test.py"))))
   sackspace (:fetcher "github" :repo "cofi/sackspace.el" :files nil)
   s (:fetcher "github" :repo "magnars/s.el" :files ("s.el"))
   rvm (:fetcher "github" :repo "senny/rvm.el" :files nil)
@@ -386,7 +386,7 @@
   ripgrep (:fetcher "github" :repo "nlamirault/ripgrep.el" :files ("ripgrep.el"))
   rinari (:fetcher "github" :repo "eschulte/rinari" :files ("rinari.el"))
   rigid-tabs (:fetcher "gitlab" :repo "wavexx/rigid-tabs.el" :files nil)
-  right-click-context (:fetcher "github" :repo "zonuexe/right-click-context" :files ("right-click-context.el"))
+  right-click-context (:fetcher "github" :repo "zonuexe/right-click-context" :files nil)
   rich-minority (:fetcher "github" :repo "Malabarba/rich-minority" :files nil)
   rib-mode (:fetcher "github" :repo "blezek/rib-mode" :files nil)
   rg (:fetcher "github" :repo "dajva/rg.el" :files nil)
@@ -406,7 +406,7 @@
   repeatable-motion (:fetcher "github" :repo "willghatch/emacs-repeatable-motion" :files nil)
   relax (:fetcher "github" :repo "technomancy/relax.el" :files nil)
   region-state (:fetcher "github" :repo "xuchunyang/region-state.el" :files nil)
-  region-convert (:fetcher "github" :repo "zonuexe/right-click-context" :files ("region-convert.el"))
+  region-convert (:fetcher "github" :repo "zonuexe/region-convert.el" :files nil)
   refine (:fetcher "github" :repo "Wilfred/refine" :files nil)
   redtick (:fetcher "github" :repo "ferfebles/redtick" :files ("//:defaults//" "resources"))
   redprl (:fetcher "github" :repo "RedPRL/sml-redprl" :files ("emacs/*.el"))
@@ -414,11 +414,11 @@
   rectangle-utils (:fetcher "github" :repo "thierryvolpiatto/rectangle-utils" :files nil)
   rect+ (:fetcher "github" :repo "mhayashi1120/Emacs-rectplus" :files nil)
   recover-buffers (:fetcher "github" :repo "tripleee/recover-buffers" :files nil)
-  recently (:fetcher nil :repo nil :files nil)
+  recently (:fetcher "github" :repo "10sr/recently-el" :files nil)
   rebecca-theme (:fetcher "github" :repo "vic/rebecca-theme" :files nil)
   reazon (:fetcher "github" :repo "nickdrozd/reazon" :files nil)
   reason-mode (:fetcher "github" :repo "reasonml-editor/reason-mode" :files nil)
-  realgud (:fetcher "github" :repo "realgud/realgud" :files ("realgud.el" ("realgud/common" "realgud/common/*.el") ("realgud/common/buffer" "realgud/common/buffer/*.el") ("realgud/debugger/bashdb" "realgud/debugger/bashdb/*.el") ("realgud/debugger/gdb" "realgud/debugger/gdb/*.el") ("realgud/debugger/gub" "realgud/debugger/gub/*.el") ("realgud/debugger/ipdb" "realgud/debugger/ipdb/*.el") ("realgud/debugger/jdb" "realgud/debugger/jdb/*.el") ("realgud/debugger/kshdb" "realgud/debugger/kshdb/*.el") ("realgud/debugger/nodejs" "realgud/debugger/nodejs/*.el") ("realgud/debugger/pdb" "realgud/debugger/pdb/*.el") ("realgud/debugger/perldb" "realgud/debugger/perldb/*.el") ("realgud/debugger/rdebug" "realgud/debugger/rdebug/*.el") ("realgud/debugger/remake" "realgud/debugger/remake/*.el") ("realgud/debugger/trepan" "realgud/debugger/trepan/*.el") ("realgud/debugger/trepan.pl" "realgud/debugger/trepan.pl/*.el") ("realgud/debugger/trepan2" "realgud/debugger/trepan2/*.el") ("realgud/debugger/trepan3k" "realgud/debugger/trepan3k/*.el") ("realgud/debugger/trepanjs" "realgud/debugger/trepanjs/*.el") ("realgud/debugger/zshdb" "realgud/debugger/zshdb/*.el") ("realgud/lang" "realgud/lang/*.el")))
+  realgud (:fetcher "github" :repo "realgud/realgud" :files ("realgud.el" "realgud/common" "realgud/common/*.el" "realgud/common/buffer" "realgud/common/buffer/*.el" "realgud/debugger/bashdb" "realgud/debugger/bashdb/*.el" "realgud/debugger/gdb" "realgud/debugger/gdb/*.el" "realgud/debugger/gub" "realgud/debugger/gub/*.el" "realgud/debugger/ipdb" "realgud/debugger/ipdb/*.el" "realgud/debugger/jdb" "realgud/debugger/jdb/*.el" "realgud/debugger/kshdb" "realgud/debugger/kshdb/*.el" "realgud/debugger/nodejs" "realgud/debugger/nodejs/*.el" "realgud/debugger/pdb" "realgud/debugger/pdb/*.el" "realgud/debugger/perldb" "realgud/debugger/perldb/*.el" "realgud/debugger/rdebug" "realgud/debugger/rdebug/*.el" "realgud/debugger/remake" "realgud/debugger/remake/*.el" "realgud/debugger/trepan" "realgud/debugger/trepan/*.el" "realgud/debugger/trepan.pl" "realgud/debugger/trepan.pl/*.el" "realgud/debugger/trepan2" "realgud/debugger/trepan2/*.el" "realgud/debugger/trepan3k" "realgud/debugger/trepan3k/*.el" "realgud/debugger/trepanjs" "realgud/debugger/trepanjs/*.el" "realgud/debugger/zshdb" "realgud/debugger/zshdb/*.el" "realgud/lang" "realgud/lang/*.el"))
   real-auto-save (:fetcher "github" :repo "ChillarAnand/real-auto-save" :files ("real-auto-save.el"))
   react-snippets (:fetcher "github" :repo "johnmastro/react-snippets.el" :files ("*.el" "snippets"))
   rdf-prefix (:fetcher "github" :repo "simenheg/rdf-prefix" :files nil)
@@ -446,7 +446,7 @@
   pythonic (:fetcher "github" :repo "proofit404/pythonic" :files nil)
   python-x (:fetcher "gitlab" :repo "wavexx/python-x.el" :files nil)
   python-pytest (:fetcher "github" :repo "wbolster/emacs-python-pytest" :files nil)
-  python-mode (:fetcher "gitlab" :repo "python-mode-devs/python-mode" :files ("python-mode.el" ("completion" "completion/pycomplete.*")))
+  python-mode (:fetcher "gitlab" :repo "python-mode-devs/python-mode" :files ("python-mode.el" "completion" "completion/pycomplete.*"))
   python-environment (:fetcher "github" :repo "tkf/emacs-python-environment" :files nil)
   pynt (:fetcher "github" :repo "ebanner/pynt" :files ("pynt/*"))
   pyimport (:fetcher "github" :repo "Wilfred/pyimport" :files nil)
@@ -471,7 +471,7 @@
   protocols (:fetcher "github" :repo "davep/protocols.el" :files nil)
   protobuf-mode (:fetcher "github" :repo "google/protobuf" :files ("editors/protobuf-mode.el"))
   prop-menu (:fetcher "github" :repo "david-christiansen/prop-menu-el" :files nil)
-  proof-general (:fetcher "github" :repo "ProofGeneral/PG" :files ("//:defaults//" "CHANGES" "AUTHORS" "COPYING" "generic" "images" "lib" ("coq" "coq/*.el") "easycrypt" "phox" "pghaskell" "pgocaml" "pgshell"))
+  proof-general (:fetcher "github" :repo "ProofGeneral/PG" :files ("//:defaults//" "CHANGES" "AUTHORS" "COPYING" "generic" "images" "lib" "coq" "coq/*.el" "easycrypt" "phox" "pghaskell" "pgocaml" "pgshell"))
   prompt-text (:fetcher "github" :repo "10sr/prompt-text-el" :files nil)
   projekt (:fetcher "github" :repo "tekai/projekt" :files nil)
   projectile-variable (:fetcher "github" :repo "emacs-php/projectile-variable" :files nil)
@@ -544,7 +544,7 @@
   phi-search-mc (:fetcher "github" :repo "knu/phi-search-mc.el" :files nil)
   phi-search (:fetcher "github" :repo "zk-phi/phi-search" :files nil)
   phan (:fetcher "github" :repo "emacs-php/phan.el" :files nil)
-  ph (:fetcher "github" :repo "gromnitsky/ph" :files ("*.el" "meta.json" "README" ("bin" "bin/ph-project-new")))
+  ph (:fetcher "github" :repo "gromnitsky/ph" :files ("*.el" "meta.json" "README" "bin" "bin/ph-project-new"))
   pfuture (:fetcher "github" :repo "Alexander-Miller/pfuture" :files nil)
   perspeen (:fetcher "github" :repo "seudut/perspeen" :files nil)
   perspective (:fetcher "github" :repo "nex3/perspective-el" :files nil)
@@ -555,7 +555,7 @@
   persistent-scratch (:fetcher "github" :repo "Fanael/persistent-scratch" :files nil)
   pelican-mode (:fetcher "git" :repo nil :files nil)
   peg (:fetcher "github" :repo "ellerh/peg.el" :files nil)
-  pdf-tools (:fetcher "github" :repo "politza/pdf-tools" :files ("lisp/*.el" "README" ("build" "Makefile") ("build" "server") ("//:exclude//" "lisp/tablist.el" "lisp/tablist-filter.el")))
+  pdf-tools (:fetcher "github" :repo "politza/pdf-tools" :files ("lisp/*.el" "README" "build" "Makefile" "build" "server" (:exclude ("lisp/tablist.el" "lisp/tablist-filter.el"))))
   pcsv (:fetcher "github" :repo "mhayashi1120/Emacs-pcsv" :files ("pcsv.el"))
   pcre2el (:fetcher "github" :repo "joddie/pcre2el" :files ("pcre2el.el"))
   pcomplete-extension (:fetcher "github" :repo "thierryvolpiatto/pcomplete-extension" :files nil)
@@ -591,10 +591,10 @@
   package-utils (:fetcher "github" :repo "Silex/package-utils" :files nil)
   package-safe-delete (:fetcher "github" :repo "Fanael/package-safe-delete" :files nil)
   package-lint-flymake (:fetcher "github" :repo "purcell/package-lint" :files ("package-lint-flymake.el"))
-  package-lint (:fetcher "github" :repo "purcell/package-lint" :files ("//:defaults//" ("//:exclude//" "*flymake.el")))
+  package-lint (:fetcher "github" :repo "purcell/package-lint" :files ("//:defaults//" (:exclude ("*flymake.el"))))
   package-build (:fetcher "github" :repo "melpa/package-build" :files nil)
   package+ (:fetcher "github" :repo "zenspider/package" :files ("package+.el"))
-  pack (:fetcher nil :repo nil :files nil)
+  pack (:fetcher "github" :repo "10sr/pack-el" :files nil)
   pacfiles-mode (:fetcher "github" :repo "UndeadKernel/pacfiles-mode" :files nil)
   pabbrev (:fetcher "github" :repo "phillord/pabbrev" :files nil)
   ox-wk (:fetcher "github" :repo "w-vi/ox-wk.el" :files nil)
@@ -629,7 +629,7 @@
   org-wild-notifier (:fetcher "github" :repo "akhramov/org-wild-notifier.el" :files nil)
   org-web-tools (:fetcher "github" :repo "alphapapa/org-web-tools" :files nil)
   org-vcard (:fetcher "github" :repo "flexibeast/org-vcard" :files ("org-vcard.el" "styles"))
-  org-trello (:fetcher "github" :repo "org-trello/org-trello" :files ("org-trello*.el" ("//:exclude//" "org-trello-tools*.el")))
+  org-trello (:fetcher "github" :repo "org-trello/org-trello" :files ("org-trello*.el" (:exclude ("org-trello-tools*.el"))))
   org-tree-slide (:fetcher "github" :repo "takaxp/org-tree-slide" :files nil)
   org-transform-tree-table (:fetcher "github" :repo "jplindstrom/emacs-org-transform-tree-table" :files nil)
   org-tracktable (:fetcher "github" :repo "tty-tourist/org-tracktable" :files nil)
@@ -643,7 +643,7 @@
   org-sync (:fetcher "github" :repo "arbox/org-sync" :files nil)
   org-super-agenda (:fetcher "github" :repo "alphapapa/org-super-agenda" :files nil)
   org-static-blog (:fetcher "github" :repo "bastibe/org-static-blog" :files nil)
-  org-snooze (:fetcher nil :repo nil :files nil)
+  org-snooze (:fetcher "github" :repo "xueeinstein/org-snooze.el" :files nil)
   org-rich-yank (:fetcher "github" :repo "unhammer/org-rich-yank" :files nil)
   org-repo-todo (:fetcher "github" :repo "waymondo/org-repo-todo" :files nil)
   org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc"))
@@ -704,7 +704,7 @@
   offlineimap (:fetcher "github" :repo "jd/offlineimap.el" :files nil)
   octicons (:fetcher "github" :repo "syohex/emacs-octicons" :files nil)
   ocp-indent (:fetcher "github" :repo "OCamlPro/ocp-indent" :files ("tools/ocp-indent.el"))
-  ocodo-svg-modelines (:fetcher "github" :repo "ocodo/ocodo-svg-modelines" :files ("//:defaults//" ("images" "images/*.base64")))
+  ocodo-svg-modelines (:fetcher "github" :repo "ocodo/ocodo-svg-modelines" :files ("//:defaults//" "images" "images/*.base64"))
   obfusurl (:fetcher "github" :repo "davep/obfusurl.el" :files nil)
   ob-uart (:fetcher "github" :repo "andrmuel/ob-uart" :files nil)
   ob-translate (:fetcher "github" :repo "krisajenkins/ob-translate" :files nil)
@@ -737,7 +737,7 @@
   noccur (:fetcher "github" :repo "NicolasPetton/noccur.el" :files nil)
   no-littering (:fetcher "github" :repo "emacscollective/no-littering" :files nil)
   nixos-options (:fetcher "github" :repo "travisbhartwell/nix-emacs" :files ("nixos-options.el"))
-  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" ("//:exclude//" "nix-company.el" "nix-mode-mmm.el")))
+  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" (:exclude ("nix-company.el" "nix-mode-mmm.el"))))
   nix-buffer (:fetcher "github" :repo "shlevy/nix-buffer" :files nil)
   ninja-mode (:fetcher "github" :repo "ninja-build/ninja" :files ("misc/*.el"))
   nim-mode (:fetcher "github" :repo "nim-lang/nim-mode" :files nil)
@@ -763,7 +763,7 @@
   mykie (:fetcher "github" :repo "yuutayamada/mykie-el" :files ("lisp/*.el"))
   mwim (:fetcher "github" :repo "alezost/mwim.el" :files nil)
   mustache-mode (:fetcher "github" :repo "mustache/emacs" :files nil)
-  mustache (:fetcher "github" :repo "Wilfred/mustache.el" :files ("*.el" ("//:exclude//" "*-tests.el")))
+  mustache (:fetcher "github" :repo "Wilfred/mustache.el" :files ("*.el" (:exclude ("*-tests.el"))))
   multiple-cursors (:fetcher "github" :repo "magnars/multiple-cursors.el" :files nil)
   multi-web-mode (:fetcher "github" :repo "fgallina/multi-web-mode" :files nil)
   multi-term (:fetcher "github" :repo "emacsorphanage/multi-term" :files nil)
@@ -891,7 +891,7 @@
   lively (:fetcher "github" :repo "purcell/lively" :files nil)
   live-py-mode (:fetcher "github" :repo "donkirkby/live-py-plugin" :files ("emacs-live-py-mode/live-py-mode.el" "plugin/PySrc/*.py"))
   live-code-talks (:fetcher "github" :repo "david-christiansen/live-code-talks" :files nil)
-  literate-elisp (:fetcher nil :repo nil :files nil)
+  literate-elisp (:fetcher "github" :repo "jingtaozf/literate-elisp" :files nil)
   literate-coffee-mode (:fetcher "github" :repo "syohex/emacs-literate-coffee-mode" :files nil)
   literal-string (:fetcher "github" :repo "joodie/literal-string-mode" :files nil)
   lit-mode (:fetcher "github" :repo "HectorAE/lit-mode" :files nil)
@@ -911,7 +911,7 @@
   lfe-mode (:fetcher "github" :repo "rvirding/lfe" :files ("emacs/inferior-lfe.el" "emacs/lfe-mode.el" "emacs/lfe-indent.el"))
   letcheck (:fetcher "github" :repo "Fuco1/letcheck" :files nil)
   less-css-mode (:fetcher "github" :repo "purcell/less-css-mode" :files nil)
-  lentic (:fetcher "github" :repo "phillord/lentic" :files ("//:defaults//" "lenticular.org" ("//:exclude//" "build.el" "noisy-change.el")))
+  lentic (:fetcher "github" :repo "phillord/lentic" :files ("//:defaults//" "lenticular.org" (:exclude ("build.el" "noisy-change.el"))))
   ledger-mode (:fetcher "github" :repo "ledger/ledger-mode" :files ("//:defaults//" "ledger-test.el"))
   ledger-import (:fetcher "github" :repo "DamienCassou/ledger-import" :files nil)
   leanote (:fetcher "github" :repo "aborn/leanote-emacs" :files nil)
@@ -924,7 +924,7 @@
   labburn-theme (:fetcher "github" :repo "ksjogo/labburn-theme" :files nil)
   kurecolor (:fetcher "github" :repo "emacsfodder/kurecolor" :files nil)
   kubernetes-evil (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("kubernetes-evil.el"))
-  kubernetes (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("//:defaults//" ("//:exclude//" "kubernetes-evil.el")))
+  kubernetes (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("//:defaults//" (:exclude ("kubernetes-evil.el"))))
   ksp-cfg-mode (:fetcher "github" :repo "lashtear/ksp-cfg-mode" :files nil)
   know-your-http-well (:fetcher "github" :repo "for-GET/know-your-http-well" :files ("emacs/*.el"))
   kiwix (:fetcher "github" :repo "stardiviner/kiwix.el" :files nil)
@@ -973,7 +973,7 @@
   jedi-core (:fetcher "github" :repo "tkf/emacs-jedi" :files ("jedi-core.el" "jediepcserver.py" "Makefile" "setup.py"))
   jedi (:fetcher "github" :repo "tkf/emacs-jedi" :files ("jedi.el"))
   jdecomp (:fetcher "github" :repo "xiongtx/jdecomp" :files nil)
-  javadoc-lookup (:fetcher "github" :repo "skeeto/javadoc-lookup" :files ("*.el" ("webcache" "webcache/*")))
+  javadoc-lookup (:fetcher "github" :repo "skeeto/javadoc-lookup" :files ("*.el" "webcache" "webcache/*"))
   java-imports (:fetcher "github" :repo "dakrone/emacs-java-imports" :files nil)
   japanlaw (:fetcher "github" :repo "mhayashi1120/japanlaw.el" :files nil)
   jammer (:fetcher "github" :repo "wasamasa/jammer" :files nil)
@@ -995,7 +995,7 @@
   ivy-erlang-complete (:fetcher "github" :repo "s-kostyaev/ivy-erlang-complete" :files ("//:defaults//" "bin"))
   ivy-dired-history (:fetcher "github" :repo "jixiuf/ivy-dired-history" :files nil)
   ivy-bibtex (:fetcher "github" :repo "tmalsburg/helm-bibtex" :files ("ivy-bibtex.el" "bibtex-completion.el"))
-  ivy (:fetcher "github" :repo "abo-abo/swiper" :files ("//:defaults//" ("//:exclude//" "swiper.el" "counsel.el" "ivy-hydra.el") "doc/ivy-help.org"))
+  ivy (:fetcher "github" :repo "abo-abo/swiper" :files ("//:defaults//" (:exclude ("swiper.el" "counsel.el" "ivy-hydra.el")) "doc/ivy-help.org"))
   iter2 (:fetcher "github" :repo "doublep/iter2" :files nil)
   isolate (:fetcher "github" :repo "casouri/isolate" :files nil)
   isgd (:fetcher "github" :repo "chmouel/isgd.el" :files nil)
@@ -1074,9 +1074,9 @@
   hoa-pp-mode (:fetcher "github" :repo "hoaproject/Contributions-Emacs-Pp" :files nil)
   hl-todo (:fetcher "github" :repo "tarsius/hl-todo" :files nil)
   hl-sentence (:fetcher "github" :repo "milkypostman/hl-sentence" :files nil)
-  hl-anything (:fetcher "github" :repo "hl-anything/hl-anything-emacs" :files ("//:defaults//" ("images" "images/*.xpm" "images/*.png")))
+  hl-anything (:fetcher "github" :repo "hl-anything/hl-anything-emacs" :files ("//:defaults//" "images" "images/*.xpm" "images/*.png"))
   historyf (:fetcher "github" :repo "k1LoW/emacs-historyf" :files nil)
-  history (:fetcher "github" :repo "boyw165/history" :files ("//:defaults//" ("images" "images/*.xpm" "images/*.png")))
+  history (:fetcher "github" :repo "boyw165/history" :files ("//:defaults//" "images" "images/*.xpm" "images/*.png"))
   hippie-namespace (:fetcher "github" :repo "rolandwalker/hippie-namespace" :files nil)
   hippie-expand-slime (:fetcher "github" :repo "purcell/hippie-expand-slime" :files nil)
   hindent (:fetcher "github" :repo "commercialhaskell/hindent" :files ("elisp/*.el"))
@@ -1169,7 +1169,7 @@
   helm-aws (:fetcher "github" :repo "istib/helm-aws" :files nil)
   helm-ag (:fetcher "github" :repo "syohex/emacs-helm-ag" :files nil)
   helm-ack (:fetcher "github" :repo "syohex/emacs-helm-ack" :files nil)
-  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" ("//:exclude//" "helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el")))
+  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" (:exclude ("helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el"))))
   heaven-and-hell (:fetcher "github" :repo "valignatev/heaven-and-hell" :files nil)
   hcl-mode (:fetcher "github" :repo "syohex/emacs-hcl-mode" :files nil)
   haxor-mode (:fetcher "github" :repo "krzysztof-magosa/haxor-mode" :files nil)
@@ -1191,7 +1191,7 @@
   hacker-typer (:fetcher "github" :repo "dieggsy/emacs-hacker-typer" :files ("//:defaults//" "hackerman.png"))
   gxref (:fetcher "github" :repo "dedi/gxref" :files nil)
   guru-mode (:fetcher "github" :repo "bbatsov/guru-mode" :files ("guru-mode.el"))
-  guix (:fetcher "github" :repo "alezost/guix.el" :files ("elisp/*.el" "doc/*.texi" ("images" "images/*.svg") ("scheme" "scheme/*") ("//:exclude//" "scheme/Makefile.am")))
+  guix (:fetcher "github" :repo "alezost/guix.el" :files ("elisp/*.el" "doc/*.texi" "images" "images/*.svg" "scheme" "scheme/*" (:exclude ("scheme/Makefile.am"))))
   guide-key-tip (:fetcher "github" :repo "aki2o/guide-key-tip" :files nil)
   guide-key (:fetcher "github" :repo "kai2nenobu/guide-key" :files nil)
   gscholar-bibtex (:fetcher "github" :repo "cute-jumper/gscholar-bibtex" :files nil)
@@ -1297,7 +1297,7 @@
   gf (:fetcher "github" :repo "GrammaticalFramework/gf-emacs-mode" :files nil)
   german-holidays (:fetcher "github" :repo "rudolfochrist/german-holidays" :files nil)
   genrnc (:fetcher "github" :repo "aki2o/emacs-genrnc" :files ("*.el" "*.jar" "*.xsl"))
-  geiser (:fetcher "gitlab" :repo "jaor/geiser" :files ("elisp/*.el" "elisp/geiser-version.el.in" "doc/*.texi" ("bin" "bin/*") ("//:exclude//" "bin/Makefile.am") ("scheme" "scheme/*") ("//:exclude//" "scheme/Makefile.am")))
+  geiser (:fetcher "gitlab" :repo "jaor/geiser" :files ("elisp/*.el" "elisp/geiser-version.el.in" "doc/*.texi" "bin" "bin/*" (:exclude ("bin/Makefile.am")) "scheme" "scheme/*" (:exclude ("scheme/Makefile.am"))))
   geben-helm-projectile (:fetcher "github" :repo "ahungry/geben-helm-projectile" :files nil)
   geben (:fetcher "github" :repo "ahungry/geben" :files nil)
   gather (:fetcher "github" :repo "mhayashi1120/Emacs-gather" :files ("gather.el"))
@@ -1312,14 +1312,14 @@
   full-ack (:fetcher "github" :repo "nschum/full-ack" :files nil)
   fuel (:fetcher "github" :repo "factor/factor" :files ("misc/fuel/*.el"))
   fstar-mode (:fetcher "github" :repo "FStarLang/fstar-mode.el" :files ("//:defaults//" "etc"))
-  fsharp-mode (:fetcher "github" :repo "rneatherway/emacs-fsharp-mode-bin" :files ("*.el" ("bin" "*.exe" "*.exe.config" "*.dll")))
+  fsharp-mode (:fetcher "github" :repo "rneatherway/emacs-fsharp-mode-bin" :files ("*.el" "bin" "*.exe" "*.exe.config" "*.dll"))
   fsbot-data-browser (:fetcher "github" :repo "Benaiah/fsbot-data-browser" :files nil)
   fringe-helper (:fetcher "github" :repo "nschum/fringe-helper.el" :files nil)
   free-keys (:fetcher "github" :repo "Fuco1/free-keys" :files nil)
   frameshot (:fetcher "github" :repo "tarsius/frameshot" :files nil)
   frames-only-mode (:fetcher "github" :repo "davidshepherd7/frames-only-mode" :files nil)
   frame-purpose (:fetcher "github" :repo "alphapapa/frame-purpose.el" :files nil)
-  fountain-mode (:fetcher "github" :repo "rnkn/fountain-mode" :files nil)
+  fountain-mode (:fetcher nil :repo nil :files nil)
   fortune-cookie (:fetcher "github" :repo "andschwa/fortune-cookie" :files nil)
   format-sql (:fetcher "github" :repo "paetzke/format-sql.el" :files nil)
   form-feed (:fetcher "github" :repo "wasamasa/form-feed" :files nil)
@@ -1344,7 +1344,7 @@
   flymake-ruby (:fetcher "github" :repo "purcell/flymake-ruby" :files nil)
   flymake-python-pyflakes (:fetcher "github" :repo "purcell/flymake-python-pyflakes" :files nil)
   flymake-php (:fetcher "github" :repo "purcell/flymake-php" :files nil)
-  flymake-perlcritic (:fetcher "github" :repo "flymake/emacs-flymake-perlcritic" :files ("*.el" ("bin" "bin/flymake_perlcritic")))
+  flymake-perlcritic (:fetcher "github" :repo "flymake/emacs-flymake-perlcritic" :files ("*.el" "bin" "bin/flymake_perlcritic"))
   flymake-less (:fetcher "github" :repo "purcell/flymake-less" :files nil)
   flymake-json (:fetcher "github" :repo "purcell/flymake-json" :files nil)
   flymake-jslint (:fetcher "github" :repo "purcell/flymake-jslint" :files nil)
@@ -1353,7 +1353,7 @@
   flymake-haml (:fetcher "github" :repo "purcell/flymake-haml" :files nil)
   flymake-gjshint (:fetcher "github" :repo "yasuyk/flymake-gjshint-el" :files nil)
   flymake-easy (:fetcher "github" :repo "purcell/flymake-easy" :files nil)
-  flymake-diagnostic-at-point (:fetcher nil :repo nil :files nil)
+  flymake-diagnostic-at-point (:fetcher "github" :repo "meqif/flymake-diagnostic-at-point" :files nil)
   flymake-cursor (:fetcher "github" :repo "flymake/emacs-flymake-cursor" :files nil)
   flymake-css (:fetcher "github" :repo "purcell/flymake-css" :files nil)
   flymake-coffee (:fetcher "github" :repo "purcell/flymake-coffee" :files nil)
@@ -1367,7 +1367,7 @@
   flycheck-status-emoji (:fetcher "github" :repo "liblit/flycheck-status-emoji" :files nil)
   flycheck-rtags (:fetcher "github" :repo "Andersbakken/rtags" :files ("src/flycheck-rtags.el"))
   flycheck-rebar3 (:fetcher "github" :repo "joedevivo/flycheck-rebar3" :files nil)
-  flycheck-pycheckers (:fetcher "github" :repo "msherry/flycheck-pycheckers" :files ("//:defaults//" ("bin" "bin/pycheckers.py")))
+  flycheck-pycheckers (:fetcher "github" :repo "msherry/flycheck-pycheckers" :files ("//:defaults//" "bin" "bin/pycheckers.py"))
   flycheck-pos-tip (:fetcher "github" :repo "flycheck/flycheck-pos-tip" :files nil)
   flycheck-popup-tip (:fetcher "github" :repo "flycheck/flycheck-popup-tip" :files nil)
   flycheck-pony (:fetcher "github" :repo "SeanTAllen/flycheck-pony" :files nil)
@@ -1481,7 +1481,7 @@
   evil-colemak-basics (:fetcher "github" :repo "wbolster/evil-colemak-basics" :files nil)
   evil-args (:fetcher "github" :repo "wcsmith/evil-args" :files nil)
   evil-anzu (:fetcher "github" :repo "syohex/emacs-evil-anzu" :files nil)
-  evil (:fetcher "github" :repo "emacs-evil/evil" :files ("//:defaults//" ("//:exclude//" "evil-test-helpers.el")))
+  evil (:fetcher "github" :repo "emacs-evil/evil" :files ("//:defaults//" (:exclude ("evil-test-helpers.el"))))
   evalator (:fetcher "github" :repo "seanirby/evalator" :files nil)
   eval-sexp-fu (:fetcher "github" :repo "hchbaw/eval-sexp-fu.el" :files nil)
   eval-in-repl (:fetcher "github" :repo "kaz-yos/eval-in-repl" :files nil)
@@ -1491,7 +1491,7 @@
   esup (:fetcher "github" :repo "jschaf/esup" :files nil)
   ess-smart-underscore (:fetcher "github" :repo "mattfidler/ess-smart-underscore.el" :files ("ess-smart-underscore.el" "dir" "ess-smart-underscore.info"))
   ess-R-data-view (:fetcher "github" :repo "myuhe/ess-R-data-view.el" :files nil)
-  ess (:fetcher "github" :repo "emacs-ess/ESS" :files ("*.el" "lisp/*.el" "doc/*.texi" "doc/info/dir" ("etc" "etc/*") ("obsolete" "obsolete/*.el") ("//:exclude//" "etc/other")))
+  ess (:fetcher "github" :repo "emacs-ess/ESS" :files ("*.el" "lisp/*.el" "doc/*.texi" "doc/info/dir" "etc" "etc/*" "obsolete" "obsolete/*.el" (:exclude ("etc/other"))))
   espuds (:fetcher "github" :repo "ecukes/espuds" :files nil)
   eslintd-fix (:fetcher "github" :repo "aaronjensen/eslintd-fix" :files nil)
   eslint-fix (:fetcher "github" :repo "codesuki/eslint-fix" :files nil)
@@ -1512,7 +1512,7 @@
   ert-junit (:fetcher "git" :repo nil :files nil)
   ert-async (:fetcher "github" :repo "rejeep/ert-async.el" :files nil)
   erlstack-mode (:fetcher "github" :repo "k32/erlstack-mode" :files nil)
-  erlang (:fetcher "github" :repo "erlang/otp" :files ("lib/tools/emacs/*.el" ("//:exclude//" "lib/tools/emacs/erlang_appwiz.el")))
+  erlang (:fetcher "github" :repo "erlang/otp" :files ("lib/tools/emacs/*.el" (:exclude ("lib/tools/emacs/erlang_appwiz.el"))))
   ergoemacs-mode (:fetcher "github" :repo "ergoemacs/ergoemacs-mode" :files ("*.el" "*.svg" "*.ahk" "*.info" "dir" "bash-us.txt" "os_x_qwerty.dict.txt"))
   erefactor (:fetcher "github" :repo "mhayashi1120/Emacs-erefactor" :files ("erefactor.el"))
   eredis (:fetcher "github" :repo "justinhj/eredis" :files nil)
@@ -1530,7 +1530,7 @@
   ensime (:fetcher "github" :repo "ensime/ensime-emacs" :files nil)
   enotify (:fetcher "github" :repo "laynor/enotify" :files nil)
   enlive (:fetcher "github" :repo "zweifisch/enlive" :files nil)
-  enh-ruby-mode (:fetcher "github" :repo "zenspider/enhanced-ruby-mode" :files ("*.el" ("ruby" "ruby/erm.rb" "ruby/erm_buffer.rb")))
+  enh-ruby-mode (:fetcher "github" :repo "zenspider/enhanced-ruby-mode" :files ("*.el" "ruby" "ruby/erm.rb" "ruby/erm_buffer.rb"))
   engine-mode (:fetcher "github" :repo "hrs/engine-mode" :files nil)
   emr (:fetcher "github" :repo "Wilfred/emacs-refactor" :files nil)
   emojify (:fetcher "github" :repo "iqbalansari/emacs-emojify" :files ("//:defaults//" "data" "images"))
@@ -1568,7 +1568,7 @@
   elixir-yasnippets (:fetcher "github" :repo "hisea/elixir-yasnippets" :files ("//:defaults//" "snippets"))
   elixir-mode (:fetcher "github" :repo "elixir-editors/emacs-elixir" :files nil)
   elisp-slime-nav (:fetcher "github" :repo "purcell/elisp-slime-nav" :files nil)
-  elisp-refs (:fetcher "github" :repo "Wilfred/elisp-refs" :files ("//:defaults//" ("//:exclude//" "elisp-refs-bench.el")))
+  elisp-refs (:fetcher "github" :repo "Wilfred/elisp-refs" :files ("//:defaults//" (:exclude ("elisp-refs-bench.el"))))
   elisp-lint (:fetcher "github" :repo "gonewest818/elisp-lint" :files nil)
   elisp-def (:fetcher "github" :repo "Wilfred/elisp-def" :files nil)
   elfeed-web (:fetcher "github" :repo "skeeto/elfeed" :files ("web/*"))
@@ -1586,17 +1586,17 @@
   el-mock (:fetcher "github" :repo "rejeep/el-mock.el" :files nil)
   el-init-viewer (:fetcher "github" :repo "HKey/el-init-viewer" :files nil)
   el-init (:fetcher "github" :repo "HKey/el-init" :files nil)
-  el-get (:fetcher "github" :repo "dimitri/el-get" :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods"))
+  el-get (:fetcher "github" :repo "dimitri/el-get" :files ("*.el" "recipes" "recipes/el-get.rcp" "methods"))
   el-autoyas (:fetcher "github" :repo "mattfidler/el-autoyas.el" :files nil)
   ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets"))
   eink-theme (:fetcher "github" :repo "maio/eink-emacs" :files nil)
-  ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" ("//:exclude//" "lisp/zeroein.el")))
+  ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))))
   eide (:fetcher "git" :repo nil :files ("src/*.el" "src/themes/*.el"))
   eglot (:fetcher "github" :repo "joaotavora/eglot" :files nil)
   egison-mode (:fetcher "github" :repo "egison/egison" :files ("elisp/*.el"))
   egg (:fetcher "github" :repo "byplayer/egg" :files nil)
   eg (:fetcher "github" :repo "davep/eg.el" :files nil)
-  edts (:fetcher "github" :repo "tjarvstrand/edts" :files ("*.el" "COPYING" "COPYING.LESSER" "Makefile" "README.md" "start" ("elisp/edts" "elisp/edts/*.el") ("//:exclude//" "elisp/edts/*-test.el") ("lib/edts" "lib/edts/Makefile") ("lib/edts" "lib/edts/rebar") ("lib/edts" "lib/edts/rebar.config") ("lib/edts/priv" "lib/edts/priv/app.config") ("lib/edts/priv" "lib/edts/priv/dispatch.conf") ("lib/edts/src" "lib/edts/src/*") ("plugins/edts_debug" "plugins/edts_debug/*.el") ("//:exclude//" "plugins/edts_debug/*-test.el") ("plugins/edts_debug" "plugins/edts_debug/Makefile") ("plugins/edts_debug" "plugins/edts_debug/rebar") ("plugins/edts_debug" "plugins/edts_debug/rebar.config") ("plugins/edts_debug/src" "plugins/edts_debug/src/*") ("plugins/edts_dialyzer" "plugins/edts_dialyzer/*.el") ("//:exclude//" "plugins/edts_dialyzer/*-test.el") ("plugins/edts_dialyzer" "plugins/edts_dialyzer/Makefile") ("plugins/edts_dialyzer" "plugins/edts_dialyzer/rebar") ("plugins/edts_dialyzer" "plugins/edts_dialyzer/rebar.config") ("plugins/edts_dialyzer/src" "plugins/edts_dialyzer/src/*") ("plugins/edts_xref" "plugins/edts_xref/*.el") ("//:exclude//" "plugins/edts_xref/*-test.el") ("plugins/edts_xref" "plugins/edts_xref/Makefile") ("plugins/edts_xref" "plugins/edts_xref/rebar") ("plugins/edts_xref" "plugins/edts_xref/rebar.config") ("plugins/edts_xref/src" "plugins/edts_xref/src/*")))
+  edts (:fetcher "github" :repo "tjarvstrand/edts" :files ("*.el" "COPYING" "COPYING.LESSER" "Makefile" "README.md" "start" "elisp/edts" "elisp/edts/*.el" (:exclude ("elisp/edts/*-test.el")) "lib/edts" "lib/edts/Makefile" "lib/edts" "lib/edts/rebar" "lib/edts" "lib/edts/rebar.config" "lib/edts/priv" "lib/edts/priv/app.config" "lib/edts/priv" "lib/edts/priv/dispatch.conf" "lib/edts/src" "lib/edts/src/*" "plugins/edts_debug" "plugins/edts_debug/*.el" (:exclude ("plugins/edts_debug/*-test.el")) "plugins/edts_debug" "plugins/edts_debug/Makefile" "plugins/edts_debug" "plugins/edts_debug/rebar" "plugins/edts_debug" "plugins/edts_debug/rebar.config" "plugins/edts_debug/src" "plugins/edts_debug/src/*" "plugins/edts_dialyzer" "plugins/edts_dialyzer/*.el" (:exclude ("plugins/edts_dialyzer/*-test.el")) "plugins/edts_dialyzer" "plugins/edts_dialyzer/Makefile" "plugins/edts_dialyzer" "plugins/edts_dialyzer/rebar" "plugins/edts_dialyzer" "plugins/edts_dialyzer/rebar.config" "plugins/edts_dialyzer/src" "plugins/edts_dialyzer/src/*" "plugins/edts_xref" "plugins/edts_xref/*.el" (:exclude ("plugins/edts_xref/*-test.el")) "plugins/edts_xref" "plugins/edts_xref/Makefile" "plugins/edts_xref" "plugins/edts_xref/rebar" "plugins/edts_xref" "plugins/edts_xref/rebar.config" "plugins/edts_xref/src" "plugins/edts_xref/src/*"))
   edn (:fetcher "github" :repo "expez/edn.el" :files nil)
   editorconfig-custom-majormode (:fetcher "github" :repo "10sr/editorconfig-custom-majormode-el" :files nil)
   editorconfig (:fetcher "github" :repo "editorconfig/editorconfig-emacs" :files nil)
@@ -1645,7 +1645,7 @@
   dokuwiki-mode (:fetcher "github" :repo "kai2nenobu/emacs-dokuwiki-mode" :files nil)
   dockerfile-mode (:fetcher "github" :repo "spotify/dockerfile-mode" :files nil)
   docker-tramp (:fetcher "github" :repo "emacs-pe/docker-tramp.el" :files nil)
-  docker-compose-mode (:fetcher "github" :repo "meqif/docker-compose-mode" :files ("//:defaults//" ("//:exclude//" "docker-compose-mode-helpers.el")))
+  docker-compose-mode (:fetcher "github" :repo "meqif/docker-compose-mode" :files ("//:defaults//" (:exclude ("docker-compose-mode-helpers.el"))))
   docker (:fetcher "github" :repo "Silex/docker.el" :files nil)
   django-commands (:fetcher "github" :repo "muffinmad/emacs-django-commands" :files nil)
   dix-evil (:fetcher "github" :repo "unhammer/dix" :files ("dix-evil.el"))
@@ -1721,7 +1721,7 @@
   ctags-update (:fetcher "github" :repo "jixiuf/ctags-update" :files nil)
   ctable (:fetcher "github" :repo "kiwanami/emacs-ctable" :files ("ctable.el"))
   csv (:fetcher "gitlab" :repo "u11/csv.el" :files nil)
-  csound-mode (:fetcher "github" :repo "hlolli/csound-mode" :files ("//:defaults//" "csoundAPI_emacsLisp/emacscsnd.c" "csoundAPI_emacsLisp/Makefile" "csoundAPI_emacsLisp/float-version.h" ("//:exclude//" ".dir-locals.el")))
+  csound-mode (:fetcher "github" :repo "hlolli/csound-mode" :files ("//:defaults//" "csoundAPI_emacsLisp/emacscsnd.c" "csoundAPI_emacsLisp/Makefile" "csoundAPI_emacsLisp/float-version.h" (:exclude (".dir-locals.el"))))
   csharp-mode (:fetcher "github" :repo "josteink/csharp-mode" :files nil)
   crystal-mode (:fetcher "github" :repo "crystal-lang-tools/emacs-crystal-mode" :files ("crystal-mode.el"))
   cryptol-mode (:fetcher "github" :repo "thoughtpolice/cryptol-mode" :files nil)
@@ -1800,7 +1800,7 @@
   color-theme-modern (:fetcher "github" :repo "emacs-jp/replace-colorthemes" :files nil)
   color-identifiers-mode (:fetcher "github" :repo "ankurdave/color-identifiers-mode" :files nil)
   coffee-mode (:fetcher "github" :repo "defunkt/coffee-mode" :files nil)
-  codic (:fetcher "github" :repo "syohex/emacs-codic" :files ("*.el" ("dict" "dict/*.csv")))
+  codic (:fetcher "github" :repo "syohex/emacs-codic" :files ("*.el" "dict" "dict/*.csv"))
   code-stats (:fetcher "github" :repo "xuchunyang/code-stats-emacs" :files nil)
   cnfonts (:fetcher "github" :repo "tumashu/cnfonts" :files ("cnfonts*.el"))
   cmake-project (:fetcher "github" :repo "alamaison/emacs-cmake-project" :files nil)
@@ -1829,7 +1829,7 @@
   cil-mode (:fetcher "github" :repo "ForNeVeR/cil-mode" :files nil)
   cider-hydra (:fetcher "github" :repo "clojure-emacs/cider-hydra" :files nil)
   cider-eval-sexp-fu (:fetcher "github" :repo "clojure-emacs/cider-eval-sexp-fu" :files nil)
-  cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" ("//:exclude//" ".dir-locals.el")))
+  cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" (:exclude (".dir-locals.el"))))
   choice-program (:fetcher "github" :repo "plandes/choice-program" :files nil)
   chinese-word-at-point (:fetcher "github" :repo "xuchunyang/chinese-word-at-point.el" :files ("chinese-word-at-point.el"))
   chee (:fetcher "github" :repo "eikek/chee" :files ("emacs/*.el"))
@@ -1903,7 +1903,7 @@
   bifocal (:fetcher "github" :repo "riscy/bifocal-mode" :files nil)
   bicycle (:fetcher "github" :repo "tarsius/bicycle" :files nil)
   biblio-core (:fetcher "github" :repo "cpitclaudel/biblio.el" :files ("biblio-core.el"))
-  biblio (:fetcher "github" :repo "cpitclaudel/biblio.el" :files ("//:defaults//" ("//:exclude//" "biblio-core.el")))
+  biblio (:fetcher "github" :repo "cpitclaudel/biblio.el" :files ("//:defaults//" (:exclude ("biblio-core.el"))))
   better-shell (:fetcher "github" :repo "killdash9/better-shell" :files nil)
   better-defaults (:fetcher "github" :repo "technomancy/better-defaults" :files nil)
   benchstat (:fetcher "github" :repo "Quasilyte/benchstat.el" :files nil)
@@ -2035,7 +2035,7 @@
   ac-capf (:fetcher "github" :repo "syohex/emacs-ac-capf" :files nil)
   ac-alchemist (:fetcher "github" :repo "syohex/emacs-ac-alchemist" :files nil)
   abyss-theme (:fetcher "github" :repo "mgrbyte/emacs-abyss-theme" :files nil)
-  abs-mode (:fetcher nil :repo nil :files nil)
+  abs-mode (:fetcher "github" :repo "abstools/abs-mode" :files ("abs-mode.el"))
   abc-mode (:fetcher "github" :repo "mkjunker/abc-mode" :files nil)
   aa-edit-mode (:fetcher "github" :repo "zonuexe/aa-edit-mode" :files nil)
   a (:fetcher "github" :repo "plexus/a.el" :files nil)
@@ -2058,7 +2058,8 @@
   (:fetcher "bitbucket" :repo "gvol/emacs-achievements" :files nil) ack-menu
   (:fetcher "github" :repo "chumpage/ack-menu" :files nil) afternoon-theme
   (:fetcher "github" :repo "osener/emacs-afternoon-theme" :files nil) aggressive-fill-paragraph
-  (:fetcher "github" :repo "davidshepherd7/aggressive-fill-paragraph-mode" :files nil) ahg
+  (:fetcher "github" :repo "davidshepherd7/aggressive-fill-paragraph-mode" :files nil) agtags
+  (:fetcher "github" :repo "vietor/agtags" :files nil) ahg
   (:fetcher "bitbucket" :repo "agriggio/ahg" :files nil) airplay
   (:fetcher "github" :repo "gongo/airplay-el" :files nil) alarm-clock
   (:fetcher "github" :repo "wlemuel/alarm-clock" :files ("//:defaults//" "*.mp3")) alert-termux
@@ -2119,7 +2120,7 @@
   (:fetcher "github" :repo "magicdirac/avy-flycheck" :files nil) aws-ec2
   (:fetcher "github" :repo "Yuki-Inoue/aws.el" :files nil) aws-snippets
   (:fetcher "github" :repo "baron42bba/aws-snippets" :files ("//:defaults//" "snippets")) axiom-environment
-  (:fetcher "git" :repo nil :files ("*.el" ("data" "data/*.el") ("themes" "themes/*.el") ("//:exclude//" "axiom.el" "axiom-build-utils.el" "ob-axiom.el" "company-axiom.el"))) babel-repl
+  (:fetcher "git" :repo nil :files ("*.el" "data" "data/*.el" "themes" "themes/*.el" (:exclude ("axiom.el" "axiom-build-utils.el" "ob-axiom.el" "company-axiom.el")))) babel-repl
   (:fetcher "github" :repo "hung-phan/babel-repl" :files nil) backlight
   (:fetcher "github" :repo "mschuldt/backlight.el" :files nil) backup-each-save
   (:fetcher "github" :repo "conornash/backup-each-save" :files nil) backup-walker
@@ -2271,8 +2272,7 @@
   (:fetcher "git" :repo nil :files ("company-axiom.el")) company-bibtex
   (:fetcher "github" :repo "gbgar/company-bibtex" :files nil) company-box
   (:fetcher "github" :repo "sebastiencs/company-box" :files ("//:defaults//" "images")) company-c-headers
-  (:fetcher "github" :repo "randomphrase/company-c-headers" :files nil) company-childframe
-  (:fetcher "github" :repo "tumashu/company-childframe" :files nil) company-dcd
+  (:fetcher "github" :repo "randomphrase/company-c-headers" :files nil) company-dcd
   (:fetcher "github" :repo "tsukimizake/company-dcd" :files nil) company-distel
   (:fetcher "github" :repo "sebastiw/distel-completion" :files ("company-distel.el")) company-flow
   (:fetcher "github" :repo "aaronjensen/company-flow" :files nil) company-flx
@@ -2345,13 +2345,14 @@
   (:fetcher "github" :repo "gorauskas/darkburn-theme" :files nil) darkmine-theme
   (:fetcher "github" :repo "pierre-lecocq/darkmine-theme" :files nil) darkokai-theme
   (:fetcher "github" :repo "sjrmanning/darkokai" :files nil) dash-at-point
-  (:fetcher "github" :repo "stanaka/dash-at-point" :files nil) datetime-format
+  (:fetcher "github" :repo "stanaka/dash-at-point" :files nil) dashboard-hackernews
+  (:fetcher "github" :repo "hyakt/emacs-dashboard-hackernews" :files nil) datetime-format
   (:fetcher "github" :repo "emacs-php/emacs-datetime" :files ("datetime-format.el")) datomic-snippets
   (:fetcher "github" :repo "magnars/datomic-snippets" :files ("*.el" "snippets")) dayone
   (:fetcher "github" :repo "mori-dev/emacs-dayone" :files ("*.el" "*.mustache")) db
   (:fetcher "github" :repo "nicferrier/emacs-db" :files ("db.el")) db-pg
   (:fetcher "github" :repo "nicferrier/emacs-db-pg" :files nil) ddskk
-  (:fetcher "github" :repo "skk-dev/ddskk" :files ("context-skk.el" "ddskk*.el" "skk*.el" "tar-util.el" "doc/skk.texi" "etc/skk.xpm" ("//:exclude//" "skk-xemacs.el" "skk-lookup.el"))) debug-print
+  (:fetcher "github" :repo "skk-dev/ddskk" :files ("context-skk.el" "ddskk*.el" "skk*.el" "tar-util.el" "doc/skk.texi" "etc/skk.xpm" (:exclude ("skk-xemacs.el" "skk-lookup.el")))) debug-print
   (:fetcher "github" :repo "kenoss/debug-print" :files nil) decl
   (:fetcher "github" :repo "preetpalS/decl.el" :files ("decl.el")) dedukti-mode
   (:fetcher "github" :repo "rafoo/dedukti-mode" :files nil) defproject
@@ -2400,7 +2401,7 @@
   (:fetcher "bitbucket" :repo "zondo/ditz-mode" :files nil) dizzee
   (:fetcher "github" :repo "davidmiller/dizzee" :files nil) django-manage
   (:fetcher "github" :repo "gopar/django-manage" :files nil) django-mode
-  (:fetcher "github" :repo "myfreeweb/django-mode" :files ("*.el" ("//:exclude//" "*-snippets.el"))) django-snippets
+  (:fetcher "github" :repo "myfreeweb/django-mode" :files ("*.el" (:exclude ("*-snippets.el")))) django-snippets
   (:fetcher "github" :repo "myfreeweb/django-mode" :files ("django-snippets.el" "snippets")) django-theme
   (:fetcher "github" :repo "andrzejsliwa/django-theme.el" :files ("django-theme.el")) djangonaut
   (:fetcher "github" :repo "proofit404/djangonaut" :files nil) dkdo
@@ -2449,7 +2450,7 @@
   (:fetcher "github" :repo "randomphrase/ede-compdb" :files nil) edebug-x
   (:fetcher "github" :repo "ScottyB/edebug-x" :files nil) edit-at-point
   (:fetcher "github" :repo "enoson/edit-at-point.el" :files nil) edit-color-stamp
-  (:fetcher "github" :repo "sabof/edit-color-stamp" :files ("*.el" ("qt_color_picker" "qt_color_picker/*.pro" "qt_color_picker/*.cpp"))) edit-indirect-region-latex
+  (:fetcher "github" :repo "sabof/edit-color-stamp" :files ("*.el" "qt_color_picker" "qt_color_picker/*.pro" "qt_color_picker/*.cpp")) edit-indirect-region-latex
   (:fetcher "github" :repo "niitsuma/edit-indirect-region-latex" :files nil) edit-server-htmlize
   (:fetcher "github" :repo "frobtech/edit-server-htmlize" :files ("edit-server-htmlize.el")) editorconfig-charset-extras
   (:fetcher "github" :repo "10sr/editorconfig-charset-extras-el" :files nil) editorconfig-domain-specific
@@ -2583,7 +2584,8 @@
   (:fetcher "github" :repo "flexibeast/ewmctrl" :files nil) exotica-theme
   (:fetcher "github" :repo "jbharat/exotica-theme" :files nil) expand-line
   (:fetcher "github" :repo "zhangkaiyulw/expand-line" :files nil) extempore-mode
-  (:fetcher "github" :repo "extemporelang/extempore-emacs-mode" :files nil) exwm-edit
+  (:fetcher "github" :repo "extemporelang/extempore-emacs-mode" :files nil) exunit
+  (:fetcher "github" :repo "ananthakumaran/exunit.el" :files nil) exwm-edit
   (:fetcher "github" :repo "agzam/exwm-edit" :files nil) exwm-firefox-core
   (:fetcher "github" :repo "walseb/exwm-firefox-core" :files nil) exwm-firefox-evil
   (:fetcher "github" :repo "walseb/exwm-firefox-evil" :files nil) exwm-surf
@@ -2620,7 +2622,7 @@
   (:fetcher "github" :repo "john2x/flatui-theme.el" :files nil) flex-autopair
   (:fetcher "github" :repo "uk-ar/flex-autopair" :files nil) flex-isearch
   (:fetcher "bitbucket" :repo "jpkotta/flex-isearch" :files nil) flim
-  (:fetcher "github" :repo "wanderlust/flim" :files ("*.texi" "*.el" ("//:exclude//" "md5-dl.el" "md5-el.el" "mel-b-dl.el" "sha1-dl.el" "smtpmail.el"))) flimenu
+  (:fetcher "github" :repo "wanderlust/flim" :files ("*.texi" "*.el" (:exclude ("md5-dl.el" "md5-el.el" "mel-b-dl.el" "sha1-dl.el" "smtpmail.el")))) flimenu
   (:fetcher "github" :repo "IvanMalison/flimenu" :files nil) fliptext
   (:fetcher "github" :repo "andre-r/fliptext.el" :files nil) flucui-themes
   (:fetcher "github" :repo "MetroWind/flucui-theme" :files nil) fluxus-mode
@@ -2701,11 +2703,11 @@
   (:fetcher "github" :repo "Lindydancer/font-lock-profiler" :files nil) font-lock-studio
   (:fetcher "github" :repo "Lindydancer/font-lock-studio" :files nil) forecast
   (:fetcher "github" :repo "cadadr/elisp" :files ("forecast.el")) foreign-regexp
-  (:fetcher "github" :repo "k-talo/foreign-regexp.el" :files ("*.el" ("bin" "bin/*.pl" "bin/*.rb"))) forest-blue-theme
+  (:fetcher "github" :repo "k-talo/foreign-regexp.el" :files ("*.el" "bin" "bin/*.pl" "bin/*.rb")) forest-blue-theme
   (:fetcher "github" :repo "olkinn/forest-blue-emacs" :files nil) format-all
   (:fetcher "github" :repo "lassik/emacs-format-all-the-code" :files nil) format-table
   (:fetcher "github" :repo "functionreturnfunction/format-table" :files nil) forth-mode
-  (:fetcher "github" :repo "larsbrinkhoff/forth-mode" :files ("//:defaults//" "backend" ("//:exclude//" "build.el"))) fortpy
+  (:fetcher "github" :repo "larsbrinkhoff/forth-mode" :files ("//:defaults//" "backend" (:exclude ("build.el")))) fortpy
   (:fetcher "github" :repo "rosenbrockc/fortpy-el" :files ("fortpy*" "Makefile" "setup.py")) fraktur-mode
   (:fetcher "github" :repo "grettke/fraktur-mode" :files nil) frame-local
   (:fetcher "github" :repo "sebastiencs/frame-local" :files nil) frame-mode
@@ -2924,7 +2926,7 @@
   (:fetcher "github" :repo "mschuldt/horoscope.el" :files nil) how-many-lines-in-project
   (:fetcher "github" :repo "kaihaosw/how-many-lines-in-project" :files nil) howdoi
   (:fetcher "github" :repo "atykhonov/emacs-howdoi" :files nil) howm
-  (:fetcher "git" :repo nil :files ("//:defaults//" ("//:exclude//" "*.el.in"))) hsluv
+  (:fetcher "git" :repo nil :files ("//:defaults//" (:exclude ("*.el.in")))) hsluv
   (:fetcher "github" :repo "hsluv/hsluv-emacs" :files nil) html-check-frag
   (:fetcher "github" :repo "TobiasZawada/html-check-frag" :files nil) html-script-src
   (:fetcher "github" :repo "rejeep/html-script-src.el" :files nil) html-to-hiccup
@@ -3008,7 +3010,7 @@
   (:fetcher "github" :repo "alexmurray/ivy-xref" :files nil) ivy-yasnippet
   (:fetcher "github" :repo "mkcms/ivy-yasnippet" :files nil) ivy-ycmd
   (:fetcher "github" :repo "abingham/emacs-ivy-ycmd" :files nil) jabber
-  (:fetcher "git" :repo nil :files ("*.el" "*.texi" ("jabber-fallback-lib" "jabber-fallback-lib/hexrgb.el"))) jabber-otr
+  (:fetcher "git" :repo nil :files ("*.el" "*.texi" "jabber-fallback-lib" "jabber-fallback-lib/hexrgb.el")) jabber-otr
   (:fetcher "github" :repo "legoscia/emacs-jabber-otr" :files ("//:defaults//" "emacs-otr.py")) jack-connect
   (:fetcher "git" :repo nil :files nil) japanese-holidays
   (:fetcher "github" :repo "emacs-jp/japanese-holidays" :files nil) jape-mode
@@ -3049,7 +3051,8 @@
   (:fetcher "github" :repo "mkmcc/jumblr" :files ("jumblr.el" "dict")) jump-char
   (:fetcher "github" :repo "lewang/jump-char" :files nil) jump-tree
   (:fetcher "github" :repo "yangwen0228/jump-tree" :files nil) jumplist
-  (:fetcher "github" :repo "ganmacs/jumplist" :files nil) kaleidoscope
+  (:fetcher "github" :repo "ganmacs/jumplist" :files nil) k8s-mode
+  (:fetcher "github" :repo "TxGVNN/emacs-k8s-mode" :files ("*.el" "snippets" ("k8s-mode" "snippets/k8s-mode/*"))) kaleidoscope
   (:fetcher "github" :repo "algernon/kaleidoscope.el" :files ("kaleidoscope.el")) kaleidoscope-evil-state-flash
   (:fetcher "github" :repo "algernon/kaleidoscope.el" :files ("kaleidoscope-evil-state-flash.el")) kanban
   (:fetcher "bitbucket" :repo "ArneBab/kanban.el" :files nil) kanji-mode
@@ -3101,7 +3104,7 @@
   (:fetcher "github" :repo "fniessen/emacs-leuven-theme" :files nil) levenshtein
   (:fetcher "github" :repo "emacsorphanage/levenshtein" :files nil) lexbind-mode
   (:fetcher "github" :repo "spacebat/lexbind-mode" :files nil) libgit
-  (:fetcher "github" :repo "magit/libegit2" :files ("CMakeLists.txt" ("libgit2" "libgit2/cmake") ("libgit2" "libgit2/CMakeLists.txt") ("libgit2" "libgit2/COPYING") ("libgit2" "libgit2/deps") ("libgit2" "libgit2/.HEADER") ("libgit2" "libgit2/include") ("libgit2" "libgit2/libgit2_clar.supp") ("libgit2" "libgit2/libgit2.pc.in") ("libgit2" "libgit2/script") ("libgit2" "libgit2/src") "libgit.el" "Makefile" "src" "uthash")) libmpdee
+  (:fetcher "github" :repo "magit/libegit2" :files ("CMakeLists.txt" "libgit2" "libgit2/cmake" "libgit2" "libgit2/CMakeLists.txt" "libgit2" "libgit2/COPYING" "libgit2" "libgit2/deps" "libgit2" "libgit2/.HEADER" "libgit2" "libgit2/include" "libgit2" "libgit2/libgit2_clar.supp" "libgit2" "libgit2/libgit2.pc.in" "libgit2" "libgit2/script" "libgit2" "libgit2/src" "libgit.el" "Makefile" "src" "uthash")) libmpdee
   (:fetcher "github" :repo "andyetitmoves/libmpdee" :files nil) light-soap-theme
   (:fetcher "github" :repo "mswift42/light-soap-theme" :files nil) line-reminder
   (:fetcher "github" :repo "jcs090218/line-reminder" :files nil) lines-at-once
@@ -3166,7 +3169,7 @@
   (:fetcher "github" :repo "Ailrun/magit-lfs" :files nil) magit-p4
   (:fetcher "github" :repo "qoocku/magit-p4" :files nil) magit-rbr
   (:fetcher "github" :repo "fanatoly/magit-rbr" :files nil) magma-mode
-  (:fetcher "github" :repo "ThibautVerron/magma-mode" :files ("*.el" "snippets" ("bin" "bin/build_completion_table.sh"))) magnatune
+  (:fetcher "github" :repo "ThibautVerron/magma-mode" :files ("*.el" "snippets" "bin" "bin/build_completion_table.sh")) magnatune
   (:fetcher "github" :repo "eikek/magnatune.el" :files nil) majapahit-theme
   (:fetcher "gitlab" :repo "franksn/majapahit-theme" :files nil) major-mode-icons
   (:fetcher "github" :repo "stardiviner/major-mode-icons" :files ("//:defaults//" "icons")) make-it-so
@@ -3185,7 +3188,7 @@
   (:fetcher "github" :repo "nicferrier/emacs-marmalade-upload" :files nil) maruo-macro-mode
   (:fetcher "github" :repo "zonuexe/maruo-macro-mode.el" :files nil) math-symbols
   (:fetcher "github" :repo "kawabata/math-symbols" :files ("math-symbols*.el" "unimathsymbols.txt")) matlab-mode
-  (:fetcher "git" :repo nil :files ("*.el" "*.m" ("toolbox" "toolbox/*.m") ("templates" "templates/*.srt"))) maude-mode
+  (:fetcher "git" :repo nil :files ("*.el" "*.m" "toolbox" "toolbox/*.m" "templates" "templates/*.srt")) maude-mode
   (:fetcher "github" :repo "rudi/maude-mode" :files nil) mbo70s-theme
   (:fetcher "github" :repo "emacsfodder/emacs-mbo70s-theme" :files nil) mbsync
   (:fetcher "github" :repo "dimitri/mbsync-el" :files nil) md-readme
@@ -3232,8 +3235,9 @@
   (:fetcher "github" :repo "d5884/mozc-im" :files nil) mozc-popup
   (:fetcher "github" :repo "d5884/mozc-popup" :files nil) mpages
   (:fetcher "github" :repo "slevin/mpages" :files nil) mqr
-  (:fetcher "github" :repo "calancha/multi-replace" :files nil) mu-cite
-  (:fetcher "github" :repo "ksato9700/mu-cite" :files ("*.el" ("//:exclude//" "mu-bbdb.el"))) mu4e-conversation
+  (:fetcher "github" :repo "calancha/multi-replace" :files nil) ms-python
+  (:fetcher "github" :repo "xhcoding/ms-python" :files nil) mu-cite
+  (:fetcher "github" :repo "ksato9700/mu-cite" :files ("*.el" (:exclude ("mu-bbdb.el")))) mu4e-conversation
   (:fetcher "gitlab" :repo "ambrevar/mu4e-conversation" :files nil) mu4e-jump-to-list
   (:fetcher "gitlab" :repo "wavexx/mu4e-jump-to-list.el" :files nil) mu4e-query-fragments
   (:fetcher "gitlab" :repo "wavexx/mu4e-query-fragments.el" :files nil) muban
@@ -3264,7 +3268,7 @@
   (:fetcher "github" :repo "jd/naquadah-theme" :files nil) nash-mode
   (:fetcher "github" :repo "tiago4orion/nash-mode.el" :files nil) nav
   (:fetcher "github" :repo "ijt/emacs-nav" :files ("ack*" "nav.el")) navi2ch
-  (:fetcher "github" :repo "naota/navi2ch" :files ("navi2ch*.el" "contrib/*.el" ("icons" "icons/*.xpm"))) nclip
+  (:fetcher "github" :repo "naota/navi2ch" :files ("navi2ch*.el" "contrib/*.el" "icons" "icons/*.xpm")) nclip
   (:fetcher "github" :repo "maio/nclip.el" :files ("nclip.el" "nclip.rb" "nclip.py")) neato-graph-bar
   (:fetcher "gitlab" :repo "RobertCochran/neato-graph-bar" :files nil) nerdtab
   (:fetcher "github" :repo "casouri/nerdtab" :files nil) netherlands-holidays
@@ -3317,7 +3321,8 @@
   (:fetcher "github" :repo "zweifisch/ob-elixir" :files nil) ob-elvish
   (:fetcher "github" :repo "zzamboni/ob-elvish" :files nil) ob-fsharp
   (:fetcher "github" :repo "juergenhoetzel/ob-fsharp" :files nil) ob-go
-  (:fetcher "github" :repo "pope/ob-go" :files nil) ob-ipython
+  (:fetcher "github" :repo "pope/ob-go" :files nil) ob-html-chrome
+  (:fetcher "github" :repo "nikclayton/ob-html-chrome" :files nil) ob-ipython
   (:fetcher "github" :repo "gregsexton/ob-ipython" :files ("//:defaults//" "*.py")) ob-kotlin
   (:fetcher "github" :repo "zweifisch/ob-kotlin" :files nil) ob-lfe
   (:fetcher "github" :repo "zweifisch/ob-lfe" :files nil) ob-mermaid
@@ -3354,7 +3359,8 @@
   (:fetcher "github" :repo "xuchunyang/emacs-opencc" :files nil) openstack-cgit-browse-file
   (:fetcher "github" :repo "chmouel/openstack-cgit-browse-file" :files nil) openwith
   (:fetcher "bitbucket" :repo "jpkotta/openwith" :files nil) orca
-  (:fetcher "github" :repo "abo-abo/orca" :files nil) org-attach-screenshot
+  (:fetcher "github" :repo "abo-abo/orca" :files nil) ordinal
+  (:fetcher "github" :repo "zonuexe/ordinal.el" :files nil) org-attach-screenshot
   (:fetcher "github" :repo "dfeich/org-screenshot" :files nil) org-brain
   (:fetcher "github" :repo "Kungsgeten/org-brain" :files nil) org-caldav
   (:fetcher "github" :repo "dengste/org-caldav" :files ("org-caldav.el")) org-capture-pop-frame
@@ -3375,7 +3381,7 @@
   (:fetcher "gitlab" :repo "jagrg/org-emms" :files nil) org-fancy-priorities
   (:fetcher "github" :repo "harrybournis/org-fancy-priorities" :files nil) org-grep
   (:fetcher "github" :repo "emacsorphanage/org-grep" :files nil) org-iv
-  (:fetcher "github" :repo "kuangdash/org-iv" :files ("//:defaults//" ("default" "default/org-iv-front-file" "default/org-back-file" ("css" "default/css/*") ("js" "default/js/*")))) org-link-minor-mode
+  (:fetcher "github" :repo "kuangdash/org-iv" :files ("//:defaults//" "default" "default/org-iv-front-file" "default/org-back-file" ("css" "default/css/*") ("js" "default/js/*"))) org-link-minor-mode
   (:fetcher "github" :repo "seanohalpin/org-link-minor-mode" :files nil) org-listcruncher
   (:fetcher "github" :repo "dfeich/org-listcruncher" :files nil) org-mind-map
   (:fetcher "github" :repo "theodorewiles/org-mind-map" :files nil) org-mobile-sync
@@ -3397,7 +3403,7 @@
   (:fetcher "github" :repo "pmiddend/org-rtm" :files nil) org-seek
   (:fetcher "github" :repo "stardiviner/org-seek.el" :files nil) org-send-ebook
   (:fetcher "github" :repo "stardiviner/org-send-ebook" :files nil) org-starter
-  (:fetcher "github" :repo "akirak/org-starter" :files ("//:defaults//" ("//:exclude//" "counsel-org-starter.el" "helm-org-starter.el"))) org-sticky-header
+  (:fetcher "github" :repo "akirak/org-starter" :files ("//:defaults//" (:exclude ("counsel-org-starter.el" "helm-org-starter.el")))) org-sticky-header
   (:fetcher "github" :repo "alphapapa/org-sticky-header" :files nil) org-sync-snippets
   (:fetcher "github" :repo "abrochard/org-sync-snippets" :files nil) org-variable-pitch
   (:fetcher "github" :repo "cadadr/elisp" :files ("org-variable-pitch.el")) org-wc
@@ -3437,7 +3443,8 @@
   (:fetcher "github" :repo "0x60df/ox-qmd" :files nil) ox-reveal
   (:fetcher "github" :repo "yjwen/org-reveal" :files nil) ox-rst
   (:fetcher "github" :repo "msnoigrs/ox-rst" :files nil) ox-slack
-  (:fetcher "github" :repo "titaniumbones/ox-slack" :files nil) ox-textile
+  (:fetcher "github" :repo "titaniumbones/ox-slack" :files nil) ox-spectacle
+  (:fetcher "github" :repo "lorniu/ox-spectacle" :files nil) ox-textile
   (:fetcher "github" :repo "yashi/org-textile" :files ("ox-textile.el")) ox-tiddly
   (:fetcher "github" :repo "dfeich/org8-wikiexporters" :files ("ox-tiddly.el")) ox-trac
   (:fetcher "github" :repo "JalapenoGremlin/ox-trac" :files nil) ox-tufte
@@ -3445,13 +3452,13 @@
   (:fetcher "github" :repo "dfeich/org8-wikiexporters" :files ("ox-twiki.el")) p4
   (:fetcher "github" :repo "gareth-rees/p4.el" :files nil) package-filter
   (:fetcher "github" :repo "milkypostman/package-filter" :files ("package-filter.el")) pacmacs
-  (:fetcher "github" :repo "codingteam/pacmacs.el" :files ("//:defaults//" "maps" "signs" ("sprites" "sprites/*.json") ("sprites" "sprites/*.xpm"))) pact-mode
+  (:fetcher "github" :repo "codingteam/pacmacs.el" :files ("//:defaults//" "maps" "signs" "sprites" "sprites/*.json" "sprites" "sprites/*.xpm")) pact-mode
   (:fetcher "github" :repo "kadena-io/pact-mode" :files nil) paganini-theme
   (:fetcher "github" :repo "onurtemizkan/paganini" :files nil) pager
   (:fetcher "github" :repo "emacsorphanage/pager" :files nil) pager-default-keybindings
   (:fetcher "github" :repo "nflath/pager-default-keybindings" :files nil) palimpsest
   (:fetcher "github" :repo "danielsz/Palimpsest" :files nil) pamparam
-  (:fetcher "github" :repo "abo-abo/pamparam" :files ("//:defaults//" ("//:exclude//" "elpa.el"))) paper-theme
+  (:fetcher "github" :repo "abo-abo/pamparam" :files ("//:defaults//" (:exclude ("elpa.el")))) paper-theme
   (:fetcher "github" :repo "cadadr/elisp" :files ("paper-theme.el")) paperless
   (:fetcher "github" :repo "atgreen/paperless" :files nil) paredit-menu
   (:fetcher "github" :repo "phillord/paredit-menu" :files nil) paren-completer
@@ -3477,7 +3484,7 @@
   (:fetcher "github" :repo "erikriverson/peek-mode" :files ("index.html" "peek-mode.el")) peep-dired
   (:fetcher "github" :repo "asok/peep-dired" :files nil) per-buffer-theme
   (:fetcher "bitbucket" :repo "inigoserna/per-buffer-theme.el" :files nil) perl6-mode
-  (:fetcher "github" :repo "perl6/perl6-mode" :files ("//:defaults//" ("//:exclude//" "nqp-mode.el"))) perlbrew
+  (:fetcher "github" :repo "perl6/perl6-mode" :files ("//:defaults//" (:exclude ("nqp-mode.el")))) perlbrew
   (:fetcher "github" :repo "kentaro/perlbrew.el" :files nil) persistent-overlays
   (:fetcher "github" :repo "mneilly/Emacs-Persistent-Overlays" :files ("persistent-overlays.el" "README.md" "LICENSE")) persp-mode-projectile-bridge
   (:fetcher "github" :repo "Bad-ptr/persp-mode-projectile-bridge.el" :files nil) pg
@@ -3504,7 +3511,7 @@
   (:fetcher "github" :repo "motus/pig-mode" :files ("pig-snippets*.el" "snippets")) pinboard-api
   (:fetcher "github" :repo "danieroux/pinboard-api-el" :files nil) pinot
   (:fetcher "github" :repo "tkf/emacs-pinot-search" :files ("*.el" "*.py")) pinyin
-  (:fetcher "github" :repo "xuchunyang/pinyin.el" :files ("//:defaults//" ("pinyin-data" "pinyin-data/pinyin.txt"))) pipenv
+  (:fetcher "github" :repo "xuchunyang/pinyin.el" :files ("//:defaults//" "pinyin-data" "pinyin-data/pinyin.txt")) pipenv
   (:fetcher "github" :repo "pwalsh/pipenv.el" :files nil) pippel
   (:fetcher "github" :repo "brotzeit/pippel" :files ("//:defaults//" "pippel.py")) pivotal-tracker
   (:fetcher "github" :repo "jxa/pivotal-tracker" :files nil) pixie-mode
@@ -3565,7 +3572,7 @@
   (:fetcher "github" :repo "ksjogo/proportional" :files nil) prosjekt
   (:fetcher "github" :repo "abingham/prosjekt" :files ("prosjekt/*.el" "prosjekt/ext/*.el")) proxy-mode
   (:fetcher "github" :repo "stardiviner/proxy-mode" :files nil) psc-ide
-  (:fetcher "github" :repo "epost/psc-ide-emacs" :files ("//:defaults//" ("//:exclude//" "purescript-extras.el"))) pulseaudio-control
+  (:fetcher "github" :repo "epost/psc-ide-emacs" :files ("//:defaults//" (:exclude ("purescript-extras.el")))) pulseaudio-control
   (:fetcher "github" :repo "flexibeast/pulseaudio-control" :files nil) punpun-theme
   (:fetcher "github" :repo "wasamasa/punpun-theme" :files nil) purescript-mode
   (:fetcher "github" :repo "purescript-emacs/purescript-mode" :files ("//:defaults//" "NEWS" "snippets")) purp-theme
@@ -3593,7 +3600,8 @@
   (:fetcher "github" :repo "glyph/python-docstring-mode" :files ("docstring_wrap.py" "python-docstring.el")) python-info
   (:fetcher "github" :repo "Wilfred/python-info" :files nil) python-switch-quotes
   (:fetcher "github" :repo "werehuman/python-switch-quotes" :files nil) python-test
-  (:fetcher "github" :repo "emacs-pe/python-test.el" :files ("python-test.el")) quack
+  (:fetcher "github" :repo "emacs-pe/python-test.el" :files ("python-test.el")) q-mode
+  (:fetcher "github" :repo "psaris/q-mode" :files nil) quack
   (:fetcher "github" :repo "emacsmirror/quack" :files nil) quelpa
   (:fetcher "git" :repo nil :files nil) quelpa-use-package
   (:fetcher "git" :repo nil :files nil) quick-buffer-switch
@@ -3603,7 +3611,7 @@
   (:fetcher "github" :repo "eyeinsky/quick-shell-keybind" :files nil) quickref
   (:fetcher "github" :repo "pd/quickref.el" :files nil) quiet
   (:fetcher "github" :repo "zzkt/quiet" :files nil) racket-mode
-  (:fetcher "github" :repo "greghendershott/racket-mode" :files ("//:defaults//" "*.rkt" ("racket" "racket/*") ("//:exclude//" "racket/example/*" "racket/test/*"))) rails-log-mode
+  (:fetcher "github" :repo "greghendershott/racket-mode" :files ("//:defaults//" "*.rkt" "racket" "racket/*" (:exclude ("racket/example/*" "racket/test/*")))) rails-log-mode
   (:fetcher "github" :repo "ananthakumaran/rails-log-mode" :files nil) railscasts-theme
   (:fetcher "github" :repo "mikenichols/railscasts-theme" :files nil) rally-mode
   (:fetcher "github" :repo "seanleblanc/rally-mode" :files nil) rand-theme
@@ -3619,10 +3627,10 @@
   (:fetcher "github" :repo "gromnitsky/read-aloud.el" :files nil) readability
   (:fetcher "github" :repo "ShingoFukuyama/emacs-readability" :files nil) readline-complete
   (:fetcher "github" :repo "monsanto/readline-complete.el" :files nil) realgud-byebug
-  (:fetcher "github" :repo "realgud/realgud-byebug" :files ("realgud-byebug.el" ("byebug" "byebug/*.el"))) realgud-old-debuggers
-  (:fetcher "github" :repo "realgud/realgud-old-debuggers" :files ("realgud-old-debuggers.el" ("pydb" "pydb/*.el") ("pydbgr" "pydbgr/*.el") ("trepan8" "trepan8/*.el") ("trepanx" "trepanx/*.el"))) realgud-pry
-  (:fetcher "github" :repo "realgud/realgud-pry" :files ("realgud-pry.el" ("pry" "pry/*.el"))) realgud-rdb2
-  (:fetcher "github" :repo "realgud/realgud-ruby-debugger2" :files ("realgud-rdb2.el" ("rdb2" "rdb2/*.el"))) rebox2
+  (:fetcher "github" :repo "realgud/realgud-byebug" :files ("realgud-byebug.el" "byebug" "byebug/*.el")) realgud-old-debuggers
+  (:fetcher "github" :repo "realgud/realgud-old-debuggers" :files ("realgud-old-debuggers.el" "pydb" "pydb/*.el" "pydbgr" "pydbgr/*.el" "trepan8" "trepan8/*.el" "trepanx" "trepanx/*.el")) realgud-pry
+  (:fetcher "github" :repo "realgud/realgud-pry" :files ("realgud-pry.el" "pry" "pry/*.el")) realgud-rdb2
+  (:fetcher "github" :repo "realgud/realgud-ruby-debugger2" :files ("realgud-rdb2.el" "rdb2" "rdb2/*.el")) rebox2
   (:fetcher "github" :repo "lewang/rebox2" :files nil) recentf-ext
   (:fetcher "github" :repo "rubikitch/recentf-ext" :files nil) recentf-remove-sudo-tramp-prefix
   (:fetcher "github" :repo "ncaq/recentf-remove-sudo-tramp-prefix" :files nil) recompile-on-save
@@ -3699,7 +3707,7 @@
   (:fetcher "github" :repo "cosmicexplorer/emacs-scrooge" :files nil) sdcv
   (:fetcher "github" :repo "stardiviner/sdcv.el" :files nil) sdlang-mode
   (:fetcher "github" :repo "CyberShadow/sdlang-mode" :files nil) searchq
-  (:fetcher "github" :repo "boyw165/searchq" :files ("//:defaults//" ("images" "images/*.xpm" "images/*.png"))) seclusion-mode
+  (:fetcher "github" :repo "boyw165/searchq" :files ("//:defaults//" "images" "images/*.xpm" "images/*.png")) seclusion-mode
   (:fetcher "github" :repo "dleslie/seclusion-mode" :files nil) see-mode
   (:fetcher "github" :repo "marcelino-m/see-mode" :files nil) seeing-is-believing
   (:fetcher "github" :repo "jcinnamond/seeing-is-believing" :files nil) seethru
@@ -3849,7 +3857,8 @@
   (:fetcher "github" :repo "istib/tbx2org" :files nil) tc
   (:fetcher "github" :repo "kanchoku/tc" :files ("*.el" "tcode")) tco
   (:fetcher "github" :repo "Wilfred/tco.el" :files nil) tea-time
-  (:fetcher "github" :repo "konzeptual/tea-time" :files nil) template-overlays
+  (:fetcher "github" :repo "konzeptual/tea-time" :files nil) teacode-expand
+  (:fetcher "github" :repo "raguay/TeaCode-Expand" :files nil) template-overlays
   (:fetcher "github" :repo "mmontone/template-overlays" :files nil) temporary-persistent
   (:fetcher "github" :repo "kostafey/temporary-persistent" :files nil) term+
   (:fetcher "github" :repo "tarao/term-plus-el" :files nil) term+key-intercept
@@ -3900,9 +3909,10 @@
   (:fetcher "github" :repo "SRoskamp/transfer-sh.el" :files nil) transpose-frame
   (:fetcher "github" :repo "emacsorphanage/transpose-frame" :files nil) transpose-mark
   (:fetcher "github" :repo "kwrooijen/transpose-mark" :files nil) tree-mode
-  (:fetcher "github" :repo "emacsorphanage/tree-mode" :files nil) trident-mode
+  (:fetcher "github" :repo "emacsorphanage/tree-mode" :files nil) treemacs-icons-dired
+  (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("src/extra/treemacs-icons-dired.el")) trident-mode
   (:fetcher "github" :repo "johnmastro/trident-mode.el" :files nil) ts-comint
-  (:fetcher "github" :repo "josteink/ts-comint" :files nil) tt-mode
+  (:fetcher "github" :repo "emacs-typescript/ts-comint" :files nil) tt-mode
   (:fetcher "github" :repo "davorg/tt-mode" :files nil) ttl-mode
   (:fetcher "bitbucket" :repo "nxg/ttl-mode" :files nil) tumblesocks
   (:fetcher "github" :repo "gcr/tumblesocks" :files nil) turkish
@@ -3920,7 +3930,8 @@
   (:fetcher "github" :repo "koko1000ban/emacs-uncrustify-mode" :files nil) undohist
   (:fetcher "github" :repo "m2ym/undohist-el" :files nil) unicode-emoticons
   (:fetcher "github" :repo "hagleitn/unicode-emoticons" :files nil) unicode-input
-  (:fetcher "bitbucket" :repo "m00nlight/unicode-input" :files nil) unicode-troll-stopper
+  (:fetcher "bitbucket" :repo "m00nlight/unicode-input" :files nil) unicode-math-input
+  (:fetcher "github" :repo "astoff/unicode-math-input.el" :files nil) unicode-troll-stopper
   (:fetcher "github" :repo "camsaul/emacs-unicode-troll-stopper" :files nil) unidecode
   (:fetcher "github" :repo "sindikat/unidecode" :files ("//:defaults//" "data")) unipoint
   (:fetcher "github" :repo "apg/unipoint" :files nil) unison
@@ -3931,7 +3942,7 @@
   (:fetcher "github" :repo "shiren/upbo" :files nil) url-shortener
   (:fetcher "github" :repo "yuyang0/url-shortener" :files nil) urlenc
   (:fetcher "github" :repo "buzztaiki/urlenc-el" :files nil) usage-memo
-  (:fetcher "github" :repo "rubikitch/usage-memo" :files ("//:defaults//" ("//:exclude//" "test-usage-memo.el"))) use-ttf
+  (:fetcher "github" :repo "rubikitch/usage-memo" :files ("//:defaults//" (:exclude ("test-usage-memo.el")))) use-ttf
   (:fetcher "github" :repo "jcs090218/use-ttf" :files nil) uuid
   (:fetcher "github" :repo "nicferrier/emacs-uuid" :files nil) uuidgen
   (:fetcher "github" :repo "kanru/uuidgen-el" :files nil) vagrant-tramp
@@ -3959,14 +3970,14 @@
   (:fetcher "github" :repo "dbrock/volume.el" :files nil) vscode-icon
   (:fetcher "github" :repo "jojojames/vscode-icon-emacs" :files ("//:defaults//" "icons")) vyper-mode
   (:fetcher "github" :repo "ralexstokes/vyper-mode" :files nil) w3m
-  (:fetcher "github" :repo "emacsorphanage/w3m" :files ("//:defaults//" "icons" ("//:exclude//" "octet.el" "mew-w3m.el" "w3m-xmas.el"))) waf-mode
+  (:fetcher "github" :repo "emacsorphanage/w3m" :files ("//:defaults//" "icons" (:exclude ("octet.el" "mew-w3m.el" "w3m-xmas.el")))) waf-mode
   (:fetcher "git" :repo nil :files nil) waher-theme
   (:fetcher "github" :repo "emacsfodder/emacs-waher-theme" :files nil) wakatime-mode
   (:fetcher "github" :repo "wakatime/wakatime-mode" :files nil) wakib-keys
   (:fetcher "github" :repo "darkstego/wakib-keys" :files nil) walkclj
   (:fetcher "github" :repo "plexus/walkclj" :files nil) wand
   (:fetcher "github" :repo "cmpitg/wand" :files nil) wanderlust
-  (:fetcher "github" :repo "wanderlust/wanderlust" :files ("doc/wl.texi" "doc/wl-ja.texi" "elmo/*.el" "wl/*.el" "etc/icons" ("//:exclude//" "elmo/elmo-database.el" "elmo/utf7.el" "wl/wl-dnd.el" "wl/wl-mule.el" "wl/wl-xmas.el"))) warm-night-theme
+  (:fetcher "github" :repo "wanderlust/wanderlust" :files ("doc/wl.texi" "doc/wl-ja.texi" "elmo/*.el" "wl/*.el" "etc/icons" (:exclude ("elmo/elmo-database.el" "elmo/utf7.el" "wl/wl-dnd.el" "wl/wl-mule.el" "wl/wl-xmas.el")))) warm-night-theme
   (:fetcher "github" :repo "mswift42/warm-night-theme" :files nil) watch-buffer
   (:fetcher "github" :repo "mjsteger/watch-buffer" :files nil) wavefront-obj-mode
   (:fetcher "github" :repo "abend/wavefront-obj-mode" :files nil) wdl-mode
@@ -4032,7 +4043,8 @@
   (:fetcher "github" :repo "binjo/yara-mode" :files nil) yari
   (:fetcher "github" :repo "hron/yari.el" :files nil) yatex
   (:fetcher "hg" :repo nil :files nil) ycm
-  (:fetcher "github" :repo "neuromage/ycm.el" :files ("ycm.el")) yoficator
+  (:fetcher "github" :repo "neuromage/ycm.el" :files ("ycm.el")) yequake
+  (:fetcher "github" :repo "alphapapa/yequake" :files nil) yoficator
   (:fetcher "gitlab" :repo "link2xt/yoficator" :files ("//:defaults//" "yo.txt")) z3-mode
   (:fetcher "github" :repo "zv/z3-mode" :files nil) zeal-at-point
   (:fetcher "github" :repo "jinzhu/zeal-at-point" :files nil) zen-and-art-theme

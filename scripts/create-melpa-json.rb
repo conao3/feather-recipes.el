@@ -5,7 +5,7 @@ require "json"
 # waiting merge pull-request
 # https://github.com/melpa/melpa/pull/5888
 archives = Net::HTTP.get(URI.parse('https://melpa.org/archive.json'))
-recipes = Net::HTTP.get(URI.parse('https://files.conao3.com/feather-recipes/melpa-recipes.json'))
+recipes = Net::HTTP.get(URI.parse('https://raw.githubusercontent.com/conao3/feather-melpa/master/html/recipes.json'))
 
 hash_archives = JSON.parse(archives)
 hash_recipes = JSON.parse(recipes)

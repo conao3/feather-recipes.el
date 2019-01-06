@@ -48,7 +48,7 @@
 
           (with-temp-file write-file
             (insert
-             (replace-regexp-in-string "@ (:ver" "feather--@ (:ver"
+             (replace-regexp-in-string "@ (:fetcher" "feather--@ (:fetcher"
                                        (prin1-to-string hash)))
 
             (newline)
@@ -67,8 +67,8 @@
               (error #'ignore))
 
             (goto-char (point-min))
-            (while (search-forward "feather--@ (:ver" nil t)
-              (replace-match "@ (:ver" nil t))
+            (while (search-forward "feather--@ (:fetcher" nil t)
+              (replace-match "@ (:fetcher" nil t))
 
             (when list-p
               (goto-char (point-min))

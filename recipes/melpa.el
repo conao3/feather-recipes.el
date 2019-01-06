@@ -4061,11 +4061,12 @@
     abc-mode (:fetcher "github" :repo "mkjunker/abc-mode" :files nil)
     aa-edit-mode (:fetcher "github" :repo "zonuexe/aa-edit-mode" :files nil)
     a (:fetcher "github" :repo "plexus/a.el" :files nil)
-    @ (:fetcher "github" :repo "skeeto/at-el" :files nil) 4clojure
-    (:fetcher "github" :repo "losingkeys/4clojure.el" :files nil) 2048-game
-    (:fetcher "bitbucket" :repo "zck/2048.el" :files nil) 0xc
-    (:fetcher "github" :repo "AdamNiederer/0xc" :files nil) 0blayout
-    (:fetcher "github" :repo "etu/0blayout-mode" :files nil) himp
-    (:fetcher "github" :repo "mkcms/himp" :files nil) po-mode
-    (:fetcher "git" :repo "https://git.savannah.gnu.org/git/gettext.git" :files ("gettext-tools/misc/po-mode.el")) wisp-mode
-    (:fetcher "bitbucket" :repo "ArneBab/wisp" :files nil)))
+    @ (:fetcher "github" :repo "skeeto/at-el" :files nil)
+    4clojure (:fetcher "github" :repo "losingkeys/4clojure.el" :files nil)
+    2048-game (:fetcher "bitbucket" :repo "zck/2048.el" :files nil)
+    0xc (:fetcher "github" :repo "AdamNiederer/0xc" :files nil)
+    0blayout (:fetcher "github" :repo "etu/0blayout-mode" :files nil)
+    himp (:fetcher "github" :repo "mkcms/himp" :files nil)
+    po-mode (:fetcher "git" :repo "https://git.savannah.gnu.org/git/gettext.git" :files ("gettext-tools/misc/po-mode.el"))
+    wisp-mode (:fetcher "bitbucket" :repo "ArneBab/wisp" :files nil)
+   ))

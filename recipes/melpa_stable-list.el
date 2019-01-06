@@ -689,6 +689,7 @@
   org-alert (:fetcher "github" :repo "spegoraro/org-alert" :files nil)
   org-agenda-property (:fetcher "github" :repo "Malabarba/org-agenda-property" :files nil)
   org-ac (:fetcher "github" :repo "aki2o/org-ac" :files nil)
+  ordinal (:fetcher "github" :repo "zonuexe/ordinal.el" :files nil)
   operate-on-number (:fetcher "github" :repo "knu/operate-on-number.el" :files nil)
   opensource (:fetcher "github" :repo "OpenSourceOrg/el-opensourceorg" :files nil)
   opener (:fetcher "github" :repo "0robustus1/opener.el" :files ("opener.el" "opener.texi"))
@@ -3359,8 +3360,7 @@
   (:fetcher "github" :repo "xuchunyang/emacs-opencc" :files nil) openstack-cgit-browse-file
   (:fetcher "github" :repo "chmouel/openstack-cgit-browse-file" :files nil) openwith
   (:fetcher "bitbucket" :repo "jpkotta/openwith" :files nil) orca
-  (:fetcher "github" :repo "abo-abo/orca" :files nil) ordinal
-  (:fetcher "github" :repo "zonuexe/ordinal.el" :files nil) org-attach-screenshot
+  (:fetcher "github" :repo "abo-abo/orca" :files nil) org-attach-screenshot
   (:fetcher "github" :repo "dfeich/org-screenshot" :files nil) org-brain
   (:fetcher "github" :repo "Kungsgeten/org-brain" :files nil) org-caldav
   (:fetcher "github" :repo "dengste/org-caldav" :files ("org-caldav.el")) org-capture-pop-frame

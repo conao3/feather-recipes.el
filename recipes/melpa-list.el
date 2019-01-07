@@ -2168,6 +2168,7 @@
   ido-clever-match (:fetcher "github" :repo "Bogdanp/ido-clever-match" :files nil)
   ido-at-point (:fetcher "github" :repo "katspaugh/ido-at-point" :files nil)
   idle-require (:fetcher "github" :repo "nschum/idle-require.el" :files nil)
+  idle-org-agenda (:fetcher nil :repo nil :files nil)
   idle-highlight-mode (:fetcher "github" :repo "nonsequitur/idle-highlight-mode" :files nil)
   idle-highlight-in-visible-buffers-mode (:fetcher "github" :repo "ignacy/idle-highlight-in-visible-buffers-mode" :files nil)
   identica-mode (:fetcher "github" :repo "gabrielsaldana/Emacs-Identica-mode" :files nil)

@@ -3024,6 +3024,7 @@
   espy (:fetcher "github" :repo "walseb/espy" :files nil)
   espuds (:fetcher "github" :repo "ecukes/espuds" :files nil)
   espresso-theme (:fetcher "github" :repo "dgutov/espresso-theme" :files nil)
+  esonify (:fetcher nil :repo nil :files nil)
   eslintd-fix (:fetcher "github" :repo "aaronjensen/eslintd-fix" :files nil)
   eslint-fix (:fetcher "github" :repo "codesuki/eslint-fix" :files nil)
   eshell-z (:fetcher "github" :repo "xuchunyang/eshell-z" :files nil)

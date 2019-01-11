@@ -2,10 +2,10 @@
 #+date: <2018-10-25 Thu>
 
 
-[[https://github.com/conao3/feather-recipes][https://img.shields.io/github/tag/conao3/feather-recipes.svg?style=flat-square]]
-[[https://travis-ci.org/conao3/feather-recipes][https://img.shields.io/travis/conao3/feather-recipes/master.svg?style=flat-square]]
-[[https://github.com/conao3/feather-recipes][https://img.shields.io/github/license/conao3/feather-recipes.svg?style=flat-square]]
-[[https://github.com/conao3/github-header][https://files.conao3.com/github-header/gif/feather-recipes.gif]]
+[[https://github.com/conao3/feather-recipes.el][https://img.shields.io/github/tag/conao3/feather-recipes.el.svg?style=flat-square]]
+[[https://travis-ci.org/conao3/feather-recipes.el][https://img.shields.io/travis/conao3/feather-recipes.el/master.svg?style=flat-square]]
+[[https://github.com/conao3/feather-recipes.el][https://img.shields.io/github/license/conao3/feather-recipes.el.svg?style=flat-square]]
+[[https://github.com/conao3/github-header][https://files.conao3.com/github-header/gif/feather-recipes.el.gif]]
 
 * What is it?
 This is [[https://github.com/conao3/feather.el][feather.el]] fetching recipes repository.

@@ -409,6 +409,7 @@
     relax (:fetcher "github" :repo "technomancy/relax.el" :files nil)
     region-state (:fetcher "github" :repo "xuchunyang/region-state.el" :files nil)
     region-convert (:fetcher "github" :repo "zonuexe/region-convert.el" :files nil)
+    reformatter (:fetcher nil :repo nil :files nil)
     refine (:fetcher "github" :repo "Wilfred/refine" :files nil)
     redtick (:fetcher "github" :repo "ferfebles/redtick" :files ("//:defaults//" "resources"))
     redprl (:fetcher "github" :repo "RedPRL/sml-redprl" :files ("emacs/*.el"))

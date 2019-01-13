@@ -835,6 +835,7 @@
     region-bindings-mode (:fetcher "github" :repo "fgallina/region-bindings-mode" :files nil)
     regex-tool (:fetcher "github" :repo "jwiegley/regex-tool" :files nil)
     regex-dsl (:fetcher "github" :repo "alk/elisp-regex-dsl" :files nil)
+    reformatter (:fetcher nil :repo nil :files nil)
     refine (:fetcher "github" :repo "Wilfred/refine" :files nil)
     redtt (:fetcher "github" :repo "RedPRL/redtt" :files ("emacs/*.el"))
     redtick (:fetcher "github" :repo "ferfebles/redtick" :files ("//:defaults//" "resources"))

@@ -256,6 +256,7 @@
     sr-speedbar (:fetcher "github" :repo "emacsorphanage/sr-speedbar" :files nil)
     sqlup-mode (:fetcher "github" :repo "Trevoke/sqlup-mode.el" :files nil)
     sqlformat (:fetcher "github" :repo "purcell/sqlformat" :files nil)
+    sql-presto (:fetcher nil :repo nil :files nil)
     sql-impala (:fetcher "github" :repo "jterk/sql-impala" :files nil)
     sprunge (:fetcher "github" :repo "tomjakubowski/sprunge.el" :files nil)
     sprintly-mode (:fetcher "github" :repo "sprintly/sprintly-mode" :files nil)

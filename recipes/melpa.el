@@ -515,6 +515,7 @@
     sqlup-mode (:fetcher "github" :repo "Trevoke/sqlup-mode.el" :files nil)
     sqlite (:fetcher "gitlab" :repo "cnngimenez/sqlite.el" :files nil)
     sqlformat (:fetcher "github" :repo "purcell/sqlformat" :files nil)
+    sql-presto (:fetcher nil :repo nil :files nil)
     sql-impala (:fetcher "github" :repo "jterk/sql-impala" :files nil)
     sql-clickhouse (:fetcher "github" :repo "leethargo/sql-clickhouse" :files nil)
     spu (:fetcher "github" :repo "mola-T/SPU" :files nil)

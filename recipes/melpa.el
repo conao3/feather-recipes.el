@@ -1957,6 +1957,7 @@
     kfg (:fetcher nil :repo nil :files nil)
     keyword-search (:fetcher "github" :repo "keyword-search/keyword-search" :files nil)
     keyswap (:fetcher "github" :repo "hardenedapple/keyswap.el" :files nil)
+    keystore-mode (:fetcher nil :repo nil :files nil)
     keyset (:fetcher "github" :repo "HKey/keyset" :files nil)
     keypress-multi-event (:fetcher "github" :repo "Boruch-Baum/emacs-keypress-multi-event" :files nil)
     keymap-utils (:fetcher "github" :repo "tarsius/keymap-utils" :files nil)

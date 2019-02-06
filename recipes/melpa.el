@@ -3100,6 +3100,7 @@
     erc-hipchatify (:fetcher "bitbucket" :repo "seanfarley/erc-hipchatify" :files nil)
     erc-crypt (:fetcher "github" :repo "atomontage/erc-crypt" :files nil)
     erc-colorize (:fetcher "github" :repo "thisirs/erc-colorize" :files nil)
+    equake (:fetcher nil :repo nil :files nil)
     eproject (:fetcher "github" :repo "jrockway/eproject" :files ("eproject.el" "eproject-extras.el" "lang/*.el" "contrib/*.el"))
     eprime-mode (:fetcher "github" :repo "AndrewHynes/eprime-mode" :files nil)
     epresent (:fetcher "github" :repo "dakrone/epresent" :files nil)

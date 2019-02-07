@@ -3291,6 +3291,7 @@
     dyalog-mode (:fetcher "bitbucket" :repo "harsman/dyalog-mode" :files ("//:defaults//" "Emacs.apl"))
     dut-mode (:fetcher "github" :repo "dut-lang/dut-mode" :files nil)
     duplicate-thing (:fetcher "github" :repo "ongaeshi/duplicate-thing" :files nil)
+    dune (:fetcher nil :repo nil :files nil)
     dummyparens (:fetcher "github" :repo "snosov1/dummyparens" :files nil)
     dumb-jump (:fetcher "github" :repo "jacktasia/dumb-jump" :files nil)
     dumb-diff (:fetcher "github" :repo "jacktasia/dumb-diff" :files nil)

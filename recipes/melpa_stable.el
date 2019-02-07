@@ -1643,6 +1643,7 @@
     e2wm (:fetcher "github" :repo "kiwanami/emacs-window-manager" :files ("e2wm.el" "e2wm-vcs.el"))
     dynamic-ruler (:fetcher "github" :repo "rocher/dynamic-ruler" :files nil)
     dynamic-fonts (:fetcher "github" :repo "rolandwalker/dynamic-fonts" :files nil)
+    dune (:fetcher nil :repo nil :files nil)
     dumb-jump (:fetcher "github" :repo "jacktasia/dumb-jump" :files nil)
     ducpel (:fetcher "github" :repo "alezost/ducpel" :files ("*.el" "*.info" "dir" "levels"))
     dtrt-indent (:fetcher "github" :repo "jscheid/dtrt-indent" :files nil)

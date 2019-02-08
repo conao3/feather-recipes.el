@@ -2209,6 +2209,7 @@
     ialign (:fetcher "github" :repo "mkcms/interactive-align" :files nil)
     i3wm (:fetcher "git" :repo "https://git.flintfam.org/swf-projects/emacs-i3.git" :files nil)
     i2b2-mode (:fetcher "github" :repo "danlamanna/i2b2-mode" :files nil)
+    hyperspace (:fetcher nil :repo nil :files nil)
     hydra (:fetcher "github" :repo "abo-abo/hydra" :files nil)
     hyde (:fetcher "github" :repo "nibrahim/Hyde" :files nil)
     hydandata-light-theme (:fetcher "github" :repo "hydandata/hydandata-light-theme" :files nil)

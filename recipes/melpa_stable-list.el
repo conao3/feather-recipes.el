@@ -961,6 +961,7 @@
   kaesar-file (:fetcher "github" :repo "mhayashi1120/Emacs-kaesar" :files ("kaesar-file.el"))
   kaesar (:fetcher "github" :repo "mhayashi1120/Emacs-kaesar" :files ("kaesar.el"))
   jvm-mode (:fetcher "github" :repo "martintrojer/jvm-mode.el" :files nil)
+  jupyter (:fetcher nil :repo nil :files nil)
   jump-to-line (:fetcher "github" :repo "ongaeshi/jump-to-line" :files nil)
   jump (:fetcher "github" :repo "eschulte/jump.el" :files ("jump.el"))
   julia-repl (:fetcher "github" :repo "tpapp/julia-repl" :files nil)

@@ -3381,6 +3381,7 @@
     dired-single (:fetcher "github" :repo "crocket/dired-single" :files nil)
     dired-sidebar (:fetcher "github" :repo "jojojames/dired-sidebar" :files nil)
     dired-rsync (:fetcher "github" :repo "stsquad/dired-rsync" :files nil)
+    dired-rmjunk (:fetcher nil :repo nil :files nil)
     dired-rifle (:fetcher "github" :repo "Vifon/dired-rifle.el" :files nil)
     dired-recent (:fetcher "github" :repo "Vifon/dired-recent.el" :files nil)
     dired-ranger (:fetcher "github" :repo "Fuco1/dired-hacks" :files ("dired-ranger.el"))

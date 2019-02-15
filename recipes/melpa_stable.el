@@ -166,6 +166,7 @@
     treemacs (:fetcher "github" :repo "Alexander-Miller/treemacs" :files ("//:defaults//" "icons" "src/elisp/treemacs*.el" "src/scripts/treemacs*.py" (:exclude ("src/extra/*"))))
     travis (:fetcher "github" :repo "nlamirault/emacs-travis" :files nil)
     transmission (:fetcher "github" :repo "holomorph/transmission" :files nil)
+    transient (:fetcher nil :repo nil :files nil)
     tracking (:fetcher "github" :repo "jorgenschaefer/circe" :files ("tracking.el" "shorten.el"))
     traad (:fetcher "github" :repo "abingham/emacs-traad" :files nil)
     tox (:fetcher "github" :repo "chmouel/tox.el" :files nil)

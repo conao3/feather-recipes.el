@@ -322,6 +322,7 @@
   transpose-mark (:fetcher "github" :repo "kwrooijen/transpose-mark" :files nil)
   transpose-frame (:fetcher "github" :repo "emacsorphanage/transpose-frame" :files nil)
   transmission (:fetcher "github" :repo "holomorph/transmission" :files nil)
+  transient (:fetcher nil :repo nil :files nil)
   transfer-sh (:fetcher "github" :repo "SRoskamp/transfer-sh.el" :files nil)
   tramp-term (:fetcher "github" :repo "randymorris/tramp-term.el" :files nil)
   tramp-hdfs (:fetcher "github" :repo "raghavgautam/tramp-hdfs" :files nil)

@@ -172,6 +172,7 @@
   traad (:fetcher "github" :repo "abingham/emacs-traad" :files nil)
   tox (:fetcher "github" :repo "chmouel/tox.el" :files nil)
   total-lines (:fetcher "github" :repo "hinrik/total-lines" :files nil)
+  torus (:fetcher nil :repo nil :files nil)
   toc-org (:fetcher "github" :repo "snosov1/toc-org" :files nil)
   timonier (:fetcher "github" :repo "nlamirault/timonier" :files nil)
   timesheet (:fetcher "github" :repo "tmarble/timesheet.el" :files ("*.el" "bin" "share"))

@@ -940,6 +940,7 @@
     latex-unicode-math-mode (:fetcher "github" :repo "Christoph-D/latex-unicode-math-mode" :files ("//:defaults//" "*.sty"))
     latex-math-preview (:fetcher "gitlab" :repo "latex-math-preview/latex-math-preview" :files nil)
     latex-extra (:fetcher "github" :repo "Malabarba/latex-extra" :files nil)
+    language-id (:fetcher nil :repo nil :files nil)
     langtool (:fetcher "github" :repo "mhayashi1120/Emacs-langtool" :files ("langtool.el"))
     labburn-theme (:fetcher "github" :repo "ksjogo/labburn-theme" :files nil)
     kurecolor (:fetcher "github" :repo "emacsfodder/kurecolor" :files nil)

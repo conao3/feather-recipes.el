@@ -1368,6 +1368,7 @@
     org-linkany (:fetcher "github" :repo "aki2o/org-linkany" :files nil)
     org-link-travis (:fetcher "github" :repo "aki2o/org-link-travis" :files nil)
     org-link-minor-mode (:fetcher "github" :repo "seanohalpin/org-link-minor-mode" :files nil)
+    org-kindle (:fetcher nil :repo nil :files nil)
     org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el"))
     org-journal-list (:fetcher nil :repo nil :files nil)
     org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil)

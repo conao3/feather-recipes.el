@@ -57,7 +57,7 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 
 ##############################
 
-commit: $(SSHKEY)
+commit:
 	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
 
 	git remote -v
@@ -71,12 +71,6 @@ commit: $(SSHKEY)
 	git checkout master
 	git merge --no-ff travis-$$TRAVIS_JOB_NUMBER -m "Merge travis-$$TRAVIS_JOB_NUMBER [skip ci]"
 	git push origin master
-
-$(SSHKEY):
-	openssl aes-256-cbc -K $$encrypted_875c55c1bd3d_key -iv $$encrypted_875c55c1bd3d_iv -in .travis_rsa.enc -out ~/.ssh/id_rsa -d
-	chmod 600 ~/.ssh/id_rsa
-	git config --global user.name "conao3"
-	git config --global user.email conao3@gmail.com
 
 ##############################
 

@@ -65,7 +65,7 @@ checkout:
 commit:
 	git diff --stat | tail -n1 >> commit.log
 	git add .
-	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER)"
 
 merge:
 	git checkout master

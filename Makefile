@@ -60,9 +60,10 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 checkout:
 	git checkout master
 	git checkout -b travis-$$TRAVIS_JOB_NUMBER
+	echo "job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL)" >> commit.log
 
 commit:
-	echo "$(shell git diff --stat | tail -n1) (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
+	git diff --stat | tail -n1 >> commit.log
 	git add .
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 

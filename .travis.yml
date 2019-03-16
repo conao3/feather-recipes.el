@@ -2,7 +2,7 @@ language: generic
 dist: trusty
 
 git:
-  depth: 1
+  depth: 5
 
 env:
   global:

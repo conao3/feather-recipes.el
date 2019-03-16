@@ -22,13 +22,13 @@ install:
 
   - git remote -v
   - git remote set-url origin git@github.com:conao3/feather-recipes.git
-  - git checkout master
-  - git checkout -b travis-$$TRAVIS_JOB_NUMBER
 
 jobs:
   include:
     - if: branch = master
       stage: "Create recipe"
       script:
+        - git checkout master
+        - git checkout -b travis-$$TRAVIS_JOB_NUMBER
         - make clean
         - make && make commit

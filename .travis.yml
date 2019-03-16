@@ -29,5 +29,5 @@ jobs:
       stage: "Create recipe"
       script:
         - make checkout
-        - make clean
+        - make --always-make
         - make && make commit && make merge

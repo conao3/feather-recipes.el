@@ -59,8 +59,6 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 
 commit:
 	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
-
-	git checkout -b travis-$$TRAVIS_JOB_NUMBER
 	git add .
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 

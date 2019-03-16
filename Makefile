@@ -80,7 +80,7 @@ commit-list-recipes:
 
 merge:
 	git checkout master
-	git merge --no-ff travis-$$TRAVIS_JOB_NUMBER -m "Merge travis-$$TRAVIS_JOB_NUMBER [skip ci]"
+	git merge --no-ff travis-$$TRAVIS_JOB_NUMBER -m "merge travis-$$TRAVIS_JOB_NUMBER [skip ci]"
 
 push:
 	git push origin master

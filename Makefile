@@ -63,8 +63,8 @@ checkout:
 	echo "job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL)" >> commit.log
 
 commit:
-	git diff --stat | tail -n1 >> commit.log
 	git add .
+	git diff --cached --stat | tail -n1 >> commit.log
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER)"
 
 merge:

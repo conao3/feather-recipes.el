@@ -57,6 +57,10 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 
 ##############################
 
+checkout:
+	git checkout master
+	git checkout -b travis-$$TRAVIS_JOB_NUMBER
+
 commit:
 	echo "$(shell git diff --stat | tail -n1) (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
 	git add .

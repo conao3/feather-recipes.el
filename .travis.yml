@@ -28,7 +28,5 @@ jobs:
     - if: branch = master
       stage: "Create recipe"
       script:
-        - git checkout master
-        - git checkout -b travis-$$TRAVIS_JOB_NUMBER
         - make clean
         - make && make commit

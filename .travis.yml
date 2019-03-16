@@ -28,5 +28,6 @@ jobs:
     - if: branch = master
       stage: "Create recipe"
       script:
+        - make checkout
         - make clean
-        - make && make commit
+        - make && make commit && make merge

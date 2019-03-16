@@ -66,17 +66,17 @@ commit: commit-source commit-recipes commit-list-recipes
 commit-source:
 	git add $(SOURCES)
 	git diff --cached --stat | tail -n1 >> commit.log
-	git commit --allow-empty -m "Update source (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+	git commit --allow-empty -m "update source (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 
 commit-recipes:
 	git add $(RECIPES) $(DETAILS)
 	git diff --cached --stat | tail -n1 >> commit.log
-	git commit --allow-empty -m "Generate recipes (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+	git commit --allow-empty -m "generate recipes (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 
 commit-list-recipes:
 	git add $(RECIPES-L) $(DETAILS-L)
 	git diff --cached --stat | tail -n1 >> commit.log
-	git commit --allow-empty -m "Generate list recipes (job $$TRAVIS_JOB_NUMBER) [skip ci]"
+	git commit --allow-empty -m "generate list recipes (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 
 merge:
 	git checkout master

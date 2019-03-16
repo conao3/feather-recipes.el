@@ -62,10 +62,21 @@ checkout:
 	git checkout -b travis-$$TRAVIS_JOB_NUMBER
 	echo "job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL)" >> commit.log
 
-commit:
-	git add .
+commit: commit-source commit-recipes commit-list-recipes
+commit-source:
+	git add $(SOURCES)
 	git diff --cached --stat | tail -n1 >> commit.log
-	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER)"
+	git commit --allow-empty -m "Update source (job $$TRAVIS_JOB_NUMBER)"
+
+commit-recipes:
+	git add $(RECIPES) $(DETAILS)
+	git diff --cached --stat | tail -n1 >> commit.log
+	git commit --allow-empty -m "Generate recipes (job $$TRAVIS_JOB_NUMBER)"
+
+commit-list-recipes:
+	git add $(RECIPES-L) $(DETAILS-L)
+	git diff --cached --stat | tail -n1 >> commit.log
+	git commit --allow-empty -m "Generate list recipes (job $$TRAVIS_JOB_NUMBER)"
 
 merge:
 	git checkout master

@@ -58,7 +58,7 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 ##############################
 
 commit:
-	echo "Commit by Travis-CI (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
+	echo "$(shell git diff --stat | tail -n1) (job $$TRAVIS_JOB_NUMBER at $(DATEDETAIL))" >> commit.log
 	git add .
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 

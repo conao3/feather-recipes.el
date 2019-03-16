@@ -64,6 +64,7 @@ commit:
 	git add .
 	git commit -m "Travis CI (job $$TRAVIS_JOB_NUMBER) [skip ci]"
 
+merge:
 	git checkout master
 	git merge --no-ff travis-$$TRAVIS_JOB_NUMBER -m "Merge travis-$$TRAVIS_JOB_NUMBER [skip ci]"
 	git push origin master

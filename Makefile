@@ -38,6 +38,11 @@ recipes-list: $(RECIPES-L) $(DETAILS-L)
 
 ##############################
 
+$(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
+	ruby $(SCRIPTDIR)/create-$*-json.rb > $@
+
+##############################
+
 $(RECIPEDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
 	$(EMACS) --script $(EVALEL) $< $@ nil nil
 
@@ -49,11 +54,6 @@ $(DETAILDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
 
 $(DETAILDIR)/%-$(LIST).el: $(SOURCEDIR)/%.json $(EVALEL)
 	$(EMACS) --script $(EVALEL) $< $@ detail list
-
-##############################
-
-$(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
-	ruby $(SCRIPTDIR)/create-$*-json.rb > $@
 
 ##############################
 

@@ -3736,6 +3736,7 @@
     chyla-theme (:fetcher "github" :repo "chyla/ChylaThemeForEmacs" :files nil)
     chruby (:fetcher "github" :repo "plexus/chruby.el" :files nil)
     chronos (:fetcher "github" :repo "dxknight/chronos" :files nil)
+    chronometer (:fetcher nil :repo nil :files nil)
     choice-program (:fetcher "github" :repo "plandes/choice-program" :files nil)
     chinese-yasdcv (:fetcher "github" :repo "tumashu/chinese-yasdcv" :files nil)
     chinese-word-at-point (:fetcher "github" :repo "xuchunyang/chinese-word-at-point.el" :files ("chinese-word-at-point.el"))

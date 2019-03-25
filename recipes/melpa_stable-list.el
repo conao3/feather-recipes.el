@@ -666,6 +666,7 @@
   org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc"))
   org-recent-headings (:fetcher "github" :repo "alphapapa/org-recent-headings" :files nil)
   org-readme (:fetcher "github" :repo "mattfidler/org-readme" :files nil)
+  org-re-reveal (:fetcher nil :repo nil :files nil)
   org-random-todo (:fetcher "github" :repo "unhammer/org-random-todo" :files ("org-random-todo.el"))
   org-protocol-jekyll (:fetcher "github" :repo "vonavi/org-protocol-jekyll" :files nil)
   org-projectile-helm (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-projectile-helm*.el"))

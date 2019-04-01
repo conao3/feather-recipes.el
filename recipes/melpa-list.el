@@ -1187,6 +1187,7 @@
   passmm (:fetcher "github" :repo "pjones/passmm" :files ("lisp/*.el"))
   pass (:fetcher "github" :repo "NicolasPetton/pass" :files nil)
   pasp-mode (:fetcher "github" :repo "santifa/pasp-mode" :files nil)
+  parseedn (:fetcher nil :repo nil :files nil)
   parseclj (:fetcher "github" :repo "clojure-emacs/parseclj" :files nil)
   parsec (:fetcher "github" :repo "cute-jumper/parsec.el" :files nil)
   parsebib (:fetcher "github" :repo "joostkremers/parsebib" :files nil)

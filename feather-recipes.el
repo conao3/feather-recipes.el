@@ -34,7 +34,7 @@ If KEY isn't present, return DEFAULT (nil if not specified)."
 
             (if (not (member (plist-get val :fetcher)
                              '("git" "github" "gitlab" "bitbucket")))
-                (message (format "%s is used %s as fetcher!! remove it!!"
+                (message (format "[Remove] %s is used fetcher: %s"
                                  (symbol-name key) (plist-get val :fetcher)))
               (puthash
                (intern

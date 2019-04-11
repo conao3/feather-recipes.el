@@ -28,7 +28,7 @@
             (puthash (intern
                       (replace-regexp-in-string "^:" "" (symbol-name key)))
                      (cdr
-                      `(:dammy-symbol
+                      `(:dummy-symbol
                         :fetcher ,(plist-get val :fetcher)
                         :repo    ,(if (string= (plist-get val :fetcher) "git")
                                       (plist-get val :url)
@@ -36,7 +36,7 @@
                         :files   ,(plist-get val :files)
                         ,@(when detail-p
                             (cdr
-                             `(:dammy-symbol
+                             `(:dummy-symbol
                                :ver         ,(plist-get val :ver)
                                :deps        ,(plist-get val :deps)
                                :description ,(plist-get val :desc)

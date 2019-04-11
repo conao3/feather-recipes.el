@@ -32,8 +32,10 @@ If KEY isn't present, return DEFAULT (nil if not specified)."
             (setq val (pop obj))
             (setq props (plist-get val :props))
 
-            (when (member (plist-get val :fetcher)
-                          '("git" "github" "gitlab" "bitbucket"))
+            (if (not (member (plist-get val :fetcher)
+                             '("git" "github" "gitlab" "bitbucket")))
+                (message (format "%s is used %s as fetcher!! remove it!!"
+                                 (symbol-name key) (plist-get val :fetcher)))
               (puthash
                (intern
                 (replace-regexp-in-string "^:" "" (symbol-name key)))

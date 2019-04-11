@@ -44,12 +44,13 @@ If KEY isn't present, return DEFAULT (nil if not specified)."
                                 (plist-get val :url)
                               (plist-get val :repo))
                   :files   ,(plist-get val :files)
+                  :deps    ,(plist-get val :deps)
+                  ,@(when (plist-member val :branch)
+                      `@(:branch ,(plist-get val :branch)))
                   ,@(when detail-p
                       (cdr
                        `(:dummy-symbol
-                         :ver         ,(plist-get val :ver)
-                         :deps        ,(plist-get val :deps)
-                         :description ,(plist-get val :desc)
+                         :description ,(plist-get val   :desc)
                          :url         ,(plist-get props :url)
                          :keywords    ,(plist-get props :keywords)
                          :authors     ,(plist-get props :authors)

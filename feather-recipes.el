@@ -4,6 +4,13 @@
 ;;   `ls does not support --dired; see ‘dired-use-ls-dired’ for more details.`
 (setq dired-use-ls-dired nil)
 
+(defun feather-plist-get (plist key &optional default)
+  "Look up KEY in PLIST, and return the matching value.
+If KEY isn't present, return DEFAULT (nil if not specified)."
+  (if (plist-member plist key)
+      (plist-get plist key)
+    default))
+
 (let ((json-object-type 'plist)
       (json-array-type  'list)
       (json-key-type    'keyword))
@@ -24,27 +31,30 @@
             (setq key (pop obj))
             (setq val (pop obj))
             (setq props (plist-get val :props))
-            
-            (puthash (intern
-                      (replace-regexp-in-string "^:" "" (symbol-name key)))
-                     (cdr
-                      `(:dummy-symbol
-                        :fetcher ,(plist-get val :fetcher)
-                        :repo    ,(if (string= (plist-get val :fetcher) "git")
-                                      (plist-get val :url)
-                                    (plist-get val :repo))
-                        :files   ,(plist-get val :files)
-                        ,@(when detail-p
-                            (cdr
-                             `(:dummy-symbol
-                               :ver         ,(plist-get val :ver)
-                               :deps        ,(plist-get val :deps)
-                               :description ,(plist-get val :desc)
-                               :url         ,(plist-get props :url)
-                               :keywords    ,(plist-get props :keywords)
-                               :authors     ,(plist-get props :authors)
-                               :maintainer  ,(plist-get props :maintainer))))))
-                     hash))
+
+            (when (member (plist-get val :fetcher)
+                          '("git" "github" "gitlab" "bitbucket"))
+              (puthash
+               (intern
+                (replace-regexp-in-string "^:" "" (symbol-name key)))
+               (cdr
+                `(:dummy-symbol
+                  :fetcher ,(plist-get val :fetcher)
+                  :repo    ,(if (string= (plist-get val :fetcher) "git")
+                                (plist-get val :url)
+                              (plist-get val :repo))
+                  :files   ,(plist-get val :files)
+                  ,@(when detail-p
+                      (cdr
+                       `(:dummy-symbol
+                         :ver         ,(plist-get val :ver)
+                         :deps        ,(plist-get val :deps)
+                         :description ,(plist-get val :desc)
+                         :url         ,(plist-get props :url)
+                         :keywords    ,(plist-get props :keywords)
+                         :authors     ,(plist-get props :authors)
+                         :maintainer  ,(plist-get props :maintainer))))))
+               hash)))
 
           (with-temp-file write-file
             (insert

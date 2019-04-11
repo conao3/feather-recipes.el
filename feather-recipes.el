@@ -48,7 +48,7 @@ If KEY isn't present, return DEFAULT (nil if not specified)."
                   :files   ,(plist-get val :files)
                   :deps    ,(plist-get val :deps)
                   ,@(when (plist-member val :branch)
-                      `@(:branch ,(plist-get val :branch)))
+                      `(:branch ,(plist-get val :branch)))
                   ,@(when detail-p
                       (cdr
                        `(:dummy-symbol

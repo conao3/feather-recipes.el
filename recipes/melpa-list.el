@@ -1820,7 +1820,7 @@
   lsp-sourcekit (:fetcher "github" :repo "emacs-lsp/lsp-sourcekit" :files nil :deps (:emacs (25 1) :lsp-mode (5)))
   lsp-scala (:fetcher "github" :repo "rossabaker/lsp-scala" :files nil :deps (:emacs (24 4) :lsp-mode (5 0) :sbt-mode (2 0)))
   lsp-p4 (:fetcher "github" :repo "dmakarov/p4ls" :files ("clients/emacs/*.el") :deps (:lsp-mode (3 0)))
-  lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :spinner (1 7 3)))
+  lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :spinner (1 7 3) :markdown-mode (2 3)))
   lsp-javacomp (:fetcher "github" :repo "tigersoldier/lsp-javacomp" :files nil :deps (:emacs (25 1) :lsp-mode (3 0) :s (1 2 0)))
   lsp-java (:fetcher "github" :repo "emacs-lsp/lsp-java" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :lsp-mode (6 0) :markdown-mode (2 3) :dash (2 14 1) :f (0 20 0) :ht (2 0) :dash-functional (1 2 0) :request (0 3 0)))
   lsp-intellij (:fetcher "github" :repo "Ruin0x11/lsp-intellij" :files nil :deps (:emacs (25 1) :lsp-mode (4 1)))

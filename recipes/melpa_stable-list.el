@@ -1893,7 +1893,7 @@
   caskxy (:fetcher "github" :repo "aki2o/caskxy" :files nil :deps (:log4e (0 2 0) :yaxception (0 1)))
   cask-package-toolset (:fetcher "github" :repo "AdrieanKhisbe/cask-package-toolset.el" :files ("//:defaults//" "bin" "templates") :deps (:emacs (24) :cl-lib (0 3) :s (1 6 1) :dash (1 8 0) :f (0 10 0) :commander (0 2 0) :ansi (0 1 0) :shut-up (0 1 0)))
   cask-mode (:fetcher "github" :repo "Wilfred/cask-mode" :files nil :deps (:emacs (24 3)))
-  cask (:fetcher "github" :repo "cask/cask" :files nil :deps (:s (1 8 0) :dash (2 2 0) :f (0 16 0) :epl (0 5) :shut-up (0 1 0) :cl-lib (0 3) :package-build (1 2)))
+  cask (:fetcher "github" :repo "cask/cask" :files ("cask.el") :deps (:s (1 8 0) :dash (2 2 0) :f (0 16 0) :epl (0 5) :shut-up (0 1 0) :cl-lib (0 3) :package-build (1 2)))
   caseformat (:fetcher "github" :repo "HKey/caseformat" :files nil :deps (:emacs (24) :cl-lib (0 5) :dash (2 12 1) :s (1 10 0)))
   cargo (:fetcher "github" :repo "kwrooijen/cargo.el" :files nil :deps (:emacs (24 3) :rust-mode (0 2 0)))
   cangjie (:fetcher "github" :repo "kisaragi-hiu/cangjie.el" :files nil :deps (:emacs (24 4) :s (1 12 0) :dash (2 14 1) :f (0 2 0)))

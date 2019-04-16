@@ -698,7 +698,7 @@
   org-dp (:fetcher "github" :repo "tj64/org-dp" :files nil :deps (:cl-lib (0 5)))
   org-download (:fetcher "github" :repo "abo-abo/org-download" :files nil :deps (:async (1 2)))
   org-doing (:fetcher "github" :repo "rudolfolah/org-doing" :files ("//:defaults//" "bin") :deps nil)
-  org-d20 (:fetcher "git" :repo "https://git.spwhitton.name/org-d20" :files nil :deps (:s (0) :seq (0) :dash (0)))
+  org-d20 (:fetcher "git" :repo "https://git.spwhitton.name/org-d20" :files nil :deps (:s (1 11 0) :seq (2 19) :dash (2 12 0) :emacs (24)))
   org-commentary (:fetcher "github" :repo "smaximov/org-commentary" :files ("//:defaults//" "bin") :deps (:dash (2 0) :emacs (24 4) :org (8 0)))
   org-clock-csv (:fetcher "github" :repo "atheriel/org-clock-csv" :files nil :deps (:org (8 3) :s (1 0)))
   org-category-capture (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-category-capture*.el") :deps (:org (9 0 0) :emacs (24)))

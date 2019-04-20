@@ -3212,7 +3212,7 @@
     electric-case (:fetcher "github" :repo "zk-phi/electric-case" :files nil :deps nil)
     eldoc-overlay (:fetcher "github" :repo "stardiviner/eldoc-overlay" :files nil :deps (:emacs (24 3) :inline-docs (1 0 1) :quick-peek (1 0)))
     eldoc-eval (:fetcher "github" :repo "thierryvolpiatto/eldoc-eval" :files nil :deps nil)
-    eldoc-cmake (:fetcher "github" :repo "ikirill/eldoc-cmake" :files nil :deps (:emacs (24 4)))
+    eldoc-cmake (:fetcher "github" :repo "ikirill/eldoc-cmake" :files nil :deps (:emacs (25 1)))
     eldoc-box (:fetcher "github" :repo "casouri/eldoc-box" :files nil :deps (:emacs (26 1)))
     elcouch (:fetcher "github" :repo "DamienCassou/elcouch" :files nil :deps (:emacs (25 1) :json-mode (1 0 0) :libelcouch (0 8 0)))
     elcord (:fetcher "github" :repo "Mstrodl/elcord" :files ("//:defaults//" "stdpipe.ps1") :deps (:emacs (25)))

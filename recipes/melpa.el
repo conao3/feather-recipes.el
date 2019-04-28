@@ -376,7 +376,7 @@
     thinks (:fetcher "github" :repo "davep/thinks.el" :files nil :deps (:cl-lib (0 5)))
     thingopt (:fetcher "github" :repo "m2ym/thingopt-el" :files ("thingopt.el") :deps nil)
     therapy (:fetcher "github" :repo "abingham/therapy" :files nil :deps (:emacs (24)))
-    theme-magic (:fetcher "github" :repo "jcaw/theme-magic" :files ("//:defaults//" "python") :deps (:emacs (24 4) :seq (1 8)))
+    theme-magic (:fetcher "github" :repo "jcaw/theme-magic" :files ("//:defaults//" "python") :deps (:emacs (25) :seq (1 8)))
     theme-looper (:fetcher "github" :repo "myTerminal/theme-looper" :files nil :deps (:cl-lib (0 5)))
     theme-changer (:fetcher "github" :repo "hadronzoo/theme-changer" :files nil :deps nil)
     tfsmacs (:fetcher "github" :repo "sebasmonia/tfsmacs" :files nil :deps (:emacs (25) :tablist (0 70)))

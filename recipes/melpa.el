@@ -3270,7 +3270,7 @@
     ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets") :deps (:emacs (25 1) :clomacs (0 0 3) :dash (2 12 1) :auto-complete (1 5 1) :spinner (1 7 1) :direx (1 0 0)))
     eink-theme (:fetcher "github" :repo "maio/eink-emacs" :files nil :deps nil)
     ein-mumamo (:fetcher "github" :repo "millejoh/ein-mumamo" :files nil :deps (:ein (0 4)))
-    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:websocket (1 7) :auto-complete (1 4 0) :request (0 3) :deferred (0 5) :polymode (20190102 1910) :markdown-mode (20171116 756) :dash (2 13 0) :s (1 11 0) :skewer-mode (1 6 2)))
+    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (1 7) :auto-complete (1 4 0) :request (0 3) :deferred (0 5) :polymode (20190426 1729) :markdown-mode (20171116 756) :dash (2 13 0) :s (1 11 0) :skewer-mode (1 6 2)))
     eimp (:fetcher "github" :repo "nicferrier/eimp" :files nil :deps nil)
     eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
     ego (:fetcher "github" :repo "emacs-china/EGO" :files ("//:defaults//" "themes") :deps (:emacs (24 5) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0) :simple-httpd (1 4 5)))

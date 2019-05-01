@@ -1747,7 +1747,7 @@
     decide (:fetcher "github" :repo "lifelike/decide-mode" :files nil :deps nil)
     debpaste (:fetcher "github" :repo "alezost/debpaste.el" :files nil :deps (:xml-rpc (1 6 7)))
     debian-el (:fetcher "git" :repo "https://salsa.debian.org/emacsen-team/debian-el.git" :files nil :deps nil)
-    deadgrep (:fetcher "github" :repo "Wilfred/deadgrep" :files nil :deps (:emacs (25 1) :dash (2 12 0) :s (1 11 0) :spinner (1 7 3) :projectile (0 14 0)))
+    deadgrep (:fetcher "github" :repo "Wilfred/deadgrep" :files nil :deps (:emacs (25 1) :dash (2 12 0) :s (1 11 0) :spinner (1 7 3)))
     datetime (:fetcher "github" :repo "doublep/datetime" :files ("//:defaults//" "*.extmap") :deps (:emacs (24 1) :extmap (1 0)))
     date-field (:fetcher "github" :repo "aki2o/emacs-date-field" :files nil :deps (:dash (2 9 0) :log4e (0 2 0) :yaxception (0 3 2)))
     date-at-point (:fetcher "github" :repo "alezost/date-at-point.el" :files nil :deps nil)

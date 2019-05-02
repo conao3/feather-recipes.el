@@ -185,7 +185,7 @@
     tickscript-mode (:fetcher "github" :repo "msherry/tickscript-mode" :files nil :deps (:emacs (24 1)))
     thrift (:fetcher "github" :repo "facebook/fbthrift" :files ("thrift/contrib/thrift.el") :deps (:emacs (24)))
     thinks (:fetcher "github" :repo "davep/thinks.el" :files nil :deps (:cl-lib (0 5)))
-    theme-looper (:fetcher "github" :repo "myTerminal/theme-looper" :files nil :deps (:cl-lib (0 5)))
+    theme-looper (:fetcher "github" :repo "myTerminal/theme-looper" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     theme-changer (:fetcher "github" :repo "hadronzoo/theme-changer" :files nil :deps nil)
     textx-mode (:fetcher "github" :repo "novakboskov/textx-mode" :files nil :deps (:emacs (24 3)))
     textmate-to-yas (:fetcher "github" :repo "mattfidler/textmate-to-yas.el" :files ("//:defaults//" "*.pl") :deps nil)

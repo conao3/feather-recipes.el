@@ -1836,7 +1836,7 @@
   lsp-treemacs (:fetcher "github" :repo "emacs-lsp/lsp-treemacs" :files nil :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :treemacs (2 5) :lsp-mode (6 0)))
   lsp-sourcekit (:fetcher "github" :repo "emacs-lsp/lsp-sourcekit" :files nil :deps (:emacs (25 1) :lsp-mode (5)))
   lsp-scala (:fetcher "github" :repo "rossabaker/lsp-scala" :files nil :deps (:emacs (24 4) :lsp-mode (5 0) :sbt-mode (2 0)))
-  lsp-python-ms (:fetcher "github" :repo "andrew-christianson/lsp-python-ms" :files nil :deps (:cl-lib (0 6 1) :lsp-mode (6 0) :python (0 26 1) :json (1 4) :emacs (24 4)))
+  lsp-python-ms (:fetcher "github" :repo "emacs-lsp/lsp-python-ms" :files nil :deps (:cl-lib (0 6 1) :lsp-mode (6 0) :python (0 26 1) :json (1 4) :emacs (24 4)))
   lsp-pyre (:fetcher "github" :repo "jra3/lsp-pyre" :files nil :deps (:lsp-mode (6 0)))
   lsp-p4 (:fetcher "github" :repo "dmakarov/p4ls" :files ("clients/emacs/*.el") :deps (:lsp-mode (3 0)))
   lsp-origami (:fetcher "github" :repo "emacs-lsp/lsp-origami" :files nil :deps (:origami (1 0) :lsp-mode (20190326 522)))

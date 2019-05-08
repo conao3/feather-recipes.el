@@ -2448,7 +2448,7 @@
   helm-dictionary (:fetcher "github" :repo "emacs-helm/helm-dictionary" :files nil :deps (:helm (1 5 5)))
   helm-describe-modes (:fetcher "github" :repo "emacs-helm/helm-describe-modes" :files nil :deps (:helm (1 9) :cl-lib (0 5) :emacs (24 1)))
   helm-descbinds (:fetcher "github" :repo "emacs-helm/helm-descbinds" :files nil :deps (:helm (1 5)))
-  helm-dash (:fetcher "github" :repo "areina/helm-dash" :files nil :deps (:helm (1 9 2) :cl-lib (0 5)))
+  helm-dash (:fetcher "github" :repo "areina/helm-dash" :files nil :deps (:emacs (24 4) :dash-docs (1 4 0) :helm (1 9 2) :cl-lib (0 5)))
   helm-ctest (:fetcher "github" :repo "danlamanna/helm-ctest" :files nil :deps (:s (1 9 0) :dash (2 11 0) :helm-core (1 7 4)))
   helm-css-scss (:fetcher "github" :repo "ShingoFukuyama/helm-css-scss" :files nil :deps (:helm (1 0) :emacs (24)))
   helm-cscope (:fetcher "github" :repo "alpha22jp/helm-cscope.el" :files nil :deps (:xcscope (1 0) :helm (1 6 7) :cl-lib (0 5) :emacs (24 1)))

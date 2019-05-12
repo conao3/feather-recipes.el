@@ -1710,7 +1710,7 @@
     disable-mouse (:fetcher "github" :repo "purcell/disable-mouse" :files nil :deps nil)
     direx-grep (:fetcher "github" :repo "aki2o/direx-grep" :files nil :deps (:direx (0 1 -3)))
     direx (:fetcher "github" :repo "m2ym/direx-el" :files ("direx.el" "direx-project.el") :deps nil)
-    direnv (:fetcher "github" :repo "wbolster/emacs-direnv" :files nil :deps (:emacs (24 4) :dash (2 12 0) :with-editor (2 5 10)))
+    direnv (:fetcher "github" :repo "wbolster/emacs-direnv" :files nil :deps (:emacs (24 4) :dash (2 12 0)))
     diredful (:fetcher "github" :repo "thamer/diredful" :files nil :deps nil)
     diredfl (:fetcher "github" :repo "purcell/diredfl" :files nil :deps (:emacs (24)))
     dired-toggle-sudo (:fetcher "github" :repo "renard/dired-toggle-sudo" :files nil :deps nil)

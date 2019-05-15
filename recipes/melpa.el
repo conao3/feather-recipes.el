@@ -3008,7 +3008,7 @@
     exato (:fetcher "github" :repo "ninrod/exato" :files nil :deps (:evil (1 2 13) :emacs (24)))
     eww-lnum (:fetcher "github" :repo "m00natic/eww-lnum" :files nil :deps nil)
     ewmctrl (:fetcher "github" :repo "flexibeast/ewmctrl" :files nil :deps nil)
-    ewal-spacemacs-theme (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("spacemacs-theme/*.el") :deps nil)
+    ewal-spacemacs-themes (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("spacemacs-themes/*.el") :deps (:emacs (25) :ewal (0 1) :spacemacs-theme (0 1)))
     ewal-evil-cursors (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("evil-cursors/*.el") :deps (:emacs (25) :ewal (0 1)))
     ewal (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("ewal.el") :deps (:emacs (25)))
     evm (:fetcher "github" :repo "rejeep/evm.el" :files nil :deps (:dash (2 3 0) :f (0 13 0)))

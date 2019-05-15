@@ -2661,7 +2661,7 @@
   evil-vimish-fold (:fetcher "github" :repo "alexmurray/evil-vimish-fold" :files nil :deps nil)
   ewal (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("ewal.el") :deps nil)
   ewal-evil-cursors (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("evil-cursors/*.el") :deps nil)
-  ewal-spacemacs-theme (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("spacemacs-theme/*.el") :deps nil)
+  ewal-spacemacs-themes (:fetcher "gitlab" :repo "jjzmajic/ewal" :files ("spacemacs-themes/*.el") :deps nil)
   ewmctrl (:fetcher "github" :repo "flexibeast/ewmctrl" :files nil :deps nil)
   exotica-theme (:fetcher "github" :repo "jbharat/exotica-theme" :files nil :deps nil)
   expand-line (:fetcher "github" :repo "zhangkaiyulw/expand-line" :files nil :deps nil)

@@ -3735,6 +3735,7 @@
   readability (:fetcher "github" :repo "ShingoFukuyama/emacs-readability" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   readline-complete (:fetcher "github" :repo "monsanto/readline-complete.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   realgud-byebug (:fetcher "github" :repo "realgud/realgud-byebug" :files ("realgud-byebug.el" "byebug" "byebug/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
+  realgud-lldb (:fetcher "github" :repo "realgud/realgud-lldb" :files ("//:defaults//" "lldb" "lldb/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   realgud-old-debuggers (:fetcher "github" :repo "realgud/realgud-old-debuggers" :files ("realgud-old-debuggers.el" "pydb" "pydb/*.el" "pydbgr" "pydbgr/*.el" "trepan8" "trepan8/*.el" "trepanx" "trepanx/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   realgud-pry (:fetcher "github" :repo "realgud/realgud-pry" :files ("realgud-pry.el" "pry" "pry/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   realgud-rdb2 (:fetcher "github" :repo "realgud/realgud-ruby-debugger2" :files ("realgud-rdb2.el" "rdb2" "rdb2/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)

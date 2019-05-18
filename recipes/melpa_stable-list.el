@@ -3740,6 +3740,7 @@
   realgud-old-debuggers (:fetcher "github" :repo "realgud/realgud-old-debuggers" :files ("realgud-old-debuggers.el" "pydb" "pydb/*.el" "pydbgr" "pydbgr/*.el" "trepan8" "trepan8/*.el" "trepanx" "trepanx/*.el") :deps nil)
   realgud-pry (:fetcher "github" :repo "realgud/realgud-pry" :files ("realgud-pry.el" "pry" "pry/*.el") :deps nil)
   realgud-rdb2 (:fetcher "github" :repo "realgud/realgud-ruby-debugger2" :files ("realgud-rdb2.el" "rdb2" "rdb2/*.el") :deps nil)
+  realgud-trepan-ni (:fetcher "github" :repo "realgud/realgud-trepan-ni" :files ("//:defaults//" "trepan-ni" "trepan-ni/*.el") :deps nil)
   rebox2 (:fetcher "github" :repo "lewang/rebox2" :files nil :deps nil)
   recentf-ext (:fetcher "github" :repo "rubikitch/recentf-ext" :files nil :deps nil)
   recentf-remove-sudo-tramp-prefix (:fetcher "github" :repo "ncaq/recentf-remove-sudo-tramp-prefix" :files nil :deps nil)

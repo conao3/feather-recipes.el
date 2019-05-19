@@ -665,7 +665,7 @@
     sibilant-mode (:fetcher "github" :repo "jbr/sibilant-mode" :files nil :deps nil)
     shx (:fetcher "github" :repo "riscy/shx-for-emacs" :files nil :deps (:emacs (24 4)))
     shut-up (:fetcher "github" :repo "cask/shut-up" :files nil :deps (:cl-lib (0 3) :emacs (24)))
-    shroud (:fetcher "github" :repo "o-nly/emacs-shroud" :files nil :deps (:emacs (24) :f (0 20) :bui (1 2 0)))
+    shroud (:fetcher "github" :repo "o-nly/emacs-shroud" :files nil :deps (:emacs (24) :f (0 20) :bui (1 2 0) :epg (1 0 0)))
     shrink-whitespace (:fetcher "gitlab" :repo "jcpetkovich/shrink-whitespace.el" :files nil :deps nil)
     shrink-path (:fetcher "gitlab" :repo "bennya/shrink-path.el" :files nil :deps (:emacs (24) :s (1 6 1) :dash (1 8 0) :f (0 10 0)))
     shr-tag-pre-highlight (:fetcher "github" :repo "xuchunyang/shr-tag-pre-highlight.el" :files nil :deps (:emacs (25 1) :language-detection (0 1 0)))

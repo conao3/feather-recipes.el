@@ -3842,6 +3842,7 @@
     shimbun (:fetcher "github" :repo "emacs-w3m/emacs-w3m" :files ("shimbun/*.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
     shoulda (:fetcher "github" :repo "marcwebbie/shoulda.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
     show-css (:fetcher "github" :repo "8cylinder/showcss-mode" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
+    show-eol (:fetcher "github" :repo "elpa-host/show-eol" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
     sibilant-mode (:fetcher "github" :repo "jbr/sibilant-mode" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
     sicp (:fetcher "github" :repo "webframp/sicp-info" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
     signal (:fetcher "github" :repo "mola-T/signal" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)

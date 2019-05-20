@@ -671,6 +671,7 @@
     shr-tag-pre-highlight (:fetcher "github" :repo "xuchunyang/shr-tag-pre-highlight.el" :files nil :deps (:emacs (25 1) :language-detection (0 1 0)))
     shpec-mode (:fetcher "github" :repo "shpec/shpec-mode" :files nil :deps nil)
     showtip (:fetcher "github" :repo "emacsorphanage/showtip" :files nil :deps nil)
+    show-eol (:fetcher "github" :repo "elpa-host/show-eol" :files nil :deps (:emacs (24 3)))
     show-css (:fetcher "github" :repo "8cylinder/showcss-mode" :files nil :deps (:doom (1 3) :s (1 10 0)))
     shoulda (:fetcher "github" :repo "marcwebbie/shoulda.el" :files nil :deps (:cl-lib (0 5)))
     shm (:fetcher "github" :repo "chrisdone/structured-haskell-mode" :files ("elisp/*.el" (:exclude ("shm-test.el" "shm-tests.el"))) :deps nil)

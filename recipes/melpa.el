@@ -708,7 +708,7 @@
     sentence-navigation (:fetcher "github" :repo "noctuid/emacs-sentence-navigation" :files nil :deps (:ample-regexps (0 1) :cl-lib (0 5) :emacs (24 4)))
     sensitive (:fetcher "github" :repo "timvisher/sensitive.el" :files ("sensitive.el") :deps (:emacs (24) :sequences (0 1 0)))
     sendto (:fetcher "github" :repo "lujun9972/sendto.el" :files nil :deps (:emacs (24 4)))
-    seml-mode (:fetcher "github" :repo "conao3/seml-mode.el" :files nil :deps (:emacs (25) :simple-httpd (1 5) :htmlize (1 5)))
+    seml-mode (:fetcher "github" :repo "conao3/seml-mode.el" :files nil :deps (:emacs (25) :simple-httpd (1 5) :htmlize (1 5) :web-mode (16 0)))
     semi (:fetcher "github" :repo "wanderlust/semi" :files nil :deps (:flim (1 14 9)))
     selectric-mode (:fetcher "github" :repo "rbanffy/selectric-mode" :files ("//:defaults//" "*.wav") :deps nil)
     selected (:fetcher "github" :repo "Kungsgeten/selected.el" :files nil :deps nil)

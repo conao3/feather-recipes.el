@@ -3131,6 +3131,7 @@
   eslint-fix (:fetcher "github" :repo "codesuki/eslint-fix" :files nil :deps nil)
   eshell-z (:fetcher "github" :repo "xuchunyang/eshell-z" :files nil :deps (:cl-lib (0 5)))
   eshell-up (:fetcher "github" :repo "peterwvj/eshell-up" :files nil :deps (:emacs (24)))
+  eshell-toggle (:fetcher "github" :repo "4DA/eshell-toggle" :files nil :deps (:emacs (25 1) :dash (2 11 0)))
   eshell-prompt-extras (:fetcher "github" :repo "kaihaosw/eshell-prompt-extras" :files nil :deps nil)
   eshell-git-prompt (:fetcher "github" :repo "xuchunyang/eshell-git-prompt" :files nil :deps (:emacs (24 1) :cl-lib (0 5) :dash (2 11 0)))
   eshell-fringe-status (:fetcher "github" :repo "ryuslash/eshell-fringe-status" :files nil :deps nil)

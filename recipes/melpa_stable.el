@@ -2573,7 +2573,7 @@
     elisp-sandbox (:fetcher "github" :repo "joelmccracken/elisp-sandbox" :files ("elisp-sandbox.el") :deps nil)
     elm-test-runner (:fetcher "github" :repo "juanedi/elm-test-runner" :files nil :deps nil)
     elm-yasnippets (:fetcher "github" :repo "abingham/elm-yasnippets" :files ("//:defaults//" "snippets") :deps nil)
-    elnode (:fetcher "github" :repo "nicferrier/elnode" :files ("*") :deps nil :branch "melpa")
+    elnode (:fetcher "github" :repo "jcaw/elnode" :files ("*") :deps nil :branch "melpa")
     elog (:fetcher "github" :repo "lujun9972/elog" :files nil :deps nil)
     elogcat (:fetcher "github" :repo "youngker/elogcat.el" :files nil :deps nil)
     eloud (:fetcher "github" :repo "smythp/eloud" :files nil :deps nil)

@@ -2572,7 +2572,7 @@
   elisp-sandbox (:fetcher "github" :repo "joelmccracken/elisp-sandbox" :files ("elisp-sandbox.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   elm-test-runner (:fetcher "github" :repo "juanedi/elm-test-runner" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   elm-yasnippets (:fetcher "github" :repo "abingham/elm-yasnippets" :files ("//:defaults//" "snippets") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
-  elnode (:fetcher "github" :repo "nicferrier/elnode" :files ("*") :deps nil :branch "melpa" :description nil :url nil :keywords nil :authors nil :maintainer nil)
+  elnode (:fetcher "github" :repo "jcaw/elnode" :files ("*") :deps nil :branch "melpa" :description nil :url nil :keywords nil :authors nil :maintainer nil)
   elog (:fetcher "github" :repo "lujun9972/elog" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   elogcat (:fetcher "github" :repo "youngker/elogcat.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   eloud (:fetcher "github" :repo "smythp/eloud" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)

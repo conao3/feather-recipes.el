@@ -3250,7 +3250,7 @@
   eloud (:fetcher "github" :repo "smythp/eloud" :files nil :deps (:emacs (24 4)))
   elogcat (:fetcher "github" :repo "youngker/elogcat.el" :files nil :deps (:s (1 9 0) :dash (2 10 0)))
   elog (:fetcher "github" :repo "lujun9972/elog" :files nil :deps (:eieio (1 3)))
-  elnode (:fetcher "github" :repo "nicferrier/elnode" :files ("*") :deps (:web (0 1 4) :dash (1 1 0) :noflet (0 0 7) :s (1 5 0) :creole (0 8 14) :fakir (0 1 6) :db (0 0 5) :kv (0 0 17)) :branch "melpa")
+  elnode (:fetcher "github" :repo "jcaw/elnode" :files ("*") :deps (:web (0 1 4) :dash (1 1 0) :noflet (0 0 7) :s (1 5 0) :creole (0 8 14) :fakir (0 1 6) :db (0 0 5) :kv (0 0 17)) :branch "melpa")
   elmine (:fetcher "github" :repo "leoc/elmine" :files ("elmine.el") :deps (:s (1 10 0)))
   elmacro (:fetcher "github" :repo "Silex/elmacro" :files nil :deps (:s (1 11 0) :dash (2 13 0)))
   elm-yasnippets (:fetcher "github" :repo "abingham/elm-yasnippets" :files ("//:defaults//" "snippets") :deps (:yasnippet (0 8 0)))

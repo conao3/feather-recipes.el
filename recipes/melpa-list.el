@@ -3010,7 +3010,7 @@
   eyebrowse (:fetcher "github" :repo "wasamasa/eyebrowse" :files nil :deps (:dash (2 7 0) :emacs (24 3 1)))
   exwm-x (:fetcher "github" :repo "tumashu/exwm-x" :files nil :deps (:cl-lib (0 5) :exwm (0 22) :switch-window (0 10) :swiper (0 9 0) :bind-key (1 0) :counsel (0 9 0) :ivy (0 9 0)))
   exwm-surf (:fetcher "github" :repo "ecraven/exwm-surf" :files nil :deps (:emacs (24 4) :exwm (0 16)))
-  exwm-firefox-evil (:fetcher "github" :repo "walseb/exwm-firefox-evil" :files nil :deps (:emacs (24 4) :exwm (0 16) :evil (1 0 0)))
+  exwm-firefox-evil (:fetcher "github" :repo "walseb/exwm-firefox-evil" :files nil :deps (:emacs (24 4) :exwm (0 16) :evil (1 0 0) :exwm-firefox-core (1 0)))
   exwm-firefox-core (:fetcher "github" :repo "walseb/exwm-firefox-core" :files nil :deps (:emacs (24 4) :exwm (0 16)))
   exwm-edit (:fetcher "github" :repo "agzam/exwm-edit" :files nil :deps (:emacs (24 4)))
   exunit (:fetcher "github" :repo "ananthakumaran/exunit.el" :files nil :deps (:dash (2 10 0) :s (1 11 0) :emacs (24 3) :f (0 20 0)))

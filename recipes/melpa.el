@@ -2465,6 +2465,7 @@
     helm-ext (:fetcher "github" :repo "cute-jumper/helm-ext" :files nil :deps (:emacs (24 4) :helm (2 5 3)))
     helm-eww (:fetcher "github" :repo "emacs-helm/helm-eww" :files nil :deps (:emacs (24 4) :helm (2 8 6) :seq (1 8)))
     helm-etags-plus (:fetcher "github" :repo "jixiuf/helm-etags-plus" :files nil :deps (:helm (1 7 8)))
+    helm-esa (:fetcher "github" :repo "masutaka/emacs-helm-esa" :files nil :deps (:emacs (26 2) :helm (3 2) :request (0 3 0)))
     helm-emms (:fetcher "github" :repo "emacs-helm/helm-emms" :files nil :deps (:helm (1 5) :emms (0 0) :cl-lib (0 5) :emacs (24 1)))
     helm-emmet (:fetcher "github" :repo "yasuyk/helm-emmet" :files nil :deps (:helm (1 0) :emmet-mode (1 0 2)))
     helm-elscreen (:fetcher "github" :repo "emacs-helm/helm-elscreen" :files nil :deps (:helm (2 8 0) :elscreen (0) :cl-lib (0 5) :emacs (24 1)))

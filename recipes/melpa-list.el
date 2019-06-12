@@ -2919,7 +2919,7 @@
   flycheck-coverity (:fetcher "github" :repo "alexmurray/flycheck-coverity" :files nil :deps (:flycheck (0 24) :dash (2 12 0) :emacs (24 4)))
   flycheck-color-mode-line (:fetcher "github" :repo "flycheck/flycheck-color-mode-line" :files nil :deps (:flycheck (0 15) :dash (1 2) :emacs (24 1)))
   flycheck-clolyze (:fetcher "github" :repo "DLaps/flycheck-clolyze" :files nil :deps (:flycheck (0 25) :emacs (24)))
-  flycheck-clojure (:fetcher "github" :repo "clojure-emacs/squiggly-clojure" :files ("elisp/flycheck-clojure/*.el") :deps (:cider (0 8 1) :flycheck (0 22 -4 1) :let-alist (1 0 1) :emacs (24)))
+  flycheck-clojure (:fetcher "github" :repo "clojure-emacs/squiggly-clojure" :files ("elisp/flycheck-clojure/*.el") :deps (:cider (0 22 0) :flycheck (32 -4) :let-alist (1 0 1) :emacs (25)))
   flycheck-clj-kondo (:fetcher "github" :repo "borkdude/flycheck-clj-kondo" :files nil :deps (:flycheck (0 18)))
   flycheck-clangcheck (:fetcher "github" :repo "kumar8600/flycheck-clangcheck" :files nil :deps (:cl-lib (0 5) :seq (1 7) :flycheck (0 17)))
   flycheck-clang-tidy (:fetcher "github" :repo "ch1bo/flycheck-clang-tidy" :files nil :deps (:flycheck (0 30)))

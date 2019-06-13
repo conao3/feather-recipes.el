@@ -1656,7 +1656,7 @@
     el-autoyas (:fetcher "github" :repo "mattfidler/el-autoyas.el" :files nil :deps nil)
     ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets") :deps (:emacs (25 1) :clomacs (0 0 3) :dash (2 12 1) :auto-complete (1 5 1) :spinner (1 7 1) :direx (1 0 0)))
     eink-theme (:fetcher "github" :repo "maio/eink-emacs" :files nil :deps nil)
-    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:websocket (1 7) :auto-complete (1 4 0) :request (0 3) :deferred (0 5) :cl-generic (0 3) :dash (2 13 0) :s (1 11 0) :skewer-mode (1 6 2)))
+    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (1 7) :auto-complete (1 4 0) :request (0 3) :deferred (0 5) :polymode (20190426 1729) :markdown-mode (20171116 756) :dash (2 13 0) :s (1 11 0) :skewer-mode (1 6 2)))
     eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
     eglot (:fetcher "github" :repo "joaotavora/eglot" :files nil :deps (:emacs (26 1) :jsonrpc (1 0 7) :flymake (1 0 2)))
     egison-mode (:fetcher "github" :repo "egison/egison" :files ("elisp/*.el") :deps nil)

@@ -1462,7 +1462,7 @@
   flower (:fetcher "github" :repo "PositiveTechnologies/flower" :files ("//:defaults//" "project.clj") :deps (:emacs (24 4) :clomacs (0 0 3)))
   flow-minor-mode (:fetcher "github" :repo "an-sh/flow-minor-mode" :files nil :deps (:emacs (25 1)))
   floobits (:fetcher "github" :repo "Floobits/floobits-emacs" :files ("floo" "floobits.el" "floobits.py") :deps (:json (1 2) :highlight (0)))
-  flex-compile (:fetcher "github" :repo "plandes/flex-compile" :files nil :deps (:emacs (25) :buffer-manage (0 6) :dash (2 13 0)))
+  flex-compile (:fetcher "github" :repo "plandes/flex-compile" :files nil :deps (:emacs (26) :dash (2 13 0) :buffer-manage (0 8)))
   flatui-dark-theme (:fetcher "github" :repo "theasp/flatui-dark-theme" :files nil :deps (:emacs (24)))
   fixmee (:fetcher "github" :repo "rolandwalker/fixmee" :files nil :deps (:button-lock (1 0 2) :nav-flash (1 0 0) :back-button (0 6 0) :smartrep (0 0 3) :string-utils (0 3 2) :tabulated-list (0)))
   fix-word (:fetcher "github" :repo "mrkkrp/fix-word" :files nil :deps (:emacs (24 1) :cl-lib (0 5)))

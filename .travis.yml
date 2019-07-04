@@ -17,4 +17,5 @@ jobs:
       script:
         - make checkout
         - make --always-make
+      
         - make commit && make merge && make push

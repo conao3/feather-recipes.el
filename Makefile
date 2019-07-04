@@ -23,8 +23,10 @@ RECIPES-L     := $(FETCHER:%=$(RECIPEDIR)/%-$(LIST).el)
 DETAILS       := $(FETCHER:%=$(DETAILDIR)/%.el)
 DETAILS-L     := $(FETCHER:%=$(DETAILDIR)/%-$(LIST).el)
 
-EMACS         ?= emacs
-EVALEL        := feather-recipes.el
+DOCKER := docker run --rm -v $$(pwd)/:/.make
+EMACS  ?= conao3/emacs:alpine-min-26.2
+
+EVALEL := feather-recipes.el
 
 ##################################################
 
@@ -44,16 +46,16 @@ $(SOURCEDIR)/%.json: $(SCRIPTDIR)/create-%-json.rb
 ##############################
 
 $(RECIPEDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
-	$(EMACS) --script $(EVALEL) $< $@ nil nil
+	$(DOCKER) $(EMACS) emacs --script /.make/$(EVALEL) $< $@ nil nil
 
 $(RECIPEDIR)/%-$(LIST).el: $(SOURCEDIR)/%.json $(EVALEL)
-	$(EMACS) --script $(EVALEL) $< $@ nil list
+	$(DOCKER) $(EMACS) emacs --script /.make/$(EVALEL) $< $@ nil list
 
 $(DETAILDIR)/%.el:         $(SOURCEDIR)/%.json $(EVALEL)
-	$(EMACS) --script $(EVALEL) $< $@ detail nil
+	$(DOCKER) $(EMACS) emacs --script /.make/$(EVALEL) $< $@ detail nil
 
 $(DETAILDIR)/%-$(LIST).el: $(SOURCEDIR)/%.json $(EVALEL)
-	$(EMACS) --script $(EVALEL) $< $@ detail list
+	$(DOCKER) $(EMACS) emacs --script /.make/$(EVALEL) $< $@ detail list
 
 ##############################
 

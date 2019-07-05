@@ -218,7 +218,7 @@
     viking-mode (:fetcher "github" :repo "TLINDEN/viking-mode" :files nil :deps nil)
     viewer (:fetcher "github" :repo "rubikitch/viewer" :files nil :deps nil)
     vi-tilde-fringe (:fetcher "github" :repo "syl20bnr/vi-tilde-fringe" :files nil :deps (:emacs (24)))
-    vhdl-tools (:fetcher "github" :repo "csantosb/vhdl-tools" :files nil :deps (:ggtags (0 8 13) :emacs (26 1) :helm (3 1) :helm-rg (0 1)))
+    vhdl-tools (:fetcher "github" :repo "csantosb/vhdl-tools" :files nil :deps (:ggtags (0 8 13) :emacs (26 2) :helm-rg (0 1) :outshine (0)))
     vhdl-capf (:fetcher "github" :repo "sh-ow/vhdl-capf" :files nil :deps nil)
     vertigo (:fetcher "github" :repo "noctuid/vertigo.el" :files nil :deps (:dash (2 11 0)))
     vertica-snippets (:fetcher "github" :repo "baron42bba/vertica-snippets" :files ("*.el" "snippets") :deps (:yasnippet (0 6 1)))

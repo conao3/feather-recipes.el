@@ -3071,6 +3071,7 @@
     ibuffer-project (:fetcher "github" :repo "muffinmad/emacs-ibuffer-project" :files nil :deps nil)
     ibuffer-rcirc (:fetcher "github" :repo "fgallina/ibuffer-rcirc" :files nil :deps nil)
     ibuffer-sidebar (:fetcher "github" :repo "jojojames/ibuffer-sidebar" :files nil :deps nil)
+    icsql (:fetcher "github" :repo "plandes/icsql" :files nil :deps nil)
     id-manager (:fetcher "github" :repo "kiwanami/emacs-id-manager" :files nil :deps nil)
     idea-darkula-theme (:fetcher "github" :repo "fourier/idea-darkula-theme" :files nil :deps nil)
     idle-org-agenda (:fetcher "github" :repo "enisozgen/idle-org-agenda" :files nil :deps nil)

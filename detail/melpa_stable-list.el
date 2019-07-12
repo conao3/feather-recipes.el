@@ -3430,7 +3430,7 @@
   nlinum-relative (:fetcher "github" :repo "CodeFalling/nlinum-relative" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nm (:fetcher "github" :repo "tjim/nevermore" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nnir-est (:fetcher "github" :repo "kawabata/nnir-est" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
-  nnreddit (:fetcher "github" :repo "dickmao/nnreddit" :files ("lisp/*.el" "setup.py" "nnreddit") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
+  nnreddit (:fetcher "github" :repo "dickmao/nnreddit" :files ("lisp/*.el" "setup.py" "requirements.txt" "nnreddit") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   no-emoji (:fetcher "github" :repo "ecraven/no-emoji" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   noaa (:fetcher "github" :repo "thomp/noaa" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nocomments-mode (:fetcher "github" :repo "Lindydancer/nocomments-mode" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)

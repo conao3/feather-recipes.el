@@ -1581,7 +1581,7 @@
     noaa (:fetcher "github" :repo "thomp/noaa" :files nil :deps (:request (0 2 0) :cl-lib (0 5) :emacs (24) :dash (2 14 1)))
     no-littering (:fetcher "github" :repo "emacscollective/no-littering" :files nil :deps (:cl-lib (0 5)))
     no-emoji (:fetcher "github" :repo "ecraven/no-emoji" :files nil :deps (:emacs (24)))
-    nnreddit (:fetcher "github" :repo "dickmao/nnreddit" :files ("lisp/*.el" "setup.py" "nnreddit") :deps (:emacs (25) :virtualenvwrapper (20190223 1919) :json-rpc (20180104 1528)))
+    nnreddit (:fetcher "github" :repo "dickmao/nnreddit" :files ("lisp/*.el" "setup.py" "requirements.txt" "nnreddit") :deps (:emacs (25) :virtualenvwrapper (20190223 1919) :json-rpc (20180104 1528)))
     nnir-est (:fetcher "github" :repo "kawabata/nnir-est" :files nil :deps nil)
     nm (:fetcher "github" :repo "tjim/nevermore" :files nil :deps (:notmuch (0 21) :peg (0 6) :company (0) :emacs (24 3)))
     nlinum-relative (:fetcher "github" :repo "CodeFalling/nlinum-relative" :files nil :deps (:emacs (24 4) :nlinum (1 5)))

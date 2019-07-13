@@ -1411,7 +1411,7 @@
   org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el") :deps (:s (0) :dash (2 13 0) :emacs (24 4) :org (9 1)))
   org-journal-list (:fetcher "github" :repo "huytd/org-journal-list" :files nil :deps (:emacs (25)))
   org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil :deps (:emacs (25 1)))
-  org-jira (:fetcher "github" :repo "ahungry/org-jira" :files ("jiralib.el" "org-jira.el" "org-jira-sdk.el") :deps (:emacs (24 5) :cl-lib (0 5) :request (0 2 0) :s (0 0 0) :dash (2 14 1)))
+  org-jira (:fetcher "github" :repo "ahungry/org-jira" :files ("jiralib.el" "org-jira.el" "org-jira-sdk.el") :deps (:emacs (24 5) :cl-lib (0 5) :request (0 2 0) :dash (2 14 1)))
   org-iv (:fetcher "github" :repo "kuangdash/org-iv" :files ("//:defaults//" "default" "default/org-iv-front-file" "default/org-back-file" ("css" "default/css/*") ("js" "default/js/*")) :deps (:impatient-mode (1 0 0) :org (8 0) :cl-lib (0 5)))
   org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:emacs (24 4)))
   org-if (:fetcher "gitlab" :repo "elzair/org-if" :files nil :deps nil)

@@ -4049,7 +4049,7 @@
     bar-cursor (:fetcher "github" :repo "ajsquared/bar-cursor" :files nil :deps nil)
     bap-mode (:fetcher "github" :repo "fkie-cad/bap-mode" :files nil :deps nil)
     banner-comment (:fetcher "github" :repo "WJCFerguson/banner-comment" :files nil :deps (:emacs (24 4)))
-    bang (:fetcher "git" :repo "https://git.sr.ht/~zge/bang" :files nil :deps (:emacs (24 1) :seq (2 20)))
+    bang (:fetcher "git" :repo "https://git.sr.ht/~zge/bang" :files nil :deps (:emacs (24 1)))
     badwolf-theme (:fetcher "github" :repo "bkruczyk/badwolf-emacs" :files nil :deps (:emacs (24)))
     badger-theme (:fetcher "github" :repo "ccann/badger-theme" :files nil :deps nil)
     backward-forward (:fetcher "gitlab" :repo "vancan1ty/emacs-backward-forward" :files nil :deps (:emacs (24 5)))

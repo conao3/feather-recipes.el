@@ -2024,7 +2024,7 @@
     bash-completion (:fetcher "github" :repo "szermatt/emacs-bash-completion" :files nil :deps nil)
     base16-theme (:fetcher "github" :repo "belak/base16-emacs" :files ("//:defaults//" "build/*.el") :deps nil)
     banner-comment (:fetcher "github" :repo "WJCFerguson/banner-comment" :files nil :deps (:emacs (24 4)))
-    bang (:fetcher "git" :repo "https://git.sr.ht/~zge/bang" :files nil :deps (:emacs (24 1) :cl-lib (0 5)))
+    bang (:fetcher "git" :repo "https://git.sr.ht/~zge/bang" :files nil :deps (:emacs (24 1)))
     badwolf-theme (:fetcher "github" :repo "bkruczyk/badwolf-emacs" :files nil :deps (:emacs (24)))
     backline (:fetcher "github" :repo "tarsius/backline" :files nil :deps (:emacs (25 1) :outline-minor-faces (0 1 0)))
     back-button (:fetcher "github" :repo "rolandwalker/back-button" :files nil :deps (:nav-flash (1 0 0) :smartrep (0 0 3) :ucs-utils (0 7 2) :persistent-soft (0 8 8) :pcache (0 2 3)))

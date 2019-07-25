@@ -3670,7 +3670,7 @@
     counsel-tramp (:fetcher "github" :repo "masasam/emacs-counsel-tramp" :files nil :deps (:emacs (24 3) :counsel (0 10)))
     counsel-spotify (:fetcher "github" :repo "Lautaro-Garcia/counsel-spotify" :files nil :deps (:emacs (25) :ivy (0 9 0)))
     counsel-pydoc (:fetcher "github" :repo "co-dh/pydoc_utils" :files nil :deps (:emacs (24 3) :ivy (0 9 1)))
-    counsel-projectile (:fetcher "github" :repo "ericdanan/counsel-projectile" :files nil :deps (:counsel (0 11 0) :projectile (2 0 0)))
+    counsel-projectile (:fetcher "github" :repo "ericdanan/counsel-projectile" :files nil :deps (:counsel (0 12 0) :projectile (2 0 0)))
     counsel-osx-app (:fetcher "github" :repo "d12frosted/counsel-osx-app" :files nil :deps (:ivy (0 8 0) :emacs (24 3)))
     counsel-org-clock (:fetcher "github" :repo "akirak/counsel-org-clock" :files nil :deps (:emacs (24 3) :ivy (0 10 0) :dash (2 0)))
     counsel-org-capture-string (:fetcher "github" :repo "akirak/counsel-org-capture-string" :files nil :deps (:emacs (25 1) :ivy (0 10)))

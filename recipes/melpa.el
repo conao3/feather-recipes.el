@@ -2419,7 +2419,7 @@
     helm-robe (:fetcher "github" :repo "syohex/emacs-helm-robe" :files nil :deps (:helm (1 7 7)))
     helm-rhythmbox (:fetcher "github" :repo "mrBliss/helm-rhythmbox" :files nil :deps (:helm (1 5 0) :cl-lib (0 5)))
     helm-rg (:fetcher "github" :repo "cosmicexplorer/helm-rg" :files nil :deps (:emacs (25) :cl-lib (0 5) :dash (2 13 0) :helm (2 8 8)))
-    helm-recoll (:fetcher "github" :repo "emacs-helm/helm-recoll" :files ("helm-recoll.el") :deps (:helm (3 3)))
+    helm-recoll (:fetcher "github" :repo "emacs-helm/helm-recoll" :files ("helm-recoll.el") :deps (:helm (3 3) :emacs (24 4)))
     helm-rdefs (:fetcher "github" :repo "saidie/emacs-helm-rdefs" :files nil :deps (:emacs (24) :helm (1 6 4)))
     helm-rb (:fetcher "github" :repo "yuutayamada/helm-rb" :files ("helm-rb.el" "get_methods.rb") :deps (:helm (1 0) :helm-ag-r (20131123)))
     helm-rails (:fetcher "github" :repo "asok/helm-rails" :files ("helm-rails.el") :deps (:helm (1 5 1) :inflections (1 1)))

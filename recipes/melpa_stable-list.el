@@ -1171,7 +1171,7 @@
   helm-rtags (:fetcher "github" :repo "Andersbakken/rtags" :files ("src/helm-rtags.el") :deps (:helm (2 0) :rtags (2 10)))
   helm-robe (:fetcher "github" :repo "syohex/emacs-helm-robe" :files nil :deps (:helm (1 7 7)))
   helm-rg (:fetcher "github" :repo "cosmicexplorer/helm-rg" :files nil :deps (:emacs (25) :helm (2 8 8) :cl-lib (0 5) :dash (2 13 0)))
-  helm-recoll (:fetcher "github" :repo "emacs-helm/helm-recoll" :files ("helm-recoll.el") :deps (:helm (3 3)))
+  helm-recoll (:fetcher "github" :repo "emacs-helm/helm-recoll" :files ("helm-recoll.el") :deps (:helm (3 3) :emacs (24 4)))
   helm-rdefs (:fetcher "github" :repo "saidie/emacs-helm-rdefs" :files nil :deps (:emacs (24) :helm (1 6 4)))
   helm-qiita (:fetcher "github" :repo "masutaka/emacs-helm-qiita" :files nil :deps (:emacs (24) :helm (2 8 2)))
   helm-pydoc (:fetcher "github" :repo "syohex/emacs-helm-pydoc" :files ("//:defaults//" "*.py") :deps (:helm-core (1 7 4) :cl-lib (0 5)))

@@ -1893,7 +1893,7 @@
   love-minor-mode (:fetcher "github" :repo "ejmr/love-minor-mode" :files nil :deps (:lua-mode (20130419)))
   lorem-ipsum (:fetcher "github" :repo "jschaf/emacs-lorem-ipsum" :files nil :deps nil)
   loop (:fetcher "github" :repo "Wilfred/loop.el" :files ("loop.el") :deps nil)
-  look-mode (:fetcher "github" :repo "emacsorphanage/look-mode" :files nil :deps nil)
+  look-mode (:fetcher "github" :repo "petermao/look-mode" :files nil :deps nil)
   look-dired (:fetcher "github" :repo "vapniks/look-dired" :files nil :deps (:look-mode (1 0)))
   lolcode-mode (:fetcher "github" :repo "bodil/lolcode-mode" :files nil :deps nil)
   lolcat (:fetcher "github" :repo "xuchunyang/lolcat.el" :files nil :deps (:emacs (24 3)))

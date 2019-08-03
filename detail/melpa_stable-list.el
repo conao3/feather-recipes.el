@@ -3461,7 +3461,7 @@
   node-resolver (:fetcher "github" :repo "meandavejustice/node-resolver.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nodenv (:fetcher "github" :repo "twlz0ne/nodenv.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   noflet (:fetcher "github" :repo "nicferrier/emacs-noflet" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
-  nordless-theme (:fetcher "github" :repo "lthms/nordless-theme.el" :files ("nordless-theme.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
+  nordless-theme (:fetcher "git" :repo "https://git.sr.ht/~lthms/colorless-themes.el" :files ("nordless-theme.el") :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   northcode-theme (:fetcher "github" :repo "Northcode/northcode-theme.el" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nose (:fetcher "bitbucket" :repo "durin42/nosemacs" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)
   nova-theme (:fetcher "github" :repo "muirmanders/emacs-nova-theme" :files nil :deps nil :description nil :url nil :keywords nil :authors nil :maintainer nil)

@@ -3462,7 +3462,7 @@
     node-resolver (:fetcher "github" :repo "meandavejustice/node-resolver.el" :files nil :deps nil)
     nodenv (:fetcher "github" :repo "twlz0ne/nodenv.el" :files nil :deps nil)
     noflet (:fetcher "github" :repo "nicferrier/emacs-noflet" :files nil :deps nil)
-    nordless-theme (:fetcher "github" :repo "lthms/nordless-theme.el" :files ("nordless-theme.el") :deps nil)
+    nordless-theme (:fetcher "git" :repo "https://git.sr.ht/~lthms/colorless-themes.el" :files ("nordless-theme.el") :deps nil)
     northcode-theme (:fetcher "github" :repo "Northcode/northcode-theme.el" :files nil :deps nil)
     nose (:fetcher "bitbucket" :repo "durin42/nosemacs" :files nil :deps nil)
     nova-theme (:fetcher "github" :repo "muirmanders/emacs-nova-theme" :files nil :deps nil)

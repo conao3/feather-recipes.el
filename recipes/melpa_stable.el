@@ -554,7 +554,7 @@
     play-routes-mode (:fetcher "github" :repo "brocode/play-routes-mode" :files nil :deps nil)
     play-crystal (:fetcher "github" :repo "veelenga/play-crystal.el" :files nil :deps (:emacs (24 4) :dash (2 12 0) :request (0 2 0)))
     platformio-mode (:fetcher "github" :repo "ZachMassia/PlatformIO-Mode" :files nil :deps (:projectile (0 13 0)))
-    plantuml-mode (:fetcher "github" :repo "skuro/plantuml-mode" :files nil :deps (:emacs (25 0)))
+    plantuml-mode (:fetcher "github" :repo "skuro/plantuml-mode" :files nil :deps (:dash (2 0 0) :emacs (25 0)))
     plain-theme (:fetcher "gitlab" :repo "yegortimoshenko/plain-theme" :files nil :deps (:emacs (24)))
     pkgbuild-mode (:fetcher "github" :repo "juergenhoetzel/pkgbuild-mode" :files ("pkgbuild-mode.el") :deps nil)
     pkg-info (:fetcher "github" :repo "lunaryorn/pkg-info.el" :files nil :deps (:epl (0 8)))

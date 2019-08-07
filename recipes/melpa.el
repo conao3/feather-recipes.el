@@ -1122,7 +1122,7 @@
     plantuml-mode (:fetcher "github" :repo "skuro/plantuml-mode" :files nil :deps (:dash (2 0 0) :emacs (25 0)))
     planet-theme (:fetcher "github" :repo "cmack/emacs-planet-theme" :files nil :deps (:emacs (24)))
     plan9-theme (:fetcher "github" :repo "john2x/plan9-theme.el" :files nil :deps nil)
-    plain-theme (:fetcher "gitlab" :repo "yegortimoshenko/plain-theme" :files nil :deps (:emacs (24)))
+    plain-theme (:fetcher "github" :repo "yegortimoshenko/plain-theme" :files nil :deps (:emacs (24)))
     pkgbuild-mode (:fetcher "github" :repo "juergenhoetzel/pkgbuild-mode" :files ("pkgbuild-mode.el") :deps (:emacs (25 1)))
     pkg-info (:fetcher "github" :repo "lunaryorn/pkg-info.el" :files nil :deps (:epl (0 8)))
     pixiv-novel-mode (:fetcher "github" :repo "zonuexe/pixiv-novel-mode.el" :files nil :deps nil)

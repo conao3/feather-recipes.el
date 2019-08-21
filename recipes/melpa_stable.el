@@ -3265,7 +3265,7 @@
     kotlin-mode (:fetcher "github" :repo "Emacs-Kotlin-Mode-Maintainers/kotlin-mode" :files nil :deps nil)
     kpm-list (:fetcher "github" :repo "KMahoney/kpm-list" :files nil :deps nil)
     kroman (:fetcher "github" :repo "zhangkaiyulw/kroman-el" :files nil :deps nil)
-    kubel (:fetcher "github" :repo "abrochard/kubel" :files nil :deps nil)
+    kubel (:fetcher "github" :repo "abrochard/kubel" :files ("//:defaults//" (:exclude ("kubel-evil.el"))) :deps nil)
     kubernetes-helm (:fetcher "github" :repo "abrochard/kubernetes-helm" :files nil :deps nil)
     kubernetes-tramp (:fetcher "github" :repo "gruggiero/kubernetes-tramp" :files nil :deps nil)
     kv (:fetcher "github" :repo "nicferrier/emacs-kv" :files ("kv.el") :deps nil)

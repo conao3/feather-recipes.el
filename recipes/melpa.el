@@ -1157,7 +1157,7 @@
     phpt-mode (:fetcher "github" :repo "emacs-php/phpt-mode" :files nil :deps (:emacs (25) :polymode (0 1 5) :php-mode (1 21 2)))
     phpstan (:fetcher "github" :repo "emacs-php/phpstan.el" :files ("phpstan.el") :deps (:emacs (24 3)))
     phpcbf (:fetcher "github" :repo "nishimaki10/emacs-phpcbf" :files nil :deps (:s (1 9 0)))
-    phpactor (:fetcher "github" :repo "emacs-php/phpactor.el" :files ("phpactor.el" "composer.json" "composer.lock") :deps (:emacs (24 4) :cl-lib (0 5) :f (0 17) :php-runtime (0 2) :composer (0 1)))
+    phpactor (:fetcher "github" :repo "emacs-php/phpactor.el" :files ("phpactor.el" "composer.json" "composer.lock") :deps (:emacs (24 4) :cl-lib (0 5) :f (0 17) :php-runtime (0 2) :composer (0 1) :async (1 9 3)))
     php-scratch (:fetcher "github" :repo "mallt/php-scratch" :files nil :deps (:emacs (24 3) :s (1 11 0) :php-mode (1 17 0)))
     php-runtime (:fetcher "github" :repo "emacs-php/php-runtime.el" :files nil :deps (:emacs (25) :cl-lib (0 5) :f (0 20) :s (1 7)))
     php-refactor-mode (:fetcher "github" :repo "keelerm84/php-refactor-mode.el" :files nil :deps nil)

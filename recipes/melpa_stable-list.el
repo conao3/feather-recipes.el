@@ -1165,6 +1165,7 @@
   hide-lines (:fetcher "github" :repo "emacsorphanage/hide-lines" :files nil :deps nil)
   hi2 (:fetcher "github" :repo "nilcons/hi2" :files nil :deps nil)
   hfst-mode (:fetcher "github" :repo "unhammer/hfst-mode" :files nil :deps nil)
+  hercules (:fetcher "gitlab" :repo "jjzmajic/hercules.el" :files nil :deps (:emacs (24 4) :which-key (3 3 2)))
   helpful (:fetcher "github" :repo "Wilfred/helpful" :files nil :deps (:emacs (25) :dash (2 12 0) :dash-functional (1 2 0) :s (1 11 0) :f (0 20 0) :elisp-refs (1 2)))
   help-find-org-mode (:fetcher "github" :repo "EricCrosson/help-find-org-mode" :files nil :deps (:emacs (24 4)))
   helm-zhihu-daily (:fetcher "github" :repo "xuchunyang/helm-zhihu-daily" :files nil :deps (:helm (1 0) :cl-lib (0 5) :emacs (24 4)))

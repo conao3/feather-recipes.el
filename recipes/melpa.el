@@ -1703,7 +1703,7 @@
     mqr (:fetcher "github" :repo "calancha/multi-replace" :files nil :deps (:emacs (24 4)))
     mpv (:fetcher "github" :repo "kljohann/mpv.el" :files nil :deps (:cl-lib (0 5) :emacs (24) :json (1 3) :org (8 0)))
     mpmc-queue (:fetcher "github" :repo "smizoe/mpmc-queue" :files nil :deps (:emacs (26 0) :queue (0 2 0)))
-    mpdel (:fetcher "github" :repo "mpdel/mpdel" :files nil :deps (:emacs (25 1) :libmpdel (1 0 0) :navigel (0 4 0)))
+    mpdel (:fetcher "github" :repo "mpdel/mpdel" :files nil :deps (:emacs (25 1) :libmpdel (1 0 0) :navigel (0 5 0)))
     mpages (:fetcher "github" :repo "slevin/mpages" :files nil :deps nil)
     mozc-temp (:fetcher "github" :repo "HKey/mozc-temp" :files nil :deps (:emacs (24) :dash (2 10 0) :mozc (0)))
     mozc-popup (:fetcher "github" :repo "d5884/mozc-popup" :files nil :deps (:popup (0 5 2) :mozc (0)))

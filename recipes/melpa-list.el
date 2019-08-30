@@ -1227,7 +1227,7 @@
   paste-of-code (:fetcher "github" :repo "spebern/paste-of-code.el" :files nil :deps (:emacs (24 3) :request (0 2 0)))
   password-vault (:fetcher "github" :repo "PuercoPop/password-vault" :files nil :deps (:cl-lib (0 2) :emacs (24)))
   password-store-otp (:fetcher "github" :repo "volrath/password-store-otp.el" :files nil :deps (:emacs (25) :s (1 9 0) :password-store (0 1)))
-  password-store (:fetcher "github" :repo "zx2c4/password-store" :files ("contrib/emacs/*.el") :deps (:emacs (25) :f (0 11 0) :s (1 9 0) :with-editor (2 5 11)))
+  password-store (:fetcher "github" :repo "zx2c4/password-store" :files ("contrib/emacs/*.el") :deps (:emacs (25) :f (0 11 0) :s (1 9 0) :with-editor (2 5 11) :auth-source-pass (5 0 0)))
   password-mode (:fetcher "github" :repo "juergenhoetzel/password-mode" :files nil :deps nil)
   password-generator (:fetcher "github" :repo "zargener/emacs-password-genarator" :files nil :deps nil)
   passthword (:fetcher "gitlab" :repo "pidu/passthword" :files nil :deps (:cl-lib (0 5)))

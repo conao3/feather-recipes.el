@@ -1989,7 +1989,7 @@
     lenlen-theme (:fetcher "github" :repo "zk-phi/lenlen-theme" :files nil :deps (:color-theme-solarized (20150110)))
     lemon-mode (:fetcher "github" :repo "mooz/lemon-mode" :files nil :deps nil)
     legalese (:fetcher "github" :repo "jorgenschaefer/legalese" :files nil :deps nil)
-    leetcode (:fetcher "github" :repo "kaiwk/leetcode.el" :files nil :deps (:emacs (25) :request-deferred (0 2 0) :graphql (0 1 1) :spinner (1 7 3)))
+    leetcode (:fetcher "github" :repo "kaiwk/leetcode.el" :files nil :deps (:emacs (26) :dash (2 16 0) :graphql (0 1 1) :spinner (1 7 3) :aio (1 0)))
     leerzeichen (:fetcher "github" :repo "fgeller/leerzeichen.el" :files nil :deps nil)
     ledger-mode (:fetcher "github" :repo "ledger/ledger-mode" :files ("//:defaults//" "ledger-test.el") :deps (:emacs (24 3)))
     ledger-import (:fetcher "github" :repo "DamienCassou/ledger-import" :files nil :deps (:emacs (25 1) :ledger-mode (3 1 1)))

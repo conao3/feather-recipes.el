@@ -1509,7 +1509,7 @@
     oldlace-theme (:fetcher "github" :repo "mswift42/oldlace-theme" :files nil :deps (:emacs (24)))
     old-norse-input (:fetcher "github" :repo "david-christiansen/emacs-old-norse-input" :files nil :deps (:emacs (24)))
     offlineimap (:fetcher "github" :repo "jd/offlineimap.el" :files nil :deps nil)
-    oer-reveal (:fetcher "gitlab" :repo "oer/oer-reveal" :files ("//:defaults//" "README*" "LICENSE*" "org" "css" "title-slide") :deps (:emacs (24 4) :org-re-reveal (2 0 0)))
+    oer-reveal (:fetcher "gitlab" :repo "oer/oer-reveal" :files ("//:defaults//" "README*" "LICENSE*" "org" "css" "title-slide") :deps (:emacs (24 4) :org-re-reveal (2 4 0)))
     octopress (:fetcher "github" :repo "aaronbieber/octopress.el" :files nil :deps nil)
     octo-mode (:fetcher "github" :repo "cryon/octo-mode" :files nil :deps (:emacs (24)))
     octicons (:fetcher "github" :repo "syohex/emacs-octicons" :files nil :deps (:cl-lib (0 5)))

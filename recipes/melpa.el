@@ -1378,7 +1378,7 @@
     org-table-comment (:fetcher "github" :repo "mattfidler/org-table-comment.el" :files nil :deps nil)
     org-sync-snippets (:fetcher "github" :repo "abrochard/org-sync-snippets" :files nil :deps (:org (8 3 5) :emacs (24 3) :f (0 17 3)))
     org-sync (:fetcher "github" :repo "arbox/org-sync" :files nil :deps (:cl-lib (0 5) :org (8 2) :emacs (24)))
-    org-super-agenda (:fetcher "github" :repo "alphapapa/org-super-agenda" :files nil :deps (:emacs (25 1) :s (1 10 0) :dash (2 13) :org (9 0) :ht (2 2) :ts (0 2)))
+    org-super-agenda (:fetcher "github" :repo "alphapapa/org-super-agenda" :files nil :deps (:emacs (26 1) :s (1 10 0) :dash (2 13) :org (9 0) :ht (2 2) :ts (0 2)))
     org-sticky-header (:fetcher "github" :repo "alphapapa/org-sticky-header" :files nil :deps (:emacs (24 4) :org (8 3 5)))
     org-static-blog (:fetcher "github" :repo "bastibe/org-static-blog" :files nil :deps (:emacs (24 3)))
     org-starter-swiper (:fetcher "github" :repo "akirak/org-starter" :files ("org-starter-swiper.el") :deps (:emacs (25 1) :swiper (0 11) :org-starter (0 2 4)))

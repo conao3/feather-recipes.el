@@ -9,7 +9,7 @@
   zone-nyan (:fetcher "github" :repo "wasamasa/zone-nyan" :files nil :deps (:esxml (0 3 1)))
   zombie-trellys-mode (:fetcher "github" :repo "david-christiansen/zombie-trellys-mode" :files nil :deps (:emacs (24) :cl-lib (0 5) :haskell-mode (1 5)))
   zmq (:fetcher "github" :repo "dzop/emacs-zmq" :files ("//:defaults//" "Makefile" "src") :deps (:cl-lib (0 5) :emacs (26)))
-  zerodark-theme (:fetcher "github" :repo "NicolasPetton/zerodark-theme" :files nil :deps (:all-the-icons (2 0 0) :magit (2 8 0) :flycheck (29)))
+  zerodark-theme (:fetcher "github" :repo "NicolasPetton/zerodark-theme" :files nil :deps (:all-the-icons (2 0 0)))
   zephir-mode (:fetcher "github" :repo "sergeyklay/zephir-mode" :files nil :deps (:emacs (24 3)))
   zenburn-theme (:fetcher "github" :repo "bbatsov/zenburn-emacs" :files nil :deps nil)
   zel (:fetcher "github" :repo "rudolfochrist/zel" :files nil :deps (:emacs (25) :frecency (0 1)))

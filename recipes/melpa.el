@@ -3160,7 +3160,7 @@
     evil-multiedit (:fetcher "github" :repo "hlissner/evil-multiedit" :files nil :deps (:emacs (24 4) :evil (1 2 12) :iedit (0 9) :cl-lib (0 5)))
     evil-mu4e (:fetcher "github" :repo "JorisE/evil-mu4e" :files nil :deps (:emacs (24 4) :evil (1 2 10)))
     evil-mc-extras (:fetcher "github" :repo "gabesoft/evil-mc-extras" :files nil :deps (:emacs (24 3) :evil (1 2 12) :cl-lib (0 5) :evil-mc (0 0 2) :evil-numbers (0 4)))
-    evil-mc (:fetcher "github" :repo "gabesoft/evil-mc" :files nil :deps (:emacs (24 3) :evil (1 2 13) :cl-lib (0 5)))
+    evil-mc (:fetcher "github" :repo "gabesoft/evil-mc" :files nil :deps (:emacs (24 3) :evil (1 2 14) :cl-lib (0 5)))
     evil-matchit (:fetcher "github" :repo "redguardtoo/evil-matchit" :files nil :deps (:evil (1 2 0) :emacs (24 4)))
     evil-mark-replace (:fetcher "github" :repo "redguardtoo/evil-mark-replace" :files nil :deps (:evil (1 0 8)))
     evil-magit (:fetcher "github" :repo "emacs-evil/evil-magit" :files nil :deps (:evil (1 2 3) :magit (2 6 0)))

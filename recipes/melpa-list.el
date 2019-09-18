@@ -4218,7 +4218,7 @@
   android-mode (:fetcher "github" :repo "remvee/android-mode" :files nil :deps nil)
   android-env (:fetcher "github" :repo "fernando-jascovich/android-env.el" :files nil :deps (:emacs (24 3)))
   anaphora (:fetcher "github" :repo "rolandwalker/anaphora" :files nil :deps nil)
-  anaconda-mode (:fetcher "github" :repo "proofit404/anaconda-mode" :files nil :deps (:emacs (25) :pythonic (0 1 0) :dash (2 6 0) :s (1 9) :f (0 16 2)))
+  anaconda-mode (:fetcher "github" :repo "proofit404/anaconda-mode" :files nil :deps (:emacs (25) :pythonic (0 1 0) :dash (2 6 0) :s (1 9) :f (0 16 2) :posframe (0 1 0)))
   amx (:fetcher "github" :repo "DarwinAwardWinner/amx" :files nil :deps (:emacs (24 4) :s (0)))
   ample-zen-theme (:fetcher "github" :repo "mjwall/ample-zen" :files nil :deps nil)
   ample-theme (:fetcher "github" :repo "jordonbiondo/ample-theme" :files nil :deps nil)

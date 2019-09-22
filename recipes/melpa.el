@@ -835,7 +835,7 @@
     rich-minority (:fetcher "github" :repo "Malabarba/rich-minority" :files nil :deps (:cl-lib (0 5)))
     rib-mode (:fetcher "github" :repo "blezek/rib-mode" :files nil :deps (:emacs (24)))
     rhtml-mode (:fetcher "github" :repo "eschulte/rhtml" :files nil :deps nil)
-    rg (:fetcher "github" :repo "dajva/rg.el" :files nil :deps (:cl-lib (0 5) :emacs (24 4) :s (1 10 0) :wgrep (2 1 10)))
+    rg (:fetcher "github" :repo "dajva/rg.el" :files nil :deps (:cl-lib (0 5) :emacs (25 1) :s (1 10 0) :transient (0 1 0) :wgrep (2 1 10)))
     rfc-mode (:fetcher "github" :repo "galdor/rfc-mode" :files nil :deps (:emacs (25 1) :helm (3 2)))
     reykjavik-theme (:fetcher "github" :repo "mswift42/reykjavik-theme" :files nil :deps (:emacs (24)))
     review-mode (:fetcher "github" :repo "kmuto/review-el" :files nil :deps nil)

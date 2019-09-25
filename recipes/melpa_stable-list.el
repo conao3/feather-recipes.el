@@ -1097,7 +1097,7 @@
   inf-ruby (:fetcher "github" :repo "nonsequitur/inf-ruby" :files nil :deps nil)
   inf-crystal (:fetcher "github" :repo "brantou/inf-crystal.el" :files nil :deps (:emacs (24 3) :crystal-mode (0 1 0)))
   inf-clojure (:fetcher "github" :repo "clojure-emacs/inf-clojure" :files nil :deps (:emacs (24 4) :clojure-mode (5 6)))
-  indium (:fetcher "github" :repo "NicolasPetton/Indium" :files nil :deps (:emacs (25) :seq (2 16) :js2-mode (20140114) :js2-refactor (0 9 0) :company (0 9 0)))
+  indium (:fetcher "github" :repo "NicolasPetton/Indium" :files nil :deps (:emacs (25) :seq (2 16) :js2-mode (20140114) :js2-refactor (0 9 0) :company (0 9 0) :json-process-client (0 2 0)))
   indent-guide (:fetcher "github" :repo "zk-phi/indent-guide" :files nil :deps nil)
   importmagic (:fetcher "github" :repo "anachronic/importmagic.el" :files ("//:defaults//" "importmagicserver.py") :deps (:f (0 11 0) :epc (0 1 0) :emacs (24 3)))
   import-popwin (:fetcher "github" :repo "syohex/emacs-import-popwin" :files nil :deps (:emacs (24 3) :popwin (0 6)))

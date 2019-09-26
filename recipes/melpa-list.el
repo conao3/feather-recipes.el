@@ -2600,7 +2600,7 @@
   hasklig-mode (:fetcher "github" :repo "minad/hasklig-mode" :files nil :deps (:emacs (25)))
   haskell-tab-indent (:fetcher "git" :repo "https://git.spwhitton.name/haskell-tab-indent" :files nil :deps nil)
   haskell-snippets (:fetcher "github" :repo "haskell/haskell-snippets" :files ("*.el" "snippets") :deps (:cl-lib (0 5) :yasnippet (0 8 0)))
-  haskell-mode (:fetcher "github" :repo "haskell/haskell-mode" :files ("//:defaults//" "NEWS" "logo.svg") :deps (:emacs (24 3)))
+  haskell-mode (:fetcher "github" :repo "haskell/haskell-mode" :files ("//:defaults//" "NEWS" "logo.svg") :deps (:emacs (24 4)))
   haskell-emacs-text (:fetcher "github" :repo "knupfer/haskell-emacs" :files ("modules/text/*.el" "modules/text/*.hs") :deps (:haskell-emacs (2 4 0)))
   haskell-emacs-base (:fetcher "github" :repo "knupfer/haskell-emacs" :files ("modules/base/*.el" "modules/base/*.hs") :deps (:haskell-emacs (2 4 0)))
   haskell-emacs (:fetcher "github" :repo "knupfer/haskell-emacs" :files ("//:defaults//" "*.hs" "*.org" "Foreign") :deps nil)

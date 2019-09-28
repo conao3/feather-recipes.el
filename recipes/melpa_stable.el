@@ -580,7 +580,7 @@
     phpcbf (:fetcher "github" :repo "nishimaki10/emacs-phpcbf" :files nil :deps (:s (1 9 0)))
     phpactor (:fetcher "github" :repo "emacs-php/phpactor.el" :files ("phpactor.el" "composer.json" "composer.lock") :deps (:emacs (24 3) :cl-lib (0 5) :f (0 17)))
     php-runtime (:fetcher "github" :repo "emacs-php/php-runtime.el" :files nil :deps (:emacs (25) :cl-lib (0 5) :f (0 20) :s (1 7)))
-    php-mode (:fetcher "github" :repo "emacs-php/php-mode" :files ("//:defaults//" "skeleton/*.el") :deps (:emacs (24 3) :cl-lib (0 5)))
+    php-mode (:fetcher "github" :repo "emacs-php/php-mode" :files ("//:defaults//" "skeleton/*.el") :deps (:emacs (24 3)))
     php-cs-fixer (:fetcher "github" :repo "OVYA/php-cs-fixer" :files nil :deps (:cl-lib (0 5)))
     php-auto-yasnippets (:fetcher "github" :repo "emacs-php/php-auto-yasnippets" :files ("*.el" "*.php") :deps (:php-mode (1 11) :yasnippet (0 8 0)))
     phi-search-mc (:fetcher "github" :repo "knu/phi-search-mc.el" :files nil :deps (:phi-search (2 0 0) :multiple-cursors (1 2 1)))

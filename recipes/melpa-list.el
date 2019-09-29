@@ -2044,7 +2044,7 @@
   know-your-http-well (:fetcher "github" :repo "for-GET/know-your-http-well" :files ("emacs/*.el") :deps nil)
   klere-theme (:fetcher "github" :repo "WammKD/emacs-klere-theme" :files nil :deps (:emacs (24)))
   kixtart-mode (:fetcher "github" :repo "ryrun/kixtart-mode" :files nil :deps (:emacs (24)))
-  kiwix (:fetcher "github" :repo "stardiviner/kiwix.el" :files nil :deps (:emacs (24 4) :cl-lib (0 5)))
+  kiwix (:fetcher "github" :repo "stardiviner/kiwix.el" :files nil :deps (:emacs (24 4) :cl-lib (0 5) :request (0 3 0)))
   kivy-mode (:fetcher "github" :repo "kivy/kivy" :files ("kivy/tools/highlight/kivy-mode.el") :deps nil)
   kite-mini (:fetcher "github" :repo "tungd/kite-mini.el" :files nil :deps (:dash (2 11 0) :websocket (1 5)))
   kite (:fetcher "github" :repo "jscheid/kite" :files nil :deps (:json (1 2) :websocket (0 93 1)))

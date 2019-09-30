@@ -635,7 +635,7 @@
   package-utils (:fetcher "github" :repo "Silex/package-utils" :files nil :deps (:restart-emacs (0 1 1)))
   package-safe-delete (:fetcher "github" :repo "Fanael/package-safe-delete" :files nil :deps (:emacs (24) :epl (0 7 -4)))
   package-lint-flymake (:fetcher "github" :repo "purcell/package-lint" :files ("package-lint-flymake.el") :deps (:emacs (26) :package-lint (0 5)))
-  package-lint (:fetcher "github" :repo "purcell/package-lint" :files ("//:defaults//" (:exclude ("*flymake.el"))) :deps (:cl-lib (0 5) :emacs (24)))
+  package-lint (:fetcher "github" :repo "purcell/package-lint" :files ("//:defaults//" (:exclude ("*flymake.el"))) :deps (:cl-lib (0 5) :emacs (24 1) :let-alist (1 0 6)))
   package-build (:fetcher "github" :repo "melpa/package-build" :files nil :deps (:cl-lib (0 5)))
   package+ (:fetcher "github" :repo "zenspider/package" :files ("package+.el") :deps nil)
   pack (:fetcher "github" :repo "10sr/pack-el" :files nil :deps (:emacs (24)))

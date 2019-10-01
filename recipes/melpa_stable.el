@@ -916,7 +916,7 @@
     malinka (:fetcher "github" :repo "LefterisJP/malinka" :files nil :deps (:s (1 9 0) :dash (2 4 0) :f (0 11 0) :cl-lib (0 3) :rtags (0 0) :projectile (0 11 0)))
     makey (:fetcher "github" :repo "mickeynp/makey" :files nil :deps (:cl-lib (0 2)))
     make-color (:fetcher "github" :repo "alezost/make-color.el" :files nil :deps nil)
-    major-mode-hydra (:fetcher "github" :repo "jerrypnz/major-mode-hydra.el" :files ("major-mode-hydra.el") :deps (:dash (2 15 0) :pretty-hydra (0 2 0) :emacs (25)))
+    major-mode-hydra (:fetcher "github" :repo "jerrypnz/major-mode-hydra.el" :files ("major-mode-hydra.el") :deps (:dash (2 15 0) :pretty-hydra (0 2 2) :emacs (25)))
     magithub (:fetcher "github" :repo "vermiculus/magithub" :files nil :deps (:emacs (25) :magit (2 12) :s (1 12 0) :ghub+ (0 3) :git-commit (2 12) :markdown-mode (2 3)))
     magit-vcsh (:fetcher "gitlab" :repo "stepnem/magit-vcsh-el" :files nil :deps (:magit (2 90 1) :vcsh (0 4) :emacs (24 4)))
     magit-topgit (:fetcher "github" :repo "greenrd/magit-topgit" :files nil :deps (:emacs (24 4) :magit (2 1 0)))

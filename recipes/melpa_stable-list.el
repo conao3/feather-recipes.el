@@ -1858,7 +1858,7 @@
   ctags-update (:fetcher "github" :repo "jixiuf/ctags-update" :files nil :deps nil)
   ctable (:fetcher "github" :repo "kiwanami/emacs-ctable" :files ("ctable.el") :deps nil)
   csv (:fetcher "gitlab" :repo "u11/csv.el" :files nil :deps nil)
-  csound-mode (:fetcher "github" :repo "hlolli/csound-mode" :files ("//:defaults//" "csoundAPI_emacsLisp/emacscsnd.c" "csoundAPI_emacsLisp/Makefile" "csoundAPI_emacsLisp/float-version.h" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :shut-up (0 3 2) :multi (2 0 1)))
+  csound-mode (:fetcher "github" :repo "hlolli/csound-mode" :files ("//:defaults//" "csoundAPI_emacsLisp/emacscsnd.c" "csoundAPI_emacsLisp/Makefile" "csoundAPI_emacsLisp/float-version.h" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :shut-up (0 3 2) :multi (2 0 1) :highlight (0)))
   csharp-mode (:fetcher "github" :repo "josteink/csharp-mode" :files nil :deps nil)
   crystal-mode (:fetcher "github" :repo "crystal-lang-tools/emacs-crystal-mode" :files ("crystal-mode.el") :deps (:emacs (24 4)))
   cryptol-mode (:fetcher "github" :repo "thoughtpolice/cryptol-mode" :files nil :deps nil)

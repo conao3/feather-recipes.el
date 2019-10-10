@@ -1596,7 +1596,7 @@
     evil-escape (:fetcher "github" :repo "syl20bnr/evil-escape" :files nil :deps (:emacs (24) :evil (1 0 9) :cl-lib (0 5)))
     evil-embrace (:fetcher "github" :repo "cute-jumper/evil-embrace.el" :files nil :deps (:emacs (24 4) :embrace (0 1 0) :evil-surround (0)))
     evil-commentary (:fetcher "github" :repo "linktohack/evil-commentary" :files nil :deps (:evil (1 0 0)))
-    evil-collection (:fetcher "github" :repo "emacs-evil/evil-collection" :files ("//:defaults//" "modes") :deps (:emacs (25 1) :cl-lib (0 5) :evil (1 2 13)))
+    evil-collection (:fetcher "github" :repo "emacs-evil/evil-collection" :files ("//:defaults//" "modes") :deps (:emacs (25 1) :cl-lib (0 5) :evil (1 2 13) :annalist (1 0)))
     evil-colemak-basics (:fetcher "github" :repo "wbolster/evil-colemak-basics" :files nil :deps (:emacs (24) :evil (1 2 12) :evil-snipe (2 0 3)))
     evil-args (:fetcher "github" :repo "wcsmith/evil-args" :files nil :deps (:evil (1 0 8)))
     evil-anzu (:fetcher "github" :repo "syohex/emacs-evil-anzu" :files nil :deps (:evil (1 0 0) :anzu (0 46)))

@@ -3131,7 +3131,7 @@
   evil-textobj-entire (:fetcher "github" :repo "supermomonga/evil-textobj-entire" :files nil :deps (:emacs (24) :evil (1 0 0)))
   evil-textobj-column (:fetcher "github" :repo "noctuid/evil-textobj-column" :files nil :deps (:names (0 5) :emacs (24) :evil (0)))
   evil-textobj-anyblock (:fetcher "github" :repo "noctuid/evil-textobj-anyblock" :files nil :deps (:cl-lib (0 5) :evil (1 1 0)))
-  evil-text-object-python (:fetcher "github" :repo "wbolster/evil-text-object-python" :files nil :deps (:emacs (24) :evil (1 2 12)))
+  evil-text-object-python (:fetcher "github" :repo "wbolster/evil-text-object-python" :files nil :deps (:emacs (25) :evil (1 2 14) :dash (2 16 0)))
   evil-test-helpers (:fetcher "github" :repo "emacs-evil/evil" :files ("evil-test-helpers.el") :deps (:evil (1 2 14)))
   evil-terminal-cursor-changer (:fetcher "github" :repo "7696122/evil-terminal-cursor-changer" :files nil :deps (:evil (1 0 8)))
   evil-tabs (:fetcher "github" :repo "krisajenkins/evil-tabs" :files nil :deps (:evil (0 0 0) :elscreen (0 0 0)))

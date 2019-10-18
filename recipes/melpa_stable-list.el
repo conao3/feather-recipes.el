@@ -640,7 +640,7 @@
   package-lint (:fetcher "github" :repo "purcell/package-lint" :files ("//:defaults//" (:exclude ("*flymake.el"))) :deps (:cl-lib (0 5) :emacs (24 1) :let-alist (1 0 6)))
   package-build (:fetcher "github" :repo "melpa/package-build" :files nil :deps (:cl-lib (0 5)))
   package+ (:fetcher "github" :repo "zenspider/package" :files ("package+.el") :deps nil)
-  pack (:fetcher "github" :repo "10sr/pack-el" :files nil :deps (:emacs (24)))
+  pack (:fetcher "github" :repo "10sr/pack-el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   pacfiles-mode (:fetcher "github" :repo "UndeadKernel/pacfiles-mode" :files nil :deps (:emacs (26) :cl-lib (0 5)))
   pabbrev (:fetcher "github" :repo "phillord/pabbrev" :files nil :deps nil)
   ox-wk (:fetcher "github" :repo "w-vi/ox-wk.el" :files nil :deps (:emacs (24 4) :org (8 3)))

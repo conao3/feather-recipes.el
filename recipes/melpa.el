@@ -1788,7 +1788,7 @@
     mgmtconfig-mode (:fetcher "github" :repo "purpleidea/mgmt" :files ("misc/emacs/*.el") :deps (:emacs (24 3)))
     mexican-holidays (:fetcher "github" :repo "sggutier/mexican-holidays" :files nil :deps nil)
     mew (:fetcher "github" :repo "kazu-yamamoto/Mew" :files ("*.el" "etc" "info/*.info*") :deps nil)
-    metaweblog (:fetcher "github" :repo "org2blog/metaweblog" :files nil :deps (:xml-rpc (1 6 8)))
+    metaweblog (:fetcher "github" :repo "org2blog/metaweblog" :files nil :deps (:emacs (26 3)))
     metascript-mode (:fetcher "github" :repo "metascript/metascript-mode" :files nil :deps (:emacs (24 3)))
     metamorph (:fetcher "github" :repo "AdamNiederer/metamorph" :files nil :deps (:emacs (24 4)))
     metalheart-theme (:fetcher "github" :repo "mswift42/MetalHeart-Emacs" :files nil :deps (:emacs (24)))

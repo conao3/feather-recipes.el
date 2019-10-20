@@ -885,7 +885,7 @@
     mhc (:fetcher "github" :repo "yoshinari-nomura/mhc" :files ("emacs/mhc*.el") :deps (:calfw (20150703)))
     mgmtconfig-mode (:fetcher "github" :repo "purpleidea/mgmt" :files ("misc/emacs/*.el") :deps (:emacs (24 3)))
     mew (:fetcher "github" :repo "kazu-yamamoto/Mew" :files ("*.el" "etc" "info/*.info*") :deps nil)
-    metaweblog (:fetcher "github" :repo "org2blog/metaweblog" :files nil :deps (:xml-rpc (1 6 8)))
+    metaweblog (:fetcher "github" :repo "org2blog/metaweblog" :files nil :deps (:emacs (26 3)))
     meta-presenter (:fetcher "github" :repo "myTerminal/meta-presenter" :files nil :deps nil)
     meson-mode (:fetcher "github" :repo "wentasah/meson-mode" :files nil :deps (:emacs (24 3)))
     merlin-eldoc (:fetcher "github" :repo "Khady/merlin-eldoc" :files nil :deps (:emacs (24 4) :merlin (3 0)))

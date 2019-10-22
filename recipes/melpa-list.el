@@ -956,7 +956,7 @@
   qiita (:fetcher "github" :repo "gongo/qiita-el" :files nil :deps (:helm (1 5 9) :markdown-mode (2 0)))
   q-mode (:fetcher "github" :repo "psaris/q-mode" :files nil :deps (:emacs (24)))
   pyvenv (:fetcher "github" :repo "jorgenschaefer/pyvenv" :files nil :deps nil)
-  pythonic (:fetcher "github" :repo "proofit404/pythonic" :files nil :deps (:emacs (25) :s (1 9) :f (0 17 2)))
+  pythonic (:fetcher "github" :repo "proofit404/pythonic" :files nil :deps (:emacs (25 1) :s (1 9) :f (0 17 2)))
   python-x (:fetcher "gitlab" :repo "wavexx/python-x.el" :files nil :deps (:python (0 24) :folding (0) :cl-lib (0 5)))
   python-test (:fetcher "github" :repo "emacs-pe/python-test.el" :files ("python-test.el") :deps (:emacs (25 1)))
   python-switch-quotes (:fetcher "github" :repo "werehuman/python-switch-quotes" :files nil :deps (:emacs (24 3)))

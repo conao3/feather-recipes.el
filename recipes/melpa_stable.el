@@ -965,7 +965,7 @@
     live-code-talks (:fetcher "github" :repo "david-christiansen/live-code-talks" :files nil :deps (:emacs (24) :cl-lib (0 5) :narrowed-page-navigation (0 1)))
     literate-elisp (:fetcher "github" :repo "jingtaozf/literate-elisp" :files nil :deps (:cl-lib (0 6) :emacs (24 4)))
     literate-coffee-mode (:fetcher "github" :repo "syohex/emacs-literate-coffee-mode" :files nil :deps (:coffee-mode (0 5 0)))
-    literal-string (:fetcher "github" :repo "joodie/literal-string-mode" :files nil :deps (:markdown-mode (2 0) :emacs (25)))
+    literal-string (:fetcher "github" :repo "joodie/literal-string-mode" :files nil :deps (:emacs (25) :edit-indirect (0 1 5)))
     lit-mode (:fetcher "github" :repo "HectorAE/lit-mode" :files nil :deps nil)
     list-utils (:fetcher "github" :repo "rolandwalker/list-utils" :files nil :deps nil)
     list-unicode-display (:fetcher "github" :repo "purcell/list-unicode-display" :files nil :deps (:cl-lib (0 5)))

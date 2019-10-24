@@ -4173,7 +4173,7 @@
     atom-dark-theme (:fetcher "github" :repo "whitlockjc/atom-dark-theme-emacs" :files nil :deps nil)
     async-await (:fetcher "github" :repo "chuntaro/emacs-async-await" :files nil :deps (:emacs (25) :promise (1 0)))
     async (:fetcher "github" :repo "jwiegley/emacs-async" :files nil :deps nil)
-    asx (:fetcher "github" :repo "ragone/asx" :files nil :deps (:emacs (25)))
+    asx (:fetcher "github" :repo "ragone/asx" :files nil :deps (:emacs (26 1)))
     assess (:fetcher "github" :repo "phillord/assess" :files nil :deps (:emacs (24 1) :m-buffer (0 15)))
     asn1-mode (:fetcher "github" :repo "kawabata/asn1-mode" :files nil :deps (:emacs (24 3) :s (1 10 0)))
     asilea (:fetcher "github" :repo "Fanael/asilea" :files nil :deps (:emacs (24) :cl-lib (0 5)))

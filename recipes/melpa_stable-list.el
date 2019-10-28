@@ -1979,7 +1979,7 @@
   chinese-word-at-point (:fetcher "github" :repo "xuchunyang/chinese-word-at-point.el" :files ("chinese-word-at-point.el") :deps (:cl-lib (0 5)))
   chee (:fetcher "github" :repo "eikek/chee" :files ("emacs/*.el") :deps (:dash (2 12 1) :s (1 10 0) :f (0 18 2)))
   checkbox (:fetcher "github" :repo "camdez/checkbox.el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
-  cheat-sh (:fetcher "github" :repo "davep/cheat-sh.el" :files nil :deps (:emacs (24)))
+  cheat-sh (:fetcher "github" :repo "davep/cheat-sh.el" :files nil :deps (:emacs (25 1)))
   chatwork (:fetcher "github" :repo "ataka/chatwork" :files nil :deps nil)
   charmap (:fetcher "github" :repo "lateau/charmap" :files nil :deps nil)
   char-menu (:fetcher "github" :repo "mrkkrp/char-menu" :files nil :deps (:emacs (24 3) :avy-menu (0 1)))

@@ -3007,7 +3007,7 @@
   flycheck-clang-analyzer (:fetcher "github" :repo "alexmurray/flycheck-clang-analyzer" :files nil :deps (:flycheck (0 24) :emacs (24 4)))
   flycheck-checkpatch (:fetcher "github" :repo "zpp0/flycheck-checkpatch" :files nil :deps (:emacs (25) :flycheck (30)))
   flycheck-checkbashisms (:fetcher "github" :repo "Gnouc/flycheck-checkbashisms" :files nil :deps (:emacs (24) :flycheck (0 25)))
-  flycheck-cask (:fetcher "github" :repo "flycheck/flycheck-cask" :files nil :deps (:emacs (24 1) :flycheck (0 14) :dash (2 4 0)))
+  flycheck-cask (:fetcher "github" :repo "flycheck/flycheck-cask" :files nil :deps (:emacs (24 3) :flycheck (0 14) :dash (2 4 0)))
   flycheck-bashate (:fetcher "github" :repo "alexmurray/flycheck-bashate" :files nil :deps (:flycheck (0 24) :emacs (24 4)))
   flycheck-ats2 (:fetcher "github" :repo "drvink/flycheck-ats2" :files nil :deps (:emacs (24 1) :flycheck (0 22)))
   flycheck-apertium (:fetcher "github" :repo "unhammer/flycheck-apertium" :files ("flycheck-apertium.el" "dix.xsd") :deps (:flycheck (0 25)))

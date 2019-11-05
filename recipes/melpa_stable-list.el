@@ -1622,7 +1622,7 @@
   eslint-fix (:fetcher "github" :repo "codesuki/eslint-fix" :files nil :deps nil)
   eshell-z (:fetcher "github" :repo "xuchunyang/eshell-z" :files nil :deps (:cl-lib (0 5)))
   eshell-up (:fetcher "github" :repo "peterwvj/eshell-up" :files nil :deps (:emacs (24)))
-  eshell-prompt-extras (:fetcher "github" :repo "kaihaosw/eshell-prompt-extras" :files nil :deps nil)
+  eshell-prompt-extras (:fetcher "github" :repo "kaihaosw/eshell-prompt-extras" :files nil :deps (:emacs (25)))
   eshell-git-prompt (:fetcher "github" :repo "xuchunyang/eshell-git-prompt" :files nil :deps (:emacs (24 1) :cl-lib (0 5) :dash (2 11 0)))
   eshell-did-you-mean (:fetcher "github" :repo "xuchunyang/eshell-did-you-mean" :files nil :deps (:emacs (24 1) :cl-lib (0 5)))
   eshell-bookmark (:fetcher "github" :repo "Fuco1/eshell-bookmark" :files nil :deps (:emacs (24 3)))

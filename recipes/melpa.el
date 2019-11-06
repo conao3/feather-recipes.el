@@ -3136,7 +3136,7 @@
     evil-test-helpers (:fetcher "github" :repo "emacs-evil/evil" :files ("evil-test-helpers.el") :deps (:evil (1 2 14)))
     evil-terminal-cursor-changer (:fetcher "github" :repo "7696122/evil-terminal-cursor-changer" :files nil :deps (:evil (1 0 8)))
     evil-tabs (:fetcher "github" :repo "krisajenkins/evil-tabs" :files nil :deps (:evil (0 0 0) :elscreen (0 0 0)))
-    evil-swap-keys (:fetcher "github" :repo "wbolster/evil-swap-keys" :files nil :deps (:emacs (24)))
+    evil-swap-keys (:fetcher "github" :repo "wbolster/evil-swap-keys" :files nil :deps (:emacs (24 4)))
     evil-surround (:fetcher "github" :repo "emacs-evil/evil-surround" :files nil :deps (:evil (1 2 12)))
     evil-string-inflection (:fetcher "github" :repo "ninrod/evil-string-inflection" :files nil :deps (:emacs (24) :evil (1 2 13) :string-inflection (1 0 6)))
     evil-space (:fetcher "github" :repo "linktohack/evil-space" :files nil :deps (:evil (1 0 0)))

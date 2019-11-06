@@ -1657,7 +1657,7 @@
     enotify (:fetcher "github" :repo "laynor/enotify" :files nil :deps nil)
     enlive (:fetcher "github" :repo "zweifisch/enlive" :files nil :deps nil)
     enh-ruby-mode (:fetcher "github" :repo "zenspider/enhanced-ruby-mode" :files ("*.el" "ruby" "ruby/erm.rb" "ruby/erm_buffer.rb") :deps (:emacs (24)))
-    engine-mode (:fetcher "github" :repo "hrs/engine-mode" :files nil :deps nil)
+    engine-mode (:fetcher "github" :repo "hrs/engine-mode" :files nil :deps (:cl-lib (0 5)))
     emr (:fetcher "github" :repo "Wilfred/emacs-refactor" :files nil :deps (:s (1 3 1) :dash (1 2 0) :cl-lib (0 2) :popup (0 5 0) :emacs (24 1) :list-utils (0 3 0) :paredit (24 0 0) :projectile (0 9 1) :clang-format (0) :iedit (0 97)))
     emojify (:fetcher "github" :repo "iqbalansari/emacs-emojify" :files ("//:defaults//" "data" "images") :deps (:seq (1 11) :ht (2 0) :emacs (24 3)))
     emoji-fontset (:fetcher "github" :repo "zonuexe/emoji-fontset.el" :files nil :deps nil)

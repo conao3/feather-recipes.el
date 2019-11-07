@@ -1882,7 +1882,7 @@
     counsel-tramp (:fetcher "github" :repo "masasam/emacs-counsel-tramp" :files nil :deps (:emacs (24 3) :counsel (0 10)))
     counsel-projectile (:fetcher "github" :repo "ericdanan/counsel-projectile" :files nil :deps (:counsel (0 11 0) :projectile (2 0 0)))
     counsel-gtags (:fetcher "github" :repo "FelipeLema/emacs-counsel-gtags" :files nil :deps (:emacs (24 3) :counsel (0 8 0)))
-    counsel-etags (:fetcher "github" :repo "redguardtoo/counsel-etags" :files nil :deps (:emacs (24 4) :counsel (0 10 0) :ivy (0 10 0)))
+    counsel-etags (:fetcher "github" :repo "redguardtoo/counsel-etags" :files nil :deps (:counsel (0 13 0)))
     counsel-dash (:fetcher "github" :repo "nathankot/counsel-dash" :files nil :deps (:emacs (24 4) :dash (2 12 1) :dash-functional (1 2 0) :helm-dash (1 3 0) :counsel (0 8 0)))
     counsel-css (:fetcher "github" :repo "hlissner/emacs-counsel-css" :files nil :deps (:emacs (24 4) :counsel (0 7 0) :cl-lib (0 5)))
     counsel-bbdb (:fetcher "github" :repo "redguardtoo/counsel-bbdb" :files nil :deps (:ivy (0 8 0) :emacs (24 3)))

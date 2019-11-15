@@ -1684,7 +1684,7 @@
   elscreen-mew (:fetcher "github" :repo "masutaka/elscreen-mew" :files nil :deps (:elscreen (20120413 807)))
   elscreen-fr (:fetcher "github" :repo "rocher/elscreen-fr" :files nil :deps (:elscreen (0) :seq (1 11)))
   elscreen (:fetcher "github" :repo "knu/elscreen" :files nil :deps (:emacs (24)))
-  elpy (:fetcher "github" :repo "jorgenschaefer/elpy" :files ("*.el" "NEWS.rst" "snippets" "elpy") :deps (:company (0 9 2) :emacs (24 4) :find-file-in-project (3 3) :highlight-indentation (0 5 0) :pyvenv (1 3) :yasnippet (0 8 0) :s (1 11 0)))
+  elpy (:fetcher "github" :repo "jorgenschaefer/elpy" :files ("*.el" "NEWS.rst" "snippets" "elpy") :deps (:company (0 9 2) :emacs (24 4) :highlight-indentation (0 5 0) :pyvenv (1 3) :yasnippet (0 8 0) :s (1 11 0)))
   elpher (:fetcher "github" :repo "tgvaughan/elpher" :files nil :deps (:emacs (26)))
   elpa-mirror (:fetcher "github" :repo "redguardtoo/elpa-mirror" :files ("elpa-mirror.el" "elpa-mirror.js" "index.html") :deps (:emacs (24 4)))
   elpa-clone (:fetcher "github" :repo "dochang/elpa-clone" :files nil :deps (:emacs (24 4) :cl-lib (0)))

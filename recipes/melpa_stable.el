@@ -452,7 +452,7 @@
     rdf-prefix (:fetcher "github" :repo "simenheg/rdf-prefix" :files nil :deps nil)
     rcirc-styles (:fetcher "github" :repo "aaron-em/rcirc-styles.el" :files nil :deps (:cl-lib (0 5)))
     rc-mode (:fetcher "github" :repo "mrhmouse/rc-mode.el" :files nil :deps nil)
-    rbtagger (:fetcher "github" :repo "thiagoa/rbtagger" :files ("//:defaults//" "bin") :deps (:emacs (25)))
+    rbtagger (:fetcher "github" :repo "thiagoa/rbtagger" :files ("//:defaults//" "bin") :deps (:emacs (25 1)))
     rbenv (:fetcher "github" :repo "senny/rbenv.el" :files nil :deps nil)
     rats (:fetcher "github" :repo "ane/rats.el" :files nil :deps (:s (1 10 0) :go-mode (1 3 1) :cl-lib (0 5)))
     rase (:fetcher "github" :repo "m00natic/rase" :files nil :deps nil)

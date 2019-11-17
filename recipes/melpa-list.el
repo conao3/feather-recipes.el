@@ -4257,7 +4257,7 @@
   addressbook-bookmark (:fetcher "github" :repo "thierryvolpiatto/addressbook-bookmark" :files nil :deps (:emacs (24)))
   add-node-modules-path (:fetcher "github" :repo "codesuki/add-node-modules-path" :files nil :deps nil)
   add-hooks (:fetcher "github" :repo "nickmccurdy/add-hooks" :files nil :deps nil)
-  adafruit-wisdom (:fetcher "github" :repo "gonewest818/adafruit-wisdom.el" :files nil :deps (:emacs (25)))
+  adafruit-wisdom (:fetcher "github" :repo "gonewest818/adafruit-wisdom.el" :files nil :deps (:emacs (25) :request (0 3 1)))
   activity-watch-mode (:fetcher "github" :repo "pauldub/activity-watch-mode" :files nil :deps (:emacs (25) :projectile (0) :request (0) :json (0) :cl-lib (0)))
   actionscript-mode (:fetcher "github" :repo "austinhaas/actionscript-mode" :files ("actionscript-mode.el") :deps nil)
   ack-menu (:fetcher "github" :repo "chumpage/ack-menu" :files nil :deps (:mag-menu (0 1 0)))

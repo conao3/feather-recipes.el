@@ -3680,7 +3680,7 @@
     smart-region (:fetcher "github" :repo "uk-ar/smart-region" :files nil :deps (:emacs (24 4) :expand-region (0 10 0) :multiple-cursors (1 3 0) :cl-lib (0 5)))
     smart-semicolon (:fetcher "github" :repo "iquiw/smart-semicolon" :files nil :deps (:emacs (25)))
     smart-shift (:fetcher "github" :repo "hbin/smart-shift" :files nil :deps nil)
-    smart-tab (:fetcher "github" :repo "genehack/smart-tab" :files nil :deps nil)
+    smart-tab (:fetcher "github" :repo "genehack/smart-tab" :files nil :deps (:emacs (24 3)))
     smart-tabs-mode (:fetcher "github" :repo "jcsalomon/smarttabs" :files ("smart-tabs-mode.el") :deps nil)
     smart-window (:fetcher "github" :repo "dryman/smart-window.el" :files nil :deps (:cl-lib (0 5)))
     smartparens (:fetcher "github" :repo "Fuco1/smartparens" :files nil :deps (:dash (2 13 0) :cl-lib (0 3)))

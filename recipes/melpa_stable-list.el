@@ -532,7 +532,7 @@
   emacsql-sqlite (:fetcher "github" :repo "skeeto/emacsql" :files ("emacsql-sqlite.el" "sqlite") :deps (:emacs (25 1) :emacsql (2 0 0)))
   emacsshot (:fetcher "gitlab" :repo "marcowahl/emacsshot" :files nil :deps (:emacs (24 4)))
   emamux (:fetcher "github" :repo "syohex/emacs-emamux" :files nil :deps (:emacs (24 3)))
-  emaps (:fetcher "github" :repo "GuiltyDolphin/emaps" :files nil :deps nil)
+  emaps (:fetcher "github" :repo "GuiltyDolphin/emaps" :files nil :deps (:dash (2 17 0) :emacs (24)))
   embrace (:fetcher "github" :repo "cute-jumper/embrace.el" :files nil :deps (:cl-lib (0 5) :expand-region (0 10 0)))
   emidje (:fetcher "github" :repo "nubank/emidje" :files nil :deps (:emacs (25) :cider (0 17 0) :seq (2 16)))
   emmet-mode (:fetcher "github" :repo "smihica/emmet-mode" :files nil :deps nil)

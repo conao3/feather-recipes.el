@@ -2204,7 +2204,7 @@
   xquery-tool (:fetcher "github" :repo "paddymcall/xquery-tool.el" :files nil :deps nil)
   xref-js2 (:fetcher "github" :repo "NicolasPetton/xref-js2" :files nil :deps (:emacs (25) :js2-mode (20150909)))
   xresources-theme (:fetcher "github" :repo "cqql/xresources-theme" :files nil :deps nil)
-  xterm-color (:fetcher "github" :repo "atomontage/xterm-color" :files nil :deps (:cl-lib (0 5)))
+  xterm-color (:fetcher "github" :repo "atomontage/xterm-color" :files nil :deps (:emacs (24 4)))
   xtest (:fetcher "github" :repo "promethial/xtest" :files nil :deps (:cl-lib (0 5)))
   yafolding (:fetcher "github" :repo "zenozeng/yafolding.el" :files nil :deps nil)
   yagist (:fetcher "github" :repo "mhayashi1120/yagist.el" :files nil :deps (:cl-lib (0 3)))

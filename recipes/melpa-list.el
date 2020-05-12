@@ -3862,7 +3862,7 @@
   tdd-status-mode-line (:fetcher "github" :repo "algernon/tdd-status-mode-line" :files nil :deps nil)
   tea-time (:fetcher "github" :repo "konzeptual/tea-time" :files nil :deps nil)
   teacode-expand (:fetcher "github" :repo "raguay/TeaCode-Expand" :files nil :deps (:emacs (24 4)))
-  telega (:fetcher "github" :repo "zevlg/telega.el" :files ("//:defaults//" "etc" "server" "Makefile") :deps (:emacs (26 1) :visual-fill-column (1 9)) :branch "master")
+  telega (:fetcher "github" :repo "zevlg/telega.el" :files ("//:defaults//" "etc" "server" "Makefile") :deps (:emacs (26 1) :visual-fill-column (1 9) :rainbow-identifiers (0 2 2)) :branch "master")
   telepathy (:fetcher "github" :repo "NicolasPetton/telepathy.el" :files nil :deps nil)
   telephone-line (:fetcher "github" :repo "dbordak/telephone-line" :files nil :deps (:emacs (24 4) :cl-lib (0 5) :cl-generic (0 2) :seq (1 8)))
   template-overlays (:fetcher "github" :repo "mmontone/template-overlays" :files nil :deps (:emacs (24 4) :ov (1 0 6)))

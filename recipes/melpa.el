@@ -846,7 +846,7 @@
     dts-mode (:fetcher "github" :repo "bgamari/dts-mode" :files nil :deps nil)
     ducpel (:fetcher "github" :repo "alezost/ducpel" :files ("*.el" "*.info" "dir" "levels") :deps (:cl-lib (0 5)))
     dumb-diff (:fetcher "github" :repo "jacktasia/dumb-diff" :files nil :deps (:emacs (24 3)))
-    dumb-jump (:fetcher "github" :repo "jacktasia/dumb-jump" :files nil :deps (:emacs (24 3) :f (0 20 0) :s (1 11 0) :dash (2 9 0) :popup (0 5 3)))
+    dumb-jump (:fetcher "github" :repo "jacktasia/dumb-jump" :files nil :deps (:emacs (24 3) :s (1 11 0) :dash (2 9 0) :popup (0 5 3)))
     dummyparens (:fetcher "github" :repo "snosov1/dummyparens" :files nil :deps nil)
     dune (:fetcher "github" :repo "ocaml/dune" :files ("editor-integration/emacs/*.el") :deps nil)
     duplicate-thing (:fetcher "github" :repo "ongaeshi/duplicate-thing" :files nil :deps nil)

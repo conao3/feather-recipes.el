@@ -1423,7 +1423,7 @@
   ninja-mode (:fetcher "github" :repo "ninja-build/ninja" :files ("misc/*.el") :deps (:emacs (24)))
   nix-buffer (:fetcher "github" :repo "shlevy/nix-buffer" :files nil :deps (:f (0 17 3) :emacs (24 4)))
   nix-haskell-mode (:fetcher "github" :repo "matthewbauer/nix-haskell-mode" :files nil :deps (:emacs (25) :haskell-mode (16 0) :flycheck (30) :nix-mode (1 3 0)))
-  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" (:exclude ("nix-company.el" "nix-mode-mmm.el"))) :deps (:emacs (24 3)))
+  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" (:exclude ("nix-company.el" "nix-mode-mmm.el"))) :deps (:emacs (25)))
   nixos-options (:fetcher "github" :repo "travisbhartwell/nix-emacs" :files ("nixos-options.el") :deps (:emacs (24) :json (1 4)))
   nlinum-hl (:fetcher "github" :repo "hlissner/emacs-nlinum-hl" :files nil :deps (:emacs (24 4) :nlinum (1 7) :cl-lib (0 5)))
   no-littering (:fetcher "github" :repo "emacscollective/no-littering" :files nil :deps (:cl-lib (0 5)))

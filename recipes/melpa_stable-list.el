@@ -111,7 +111,7 @@
   auto-indent-mode (:fetcher "github" :repo "mattfidler/auto-indent-mode.el" :files nil :deps nil)
   auto-minor-mode (:fetcher "github" :repo "joewreschnig/auto-minor-mode" :files nil :deps (:emacs (24 4)))
   auto-package-update (:fetcher "github" :repo "rranelli/auto-package-update.el" :files nil :deps (:emacs (24 4) :dash (2 1 0)))
-  auto-rename-tag (:fetcher "github" :repo "elpa-host/auto-rename-tag" :files nil :deps (:emacs (24 4)))
+  auto-rename-tag (:fetcher "github" :repo "elpa-host/auto-rename-tag" :files nil :deps (:emacs (24 4) :cl-lib (0 6)))
   auto-shell-command (:fetcher "github" :repo "ongaeshi/auto-shell-command" :files nil :deps (:deferred (20130312) :popwin (20130329)))
   auto-sudoedit (:fetcher "github" :repo "ncaq/auto-sudoedit" :files nil :deps (:emacs (24 4) :f (0 19 0)))
   auto-yasnippet (:fetcher "github" :repo "abo-abo/auto-yasnippet" :files nil :deps (:yasnippet (0 8 0)))

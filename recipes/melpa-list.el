@@ -179,7 +179,7 @@
   auto-package-update (:fetcher "github" :repo "rranelli/auto-package-update.el" :files nil :deps (:emacs (24 4) :dash (2 1 0)))
   auto-pause (:fetcher "github" :repo "lujun9972/auto-pause" :files nil :deps (:emacs (24 4)))
   auto-read-only (:fetcher "github" :repo "zonuexe/auto-read-only.el" :files nil :deps (:cl-lib (0 5)))
-  auto-rename-tag (:fetcher "github" :repo "elpa-host/auto-rename-tag" :files nil :deps (:emacs (24 4)))
+  auto-rename-tag (:fetcher "github" :repo "elpa-host/auto-rename-tag" :files nil :deps (:emacs (24 4) :cl-lib (0 6)))
   auto-save-buffers-enhanced (:fetcher "github" :repo "kentaro/auto-save-buffers-enhanced" :files nil :deps nil)
   auto-shell-command (:fetcher "github" :repo "ongaeshi/auto-shell-command" :files nil :deps (:deferred (20130312) :popwin (20130329)))
   auto-sudoedit (:fetcher "github" :repo "ncaq/auto-sudoedit" :files nil :deps (:emacs (24 4) :f (0 19 0)))

@@ -1551,7 +1551,7 @@
   org-web-tools (:fetcher "github" :repo "alphapapa/org-web-tools" :files nil :deps (:emacs (25 1) :org (9 0) :dash (2 12) :esxml (0 3 4) :s (1 10 0) :request (0 3 0)))
   org-wild-notifier (:fetcher "github" :repo "akhramov/org-wild-notifier.el" :files nil :deps (:alert (1 2) :async (1 9 3) :dash (2 13 0) :dash-functional (1 2 0) :emacs (24 4)))
   org2blog (:fetcher "github" :repo "org2blog/org2blog" :files nil :deps (:htmlize (1 54) :hydra (0 15 0) :xml-rpc (1 6 12) :metaweblog (1 1 1)))
-  org2jekyll (:fetcher "github" :repo "ardumont/org2jekyll" :files nil :deps (:dash-functional (2 11 0) :s (1 9 0) :deferred (0 3 1) :kv (0 0 19)))
+  org2jekyll (:fetcher "github" :repo "ardumont/org2jekyll" :files nil :deps (:dash-functional (2 11 0) :s (1 9 0) :deferred (0 3 1)))
   org2web (:fetcher "github" :repo "tumashu/org2web" :files ("org2web*.el" "documents" "themes" "uploaders") :deps (:cl-lib (1 0) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0) :el2org (0 10) :simple-httpd (0 1)))
   organize-imports-java (:fetcher "github" :repo "elpa-host/organize-imports-java" :files nil :deps (:emacs (24) :f (0 20 0) :s (1 12 0) :cl-lib (0 6)))
   orgbox (:fetcher "github" :repo "yasuhito/orgbox" :files nil :deps (:org (8 0) :cl-lib (0 5)))

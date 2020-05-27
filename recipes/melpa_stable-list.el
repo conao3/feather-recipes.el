@@ -1130,7 +1130,7 @@
   ipython-shell-send (:fetcher "github" :repo "jackkamm/ipython-shell-send-el" :files nil :deps (:emacs (24)))
   ir-black-theme (:fetcher "github" :repo "jmdeldin/ir-black-theme.el" :files nil :deps nil)
   irony (:fetcher "github" :repo "Sarcasm/irony-mode" :files ("*.el" "server") :deps (:cl-lib (0 5) :json (1 2)))
-  isearch-project (:fetcher "github" :repo "elpa-host/isearch-project" :files nil :deps (:emacs (25) :cl-lib (0 6)))
+  isearch-project (:fetcher "github" :repo "elpa-host/isearch-project" :files nil :deps (:emacs (26 1) :cl-lib (0 6) :f (0 20 0)))
   isgd (:fetcher "github" :repo "chmouel/isgd.el" :files nil :deps nil)
   isolate (:fetcher "github" :repo "casouri/isolate" :files nil :deps (:emacs (25)))
   iter2 (:fetcher "github" :repo "doublep/iter2" :files nil :deps (:emacs (25 1)))

@@ -767,7 +767,7 @@
   dired-toggle-sudo (:fetcher "github" :repo "renard/dired-toggle-sudo" :files nil :deps nil)
   diredfl (:fetcher "github" :repo "purcell/diredfl" :files nil :deps (:emacs (24)))
   diredful (:fetcher "github" :repo "thamer/diredful" :files nil :deps nil)
-  direnv (:fetcher "github" :repo "wbolster/emacs-direnv" :files nil :deps (:emacs (25) :dash (2 12 0)))
+  direnv (:fetcher "github" :repo "wbolster/emacs-direnv" :files nil :deps (:emacs (25 1) :dash (2 12 0)))
   direx (:fetcher "github" :repo "m2ym/direx-el" :files ("direx.el" "direx-project.el") :deps nil)
   direx-grep (:fetcher "github" :repo "aki2o/direx-grep" :files nil :deps (:direx (0 1 -3)))
   dirtree (:fetcher "github" :repo "emacsorphanage/dirtree" :files nil :deps (:tree-mode (1 1 1 1) :windata (0)))

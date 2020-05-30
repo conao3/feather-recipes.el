@@ -2120,7 +2120,7 @@
     ivy-posframe (:fetcher "github" :repo "tumashu/ivy-posframe" :files nil :deps (:emacs (26 0) :posframe (0 1 0) :ivy (0 11 0)))
     ivy-prescient (:fetcher "github" :repo "raxod502/prescient.el" :files ("ivy-prescient.el") :deps (:emacs (25 1) :prescient (4 1) :ivy (0 11 0)))
     ivy-purpose (:fetcher "github" :repo "bmag/ivy-purpose" :files nil :deps (:emacs (24) :ivy (0 8) :window-purpose (1 5)))
-    ivy-rich (:fetcher "github" :repo "Yevgnen/ivy-rich" :files ("*.el") :deps (:emacs (24 5) :ivy (0 13 0)))
+    ivy-rich (:fetcher "github" :repo "Yevgnen/ivy-rich" :files ("*.el") :deps (:emacs (25 1) :ivy (0 13 0)))
     ivy-rtags (:fetcher "github" :repo "Andersbakken/rtags" :files ("src/ivy-rtags.el") :deps (:ivy (0 7 0) :rtags (2 10)))
     ivy-todo (:fetcher "github" :repo "Kungsgeten/ivy-todo" :files nil :deps (:ivy (0 8 0) :emacs (25)))
     ivy-xcdoc (:fetcher "github" :repo "hex2010/emacs-ivy-xcdoc" :files nil :deps (:ivy (0 8 0) :emacs (24 4)))

@@ -3177,7 +3177,7 @@
   podcaster (:fetcher "github" :repo "lujun9972/podcaster" :files nil :deps (:cl-lib (0 5)))
   poe-lootfilter-mode (:fetcher "github" :repo "jdodds/poe-lootfilter-mode" :files nil :deps (:emacs (24 3)))
   poet-client (:fetcher "github" :repo "wailo/emacs-poet" :files nil :deps (:emacs (24 4) :request (0 3 0)))
-  poet-theme (:fetcher "github" :repo "kunalb/poet" :files nil :deps nil)
+  poet-theme (:fetcher "github" :repo "kunalb/poet" :files nil :deps (:emacs (24 1)))
   poetry (:fetcher "github" :repo "galaunay/poetry.el" :files nil :deps (:transient (0 2 0) :pyvenv (1 2) :emacs (25 1)))
   point-pos (:fetcher "github" :repo "alezost/point-pos.el" :files nil :deps nil)
   point-stack (:fetcher "github" :repo "dgutov/point-stack" :files nil :deps nil)

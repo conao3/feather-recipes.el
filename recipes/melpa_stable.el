@@ -917,7 +917,7 @@
     gxref (:fetcher "github" :repo "dedi/gxref" :files nil :deps (:emacs (25)))
     hack-mode (:fetcher "github" :repo "hhvm/hack-mode" :files nil :deps (:emacs (25 1) :s (1 11 0)))
     hacker-typer (:fetcher "github" :repo "dieggsy/emacs-hacker-typer" :files ("//:defaults//" "hackerman.png") :deps (:emacs (24)))
-    hackernews (:fetcher "github" :repo "clarete/hackernews.el" :files nil :deps (:json (1 2)))
+    hackernews (:fetcher "github" :repo "clarete/hackernews.el" :files nil :deps nil)
     ham-mode (:fetcher "github" :repo "Malabarba/ham-mode" :files nil :deps (:html-to-markdown (1 2) :markdown-mode (2 0)))
     hamburger-menu (:fetcher "gitlab" :repo "iain/hamburger-menu-mode" :files nil :deps (:emacs (24 5)))
     haml-mode (:fetcher "github" :repo "nex3/haml-mode" :files nil :deps (:ruby-mode (1 0)))

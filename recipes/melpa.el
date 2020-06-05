@@ -414,7 +414,7 @@
     chronos (:fetcher "github" :repo "dxknight/chronos" :files nil :deps nil)
     chruby (:fetcher "github" :repo "plexus/chruby.el" :files nil :deps (:cl-lib (0 5)))
     chyla-theme (:fetcher "github" :repo "chyla/ChylaThemeForEmacs" :files nil :deps nil)
-    cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :clojure-mode (5 9) :parseedn (0 1) :pkg-info (0 4) :queue (0 2) :spinner (1 7) :seq (2 16) :sesman (0 3 2)))
+    cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :clojure-mode (5 11) :parseedn (0 1) :pkg-info (0 4) :queue (0 2) :spinner (1 7) :seq (2 16) :sesman (0 3 2)))
     cider-decompile (:fetcher "github" :repo "clojure-emacs/cider-decompile" :files nil :deps (:cider (0 3 0) :javap-mode (9)))
     cider-eval-sexp-fu (:fetcher "github" :repo "clojure-emacs/cider-eval-sexp-fu" :files nil :deps (:emacs (24) :eval-sexp-fu (0 5 0)))
     cider-hydra (:fetcher "github" :repo "clojure-emacs/cider-hydra" :files nil :deps (:cider (0 22 0) :hydra (0 13 0)))

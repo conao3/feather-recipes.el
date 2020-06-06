@@ -3507,7 +3507,7 @@
     scf-mode (:fetcher "github" :repo "lewang/scf-mode" :files nil :deps nil)
     scheme-complete (:fetcher "github" :repo "ashinn/scheme-complete" :files nil :deps nil)
     schrute (:fetcher "git" :repo "https://bitbucket.org/shackra/dwight-k.-schrute" :files nil :deps (:emacs (24 3)))
-    scihub (:fetcher "github" :repo "emacs-pe/scihub.el" :files nil :deps (:emacs (25)))
+    scihub (:fetcher "github" :repo "emacs-pe/scihub.el" :files nil :deps (:emacs (25 1)))
     scion (:fetcher "github" :repo "nominolo/scion" :files ("emacs/*.el") :deps nil)
     sclang-extensions (:fetcher "github" :repo "chrisbarrett/sclang-extensions" :files nil :deps (:auto-complete (1 4 0) :s (1 3 1) :dash (1 2 0) :emacs (24 1)))
     sclang-snippets (:fetcher "github" :repo "ptrv/sclang-snippets" :files ("*.el" "snippets") :deps (:yasnippet (0 8 0)))

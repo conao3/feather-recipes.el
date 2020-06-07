@@ -4212,7 +4212,7 @@
   yascroll (:fetcher "github" :repo "m2ym/yascroll-el" :files nil :deps (:emacs (26 1) :cl-lib (0 3)))
   yasnippet (:fetcher "github" :repo "joaotavora/yasnippet" :files ("yasnippet.el" "snippets") :deps (:cl-lib (0 5)))
   yasnippet-lean (:fetcher "github" :repo "leanprover-community/yasnippet-lean" :files ("yasnippet-lean.el" "snippets") :deps (:yasnippet (0 8 0)))
-  yasnippet-snippets (:fetcher "github" :repo "AndreaCrotti/yasnippet-snippets" :files ("*.el" "snippets" ".nosearch") :deps (:yasnippet (0 8 0)))
+  yasnippet-snippets (:fetcher "github" :repo "AndreaCrotti/yasnippet-snippets" :files ("*.el" "snippets" ".nosearch") :deps (:yasnippet (0 8 0) :s (1 12 0)))
   yatemplate (:fetcher "github" :repo "mineo/yatemplate" :files nil :deps (:yasnippet (0 8 1) :emacs (24 3)))
   yaxception (:fetcher "github" :repo "aki2o/yaxception" :files nil :deps nil)
   ycm (:fetcher "github" :repo "neuromage/ycm.el" :files ("ycm.el") :deps nil)

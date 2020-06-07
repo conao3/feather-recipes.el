@@ -2206,7 +2206,7 @@
   yarn-mode (:fetcher "github" :repo "anachronic/yarn-mode" :files nil :deps (:emacs (24 3)))
   yascroll (:fetcher "github" :repo "m2ym/yascroll-el" :files nil :deps (:emacs (26 1) :cl-lib (0 3)))
   yasnippet (:fetcher "github" :repo "joaotavora/yasnippet" :files ("yasnippet.el" "snippets") :deps (:cl-lib (0 5)))
-  yasnippet-snippets (:fetcher "github" :repo "AndreaCrotti/yasnippet-snippets" :files ("*.el" "snippets" ".nosearch") :deps (:yasnippet (0 8 0)))
+  yasnippet-snippets (:fetcher "github" :repo "AndreaCrotti/yasnippet-snippets" :files ("*.el" "snippets" ".nosearch") :deps (:yasnippet (0 8 0) :s (1 12 0)))
   yatemplate (:fetcher "github" :repo "mineo/yatemplate" :files nil :deps (:yasnippet (0 8 1) :emacs (24 3)))
   yaxception (:fetcher "github" :repo "aki2o/yaxception" :files nil :deps nil)
   ycmd (:fetcher "github" :repo "abingham/emacs-ycmd" :files ("ycmd.el" "ycmd-eldoc.el" "contrib/*.el") :deps (:emacs (24 4) :dash (2 13 0) :s (1 11 0) :deferred (0 5 1) :cl-lib (0 6 1) :let-alist (1 0 5) :request (0 3 0) :request-deferred (0 3 0) :pkg-info (0 6)))

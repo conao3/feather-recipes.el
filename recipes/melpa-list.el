@@ -926,7 +926,7 @@
   el2org (:fetcher "github" :repo "tumashu/el2org" :files nil :deps (:emacs (25 1)))
   elbank (:fetcher "github" :repo "NicolasPetton/elbank" :files nil :deps (:emacs (25) :seq (2 16)))
   elcontext (:fetcher "github" :repo "rollacaster/elcontext" :files nil :deps (:ht (2 3) :hydra (0 14 0) :emacs (24 3) :f (0 20 0) :osx-location (0 4) :uuidgen (0 3)))
-  elcord (:fetcher "github" :repo "Mstrodl/elcord" :files ("//:defaults//" "stdpipe.ps1") :deps (:emacs (25)))
+  elcord (:fetcher "github" :repo "Mstrodl/elcord" :files ("//:defaults//" "stdpipe.ps1") :deps (:emacs (25 1)))
   elcouch (:fetcher "github" :repo "DamienCassou/elcouch" :files nil :deps (:emacs (25 1) :json-mode (1 0 0) :libelcouch (0 9 0) :navigel (0 3 0)))
   eldoc-box (:fetcher "github" :repo "casouri/eldoc-box" :files nil :deps (:emacs (26 1)))
   eldoc-cmake (:fetcher "github" :repo "ikirill/eldoc-cmake" :files nil :deps (:emacs (25 1)))

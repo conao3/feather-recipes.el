@@ -109,7 +109,7 @@
   annotate (:fetcher "github" :repo "bastibe/annotate.el" :files nil :deps nil)
   annotate-depth (:fetcher "github" :repo "netromdk/annotate-depth" :files nil :deps nil)
   annoying-arrows-mode (:fetcher "github" :repo "magnars/annoying-arrows-mode.el" :files nil :deps (:cl-lib (0 5)))
-  ansi (:fetcher "github" :repo "rejeep/ansi.el" :files nil :deps (:emacs (24 4) :s (1 6 1) :dash (1 5 0)))
+  ansi (:fetcher "github" :repo "rejeep/ansi.el" :files nil :deps (:s (1 6 1) :dash (1 5 0)))
   ansible (:fetcher "github" :repo "k1LoW/emacs-ansible" :files ("*.el" "snippets" "dict") :deps (:s (1 9 0) :f (0 16 2)))
   ansible-doc (:fetcher "github" :repo "emacsorphanage/ansible-doc" :files nil :deps (:emacs (24 3)))
   ansible-vault (:fetcher "github" :repo "zellio/ansible-vault-mode" :files nil :deps (:emacs (24 3) :seq (2 20)))

@@ -3186,7 +3186,7 @@
     ponylang-mode (:fetcher "github" :repo "ponylang/ponylang-mode" :files nil :deps (:dash (2 17 0) :hydra (0 15 0)))
     pophint (:fetcher "github" :repo "aki2o/emacs-pophint" :files nil :deps (:log4e (0 3 3) :yaxception (0 3)))
     poporg (:fetcher "github" :repo "QBobWatson/poporg" :files nil :deps nil)
-    popup (:fetcher "github" :repo "auto-complete/popup-el" :files ("popup.el") :deps (:emacs (26 1) :cl-lib (0 5)))
+    popup (:fetcher "github" :repo "auto-complete/popup-el" :files ("popup.el") :deps (:cl-lib (0 5)))
     popup-complete (:fetcher "github" :repo "syohex/emacs-popup-complete" :files nil :deps (:popup (0 5 0)))
     popup-edit-menu (:fetcher "github" :repo "debugfan/popup-edit-menu" :files nil :deps (:emacs (24)))
     popup-imenu (:fetcher "github" :repo "ancane/popup-imenu" :files nil :deps (:dash (2 12 1) :popup (0 5 3) :flx-ido (0 6 1)))

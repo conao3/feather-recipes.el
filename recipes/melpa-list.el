@@ -4059,7 +4059,7 @@
   volume (:fetcher "github" :repo "dbrock/volume.el" :files nil :deps nil)
   vscode-icon (:fetcher "github" :repo "jojojames/vscode-icon-emacs" :files ("//:defaults//" "icons") :deps (:emacs (25 1)))
   vterm (:fetcher "github" :repo "akermu/emacs-libvterm" :files ("*" (:exclude (".dir-locals.el" ".gitignore" ".clang-format" ".travis.yml"))) :deps (:emacs (25 1)))
-  vterm-toggle (:fetcher "github" :repo "jixiuf/vterm-toggle" :files nil :deps (:emacs (25 1) :vterm (0 0 1)))
+  vterm-toggle (:fetcher "github" :repo "jixiuf/vterm-toggle" :files nil :deps (:emacs (25 1) :vterm (0 0 1) :projectile (1 0 0)))
   vue-html-mode (:fetcher "github" :repo "AdamNiederer/vue-html-mode" :files nil :deps nil)
   vue-mode (:fetcher "github" :repo "AdamNiederer/vue-mode" :files nil :deps (:mmm-mode (0 5 5) :vue-html-mode (0 2) :ssass-mode (0 2) :edit-indirect (0 1 4)))
   vyper-mode (:fetcher "github" :repo "ralexstokes/vyper-mode" :files nil :deps (:emacs (24 3)))

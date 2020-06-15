@@ -1112,7 +1112,7 @@
   evil-cleverparens (:fetcher "github" :repo "luxbock/evil-cleverparens" :files nil :deps (:evil (1 0) :paredit (1) :smartparens (1 6 1) :emacs (24 4) :dash (2 12 0)))
   evil-colemak-basics (:fetcher "github" :repo "wbolster/evil-colemak-basics" :files nil :deps (:emacs (24) :evil (1 2 12) :evil-snipe (2 0 3)))
   evil-colemak-minimal (:fetcher "github" :repo "bmallred/evil-colemak-minimal" :files ("evil-colemak-minimal.el") :deps (:emacs (24) :evil (1 2 12)))
-  evil-collection (:fetcher "github" :repo "emacs-evil/evil-collection" :files ("//:defaults//" "modes") :deps (:emacs (25 1) :cl-lib (0 5) :evil (1 2 13) :annalist (1 0)))
+  evil-collection (:fetcher "github" :repo "emacs-evil/evil-collection" :files ("//:defaults//" "modes") :deps (:emacs (25 1) :evil (1 2 13) :annalist (1 0)))
   evil-commentary (:fetcher "github" :repo "linktohack/evil-commentary" :files nil :deps (:evil (1 0 0)))
   evil-dvorak (:fetcher "github" :repo "jbranso/evil-dvorak" :files nil :deps (:evil (1 0 8)))
   evil-easymotion (:fetcher "github" :repo "PythonNut/evil-easymotion" :files nil :deps (:emacs (24) :avy (0 3 0) :cl-lib (0 5)))

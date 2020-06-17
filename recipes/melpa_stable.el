@@ -305,7 +305,7 @@
     company-web (:fetcher "github" :repo "osv/company-web" :files nil :deps (:company (0 8 0) :dash (2 8 0) :cl-lib (0 5 0) :web-completion-data (0 1 0)))
     company-ycmd (:fetcher "github" :repo "abingham/emacs-ycmd" :files ("company-ycmd.el") :deps (:ycmd (1 2) :company (0 9 3) :deferred (0 5 1) :s (1 11 0) :dash (2 13 0) :let-alist (1 0 5) :f (0 19 0)))
     composable (:fetcher "github" :repo "paldepind/composable.el" :files nil :deps (:emacs (24 4)))
-    composer (:fetcher "github" :repo "emacs-php/composer.el" :files nil :deps (:emacs (24) :s (1 9 0) :f (0 17) :request (0 2 0) :seq (1 9) :php-runtime (0 1 0)))
+    composer (:fetcher "github" :repo "emacs-php/composer.el" :files nil :deps (:emacs (24 3) :s (1 9 0) :f (0 17) :seq (1 9) :php-runtime (0 1 0)))
     concurrent (:fetcher "github" :repo "kiwanami/emacs-deferred" :files ("concurrent.el") :deps (:emacs (24 3) :deferred (0 5 0)))
     conda (:fetcher "github" :repo "necaris/conda.el" :files nil :deps (:emacs (24 4) :pythonic (0 1 0) :dash (2 13 0) :s (1 11 0) :f (0 18 2)))
     conkeror-minor-mode (:fetcher "github" :repo "Malabarba/conkeror-minor-mode" :files nil :deps nil)

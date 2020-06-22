@@ -377,7 +377,7 @@
     deferred (:fetcher "github" :repo "kiwanami/emacs-deferred" :files ("deferred.el") :deps (:emacs (24 4)))
     define-word (:fetcher "github" :repo "abo-abo/define-word" :files nil :deps (:emacs (24 1)))
     deft (:fetcher "github" :repo "jrblevin/deft" :files nil :deps nil)
-    demangle-mode (:fetcher "github" :repo "liblit/demangle-mode" :files nil :deps (:cl-lib (0 1) :emacs (24)))
+    demangle-mode (:fetcher "github" :repo "liblit/demangle-mode" :files nil :deps (:cl-lib (0 1) :emacs (24 3)))
     describe-number (:fetcher "github" :repo "netromdk/describe-number" :files nil :deps (:yabin (1 1)))
     desktop+ (:fetcher "github" :repo "ffevotte/desktop-plus" :files nil :deps (:emacs (24 4) :dash (2 11 0) :f (0 17 2)))
     desktop-environment (:fetcher "github" :repo "DamienCassou/desktop-environment" :files nil :deps (:emacs (25 1)))

@@ -1684,7 +1684,7 @@
   polymode (:fetcher "github" :repo "polymode/polymode" :files nil :deps (:emacs (25)))
   pomidor (:fetcher "github" :repo "TatriX/pomidor" :files ("//:defaults//" "tick.wav" "tack.wav" "overwork.wav") :deps nil)
   pony-snippets (:fetcher "github" :repo "ponylang/pony-snippets" :files ("//:defaults//" "snippets") :deps (:yasnippet (0 8 0)))
-  ponylang-mode (:fetcher "github" :repo "ponylang/ponylang-mode" :files nil :deps (:dash (2 17 0) :hydra (0 15 0) :hl-todo (3 1 2) :rainbow-delimiters (2 1 4) :fill-column-indicator (1 90)))
+  ponylang-mode (:fetcher "github" :repo "ponylang/ponylang-mode" :files nil :deps (:dash (2 17 0) :hydra (0 15 0) :hl-todo (3 1 2) :yafolding (0 4 1) :rainbow-delimiters (2 1 4) :fill-column-indicator (1 90)))
   pophint (:fetcher "github" :repo "aki2o/emacs-pophint" :files nil :deps (:log4e (0 3 3) :yaxception (0 3)))
   popup (:fetcher "github" :repo "auto-complete/popup-el" :files ("popup.el") :deps (:cl-lib (0 5)))
   popup-complete (:fetcher "github" :repo "syohex/emacs-popup-complete" :files nil :deps (:popup (0 5 0)))

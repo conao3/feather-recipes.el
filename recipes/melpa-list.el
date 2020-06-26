@@ -2380,7 +2380,7 @@
   lsp-scala (:fetcher "github" :repo "rossabaker/lsp-scala" :files nil :deps (:emacs (24 4) :lsp-mode (5 0) :sbt-mode (2 0)))
   lsp-sourcekit (:fetcher "github" :repo "emacs-lsp/lsp-sourcekit" :files nil :deps (:emacs (25 1) :lsp-mode (5)))
   lsp-treemacs (:fetcher "github" :repo "emacs-lsp/lsp-treemacs" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :treemacs (2 5) :lsp-mode (6 0)))
-  lsp-ui (:fetcher "github" :repo "emacs-lsp/lsp-ui" :files ("//:defaults//" "lsp-ui-doc.html") :deps (:emacs (26 1) :dash (2 14) :dash-functional (1 2 0) :lsp-mode (6 0) :markdown-mode (2 3)))
+  lsp-ui (:fetcher "github" :repo "emacs-lsp/lsp-ui" :files ("//:defaults//" "lsp-ui-doc.html") :deps (:emacs (26 1) :dash (2 14) :dash-functional (1 2 0) :lsp-mode (6 0) :markdown-mode (2 3) :posframe (0 7 0)))
   lua-mode (:fetcher "github" :repo "immerrr/lua-mode" :files ("//:defaults//" "scripts") :deps (:emacs (24 3)))
   luarocks (:fetcher "github" :repo "emacs-pe/luarocks.el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   lush-theme (:fetcher "github" :repo "andre-richter/emacs-lush-theme" :files nil :deps (:emacs (24)))

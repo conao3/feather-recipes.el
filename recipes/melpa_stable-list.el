@@ -1463,7 +1463,7 @@
   ocodo-svg-modelines (:fetcher "github" :repo "ocodo/ocodo-svg-modelines" :files ("//:defaults//" "images" "images/*.base64") :deps (:svg-mode-line-themes (0)))
   ocp-indent (:fetcher "github" :repo "OCamlPro/ocp-indent" :files ("tools/ocp-indent.el") :deps nil)
   octicons (:fetcher "github" :repo "syohex/emacs-octicons" :files nil :deps (:cl-lib (0 5)))
-  oer-reveal (:fetcher "gitlab" :repo "oer/oer-reveal" :files ("//:defaults//" "README*" "LICENSE*" "org" "css" "title-slide") :deps (:emacs (24 4) :org-re-reveal (2 12 0)))
+  oer-reveal (:fetcher "gitlab" :repo "oer/oer-reveal" :files ("//:defaults//" "README*" "LICENSE*" "org" "css" "title-slide") :deps (:emacs (24 4) :org-re-reveal (3 0 0)))
   offlineimap (:fetcher "github" :repo "jd/offlineimap.el" :files nil :deps nil)
   olivetti (:fetcher "github" :repo "rnkn/olivetti" :files nil :deps (:emacs (24 5)))
   omni-kill (:fetcher "github" :repo "AdrieanKhisbe/omni-kill.el" :files nil :deps nil)

@@ -482,7 +482,7 @@
   eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
   ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (20191017 30) :auto-complete (1 4 0) :request (20190621 1622) :deferred (0 5) :polymode (20190426 1729) :markdown-mode (20171116 756) :dash (2 13 0) :s (1 11 0) :skewer-mode (1 6 2)))
   eink-theme (:fetcher "github" :repo "maio/eink-emacs" :files nil :deps nil)
-  ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets") :deps (:emacs (25 1) :clomacs (0 0 3) :dash (2 12 1) :auto-complete (1 5 1) :spinner (1 7 1) :direx (1 0 0)))
+  ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets") :deps (:emacs (26 3) :clomacs (0 0 4) :dash (2 16 0) :auto-complete (1 5 1) :spinner (1 7 3) :direx (1 0 0)))
   el-autoyas (:fetcher "github" :repo "mattfidler/el-autoyas.el" :files nil :deps nil)
   el-get (:fetcher "github" :repo "dimitri/el-get" :files ("*.el" "recipes" "recipes/el-get.rcp" "methods") :deps nil)
   el-init (:fetcher "github" :repo "HKey/el-init" :files nil :deps (:emacs (24) :cl-lib (0 5) :anaphora (1 0 0)))

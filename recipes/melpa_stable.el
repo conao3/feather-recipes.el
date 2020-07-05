@@ -1236,7 +1236,7 @@
     libelcouch (:fetcher "github" :repo "DamienCassou/libelcouch" :files nil :deps (:emacs (25 1) :request (0 3 0)))
     libmpdel (:fetcher "github" :repo "mpdel/libmpdel" :files nil :deps (:emacs (25 1)))
     lice (:fetcher "github" :repo "buzztaiki/lice-el" :files ("*.el" "template") :deps nil)
-    line-reminder (:fetcher "github" :repo "elpa-host/line-reminder" :files nil :deps (:emacs (24 4) :cl-lib (0 6)))
+    line-reminder (:fetcher "github" :repo "elpa-host/line-reminder" :files nil :deps (:emacs (24 4)))
     line-up-words (:fetcher "github" :repo "janestreet/line-up-words" :files nil :deps nil)
     lingr (:fetcher "github" :repo "lugecy/lingr-el" :files nil :deps nil)
     linguistic (:fetcher "github" :repo "andcarnivorous/linguistic" :files ("//:defaults//" "graphs.org") :deps nil)

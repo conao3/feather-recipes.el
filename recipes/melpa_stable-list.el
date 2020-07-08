@@ -977,7 +977,7 @@
   helm-github-stars (:fetcher "github" :repo "Sliim/helm-github-stars" :files nil :deps (:helm (1 6 8) :emacs (24 4)))
   helm-gitlab (:fetcher "github" :repo "nlamirault/emacs-gitlab" :files ("helm-gitlab.el") :deps (:s (1 9 0) :dash (2 9 0) :helm (1 0) :gitlab (0 8 0)))
   helm-go-package (:fetcher "github" :repo "yasuyk/helm-go-package" :files nil :deps (:emacs (24 4) :helm-core (2 2 1) :go-mode (1 4 0) :deferred (0 4 0)))
-  helm-grepint (:fetcher "github" :repo "kopoli/helm-grepint" :files nil :deps (:helm (1 0) :emacs (24 4)))
+  helm-grepint (:fetcher "github" :repo "kopoli/helm-grepint" :files nil :deps (:helm (2 9 7) :emacs (24 4)))
   helm-gtags (:fetcher "github" :repo "syohex/emacs-helm-gtags" :files nil :deps (:emacs (24 4) :helm (2 0)))
   helm-hatena-bookmark (:fetcher "github" :repo "masutaka/emacs-helm-hatena-bookmark" :files nil :deps (:emacs (24) :helm (2 8 2)))
   helm-hayoo (:fetcher "github" :repo "markus1189/helm-hayoo" :files nil :deps (:helm (1 6 0) :json (1 2) :haskell-mode (13 7)))

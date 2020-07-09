@@ -1842,7 +1842,7 @@
   rufo (:fetcher "github" :repo "danielma/rufo.el" :files nil :deps (:emacs (24 3)))
   runner (:fetcher "github" :repo "thamer/runner" :files nil :deps nil)
   russian-holidays (:fetcher "github" :repo "grafov/russian-holidays" :files nil :deps nil)
-  rust-mode (:fetcher "github" :repo "rust-lang/rust-mode" :files nil :deps (:emacs (24 0)))
+  rust-mode (:fetcher "github" :repo "rust-lang/rust-mode" :files nil :deps (:emacs (25 1)))
   rust-playground (:fetcher "github" :repo "grafov/rust-playground" :files nil :deps (:emacs (24 3)))
   rvm (:fetcher "github" :repo "senny/rvm.el" :files nil :deps nil)
   s (:fetcher "github" :repo "magnars/s.el" :files ("s.el") :deps nil)

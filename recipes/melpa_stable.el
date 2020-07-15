@@ -1505,7 +1505,7 @@
     org-if (:fetcher "gitlab" :repo "elzair/org-if" :files nil :deps nil)
     org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:org (9 0 0) :dash (2 12 0) :emacs (25 1)))
     org-jira (:fetcher "github" :repo "ahungry/org-jira" :files ("jiralib.el" "org-jira.el" "org-jira-sdk.el") :deps (:emacs (24 5) :cl-lib (0 5) :request (0 2 0) :s (0 0 0) :dash (2 14 1)))
-    org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil :deps (:emacs (25 1)))
+    org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil :deps (:emacs (25 1) :org (9 1)))
     org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el") :deps (:s (0) :dash (2 17 0) :emacs (24 4) :org (9 1)))
     org-link-travis (:fetcher "github" :repo "aki2o/org-link-travis" :files nil :deps (:org (7)))
     org-make-toc (:fetcher "github" :repo "alphapapa/org-make-toc" :files nil :deps (:emacs (26 1) :dash (2 12) :s (1 10 0) :org (9 0)))

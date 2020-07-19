@@ -3182,7 +3182,7 @@
     pomodoro (:fetcher "github" :repo "baudtack/pomodoro.el" :files nil :deps nil)
     pony-mode (:fetcher "github" :repo "davidmiller/pony-mode" :files ("src/*.el" "src/snippets") :deps nil)
     pony-snippets (:fetcher "github" :repo "ponylang/pony-snippets" :files ("//:defaults//" "snippets") :deps (:yasnippet (0 8 0)))
-    ponylang-mode (:fetcher "github" :repo "ponylang/ponylang-mode" :files nil :deps (:dash (2 17 0) :hydra (0 15 0) :hl-todo (3 1 2) :yafolding (0 4 1) :rainbow-delimiters (2 1 4) :fill-column-indicator (1 90)))
+    ponylang-mode (:fetcher "github" :repo "ponylang/ponylang-mode" :files nil :deps (:dash (2 17 0) :hydra (0 15 0) :hl-todo (3 1 2) :yafolding (0 4 1) :yasnippet (0 14 0) :rainbow-delimiters (2 1 4) :fill-column-indicator (1 90)))
     pophint (:fetcher "github" :repo "aki2o/emacs-pophint" :files nil :deps (:log4e (0 3 3) :yaxception (0 3)))
     poporg (:fetcher "github" :repo "QBobWatson/poporg" :files nil :deps nil)
     popup (:fetcher "github" :repo "auto-complete/popup-el" :files ("popup.el") :deps (:cl-lib (0 5)))

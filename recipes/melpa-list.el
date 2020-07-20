@@ -2928,7 +2928,7 @@
   organize-imports-java (:fetcher "github" :repo "elpa-host/organize-imports-java" :files nil :deps (:emacs (25 1) :f (0 20 0) :s (1 12 0)))
   orgbox (:fetcher "github" :repo "yasuhito/orgbox" :files nil :deps (:org (8 0) :cl-lib (0 5)))
   orgit (:fetcher "github" :repo "magit/orgit" :files nil :deps (:emacs (25 1) :magit (2 90 1) :org (9 3)))
-  orglink (:fetcher "github" :repo "tarsius/orglink" :files nil :deps (:emacs (24 3) :dash (2 12 1) :org (9 3)))
+  orglink (:fetcher "github" :repo "tarsius/orglink" :files nil :deps (:emacs (24 3) :org (9 3) :seq (2 20)))
   orglue (:fetcher "github" :repo "yoshinari-nomura/orglue" :files nil :deps (:org (9 3) :epic (0 2)))
   orgnav (:fetcher "github" :repo "facetframer/orgnav" :files nil :deps (:helm (2 7 0) :s (1 11 0) :dash (1 11 0) :emacs (24)))
   orgtbl-aggregate (:fetcher "github" :repo "tbanel/orgaggregate" :files nil :deps nil)

@@ -1033,7 +1033,7 @@
   epresent (:fetcher "github" :repo "dakrone/epresent" :files nil :deps (:org (8) :cl-lib (0 5)))
   eprime-mode (:fetcher "github" :repo "AndrewHynes/eprime-mode" :files nil :deps nil)
   eproject (:fetcher "github" :repo "jrockway/eproject" :files ("eproject.el" "eproject-extras.el" "lang/*.el" "contrib/*.el") :deps (:helm (1 6 4)))
-  equake (:fetcher "gitlab" :repo "emacsomancer/equake" :files nil :deps (:emacs (25) :dash (2 14 1) :tco (20190309 55)))
+  equake (:fetcher "gitlab" :repo "emacsomancer/equake" :files nil :deps (:emacs (26 1) :dash (2 14 1) :tco (20190309 55)))
   erc-colorize (:fetcher "github" :repo "thisirs/erc-colorize" :files nil :deps nil)
   erc-crypt (:fetcher "github" :repo "atomontage/erc-crypt" :files nil :deps (:cl-lib (0 5)))
   erc-hl-nicks (:fetcher "github" :repo "leathekd/erc-hl-nicks" :files nil :deps nil)

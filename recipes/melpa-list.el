@@ -3226,7 +3226,7 @@
   prog-fill (:fetcher "github" :repo "ahungry/prog-fill" :files nil :deps (:emacs (25 1) :cl-lib (0 6 1)))
   prognth (:fetcher "github" :repo "Fuco1/prognth" :files nil :deps nil)
   programmer-dvorak (:fetcher "github" :repo "yangchenyun/programmer-dvorak" :files nil :deps nil)
-  project-abbrev (:fetcher "github" :repo "elpa-host/project-abbrev" :files nil :deps (:emacs (24 4)))
+  project-abbrev (:fetcher "github" :repo "elpa-host/project-abbrev" :files nil :deps (:emacs (25 1)))
   project-explorer (:fetcher "github" :repo "sabof/project-explorer" :files nil :deps (:cl-lib (0 3) :es-lib (0 3) :es-windows (0 1) :emacs (24)))
   project-persist (:fetcher "github" :repo "rdallasgray/project-persist" :files ("lib/*") :deps nil)
   project-persist-drawer (:fetcher "github" :repo "rdallasgray/project-persist-drawer" :files ("lib/*") :deps (:project-persist (0 3)))

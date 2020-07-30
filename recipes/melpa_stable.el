@@ -2181,7 +2181,7 @@
     wordgen (:fetcher "github" :repo "Fanael/wordgen.el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     wordsmith-mode (:fetcher "github" :repo "istib/wordsmith-mode" :files nil :deps nil)
     worf (:fetcher "github" :repo "abo-abo/worf" :files nil :deps (:swiper (0 7 0) :ace-link (0 1 0) :hydra (0 13 0)))
-    workgroups2 (:fetcher "github" :repo "pashinin/workgroups2" :files ("src/*.el") :deps (:cl-lib (0 4) :dash (2 8 0) :anaphora (1 0 0) :f (0 17)))
+    workgroups2 (:fetcher "github" :repo "pashinin/workgroups2" :files ("src/*.el") :deps (:emacs (25 1) :dash (2 8 0)))
     wrap-region (:fetcher "github" :repo "rejeep/wrap-region.el" :files nil :deps (:dash (1 0 3)))
     writegood-mode (:fetcher "github" :repo "bnbeckwith/writegood-mode" :files nil :deps nil)
     writeroom-mode (:fetcher "github" :repo "joostkremers/writeroom-mode" :files nil :deps (:emacs (24 1) :visual-fill-column (1 9)))

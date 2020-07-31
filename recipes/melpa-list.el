@@ -2307,7 +2307,7 @@
   libmpdel (:fetcher "github" :repo "mpdel/libmpdel" :files nil :deps (:emacs (25 1)))
   lice (:fetcher "github" :repo "buzztaiki/lice-el" :files ("*.el" "template") :deps nil)
   light-soap-theme (:fetcher "github" :repo "mswift42/light-soap-theme" :files nil :deps (:emacs (24)))
-  line-reminder (:fetcher "github" :repo "elpa-host/line-reminder" :files nil :deps (:emacs (24 4)))
+  line-reminder (:fetcher "github" :repo "elpa-host/line-reminder" :files nil :deps (:emacs (24 4) :indicators (0 0 4)))
   line-up-words (:fetcher "github" :repo "janestreet/line-up-words" :files nil :deps nil)
   lines-at-once (:fetcher "github" :repo "jiahaowork/lines-at-once.el" :files nil :deps (:emacs (25)))
   lingr (:fetcher "github" :repo "lugecy/lingr-el" :files nil :deps nil)

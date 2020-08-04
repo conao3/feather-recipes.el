@@ -902,7 +902,7 @@
   egg (:fetcher "github" :repo "byplayer/egg" :files nil :deps nil)
   egison-mode (:fetcher "github" :repo "egison/egison" :files ("elisp/*.el") :deps nil)
   eglot (:fetcher "github" :repo "joaotavora/eglot" :files nil :deps (:emacs (26 1) :jsonrpc (1 0 9) :flymake (1 0 9) :project (0 3 0) :xref (1 0 1) :eldoc (1 5 0)))
-  ego (:fetcher "github" :repo "emacs-china/EGO" :files ("//:defaults//" "themes") :deps (:emacs (24 5) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0) :simple-httpd (1 4 5)))
+  ego (:fetcher "github" :repo "emacs-china/EGO" :files ("//:defaults//" "themes") :deps (:emacs (24 5) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0)))
   eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
   eimp (:fetcher "github" :repo "nicferrier/eimp" :files nil :deps nil)
   ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (20190620) :anaphora (20180618) :request (20200117) :deferred (0 5) :polymode (20190714) :exec-path-from-shell (20191229) :dash (2 13 0) :with-editor (20200522)))

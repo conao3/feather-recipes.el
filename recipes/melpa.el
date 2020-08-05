@@ -3307,7 +3307,7 @@
     python-environment (:fetcher "github" :repo "tkf/emacs-python-environment" :files nil :deps (:deferred (0 3 1)))
     python-info (:fetcher "github" :repo "Wilfred/python-info" :files nil :deps nil)
     python-mode (:fetcher "gitlab" :repo "python-mode-devs/python-mode" :files ("python-mode.el" "completion" "completion/pycomplete.*") :deps nil)
-    python-pytest (:fetcher "github" :repo "wbolster/emacs-python-pytest" :files nil :deps (:emacs (24 4) :dash (2 12 0) :dash-functional (2 12 0) :magit-popup (2 12 0) :projectile (0 14 0) :s (1 12 0)))
+    python-pytest (:fetcher "github" :repo "wbolster/emacs-python-pytest" :files nil :deps (:emacs (24 4) :dash (2 12 0) :dash-functional (2 12 0) :transient (20200719) :projectile (0 14 0) :s (1 12 0)))
     python-switch-quotes (:fetcher "github" :repo "werehuman/python-switch-quotes" :files nil :deps (:emacs (24 3)))
     python-test (:fetcher "github" :repo "emacs-pe/python-test.el" :files ("python-test.el") :deps (:emacs (25 1)))
     python-x (:fetcher "gitlab" :repo "wavexx/python-x.el" :files nil :deps (:python (0 24) :folding (0) :cl-lib (0 5)))

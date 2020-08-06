@@ -1018,7 +1018,7 @@
   helm-slime (:fetcher "github" :repo "emacs-helm/helm-slime" :files nil :deps (:emacs (24) :helm (3 2) :slime (2 18) :cl-lib (0 5)))
   helm-smex (:fetcher "github" :repo "ptrv/helm-smex" :files nil :deps (:emacs (24) :smex (3 0) :helm (1 7 7)))
   helm-spaces (:fetcher "github" :repo "yasuyk/helm-spaces" :files nil :deps (:helm-core (2 2) :spaces (0 1 0)))
-  helm-swoop (:fetcher "github" :repo "emacsorphanage/helm-swoop" :files nil :deps (:helm (3 2) :emacs (24 4)))
+  helm-swoop (:fetcher "github" :repo "emacsorphanage/helm-swoop" :files nil :deps (:emacs (25 1) :helm (3 6)))
   helm-system-packages (:fetcher "github" :repo "emacs-helm/helm-system-packages" :files nil :deps (:emacs (24 4) :helm (2 8 6) :seq (1 8)))
   helm-taskswitch (:fetcher "github" :repo "bdc34/helm-taskswitch" :files nil :deps (:emacs (24) :helm (3 0)))
   helm-themes (:fetcher "github" :repo "syohex/emacs-helm-themes" :files nil :deps (:helm (1 0)))

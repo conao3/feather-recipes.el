@@ -1859,7 +1859,7 @@
   helm-spotify (:fetcher "github" :repo "krisajenkins/helm-spotify" :files nil :deps (:helm (0 0 0) :multi (2 0 0)))
   helm-spotify-plus (:fetcher "github" :repo "wandersoncferreira/helm-spotify-plus" :files nil :deps (:emacs (24 4) :helm (2 0 0) :multi (2 0 1)))
   helm-sql-connect (:fetcher "github" :repo "eric-hansen/helm-sql-connect" :files nil :deps (:helm (0 0 0)))
-  helm-swoop (:fetcher "github" :repo "emacsorphanage/helm-swoop" :files nil :deps (:emacs (24 4) :helm (3 2)))
+  helm-swoop (:fetcher "github" :repo "emacsorphanage/helm-swoop" :files nil :deps (:emacs (25 1) :helm (3 6)))
   helm-system-packages (:fetcher "github" :repo "emacs-helm/helm-system-packages" :files nil :deps (:emacs (24 4) :helm (2 8 7) :seq (1 8)))
   helm-systemd (:fetcher "github" :repo "Lompik/helm-systemd" :files ("helm-systemd.el") :deps (:emacs (24 4) :helm (1 9 2) :with-editor (2 5 0)))
   helm-tail (:fetcher "github" :repo "akirak/helm-tail" :files nil :deps (:emacs (25 1) :helm (2 7 0)))

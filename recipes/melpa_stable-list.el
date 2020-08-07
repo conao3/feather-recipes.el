@@ -1270,7 +1270,7 @@
   lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :spinner (1 7 3) :markdown-mode (2 3) :lv (0)))
   lsp-p4 (:fetcher "github" :repo "dmakarov/p4ls" :files ("clients/emacs/*.el") :deps (:lsp-mode (3 0)))
   lsp-python-ms (:fetcher "github" :repo "emacs-lsp/lsp-python-ms" :files nil :deps (:emacs (25 1) :lsp-mode (6 0)))
-  lsp-treemacs (:fetcher "github" :repo "emacs-lsp/lsp-treemacs" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :treemacs (2 5) :lsp-mode (6 0)))
+  lsp-treemacs (:fetcher "github" :repo "emacs-lsp/lsp-treemacs" :files ("//:defaults//" "icons") :deps (:emacs (26 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :treemacs (2 5) :lsp-mode (6 0)))
   lsp-ui (:fetcher "github" :repo "emacs-lsp/lsp-ui" :files ("//:defaults//" "lsp-ui-doc.html") :deps (:emacs (26 1) :dash (2 14) :dash-functional (1 2 0) :lsp-mode (6 0) :markdown-mode (2 3)))
   lua-mode (:fetcher "github" :repo "immerrr/lua-mode" :files ("//:defaults//" "scripts") :deps nil)
   lusty-explorer (:fetcher "github" :repo "sjbach/lusty-emacs" :files ("lusty-explorer.el") :deps nil)

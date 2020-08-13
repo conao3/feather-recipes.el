@@ -1868,7 +1868,7 @@
   sekka (:fetcher "github" :repo "kiyoka/sekka" :files ("emacs/sekka.el") :deps (:cl-lib (0 3) :concurrent (0 3 1) :popup (0 5 2)))
   select-themes (:fetcher "github" :repo "jasonm23/emacs-select-themes" :files nil :deps nil)
   selectric-mode (:fetcher "github" :repo "rbanffy/selectric-mode" :files ("//:defaults//" "*.wav") :deps nil)
-  seml-mode (:fetcher "github" :repo "conao3/seml-mode.el" :files nil :deps (:emacs (25) :simple-httpd (1 5) :htmlize (1 5)))
+  seml-mode (:fetcher "github" :repo "conao3/seml-mode.el" :files nil :deps (:emacs (25) :simple-httpd (1 5) :htmlize (1 5) :web-mode (16 0)))
   servant (:fetcher "github" :repo "cask/servant" :files ("*.el" "bin") :deps (:s (1 8 0) :dash (2 2 0) :f (0 11 0) :ansi (0 3 0) :commander (0 5 0) :epl (0 2) :shut-up (0 2 1) :web-server (0 0 1)))
   serverspec (:fetcher "github" :repo "k1LoW/emacs-serverspec" :files ("*.el" "snippets" "dict") :deps (:dash (2 6 0) :s (1 9 0) :f (0 16 2) :helm (1 6 1)))
   services (:fetcher "github" :repo "davep/services.el" :files nil :deps (:cl-lib (0 5)))

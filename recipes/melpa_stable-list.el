@@ -224,7 +224,7 @@
   chee (:fetcher "github" :repo "eikek/chee" :files ("emacs/*.el") :deps (:dash (2 12 1) :s (1 10 0) :f (0 18 2)))
   chinese-word-at-point (:fetcher "github" :repo "xuchunyang/chinese-word-at-point.el" :files ("chinese-word-at-point.el") :deps (:cl-lib (0 5)))
   choice-program (:fetcher "github" :repo "plandes/choice-program" :files nil :deps (:emacs (26) :cl-lib (1 0)))
-  cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :clojure-mode (5 11) :parseedn (0 1) :pkg-info (0 4) :queue (0 2) :spinner (1 7) :seq (2 16) :sesman (0 3 2)))
+  cider (:fetcher "github" :repo "clojure-emacs/cider" :files ("*.el" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :clojure-mode (5 12) :parseedn (0 1) :pkg-info (0 4) :queue (0 2) :spinner (1 7) :seq (2 16) :sesman (0 3 2)))
   cider-eval-sexp-fu (:fetcher "github" :repo "clojure-emacs/cider-eval-sexp-fu" :files nil :deps (:emacs (24) :eval-sexp-fu (0 5 0)))
   cider-hydra (:fetcher "github" :repo "clojure-emacs/cider-hydra" :files nil :deps (:cider (0 18 0) :hydra (0 13 0)))
   cil-mode (:fetcher "github" :repo "ForNeVeR/cil-mode" :files nil :deps nil)

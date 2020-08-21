@@ -601,7 +601,7 @@
     evil-commentary (:fetcher "github" :repo "linktohack/evil-commentary" :files nil :deps (:evil (1 0 0)))
     evil-embrace (:fetcher "github" :repo "cute-jumper/evil-embrace.el" :files nil :deps (:emacs (24 4) :embrace (0 1 0) :evil-surround (0)))
     evil-escape (:fetcher "github" :repo "syl20bnr/evil-escape" :files nil :deps (:emacs (24) :evil (1 0 9) :cl-lib (0 5)))
-    evil-iedit-state (:fetcher "github" :repo "syl20bnr/evil-iedit-state" :files nil :deps (:evil (1 0 9) :iedit (0 97)))
+    evil-iedit-state (:fetcher "github" :repo "syl20bnr/evil-iedit-state" :files nil :deps (:evil (1 0 9) :iedit (0 9 9 9)))
     evil-leader (:fetcher "github" :repo "cofi/evil-leader" :files nil :deps (:evil (0)))
     evil-lisp-state (:fetcher "github" :repo "syl20bnr/evil-lisp-state" :files nil :deps (:evil (1 0 9) :bind-map (0) :smartparens (1 6 1)))
     evil-magit (:fetcher "github" :repo "emacs-evil/evil-magit" :files nil :deps (:evil (1 2 3) :magit (2 6 0)))

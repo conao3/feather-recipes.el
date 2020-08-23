@@ -3882,7 +3882,7 @@
   thumb-through (:fetcher "github" :repo "apg/thumb-through" :files nil :deps nil)
   tickscript-mode (:fetcher "github" :repo "msherry/tickscript-mode" :files nil :deps (:emacs (24 1)))
   tidal (:fetcher "github" :repo "tidalcycles/Tidal" :files nil :deps (:haskell-mode (16) :emacs (24)))
-  tide (:fetcher "github" :repo "ananthakumaran/tide" :files ("//:defaults//" "tsserver") :deps (:dash (2 10 0) :s (1 11 0) :flycheck (27) :typescript-mode (0 1) :cl-lib (0 5)))
+  tide (:fetcher "github" :repo "ananthakumaran/tide" :files ("//:defaults//" "tsserver") :deps (:emacs (25 1) :dash (2 10 0) :s (1 11 0) :flycheck (27) :typescript-mode (0 1) :cl-lib (0 5)))
   tile (:fetcher "github" :repo "IvanMalison/tile" :files nil :deps (:emacs (25 1) :s (1 9 0) :dash (2 12 0) :stream (2 2 3)))
   time-ext (:fetcher "github" :repo "rubikitch/time-ext" :files nil :deps nil)
   timecop (:fetcher "github" :repo "emacs-php/emacs-datetime" :files ("timecop.el") :deps (:cl-lib (0 5) :datetime-format (0 0 1)))

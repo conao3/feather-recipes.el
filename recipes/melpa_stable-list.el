@@ -1266,7 +1266,7 @@
   logview (:fetcher "github" :repo "doublep/logview" :files nil :deps (:emacs (24 4) :datetime (0 6 1) :extmap (1 0)))
   loop (:fetcher "github" :repo "Wilfred/loop.el" :files ("loop.el") :deps nil)
   love-minor-mode (:fetcher "github" :repo "ejmr/love-minor-mode" :files nil :deps (:lua-mode (20130419)))
-  lsp-java (:fetcher "github" :repo "emacs-lsp/lsp-java" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :lsp-mode (6 0) :markdown-mode (2 3) :dash (2 14 1) :f (0 20 0) :ht (2 0) :dash-functional (1 2 0) :request (0 3 0) :treemacs (2 5)))
+  lsp-java (:fetcher "github" :repo "emacs-lsp/lsp-java" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :lsp-mode (6 0) :markdown-mode (2 3) :dash (2 14 1) :f (0 20 0) :ht (2 0) :dash-functional (1 2 0) :request (0 3 0) :treemacs (2 5) :dap-mode (0 5)))
   lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (26 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :spinner (1 7 3) :markdown-mode (2 3) :lv (0)))
   lsp-p4 (:fetcher "github" :repo "dmakarov/p4ls" :files ("clients/emacs/*.el") :deps (:lsp-mode (3 0)))
   lsp-python-ms (:fetcher "github" :repo "emacs-lsp/lsp-python-ms" :files nil :deps (:emacs (25 1) :lsp-mode (6 0)))

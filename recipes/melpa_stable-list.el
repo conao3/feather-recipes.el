@@ -1679,7 +1679,7 @@
   poetry (:fetcher "github" :repo "galaunay/poetry.el" :files nil :deps (:transient (0 1 0) :cl (1 0) :xterm-color (1 8)))
   point-pos (:fetcher "github" :repo "alezost/point-pos.el" :files nil :deps nil)
   poly-R (:fetcher "github" :repo "polymode/poly-R" :files nil :deps (:emacs (25) :polymode (0 2 2) :poly-markdown (0 2 2) :poly-noweb (0 2 2)))
-  poly-ansible (:fetcher "gitlab" :repo "mavit/poly-ansible" :files nil :deps (:ansible-doc (0 4) :jinja2-mode (0 2) :polymode (0 1 5) :yaml-mode (0 0 13)))
+  poly-ansible (:fetcher "gitlab" :repo "mavit/poly-ansible" :files nil :deps (:ansible (0 2) :ansible-doc (0 4) :jinja2-mode (0 2) :polymode (0 1 5) :yaml-mode (0 0 13)))
   poly-erb (:fetcher "github" :repo "polymode/poly-erb" :files nil :deps (:emacs (25) :polymode (0 2 2)))
   poly-markdown (:fetcher "github" :repo "polymode/poly-markdown" :files nil :deps (:emacs (25) :polymode (0 2 2) :markdown-mode (2 3)))
   poly-noweb (:fetcher "github" :repo "polymode/poly-noweb" :files nil :deps (:emacs (25) :polymode (0 2 2)))

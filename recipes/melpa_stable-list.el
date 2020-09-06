@@ -1821,7 +1821,7 @@
   reveal-in-osx-finder (:fetcher "github" :repo "kaz-yos/reveal-in-osx-finder" :files nil :deps nil)
   reverse-theme (:fetcher "github" :repo "syohex/emacs-reverse-theme" :files nil :deps nil)
   rfc-mode (:fetcher "github" :repo "galdor/rfc-mode" :files nil :deps (:emacs (25 1) :helm (3 2)))
-  rg (:fetcher "github" :repo "dajva/rg.el" :files nil :deps (:cl-lib (0 5) :emacs (24 4) :s (1 10 0) :wgrep (2 1 10)))
+  rg (:fetcher "github" :repo "dajva/rg.el" :files nil :deps (:emacs (25 1) :s (1 10 0) :transient (0 1 0) :wgrep (2 1 10)))
   rib-mode (:fetcher "github" :repo "blezek/rib-mode" :files nil :deps (:emacs (24)))
   rich-minority (:fetcher "github" :repo "Malabarba/rich-minority" :files nil :deps (:cl-lib (0 5)))
   right-click-context (:fetcher "github" :repo "zonuexe/right-click-context" :files nil :deps (:emacs (24 3) :cl-lib (0 5) :popup (0 5)))

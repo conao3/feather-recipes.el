@@ -3765,7 +3765,7 @@
     subatomic256-theme (:fetcher "github" :repo "d11wtq/subatomic256" :files nil :deps nil)
     subemacs (:fetcher "github" :repo "kbauer/subemacs" :files ("//:defaults//" (:exclude ("*experimental*"))) :deps nil)
     sublime-themes (:fetcher "github" :repo "owainlewis/emacs-color-themes" :files ("themes/*.el") :deps nil)
-    sublimity (:fetcher "github" :repo "zk-phi/sublimity" :files nil :deps (:cl-lib (0 3) :emacs (26 1)))
+    sublimity (:fetcher "github" :repo "zk-phi/sublimity" :files nil :deps (:emacs (26 1)))
     sudden-death (:fetcher "github" :repo "yewton/sudden-death.el" :files nil :deps nil)
     sudo-edit (:fetcher "github" :repo "nflath/sudo-edit" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     sudo-ext (:fetcher "github" :repo "rubikitch/sudo-ext" :files nil :deps nil)

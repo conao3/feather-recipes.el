@@ -1697,7 +1697,7 @@
   popup (:fetcher "github" :repo "auto-complete/popup-el" :files ("popup.el") :deps (:cl-lib (0 5)))
   popup-complete (:fetcher "github" :repo "syohex/emacs-popup-complete" :files nil :deps (:popup (0 5 0)))
   popup-imenu (:fetcher "github" :repo "ancane/popup-imenu" :files nil :deps (:dash (2 12 1) :popup (0 5 3) :flx-ido (0 6 1)))
-  popwin (:fetcher "github" :repo "m2ym/popwin-el" :files nil :deps nil)
+  popwin (:fetcher "github" :repo "m2ym/popwin-el" :files nil :deps (:emacs (24 3)))
   porthole (:fetcher "github" :repo "jcaw/porthole" :files nil :deps (:emacs (26) :web-server (0 1 2) :f (0 19 0) :json-rpc-server (0 1 2)))
   pos-tip (:fetcher "github" :repo "pitkali/pos-tip" :files nil :deps nil)
   posframe (:fetcher "github" :repo "tumashu/posframe" :files nil :deps (:emacs (26)))

@@ -2838,7 +2838,7 @@
     org-gnome (:fetcher "github" :repo "NicolasPetton/org-gnome.el" :files nil :deps (:alert (1 2) :telepathy (0 1) :gnome-calendar (0 1)))
     org-grep (:fetcher "github" :repo "emacsorphanage/org-grep" :files nil :deps (:cl-lib (0 5)))
     org-if (:fetcher "gitlab" :repo "elzair/org-if" :files nil :deps nil)
-    org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:org (9 0 0) :dash (2 12 0) :emacs (25 1)))
+    org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:org (9 0 0) :dash (2 12 0) :emacs (26 3)))
     org-iv (:fetcher "github" :repo "kuangdash/org-iv" :files ("//:defaults//" "default" "default/org-iv-front-file" "default/org-back-file" ("css" "default/css/*") ("js" "default/js/*")) :deps (:impatient-mode (1 0 0) :org (8 0) :cl-lib (0 5)))
     org-jira (:fetcher "github" :repo "ahungry/org-jira" :files ("jiralib.el" "org-jira.el" "org-jira-sdk.el") :deps (:emacs (24 5) :cl-lib (0 5) :request (0 2 0) :dash (2 14 1)))
     org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil :deps (:emacs (25 1) :org (9 1)))

@@ -1606,7 +1606,7 @@
   pandoc-mode (:fetcher "github" :repo "joostkremers/pandoc-mode" :files nil :deps (:hydra (0 10 0) :dash (2 10 0)))
   pangu-spacing (:fetcher "github" :repo "coldnew/pangu-spacing" :files nil :deps nil)
   paradox (:fetcher "github" :repo "Malabarba/paradox" :files nil :deps (:emacs (24 4) :seq (1 7) :let-alist (1 0 3) :spinner (1 7 3) :hydra (0 13 2)))
-  parchment-theme (:fetcher "github" :repo "ajgrf/parchment" :files nil :deps (:emacs (24)))
+  parchment-theme (:fetcher "github" :repo "ajgrf/parchment" :files nil :deps (:autothemer (0 2)))
   paredit (:fetcher "git" :repo "https://mumble.net/~campbell/git/paredit.git" :files ("paredit.el") :deps nil)
   paredit-everywhere (:fetcher "github" :repo "purcell/paredit-everywhere" :files nil :deps (:paredit (22)))
   paren-face (:fetcher "github" :repo "tarsius/paren-face" :files nil :deps nil)

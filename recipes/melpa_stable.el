@@ -2168,7 +2168,7 @@
     whitespace-cleanup-mode (:fetcher "github" :repo "purcell/whitespace-cleanup-mode" :files nil :deps nil)
     whizzml-mode (:fetcher "github" :repo "whizzml/whizzml-mode" :files nil :deps (:emacs (24 4)))
     whois (:fetcher "github" :repo "lassik/emacs-whois" :files nil :deps (:emacs (24)))
-    whole-line-or-region (:fetcher "github" :repo "purcell/whole-line-or-region" :files nil :deps (:emacs (24 1)))
+    whole-line-or-region (:fetcher "github" :repo "purcell/whole-line-or-region" :files nil :deps (:emacs (24 1) :cl-lib (0 6)))
     widget-mvc (:fetcher "github" :repo "kiwanami/emacs-widget-mvc" :files nil :deps nil)
     wiki-nav (:fetcher "github" :repo "rolandwalker/button-lock" :files ("wiki-nav.el") :deps (:button-lock (1 0 2) :nav-flash (1 0 0)))
     win-switch (:fetcher "github" :repo "genovese/win-switch" :files nil :deps nil)

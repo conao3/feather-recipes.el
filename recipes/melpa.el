@@ -2125,7 +2125,7 @@
     jade-mode (:fetcher "github" :repo "brianc/jade-mode" :files ("jade-mode.el") :deps nil)
     jammer (:fetcher "github" :repo "wasamasa/jammer" :files nil :deps nil)
     janet-mode (:fetcher "github" :repo "ALSchwalm/janet-mode" :files nil :deps (:emacs (24 3)))
-    japanese-holidays (:fetcher "github" :repo "emacs-jp/japanese-holidays" :files nil :deps (:cl-lib (0 3)))
+    japanese-holidays (:fetcher "github" :repo "emacs-jp/japanese-holidays" :files nil :deps (:emacs (24 1) :cl-lib (0 3)))
     jape-mode (:fetcher "github" :repo "tanzoniteblack/jape-mode" :files nil :deps nil)
     jar-manifest-mode (:fetcher "github" :repo "omajid/jar-manifest-mode" :files nil :deps nil)
     jasminejs-mode (:fetcher "github" :repo "stoltene2/jasminejs-mode" :files ("jasminejs-mode.el" "snippets/jasminejs-mode") :deps nil)

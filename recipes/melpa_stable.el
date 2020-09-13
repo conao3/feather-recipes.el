@@ -30,7 +30,7 @@
     ac-rtags (:fetcher "github" :repo "Andersbakken/rtags" :files ("src/ac-rtags.el") :deps (:auto-complete (1 4 0) :rtags (2 10)))
     ac-slime (:fetcher "github" :repo "purcell/ac-slime" :files nil :deps (:auto-complete (1 4) :slime (2 9) :cl-lib (0 5)))
     ace-flyspell (:fetcher "github" :repo "cute-jumper/ace-flyspell" :files nil :deps (:avy (0 4 0)))
-    ace-isearch (:fetcher "github" :repo "tam17aki/ace-isearch" :files nil :deps (:ace-jump-mode (2 0) :avy (0 3) :helm-swoop (1 4) :emacs (24)))
+    ace-isearch (:fetcher "github" :repo "tam17aki/ace-isearch" :files nil :deps (:emacs (24)))
     ace-jump-buffer (:fetcher "github" :repo "waymondo/ace-jump-buffer" :files nil :deps (:avy (0 4 0) :dash (2 4 0)))
     ace-jump-helm-line (:fetcher "github" :repo "cute-jumper/ace-jump-helm-line" :files nil :deps (:avy (0 4 0) :helm (1 6 3)))
     ace-jump-mode (:fetcher "github" :repo "winterTTr/ace-jump-mode" :files nil :deps nil)

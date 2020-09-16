@@ -1336,7 +1336,7 @@
   mentor (:fetcher "github" :repo "skangas/mentor" :files nil :deps (:xml-rpc (1 6 9) :seq (1 11) :cl-lib (0 5) :async (1 9 3)))
   merlin (:fetcher "github" :repo "ocaml/merlin" :files ("emacs/*.el") :deps nil)
   merlin-eldoc (:fetcher "github" :repo "Khady/merlin-eldoc" :files nil :deps (:emacs (24 4) :merlin (3 0)))
-  meson-mode (:fetcher "github" :repo "wentasah/meson-mode" :files nil :deps (:emacs (24 3)))
+  meson-mode (:fetcher "github" :repo "wentasah/meson-mode" :files nil :deps (:emacs (26 1)))
   meta-presenter (:fetcher "github" :repo "myTerminal/meta-presenter" :files nil :deps nil)
   metaweblog (:fetcher "github" :repo "org2blog/metaweblog" :files nil :deps (:emacs (26 3)))
   mew (:fetcher "github" :repo "kazu-yamamoto/Mew" :files ("*.el" "etc" "info/*.info*") :deps nil)

@@ -2301,7 +2301,7 @@
     levenshtein (:fetcher "github" :repo "emacsorphanage/levenshtein" :files nil :deps nil)
     lexbind-mode (:fetcher "github" :repo "spacebat/lexbind-mode" :files nil :deps nil)
     lfe-mode (:fetcher "github" :repo "rvirding/lfe" :files ("emacs/inferior-lfe.el" "emacs/lfe-mode.el" "emacs/lfe-indent.el") :deps nil)
-    libelcouch (:fetcher "github" :repo "DamienCassou/libelcouch" :files nil :deps (:emacs (25 1) :request (0 3 0)))
+    libelcouch (:fetcher "github" :repo "DamienCassou/libelcouch" :files nil :deps (:emacs (26 1) :request (0 3 0)))
     libgit (:fetcher "github" :repo "magit/libegit2" :files ("CMakeLists.txt" "libgit2" "libgit2/cmake" "libgit2" "libgit2/CMakeLists.txt" "libgit2" "libgit2/COPYING" "libgit2" "libgit2/deps" "libgit2" "libgit2/.HEADER" "libgit2" "libgit2/include" "libgit2" "libgit2/libgit2_clar.supp" "libgit2" "libgit2/libgit2.pc.in" "libgit2" "libgit2/script" "libgit2" "libgit2/src" "libgit.el" "Makefile" "src" "uthash") :deps (:emacs (25 1)))
     libmpdee (:fetcher "github" :repo "andyetitmoves/libmpdee" :files nil :deps nil)
     libmpdel (:fetcher "github" :repo "mpdel/libmpdel" :files nil :deps (:emacs (25 1)))

@@ -1904,7 +1904,7 @@
     highlight-leading-spaces (:fetcher "github" :repo "mrBliss/highlight-leading-spaces" :files nil :deps (:emacs (24 4)))
     highlight-numbers (:fetcher "github" :repo "Fanael/highlight-numbers" :files nil :deps (:emacs (24) :parent-mode (2 0)))
     highlight-operators (:fetcher "bitbucket" :repo "jpkotta/highlight-operators" :files nil :deps nil)
-    highlight-parentheses (:fetcher "github" :repo "tsdh/highlight-parentheses.el" :files nil :deps nil)
+    highlight-parentheses (:fetcher "github" :repo "tsdh/highlight-parentheses.el" :files nil :deps (:emacs (24 3) :cl-lib (0 6 1)))
     highlight-quoted (:fetcher "github" :repo "Fanael/highlight-quoted" :files nil :deps (:emacs (24)))
     highlight-refontification (:fetcher "github" :repo "Lindydancer/highlight-refontification" :files nil :deps nil)
     highlight-stages (:fetcher "github" :repo "zk-phi/highlight-stages" :files nil :deps nil)

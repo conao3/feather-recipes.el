@@ -2129,7 +2129,7 @@
     jape-mode (:fetcher "github" :repo "tanzoniteblack/jape-mode" :files nil :deps nil)
     jar-manifest-mode (:fetcher "github" :repo "omajid/jar-manifest-mode" :files nil :deps nil)
     jasminejs-mode (:fetcher "github" :repo "stoltene2/jasminejs-mode" :files ("jasminejs-mode.el" "snippets/jasminejs-mode") :deps nil)
-    jastadd-ast-mode (:fetcher "github" :repo "rudi/jastadd-ast-mode" :files nil :deps (:emacs (24)))
+    jastadd-ast-mode (:fetcher "github" :repo "rudi/jastadd-ast-mode" :files nil :deps (:emacs (25)))
     java-imports (:fetcher "github" :repo "dakrone/emacs-java-imports" :files nil :deps (:emacs (24 4) :s (1 10 0) :pcache (0 3 2)))
     java-snippets (:fetcher "github" :repo "nekop/yasnippet-java-mode" :files ("*.el" "snippets") :deps (:yasnippet (0 8 0)))
     javadoc-lookup (:fetcher "github" :repo "skeeto/javadoc-lookup" :files ("*.el" "webcache" "webcache/*") :deps (:cl-lib (0 3)))

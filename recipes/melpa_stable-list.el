@@ -968,7 +968,7 @@
   helm-eww (:fetcher "github" :repo "emacs-helm/helm-eww" :files nil :deps (:emacs (24 4) :helm (2 8 6) :seq (1 8)))
   helm-ext (:fetcher "github" :repo "cute-jumper/helm-ext" :files nil :deps (:emacs (24 4) :helm (2 5 3)))
   helm-exwm (:fetcher "github" :repo "emacs-helm/helm-exwm" :files nil :deps (:emacs (25 2) :helm (2 8 5) :exwm (0 15)))
-  helm-file-preview (:fetcher "github" :repo "elpa-host/helm-file-preview" :files nil :deps (:emacs (24 4) :helm (2 0)))
+  helm-file-preview (:fetcher "github" :repo "elpa-host/helm-file-preview" :files nil :deps (:emacs (25 1) :helm (2 0)))
   helm-firefox (:fetcher "github" :repo "emacs-helm/helm-firefox" :files nil :deps (:helm (1 5) :cl-lib (0 5) :emacs (24 1)))
   helm-flycheck (:fetcher "github" :repo "yasuyk/helm-flycheck" :files nil :deps (:dash (2 12 1) :flycheck (28) :helm-core (1 9 8)))
   helm-fuz (:fetcher "github" :repo "cireu/fuz.el" :files ("helm-fuz.el") :deps (:emacs (25 1) :fuz (1 3 0) :helm (3 2)))

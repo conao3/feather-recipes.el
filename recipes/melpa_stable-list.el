@@ -817,7 +817,7 @@
   git-auto-commit-mode (:fetcher "github" :repo "ryuslash/git-auto-commit-mode" :files nil :deps nil)
   git-command (:fetcher "github" :repo "10sr/git-command-el" :files nil :deps (:term-run (0 1 4) :with-editor (2 3 1) :git-ps1-mode (0 2 0)))
   git-commit (:fetcher "github" :repo "magit/magit" :files ("lisp/git-commit.el") :deps (:emacs (25 1) :dash (2 14 1) :with-editor (2 8 0)))
-  git-commit-insert-issue (:fetcher "gitlab" :repo "emacs-stuff/git-commit-insert-issue" :files nil :deps (:helm (0) :projectile (0) :s (0) :github-issues (0) :gitlab (0) :bitbucket (0)))
+  git-commit-insert-issue (:fetcher "gitlab" :repo "emacs-stuff/git-commit-insert-issue" :files nil :deps (:projectile (0) :s (0) :github-issues (0) :gitlab (0) :bitbucket (0)))
   git-gutter (:fetcher "github" :repo "syohex/emacs-git-gutter" :files nil :deps (:cl-lib (0 5) :emacs (24)))
   git-gutter+ (:fetcher "github" :repo "nonsequitur/git-gutter-plus" :files ("git-gutter+.el") :deps (:git-commit (0)))
   git-gutter-fringe (:fetcher "github" :repo "syohex/emacs-git-gutter-fringe" :files nil :deps (:git-gutter (0 88) :fringe-helper (0 1 1) :cl-lib (0 5) :emacs (24)))

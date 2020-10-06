@@ -2463,7 +2463,7 @@
     mastodon (:fetcher "github" :repo "jdenen/mastodon.el" :files ("lisp/*.el") :deps (:emacs (24 4)))
     material-theme (:fetcher "github" :repo "cpaulik/emacs-material-theme" :files nil :deps (:emacs (24 1)))
     math-symbol-lists (:fetcher "github" :repo "vspinu/math-symbol-lists" :files nil :deps nil)
-    math-symbols (:fetcher "github" :repo "kawabata/math-symbols" :files ("math-symbols*.el" "unimathsymbols.txt") :deps (:helm (1 0)))
+    math-symbols (:fetcher "github" :repo "kawabata/math-symbols" :files ("math-symbols*.el" "unimathsymbols.txt") :deps nil)
     matlab-mode (:fetcher "git" :repo "https://git.code.sf.net/p/matlab-emacs/src" :files ("*.el" "*.m" "toolbox" "toolbox/*.m" "templates" "templates/*.srt") :deps nil)
     maude-mode (:fetcher "github" :repo "rudi/maude-mode" :files nil :deps (:emacs (25)))
     maven-test-mode (:fetcher "github" :repo "rranelli/maven-test-mode" :files nil :deps (:s (1 9) :emacs (24)))

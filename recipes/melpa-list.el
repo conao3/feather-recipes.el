@@ -2181,7 +2181,7 @@
   json-rpc-server (:fetcher "github" :repo "jcaw/json-rpc-server.el" :files nil :deps (:emacs (26)))
   json-snatcher (:fetcher "github" :repo "Sterlingg/json-snatcher" :files nil :deps (:emacs (24)))
   jsonl (:fetcher "github" :repo "ebpa/jsonl.el" :files nil :deps (:emacs (25)))
-  jsonnet-mode (:fetcher "github" :repo "mgyucht/jsonnet-mode" :files nil :deps (:emacs (24)))
+  jsonnet-mode (:fetcher "github" :repo "mgyucht/jsonnet-mode" :files nil :deps (:emacs (24) :dash (2 17 0)))
   jss (:fetcher "github" :repo "segv/jss" :files ("jss*.el") :deps (:emacs (24 1) :websocket (0) :js2-mode (0)))
   jst (:fetcher "github" :repo "zhangkaiyulw/jst-mode" :files nil :deps (:s (1 9) :f (0 17) :dash (2 10) :pcache (0 3) :emacs (24 4)))
   jtags (:fetcher "git" :repo "https://git.code.sf.net/p/jtags/code" :files ("src/lisp/*.el") :deps nil)

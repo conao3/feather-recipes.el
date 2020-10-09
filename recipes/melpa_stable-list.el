@@ -2134,7 +2134,7 @@
   vimish-fold (:fetcher "github" :repo "mrkkrp/vimish-fold" :files nil :deps (:emacs (24 4) :cl-lib (0 5) :f (0 18 0)))
   virtualenvwrapper (:fetcher "github" :repo "porterjamesj/virtualenvwrapper.el" :files nil :deps (:dash (1 5 0) :s (1 6 1)))
   visible-mark (:fetcher "gitlab" :repo "iankelling/visible-mark" :files nil :deps nil)
-  visual-fill-column (:fetcher "github" :repo "joostkremers/visual-fill-column" :files nil :deps (:emacs (24 3)))
+  visual-fill-column (:fetcher "github" :repo "joostkremers/visual-fill-column" :files nil :deps (:emacs (25 1)))
   visual-regexp (:fetcher "github" :repo "benma/visual-regexp.el" :files nil :deps (:cl-lib (0 2)))
   visual-regexp-steroids (:fetcher "github" :repo "benma/visual-regexp-steroids.el" :files ("visual-regexp-steroids.el" "regexp.py") :deps (:visual-regexp (1 1)))
   vlf (:fetcher "github" :repo "m00natic/vlfi" :files nil :deps nil)

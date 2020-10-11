@@ -2849,7 +2849,7 @@
   org-mime (:fetcher "github" :repo "org-mime/org-mime" :files nil :deps (:emacs (25 1) :cl-lib (0 5)))
   org-mind-map (:fetcher "github" :repo "theodorewiles/org-mind-map" :files nil :deps (:emacs (24) :dash (1 8 0) :org (8 2 10)))
   org-mobile-sync (:fetcher "git" :repo "https://framagit.org/steckerhalter/org-mobile-sync.git" :files nil :deps (:emacs (24 3 50) :org (8 0)))
-  org-mru-clock (:fetcher "github" :repo "unhammer/org-mru-clock" :files nil :deps (:emacs (24 3)))
+  org-mru-clock (:fetcher "github" :repo "unhammer/org-mru-clock" :files nil :deps (:emacs (25 1)))
   org-msg (:fetcher "github" :repo "jeremy-compostella/org-msg" :files nil :deps (:emacs (24 4) :htmlize (1 54)))
   org-multiple-keymap (:fetcher "github" :repo "myuhe/org-multiple-keymap.el" :files nil :deps (:org (8 2 4) :emacs (24) :cl-lib (0 5)))
   org-notebook (:fetcher "github" :repo "Rahi374/org-notebook" :files nil :deps (:emacs (24) :org (8) :cl-lib (0 5)))

@@ -427,7 +427,7 @@
     docker-cli (:fetcher "github" :repo "bosko/docker-cli" :files nil :deps nil)
     docker-compose-mode (:fetcher "github" :repo "meqif/docker-compose-mode" :files ("//:defaults//" (:exclude ("docker-compose-mode-helpers.el"))) :deps (:emacs (24 3) :dash (2 12 0) :yaml-mode (0 0 12)))
     docker-tramp (:fetcher "github" :repo "emacs-pe/docker-tramp.el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
-    dockerfile-mode (:fetcher "github" :repo "spotify/dockerfile-mode" :files nil :deps nil)
+    dockerfile-mode (:fetcher "github" :repo "spotify/dockerfile-mode" :files nil :deps (:emacs (24) :s (1 12)))
     dokuwiki-mode (:fetcher "github" :repo "kai2nenobu/emacs-dokuwiki-mode" :files nil :deps nil)
     doom (:fetcher "github" :repo "kensanata/doom" :files nil :deps (:cl-lib (0 5)))
     doom-modeline (:fetcher "github" :repo "seagle0128/doom-modeline" :files nil :deps (:emacs (25 1) :all-the-icons (2 2 0) :shrink-path (0 2 0) :dash (2 11 0)))

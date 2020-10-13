@@ -1509,7 +1509,7 @@
     org-gcal (:fetcher "github" :repo "kidd/org-gcal.el" :files nil :deps (:request-deferred (0 2 0) :alert (1 1) :emacs (24) :cl-lib (0 5) :org (8 2 4)))
     org-gnome (:fetcher "github" :repo "NicolasPetton/org-gnome.el" :files nil :deps (:alert (1 2) :telepathy (0 1) :gnome-calendar (0 1)))
     org-if (:fetcher "gitlab" :repo "elzair/org-if" :files nil :deps nil)
-    org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:org (9 0 0) :dash (2 12 0) :emacs (25 1)))
+    org-index (:fetcher "github" :repo "marcIhm/org-index" :files nil :deps (:org (9 3) :dash (2 12) :s (1 12) :emacs (26 3)))
     org-jira (:fetcher "github" :repo "ahungry/org-jira" :files ("jiralib.el" "org-jira.el" "org-jira-sdk.el") :deps (:emacs (24 5) :cl-lib (0 5) :request (0 2 0) :s (0 0 0) :dash (2 14 1)))
     org-journal (:fetcher "github" :repo "bastibe/org-journal" :files nil :deps (:emacs (25 1) :org (9 1)))
     org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el") :deps (:s (0) :dash (2 17 0) :emacs (24 4) :org (9 1)))

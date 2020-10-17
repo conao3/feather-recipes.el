@@ -2008,7 +2008,7 @@
   swoop (:fetcher "github" :repo "emacsorphanage/swoop" :files nil :deps (:emacs (24 3) :ht (2 0) :pcre2el (1 5) :async (1 1)))
   sws-mode (:fetcher "github" :repo "brianc/jade-mode" :files ("sws-mode.el") :deps nil)
   sx (:fetcher "github" :repo "vermiculus/sx.el" :files nil :deps (:emacs (24 1) :cl-lib (0 5) :json (1 3) :markdown-mode (2 0) :let-alist (1 0 3)))
-  symbol-overlay (:fetcher "github" :repo "wolray/symbol-overlay" :files nil :deps (:emacs (24 3)))
+  symbol-overlay (:fetcher "github" :repo "wolray/symbol-overlay" :files nil :deps (:emacs (24 3) :seq (2 2)))
   symbolword-mode (:fetcher "github" :repo "ncaq/symbolword-mode" :files nil :deps nil)
   symex (:fetcher "github" :repo "countvajhula/symex.el" :files nil :deps (:emacs (24 4) :cl-lib (0 6 1) :lispy (0 26 0) :paredit (24) :evil-cleverparens (20170718 413) :dash-functional (2 15 0) :evil (1 2 14) :smartparens (1 11 0) :racket-mode (20181030 1345) :geiser (0 10) :evil-surround (1 0 4) :hydra (0 15 0) :cider (0 21 0) :slime (2 24)))
   symon (:fetcher "github" :repo "zk-phi/symon" :files ("symon.el") :deps nil)

@@ -2223,7 +2223,7 @@
     yapfify (:fetcher "github" :repo "JorisE/yapfify" :files nil :deps nil)
     yard-mode (:fetcher "github" :repo "pd/yard-mode.el" :files nil :deps nil)
     yarn-mode (:fetcher "github" :repo "anachronic/yarn-mode" :files nil :deps (:emacs (24 3)))
-    yascroll (:fetcher "github" :repo "m2ym/yascroll-el" :files nil :deps (:emacs (26 1) :cl-lib (0 3)))
+    yascroll (:fetcher "github" :repo "m2ym/yascroll-el" :files nil :deps (:emacs (26 1)))
     yasnippet (:fetcher "github" :repo "joaotavora/yasnippet" :files ("yasnippet.el" "snippets") :deps (:cl-lib (0 5)))
     yasnippet-snippets (:fetcher "github" :repo "AndreaCrotti/yasnippet-snippets" :files ("*.el" "snippets" ".nosearch") :deps (:yasnippet (0 8 0) :s (1 12 0)))
     yatemplate (:fetcher "github" :repo "mineo/yatemplate" :files nil :deps (:yasnippet (0 8 1) :emacs (24 3)))

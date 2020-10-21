@@ -535,7 +535,7 @@
     company-lua (:fetcher "github" :repo "ptrv/company-lua" :files ("//:defaults//" "lua") :deps (:company (0 8 12) :s (1 10 0) :f (0 17 0) :lua-mode (20151025)))
     company-math (:fetcher "github" :repo "vspinu/company-math" :files nil :deps (:company (0 8 0) :math-symbol-lists (1 3)))
     company-nand2tetris (:fetcher "github" :repo "CestDiego/nand2tetris.el" :files ("company-nand2tetris.el") :deps (:nand2tetris (1 1 0) :company (0 5) :cl-lib (0 5 0)))
-    company-nginx (:fetcher "github" :repo "stardiviner/company-nginx" :files nil :deps (:emacs (24)))
+    company-nginx (:fetcher "github" :repo "stardiviner/company-nginx" :files nil :deps (:emacs (24) :cl-lib (0) :company (0)))
     company-ngram (:fetcher "github" :repo "kshramt/company-ngram" :files ("//:defaults//" "ngram.py") :deps (:cl-lib (0 5) :company (0 8 0)))
     company-nixos-options (:fetcher "github" :repo "travisbhartwell/nix-emacs" :files ("company-nixos-options.el") :deps (:company (0 8 0) :nixos-options (0 0 1) :cl-lib (0 5 0)))
     company-php (:fetcher "github" :repo "xcwen/ac-php" :files ("company-php.el") :deps (:cl-lib (0 5) :ac-php-core (2 0) :company (0 9)))

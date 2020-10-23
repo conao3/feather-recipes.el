@@ -3316,7 +3316,7 @@
   quack (:fetcher "github" :repo "emacsmirror/quack" :files nil :deps nil)
   quasi-monochrome-theme (:fetcher "github" :repo "lbolla/emacs-quasi-monochrome" :files nil :deps nil)
   quelpa (:fetcher "git" :repo "https://framagit.org/steckerhalter/quelpa.git" :files nil :deps (:emacs (25 1)))
-  quelpa-use-package (:fetcher "git" :repo "https://framagit.org/steckerhalter/quelpa-use-package.git" :files nil :deps (:emacs (25 1) :quelpa (0) :use-package (2)))
+  quelpa-use-package (:fetcher "git" :repo "https://framagit.org/steckerhalter/quelpa-use-package.git" :files nil :deps (:emacs (25 1) :quelpa (1 0) :use-package (2)))
   quick-buffer-switch (:fetcher "github" :repo "renard/quick-buffer-switch" :files nil :deps nil)
   quick-peek (:fetcher "github" :repo "cpitclaudel/quick-peek" :files nil :deps (:emacs (24 3)))
   quick-preview (:fetcher "github" :repo "myuhe/quick-preview.el" :files nil :deps nil)

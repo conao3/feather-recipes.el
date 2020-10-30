@@ -1474,7 +1474,7 @@
     octicons (:fetcher "github" :repo "syohex/emacs-octicons" :files nil :deps (:cl-lib (0 5)))
     oer-reveal (:fetcher "gitlab" :repo "oer/oer-reveal" :files ("//:defaults//" "README*" "LICENSE*" "org" "css" "title-slide") :deps (:emacs (24 4) :org-re-reveal (3 1 0)))
     offlineimap (:fetcher "github" :repo "jd/offlineimap.el" :files nil :deps nil)
-    olivetti (:fetcher "github" :repo "rnkn/olivetti" :files nil :deps (:emacs (24 5)))
+    olivetti (:fetcher "github" :repo "rnkn/olivetti" :files nil :deps (:emacs (24 4)))
     omni-kill (:fetcher "github" :repo "AdrieanKhisbe/omni-kill.el" :files nil :deps nil)
     omni-log (:fetcher "github" :repo "AdrieanKhisbe/omni-log.el" :files nil :deps (:emacs (24) :ht (2 0) :s (1 6 1) :dash (2 13 0)))
     omni-quotes (:fetcher "github" :repo "AdrieanKhisbe/omni-quotes.el" :files nil :deps (:dash (2 8) :omni-log (0 4 0) :f (0 19 0) :s (1 11 0) :ht (2 1)))

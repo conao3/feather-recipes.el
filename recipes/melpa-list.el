@@ -2766,7 +2766,7 @@
   offlineimap (:fetcher "github" :repo "jd/offlineimap.el" :files nil :deps nil)
   old-norse-input (:fetcher "github" :repo "david-christiansen/emacs-old-norse-input" :files nil :deps (:emacs (24)))
   oldlace-theme (:fetcher "github" :repo "mswift42/oldlace-theme" :files nil :deps (:emacs (24)))
-  olivetti (:fetcher "github" :repo "rnkn/olivetti" :files nil :deps (:emacs (24 5)))
+  olivetti (:fetcher "github" :repo "rnkn/olivetti" :files nil :deps (:emacs (24 4)))
   om-mode (:fetcher "github" :repo "danielsz/om-mode" :files nil :deps nil)
   omni-kill (:fetcher "github" :repo "AdrieanKhisbe/omni-kill.el" :files nil :deps nil)
   omni-log (:fetcher "github" :repo "AdrieanKhisbe/omni-log.el" :files nil :deps (:emacs (24) :ht (2 0) :s (1 6 1) :dash (2 13 0)))

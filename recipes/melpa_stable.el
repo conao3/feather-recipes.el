@@ -101,7 +101,7 @@
     aurel (:fetcher "github" :repo "alezost/aurel" :files nil :deps (:emacs (24 3) :bui (1 1 0) :dash (2 11 0)))
     aurora-config-mode (:fetcher "github" :repo "bdd/aurora-config-mode.el" :files nil :deps nil)
     auth-source-pass (:fetcher "github" :repo "DamienCassou/auth-password-store" :files nil :deps (:emacs (25)))
-    auto-compile (:fetcher "github" :repo "emacscollective/auto-compile" :files nil :deps (:emacs (25 1) :packed (3 0 0)))
+    auto-compile (:fetcher "github" :repo "emacscollective/auto-compile" :files nil :deps (:emacs (25 1) :packed (3 0 1)))
     auto-complete (:fetcher "github" :repo "auto-complete/auto-complete" :files ("*.el" "dict") :deps (:popup (0 5 0) :cl-lib (0 5)))
     auto-complete-clang-async (:fetcher "github" :repo "Golevka/emacs-clang-complete-async" :files nil :deps nil)
     auto-complete-exuberant-ctags (:fetcher "github" :repo "k1LoW/auto-complete-exuberant-ctags" :files nil :deps (:auto-complete (1 4 0)))

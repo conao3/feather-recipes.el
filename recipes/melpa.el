@@ -119,7 +119,7 @@
     anx-api (:fetcher "github" :repo "rmloveland/emacs-appnexus-api" :files nil :deps nil)
     anybar (:fetcher "github" :repo "tie-rack/anybar-el" :files nil :deps nil)
     anyins (:fetcher "github" :repo "antham/anyins" :files nil :deps nil)
-    anzu (:fetcher "github" :repo "syohex/emacs-anzu" :files nil :deps (:emacs (24 3)))
+    anzu (:fetcher "github" :repo "syohex/emacs-anzu" :files nil :deps (:emacs (25 1)))
     aozora-view (:fetcher "github" :repo "kawabata/aozora-view" :files ("//:defaults//" "*.txt") :deps nil)
     apache-mode (:fetcher "github" :repo "emacs-php/apache-mode" :files nil :deps nil)
     apel (:fetcher "github" :repo "wanderlust/apel" :files ("alist.el" "apel-ver.el" "apel-pkg.el" "broken.el" "calist.el" "emu.el" "filename.el" "install.el" "inv-23.el" "invisible.el" "mcharset.el" "mcs-20.el" "mcs-e20.el" "mule-caesar.el" "path-util.el" "pccl-20.el" "pccl.el" "pces-20.el" "pces-e20.el" "pces.el" "pcustom.el" "poe.el" "poem-e20.el" "poem-e20_3.el" "poem.el" "product.el" "pym.el" "richtext.el" "static.el") :deps nil :branch "apel-wl")

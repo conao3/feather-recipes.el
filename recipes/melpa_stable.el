@@ -495,7 +495,7 @@
     el-x (:fetcher "github" :repo "sigma/el-x" :files ("lisp/*.el") :deps nil)
     el2org (:fetcher "github" :repo "tumashu/el2org" :files nil :deps (:emacs (25 1)))
     elbank (:fetcher "github" :repo "NicolasPetton/elbank" :files nil :deps (:emacs (25) :seq (2 16)))
-    elcouch (:fetcher "github" :repo "DamienCassou/elcouch" :files nil :deps (:emacs (25 1) :json-mode (1 0 0) :libelcouch (0 10 0) :navigel (0 3 0)))
+    elcouch (:fetcher "github" :repo "DamienCassou/elcouch" :files nil :deps (:emacs (25 1) :json-mode (1 0 0) :libelcouch (0 11 0) :navigel (0 3 0)))
     eldoc-box (:fetcher "github" :repo "casouri/eldoc-box" :files nil :deps (:emacs (26 1)))
     eldoc-eval (:fetcher "github" :repo "thierryvolpiatto/eldoc-eval" :files nil :deps nil)
     electric-operator (:fetcher "github" :repo "davidshepherd7/electric-operator" :files nil :deps (:dash (2 10 0) :names (20150618 0) :emacs (24 4)))

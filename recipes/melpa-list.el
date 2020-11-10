@@ -1439,7 +1439,7 @@
   forest-blue-theme (:fetcher "github" :repo "olkinn/forest-blue-emacs" :files nil :deps (:emacs (24)))
   forge (:fetcher "github" :repo "magit/forge" :files ("lisp/*.el" "docs/forge.texi") :deps (:emacs (25 1) :closql (1 0 0) :dash (2 14 1) :emacsql-sqlite (3 0 0) :ghub (20190319) :let-alist (1 0 5) :magit (20190408) :markdown-mode (2 3) :transient (0 1 0)))
   form-feed (:fetcher "github" :repo "wasamasa/form-feed" :files nil :deps nil)
-  format-all (:fetcher "github" :repo "lassik/emacs-format-all-the-code" :files nil :deps (:emacs (24) :cl-lib (0 5) :language-id (0 8)))
+  format-all (:fetcher "github" :repo "lassik/emacs-format-all-the-code" :files nil :deps (:emacs (24) :cl-lib (0 5) :language-id (0 8 1)))
   format-sql (:fetcher "github" :repo "paetzke/format-sql.el" :files nil :deps nil)
   format-table (:fetcher "github" :repo "functionreturnfunction/format-table" :files nil :deps (:emacs (25) :dash (2 14 1)))
   forth-mode (:fetcher "github" :repo "larsbrinkhoff/forth-mode" :files ("//:defaults//" "backend" (:exclude ("build.el"))) :deps nil)

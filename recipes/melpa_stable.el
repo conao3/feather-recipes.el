@@ -536,7 +536,7 @@
     embrace (:fetcher "github" :repo "cute-jumper/embrace.el" :files nil :deps (:cl-lib (0 5) :expand-region (0 10 0)))
     emidje (:fetcher "github" :repo "nubank/emidje" :files nil :deps (:emacs (25) :cider (0 17 0) :seq (2 16)))
     emmet-mode (:fetcher "github" :repo "smihica/emmet-mode" :files nil :deps nil)
-    emms (:fetcher "git" :repo "https://git.savannah.gnu.org/git/emms.git" :files ("lisp/*.el" "doc/emms.texinfo") :deps (:cl-lib (0 5)))
+    emms (:fetcher "git" :repo "https://git.savannah.gnu.org/git/emms.git" :files ("lisp/*.el" "doc/emms.texinfo") :deps (:cl-lib (0 5) :seq (0)))
     emms-mode-line-cycle (:fetcher "github" :repo "momomo5717/emms-mode-line-cycle" :files nil :deps (:emacs (24) :emms (4 0)))
     emms-player-simple-mpv (:fetcher "github" :repo "momomo5717/emms-player-simple-mpv" :files nil :deps (:emacs (24) :cl-lib (0 5) :emms (4 0)))
     emms-state (:fetcher "github" :repo "alezost/emms-state.el" :files nil :deps (:emms (0)))

@@ -647,7 +647,7 @@
   exsqlaim-mode (:fetcher "github" :repo "ahmadnazir/exsqlaim-mode" :files nil :deps (:s (1 10 0)))
   extend-dnd (:fetcher "github" :repo "mattfidler/extend-dnd" :files nil :deps nil)
   extmap (:fetcher "github" :repo "doublep/extmap" :files nil :deps (:emacs (24 1)))
-  exwm-mff (:fetcher "github" :repo "ieure/exwm-mff" :files nil :deps (:emacs (25) :exwm (0 22 1)))
+  exwm-mff (:fetcher "github" :repo "ieure/exwm-mff" :files nil :deps (:emacs (25)))
   exwm-x (:fetcher "github" :repo "tumashu/exwm-x" :files nil :deps (:cl-lib (0 5) :exwm (0 19) :switch-window (0 10) :swiper (0 9 0) :bind-key (1 0) :counsel (0 9 0) :ivy (0 9 0)))
   eyebrowse (:fetcher "github" :repo "wasamasa/eyebrowse" :files nil :deps (:dash (2 7 0) :emacs (24 3 1)))
   eziam-theme (:fetcher "github" :repo "thblt/eziam-theme-emacs" :files nil :deps nil)

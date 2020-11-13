@@ -862,7 +862,7 @@
     e2wm-svg-clock (:fetcher "github" :repo "myuhe/e2wm-svg-clock.el" :files nil :deps (:e2wm (20130225 1602) :svg-clock (0 4)))
     e2wm-sww (:fetcher "github" :repo "aki2o/e2wm-sww" :files nil :deps (:e2wm (1 2)))
     e2wm-term (:fetcher "github" :repo "aki2o/e2wm-term" :files nil :deps (:e2wm (1 2) :log4e (0 2 0) :yaxception (0 3 2)))
-    eacl (:fetcher "github" :repo "redguardtoo/eacl" :files nil :deps (:emacs (24 4) :ivy (0 9 1)))
+    eacl (:fetcher "github" :repo "redguardtoo/eacl" :files nil :deps (:emacs (24 4)))
     easy-after-load (:fetcher "github" :repo "pd/easy-after-load" :files nil :deps nil)
     easy-escape (:fetcher "github" :repo "cpitclaudel/easy-escape" :files nil :deps nil)
     easy-hugo (:fetcher "github" :repo "masasam/emacs-easy-hugo" :files nil :deps (:emacs (25 1) :popup (0 5 3) :request (0 3 0)))

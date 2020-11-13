@@ -453,7 +453,7 @@
   e2wm-pkgex4pl (:fetcher "github" :repo "aki2o/e2wm-pkgex4pl" :files nil :deps (:e2wm (1 2) :plsense-direx (0 2 0)))
   e2wm-sww (:fetcher "github" :repo "aki2o/e2wm-sww" :files nil :deps (:e2wm (1 2)))
   e2wm-term (:fetcher "github" :repo "aki2o/e2wm-term" :files nil :deps (:e2wm (1 2) :log4e (0 2 0) :yaxception (0 3 2)))
-  eacl (:fetcher "github" :repo "redguardtoo/eacl" :files nil :deps (:emacs (24 4) :ivy (0 9 1)))
+  eacl (:fetcher "github" :repo "redguardtoo/eacl" :files nil :deps (:emacs (24 4)))
   easy-hugo (:fetcher "github" :repo "masasam/emacs-easy-hugo" :files nil :deps (:emacs (25 1) :popup (0 5 3) :request (0 3 0)))
   easy-jekyll (:fetcher "github" :repo "masasam/emacs-easy-jekyll" :files nil :deps (:emacs (25 1) :request (0 3 0)))
   easy-kill (:fetcher "github" :repo "leoliu/easy-kill" :files nil :deps (:emacs (24) :cl-lib (0 5)))

@@ -2684,7 +2684,7 @@
     northcode-theme (:fetcher "github" :repo "Northcode/northcode-theme.el" :files nil :deps (:emacs (24)))
     notmuch (:fetcher "git" :repo "https://git.notmuchmail.org/git/notmuch" :files ("emacs/*.el" "emacs/*.png") :deps nil)
     notmuch-labeler (:fetcher "github" :repo "DamienCassou/notmuch-labeler" :files nil :deps (:notmuch (0)))
-    nov (:fetcher "github" :repo "wasamasa/nov.el" :files nil :deps (:dash (2 12 0) :esxml (0 3 3) :emacs (24 4)))
+    nov (:fetcher "github" :repo "wasamasa/nov.el" :files nil :deps (:dash (2 12 0) :esxml (0 3 5) :emacs (24 4)))
     nova-theme (:fetcher "github" :repo "muirmanders/emacs-nova-theme" :files nil :deps (:emacs (24 3)))
     noxml-fold (:fetcher "github" :repo "paddymcall/noXML-fold" :files nil :deps nil)
     npm-mode (:fetcher "github" :repo "mojochao/npm-mode" :files nil :deps (:emacs (24 1)))

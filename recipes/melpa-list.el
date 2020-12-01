@@ -1415,7 +1415,7 @@
   flyparens (:fetcher "github" :repo "jiyoo/flyparens" :files nil :deps nil)
   flyspell-correct (:fetcher "github" :repo "d12frosted/flyspell-correct" :files ("flyspell-correct.el" "flyspell-correct-ido.el") :deps (:emacs (24)))
   flyspell-correct-helm (:fetcher "github" :repo "d12frosted/flyspell-correct" :files ("flyspell-correct-helm.el") :deps (:flyspell-correct (0 6 1) :helm (1 9 0) :emacs (24)))
-  flyspell-correct-ivy (:fetcher "github" :repo "d12frosted/flyspell-correct" :files ("flyspell-correct-ivy.el") :deps (:flyspell-correct (0 6 1) :ivy (0 8 0) :emacs (24 3)))
+  flyspell-correct-ivy (:fetcher "github" :repo "d12frosted/flyspell-correct" :files ("flyspell-correct-ivy.el") :deps (:flyspell-correct (0 6 1) :ivy (0 8 0) :emacs (24 4)))
   flyspell-correct-popup (:fetcher "github" :repo "d12frosted/flyspell-correct" :files ("flyspell-correct-popup.el") :deps (:flyspell-correct (0 6 1) :popup (0 5 3) :emacs (24)))
   flyspell-lazy (:fetcher "github" :repo "rolandwalker/flyspell-lazy" :files nil :deps nil)
   flyspell-popup (:fetcher "github" :repo "xuchunyang/flyspell-popup" :files nil :deps (:popup (0 5 0)))

@@ -79,7 +79,7 @@
   ansible-vault (:fetcher "github" :repo "zellio/ansible-vault-mode" :files nil :deps (:emacs (24 3) :seq (2 20)))
   anti-zenburn-theme (:fetcher "github" :repo "m00natic/anti-zenburn-theme" :files nil :deps nil)
   anyins (:fetcher "github" :repo "antham/anyins" :files nil :deps nil)
-  anzu (:fetcher "github" :repo "syohex/emacs-anzu" :files nil :deps (:emacs (24 3)))
+  anzu (:fetcher "github" :repo "syohex/emacs-anzu" :files nil :deps (:emacs (25 1)))
   apache-mode (:fetcher "github" :repo "emacs-php/apache-mode" :files nil :deps nil)
   apib-mode (:fetcher "github" :repo "w-vi/apib-mode" :files nil :deps (:markdown-mode (2 1)))
   apiwrap (:fetcher "github" :repo "vermiculus/apiwrap.el" :files nil :deps (:emacs (25)))

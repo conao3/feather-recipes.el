@@ -901,7 +901,7 @@
   egalgo (:fetcher "github" :repo "ROCKTAKEY/egalgo" :files nil :deps (:dash (2 14) :emacs (24)))
   egg (:fetcher "github" :repo "byplayer/egg" :files nil :deps nil)
   egison-mode (:fetcher "github" :repo "egison/egison" :files ("elisp/*.el") :deps nil)
-  eglot (:fetcher "github" :repo "joaotavora/eglot" :files nil :deps (:emacs (26 1) :jsonrpc (1 0 9) :flymake (1 0 9) :project (0 3 0) :xref (1 0 1) :eldoc (1 5 0)))
+  eglot (:fetcher "github" :repo "joaotavora/eglot" :files nil :deps (:emacs (26 1) :jsonrpc (1 0 14) :flymake (1 0 9) :project (0 3 0) :xref (1 0 1) :eldoc (1 11 0)))
   ego (:fetcher "github" :repo "emacs-china/EGO" :files ("//:defaults//" "themes") :deps (:emacs (24 5) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0)))
   eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
   eimp (:fetcher "github" :repo "nicferrier/eimp" :files nil :deps nil)

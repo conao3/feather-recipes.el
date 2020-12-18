@@ -171,7 +171,7 @@
   browse-url-dwim (:fetcher "github" :repo "rolandwalker/browse-url-dwim" :files nil :deps (:string-utils (0 3 2)))
   bshell (:fetcher "github" :repo "plandes/bshell" :files nil :deps (:emacs (25) :buffer-manage (0 5)))
   buffer-flip (:fetcher "github" :repo "killdash9/buffer-flip.el" :files nil :deps nil)
-  buffer-manage (:fetcher "github" :repo "plandes/buffer-manage" :files nil :deps (:emacs (26) :choice-program (0 5) :dash (2 13 0)))
+  buffer-manage (:fetcher "github" :repo "plandes/buffer-manage" :files nil :deps (:emacs (26 1) :choice-program (0 13) :dash (2 17 0)))
   buffer-move (:fetcher "github" :repo "lukhas/buffer-move" :files nil :deps nil)
   buffer-utils (:fetcher "github" :repo "rolandwalker/buffer-utils" :files nil :deps nil)
   buffer-watcher (:fetcher "github" :repo "NicolasPetton/buffer-watcher" :files nil :deps (:f (0 16 2)))

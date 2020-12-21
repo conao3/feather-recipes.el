@@ -2679,7 +2679,7 @@
     noflet (:fetcher "github" :repo "nicferrier/emacs-noflet" :files nil :deps nil)
     nofrils-acme-theme (:fetcher "gitlab" :repo "esessoms/nofrils-theme" :files nil :deps (:emacs (24)))
     nord-theme (:fetcher "github" :repo "arcticicestudio/nord-emacs" :files nil :deps (:emacs (24)))
-    nordless-theme (:fetcher "git" :repo "https://git.sr.ht/~lthms/colorless-themes.el" :files ("nordless-theme.el") :deps (:colorless-themes (0 1)))
+    nordless-theme (:fetcher "git" :repo "https://git.sr.ht/~lthms/colorless-themes.el" :files ("nordless-theme.el") :deps (:colorless-themes (0 2)))
     northcode-theme (:fetcher "github" :repo "Northcode/northcode-theme.el" :files nil :deps (:emacs (24)))
     notmuch (:fetcher "git" :repo "https://git.notmuchmail.org/git/notmuch" :files ("emacs/*.el" "emacs/*.png") :deps nil)
     notmuch-labeler (:fetcher "github" :repo "DamienCassou/notmuch-labeler" :files nil :deps (:notmuch (0)))

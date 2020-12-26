@@ -1630,7 +1630,7 @@
     path-helper (:fetcher "github" :repo "arouanet/path-helper" :files nil :deps (:emacs (24)))
     pathify (:fetcher "github" :repo "alezost/pathify.el" :files nil :deps nil)
     paxedit (:fetcher "github" :repo "promethial/paxedit" :files ("paxedit.el") :deps (:cl-lib (0 5) :paredit (23)))
-    pcache (:fetcher "github" :repo "sigma/pcache" :files nil :deps (:eieio (1 3)))
+    pcache (:fetcher "github" :repo "sigma/pcache" :files nil :deps (:emacs (25 1)))
     pcomplete-extension (:fetcher "github" :repo "thierryvolpiatto/pcomplete-extension" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     pcre2el (:fetcher "github" :repo "joddie/pcre2el" :files ("pcre2el.el") :deps (:emacs (24) :cl-lib (0 3)))
     pcsv (:fetcher "github" :repo "mhayashi1120/Emacs-pcsv" :files ("pcsv.el") :deps nil)

@@ -2036,7 +2036,7 @@
   inf-clojure (:fetcher "github" :repo "clojure-emacs/inf-clojure" :files nil :deps (:emacs (24 4) :clojure-mode (5 11)))
   inf-crystal (:fetcher "github" :repo "brantou/inf-crystal.el" :files nil :deps (:emacs (24 3) :crystal-mode (0 1 0)))
   inf-mongo (:fetcher "github" :repo "endofunky/inf-mongo" :files nil :deps nil)
-  inf-ruby (:fetcher "github" :repo "nonsequitur/inf-ruby" :files nil :deps nil)
+  inf-ruby (:fetcher "github" :repo "nonsequitur/inf-ruby" :files nil :deps (:emacs (24 3)))
   inflections (:fetcher "github" :repo "eschulte/jump.el" :files ("inflections.el") :deps (:cl-lib (0 5) :emacs (24)))
   info-beamer (:fetcher "github" :repo "dakra/info-beamer.el" :files nil :deps (:emacs (24 4)))
   info-buffer (:fetcher "github" :repo "llvilanova/info-buffer" :files nil :deps nil)

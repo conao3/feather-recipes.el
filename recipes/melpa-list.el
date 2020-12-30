@@ -4144,7 +4144,7 @@
   wrap-region (:fetcher "github" :repo "rejeep/wrap-region.el" :files nil :deps (:dash (1 0 3)))
   writefreely (:fetcher "github" :repo "dangom/writefreely.el" :files nil :deps (:emacs (24 3) :org (9 0) :ox-gfm (0 0) :request (0 3)))
   writegood-mode (:fetcher "github" :repo "bnbeckwith/writegood-mode" :files nil :deps nil)
-  writeroom-mode (:fetcher "github" :repo "joostkremers/writeroom-mode" :files nil :deps (:emacs (25 1) :visual-fill-column (2 1)))
+  writeroom-mode (:fetcher "github" :repo "joostkremers/writeroom-mode" :files nil :deps (:emacs (25 1) :visual-fill-column (2 2)))
   ws-butler (:fetcher "github" :repo "lewang/ws-butler" :files nil :deps nil)
   wsd-mode (:fetcher "github" :repo "josteink/wsd-mode" :files nil :deps nil)
   wttrin (:fetcher "github" :repo "bcbcarl/emacs-wttrin" :files nil :deps (:emacs (24 4) :xterm-color (1 0)))

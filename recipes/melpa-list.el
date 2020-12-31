@@ -3843,7 +3843,7 @@
   term-run (:fetcher "github" :repo "10sr/term-run-el" :files nil :deps nil)
   termbright-theme (:fetcher "github" :repo "bmastenbrook/termbright-theme-el" :files nil :deps (:emacs (24 1)))
   terminal-focus-reporting (:fetcher "github" :repo "veelenga/terminal-focus-reporting.el" :files nil :deps (:emacs (24 4)))
-  terminal-here (:fetcher "github" :repo "davidshepherd7/terminal-here" :files nil :deps (:emacs (24 3) :cl-lib (0 5)))
+  terminal-here (:fetcher "github" :repo "davidshepherd7/terminal-here" :files nil :deps (:emacs (25 1)))
   terminal-toggle (:fetcher "github" :repo "mtekman/terminal-toggle.el" :files nil :deps (:emacs (24) :popwin (1 0 0)))
   tern (:fetcher "github" :repo "ternjs/tern" :files ("emacs/tern.el") :deps (:json (1 2) :cl-lib (0 5) :emacs (24)))
   tern-auto-complete (:fetcher "github" :repo "ternjs/tern" :files ("emacs/tern-auto-complete.el") :deps (:tern (0 0 1) :auto-complete (1 4) :cl-lib (0 5) :emacs (24)))

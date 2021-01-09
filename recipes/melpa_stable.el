@@ -65,7 +65,7 @@
     amd-mode (:fetcher "github" :repo "NicolasPetton/amd-mode.el" :files nil :deps (:emacs (25) :projectile (20161008 47) :s (1 9 0) :f (0 16 2) :seq (2 16) :makey (0 3) :js2-mode (20140114) :js2-refactor (0 6 1)))
     ameba (:fetcher "github" :repo "crystal-ameba/ameba.el" :files ("ameba.el") :deps (:emacs (24 4)))
     amx (:fetcher "github" :repo "DarwinAwardWinner/amx" :files nil :deps (:emacs (24 4) :s (0)))
-    anaconda-mode (:fetcher "github" :repo "proofit404/anaconda-mode" :files nil :deps (:emacs (24) :pythonic (0 1 0) :dash (2 6 0) :s (1 9) :f (0 16 2)))
+    anaconda-mode (:fetcher "github" :repo "proofit404/anaconda-mode" :files nil :deps (:emacs (25 1) :pythonic (0 1 0) :dash (2 6 0) :s (1 9) :f (0 16 2)))
     anaphora (:fetcher "github" :repo "rolandwalker/anaphora" :files nil :deps nil)
     android-mode (:fetcher "github" :repo "remvee/android-mode" :files nil :deps nil)
     angular-mode (:fetcher "github" :repo "rudolfolah/angularjs-mode" :files ("//:defaults//" "snippets") :deps nil)

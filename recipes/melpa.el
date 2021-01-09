@@ -2876,7 +2876,7 @@
     org-recent-headings (:fetcher "github" :repo "alphapapa/org-recent-headings" :files nil :deps (:emacs (26 1) :org (9 0 5) :dash (2 13 0) :dash-functional (1 2 0) :frecency (0 1) :s (1 12 0)))
     org-recur (:fetcher "github" :repo "m-cat/org-recur" :files nil :deps (:emacs (24) :org (9 0)))
     org-redmine (:fetcher "github" :repo "gongo/org-redmine" :files nil :deps nil)
-    org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc") :deps (:dash (2 11 0) :htmlize (1 51) :helm (1 5 5) :helm-bibtex (2 0 0) :ivy (0 8 0) :hydra (0 13 2) :key-chord (0) :s (1 10 0) :f (0 18 0) :pdf-tools (0 7)))
+    org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc") :deps (:dash (2 11 0) :htmlize (1 51) :helm (1 5 5) :helm-bibtex (2 0 0) :ivy (0 8 0) :hydra (0 13 2) :key-chord (0) :s (1 10 0) :f (0 18 0) :pdf-tools (0 7) :bibtex-completion (0)))
     org-repo-todo (:fetcher "github" :repo "waymondo/org-repo-todo" :files nil :deps nil)
     org-reverse-datetree (:fetcher "github" :repo "akirak/org-reverse-datetree" :files nil :deps (:emacs (26 1) :dash (2 12) :org (9 3)))
     org-review (:fetcher "github" :repo "brabalan/org-review" :files nil :deps nil)

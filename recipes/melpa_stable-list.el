@@ -1968,7 +1968,7 @@
   sprintly-mode (:fetcher "github" :repo "sprintly/sprintly-mode" :files nil :deps (:furl (0 0 2)))
   sprunge (:fetcher "github" :repo "tomjakubowski/sprunge.el" :files nil :deps (:request (0 2 0) :cl-lib (0 5)))
   sql-impala (:fetcher "github" :repo "jterk/sql-impala" :files nil :deps nil)
-  sql-presto (:fetcher "github" :repo "kat-co/sql-prestodb" :files ("artifacts/*.el") :deps nil)
+  sql-presto (:fetcher "github" :repo "kat-co/sql-prestodb" :files ("artifacts/*.el") :deps (:emacs (24 4)))
   sqlformat (:fetcher "github" :repo "purcell/sqlformat" :files nil :deps (:emacs (24)))
   sqlite (:fetcher "gitlab" :repo "cnngimenez/sqlite.el" :files nil :deps (:emacs (24 5)))
   sqlup-mode (:fetcher "github" :repo "Trevoke/sqlup-mode.el" :files nil :deps nil)

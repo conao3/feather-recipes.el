@@ -3169,7 +3169,7 @@
   poly-slim (:fetcher "github" :repo "polymode/poly-slim" :files nil :deps (:emacs (25) :polymode (0 2 2) :slim-mode (1 1)))
   poly-wdl (:fetcher "github" :repo "jmonlong/poly-wdl" :files nil :deps (:emacs (25) :polymode (0 2) :wdl-mode (20170709)))
   polymode (:fetcher "github" :repo "polymode/polymode" :files nil :deps (:emacs (25)))
-  pomidor (:fetcher "github" :repo "TatriX/pomidor" :files ("//:defaults//" "tick.wav" "tack.wav" "overwork.wav") :deps nil)
+  pomidor (:fetcher "github" :repo "TatriX/pomidor" :files ("//:defaults//" "tick.wav" "tack.wav" "overwork.wav") :deps (:emacs (24 3) :alert (1 2) :dash (2 17 0)))
   pomodoro (:fetcher "github" :repo "baudtack/pomodoro.el" :files nil :deps nil)
   pony-mode (:fetcher "github" :repo "davidmiller/pony-mode" :files ("src/*.el" "src/snippets") :deps nil)
   pony-snippets (:fetcher "github" :repo "ponylang/pony-snippets" :files ("//:defaults//" "snippets") :deps (:yasnippet (0 8 0)))

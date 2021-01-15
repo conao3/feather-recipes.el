@@ -1077,7 +1077,7 @@
     ibuffer-projectile (:fetcher "github" :repo "purcell/ibuffer-projectile" :files nil :deps (:projectile (0 11 0) :emacs (24 1)))
     ibuffer-tramp (:fetcher "github" :repo "svend/ibuffer-tramp" :files nil :deps nil)
     ibuffer-vc (:fetcher "github" :repo "purcell/ibuffer-vc" :files nil :deps (:emacs (24 1) :cl-lib (0 2)))
-    icsql (:fetcher "github" :repo "plandes/icsql" :files nil :deps (:emacs (26) :choice-program (0 13) :buffer-manage (0 11)))
+    icsql (:fetcher "github" :repo "plandes/icsql" :files nil :deps (:emacs (26) :choice-program (0 13) :buffer-manage (0 12)))
     identica-mode (:fetcher "github" :repo "gabrielsaldana/Emacs-Identica-mode" :files nil :deps nil)
     idle-highlight-in-visible-buffers-mode (:fetcher "github" :repo "ignacy/idle-highlight-in-visible-buffers-mode" :files nil :deps nil)
     idle-highlight-mode (:fetcher "github" :repo "nonsequitur/idle-highlight-mode" :files nil :deps nil)

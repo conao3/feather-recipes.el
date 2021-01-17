@@ -623,7 +623,7 @@
   crystal-mode (:fetcher "github" :repo "crystal-lang-tools/emacs-crystal-mode" :files ("crystal-mode.el") :deps (:emacs (24 4)))
   crystal-playground (:fetcher "github" :repo "jasonrobot/crystal-playground" :files nil :deps (:emacs (25) :crystal-mode (0 1 2)))
   csgo-conf-mode (:fetcher "github" :repo "wynro/emacs-csgo-conf-mode" :files nil :deps nil)
-  csharp-mode (:fetcher "github" :repo "josteink/csharp-mode" :files nil :deps nil)
+  csharp-mode (:fetcher "github" :repo "josteink/csharp-mode" :files nil :deps (:emacs (26 1) :tree-sitter (0 12 1) :tree-sitter-indent (0 1) :tree-sitter-langs (0 9 1)))
   csound-mode (:fetcher "github" :repo "hlolli/csound-mode" :files ("//:defaults//" "csoundAPI_emacsLisp/emacscsnd.c" "csoundAPI_emacsLisp/Makefile" "csoundAPI_emacsLisp/float-version.h" (:exclude (".dir-locals.el"))) :deps (:emacs (25) :shut-up (0 3 2) :multi (2 0 1) :dash (2 16 0) :highlight (0)))
   csproj-mode (:fetcher "github" :repo "omajid/csproj-mode" :files ("//:defaults//" "snippets") :deps (:emacs (24)))
   css-autoprefixer (:fetcher "github" :repo "kkweon/emacs-css-autoprefixer" :files nil :deps (:emacs (24)))

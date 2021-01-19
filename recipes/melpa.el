@@ -3127,7 +3127,7 @@
     pixie-mode (:fetcher "github" :repo "johnwalker/pixie-mode" :files nil :deps (:clojure-mode (3 0 1) :inf-clojure (1 0 0)))
     pixiv-novel-mode (:fetcher "github" :repo "zonuexe/pixiv-novel-mode.el" :files nil :deps nil)
     pkg-info (:fetcher "github" :repo "emacsorphanage/pkg-info" :files nil :deps (:epl (0 8)))
-    pkgbuild-mode (:fetcher "github" :repo "juergenhoetzel/pkgbuild-mode" :files ("pkgbuild-mode.el") :deps (:emacs (25 1)))
+    pkgbuild-mode (:fetcher "github" :repo "juergenhoetzel/pkgbuild-mode" :files ("pkgbuild-mode.el") :deps (:emacs (26 1)))
     plain-theme (:fetcher "github" :repo "yegortimoshenko/plain-theme" :files nil :deps (:emacs (24)))
     plan9-theme (:fetcher "github" :repo "john2x/plan9-theme.el" :files nil :deps nil)
     planet-theme (:fetcher "github" :repo "cmack/emacs-planet-theme" :files nil :deps (:emacs (24)))

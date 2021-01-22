@@ -1536,7 +1536,7 @@
   org-reverse-datetree (:fetcher "github" :repo "akirak/org-reverse-datetree" :files nil :deps (:emacs (26 1) :dash (2 12) :org (9 3)))
   org-rich-yank (:fetcher "github" :repo "unhammer/org-rich-yank" :files nil :deps (:emacs (24 4)))
   org-snooze (:fetcher "github" :repo "xueeinstein/org-snooze.el" :files nil :deps (:emacs (24 4)))
-  org-sql (:fetcher "github" :repo "ndwarshuis/org-sql" :files nil :deps (:emacs (27 1) :s (1 12) :dash (2 17) :org-ml (5 4 3)))
+  org-sql (:fetcher "github" :repo "ndwarshuis/org-sql" :files nil :deps (:emacs (27 1) :s (1 12) :f (0 20 0) :dash (2 17) :org-ml (5 4 3)))
   org-starter (:fetcher "github" :repo "akirak/org-starter" :files ("//:defaults//" (:exclude ("counsel-org-starter.el" "helm-org-starter.el" "org-starter-swiper.el" "org-starter-extras.el"))) :deps (:emacs (25 1) :dash (2 12) :dash-functional (1 2 0)))
   org-starter-swiper (:fetcher "github" :repo "akirak/org-starter" :files ("org-starter-swiper.el") :deps (:emacs (25 1) :swiper (0 11) :org-starter (0 2 4)))
   org-static-blog (:fetcher "github" :repo "bastibe/org-static-blog" :files nil :deps (:emacs (24 3)))

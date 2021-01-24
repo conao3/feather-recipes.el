@@ -281,7 +281,7 @@
     company-emacs-eclim (:fetcher "github" :repo "emacs-eclim/emacs-eclim" :files ("company-emacs-eclim.el") :deps (:eclim (0 3) :company (0 7) :cl-lib (0 5)))
     company-emoji (:fetcher "github" :repo "dunn/company-emoji" :files nil :deps (:cl-lib (0 5) :company (0 8 0)))
     company-erlang (:fetcher "github" :repo "s-kostyaev/company-erlang" :files ("//:defaults//") :deps (:emacs (24 4) :ivy-erlang-complete (0 1) :company (0 9 2)))
-    company-fuzzy (:fetcher "github" :repo "elpa-host/company-fuzzy" :files nil :deps (:emacs (24 4) :company (0 8 12) :s (1 12 0)))
+    company-fuzzy (:fetcher "github" :repo "elpa-host/company-fuzzy" :files nil :deps (:emacs (24 4) :company (0 8 12) :s (1 12 0) :ht (2 0)))
     company-ghc (:fetcher "github" :repo "iquiw/company-ghc" :files nil :deps (:cl-lib (0 5) :company (0 8 0) :ghc (5 1 0) :emacs (24)))
     company-go (:fetcher "github" :repo "mdempsky/gocode" :files ("emacs-company/company-go.el") :deps (:company (0 8 0)))
     company-irony (:fetcher "github" :repo "Sarcasm/company-irony" :files nil :deps (:emacs (24 1) :company (0 8 0) :irony (1 1 0) :cl-lib (0 5)))

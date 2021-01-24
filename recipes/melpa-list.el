@@ -520,7 +520,7 @@
   company-erlang (:fetcher "github" :repo "s-kostyaev/company-erlang" :files ("//:defaults//") :deps (:emacs (24 4) :ivy-erlang-complete (0 1) :company (0 9 2)))
   company-flow (:fetcher "github" :repo "aaronjensen/company-flow" :files nil :deps (:company (0 8 0) :dash (2 13 0)))
   company-flx (:fetcher "github" :repo "PythonNut/company-flx" :files nil :deps (:emacs (24) :company (0 8 12) :flx (0 5)))
-  company-fuzzy (:fetcher "github" :repo "elpa-host/company-fuzzy" :files nil :deps (:emacs (24 4) :company (0 8 12) :s (1 12 0)))
+  company-fuzzy (:fetcher "github" :repo "elpa-host/company-fuzzy" :files nil :deps (:emacs (24 4) :company (0 8 12) :s (1 12 0) :ht (2 0)))
   company-ghc (:fetcher "github" :repo "iquiw/company-ghc" :files nil :deps (:cl-lib (0 5) :company (0 8 0) :ghc (5 4 0 0) :emacs (24)))
   company-ghci (:fetcher "github" :repo "orimh/company-ghci" :files nil :deps (:company (0 8 11) :haskell-mode (13)))
   company-glsl (:fetcher "github" :repo "guidoschmidt/company-glsl" :files nil :deps (:company (0 9 4) :glsl-mode (2 4) :emacs (24 4)))

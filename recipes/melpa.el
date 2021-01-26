@@ -2363,7 +2363,7 @@
     loop (:fetcher "github" :repo "Wilfred/loop.el" :files ("loop.el") :deps nil)
     lorem-ipsum (:fetcher "github" :repo "jschaf/emacs-lorem-ipsum" :files nil :deps nil)
     love-minor-mode (:fetcher "github" :repo "ejmr/love-minor-mode" :files nil :deps (:lua-mode (20130419)))
-    lsp-haskell (:fetcher "github" :repo "emacs-lsp/lsp-haskell" :files nil :deps (:lsp-mode (3 0) :haskell-mode (1 0)))
+    lsp-haskell (:fetcher "github" :repo "emacs-lsp/lsp-haskell" :files nil :deps (:emacs (24 3) :lsp-mode (3 0) :haskell-mode (1 0)))
     lsp-intellij (:fetcher "github" :repo "Ruin0x11/lsp-intellij" :files nil :deps (:emacs (25 1) :lsp-mode (4 1)))
     lsp-java (:fetcher "github" :repo "emacs-lsp/lsp-java" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :lsp-mode (6 0) :markdown-mode (2 3) :dash (2 14 1) :f (0 20 0) :ht (2 0) :dash-functional (1 2 0) :request (0 3 0) :treemacs (2 5) :dap-mode (0 5)))
     lsp-javacomp (:fetcher "github" :repo "tigersoldier/lsp-javacomp" :files nil :deps (:emacs (25 1) :lsp-mode (3 0) :s (1 2 0)))

@@ -2328,7 +2328,7 @@
     litecoin-ticker (:fetcher "github" :repo "llcc/btcbox-ticker" :files ("litecoin-ticker.el") :deps (:json (1 2)))
     literal-string (:fetcher "github" :repo "joodie/literal-string-mode" :files nil :deps (:emacs (25) :edit-indirect (0 1 5)))
     literate-coffee-mode (:fetcher "github" :repo "syohex/emacs-literate-coffee-mode" :files nil :deps (:coffee-mode (0 5 0)))
-    literate-elisp (:fetcher "github" :repo "jingtaozf/literate-elisp" :files nil :deps (:cl-lib (0 6) :emacs (26 1)))
+    literate-elisp (:fetcher "github" :repo "jingtaozf/literate-elisp" :files nil :deps (:emacs (26 1)))
     literate-starter-kit (:fetcher "github" :repo "eschulte/emacs24-starter-kit" :files ("elpa" "snippets" "src" "Makefile" "init.el" "*.org") :deps (:emacs (24 3)))
     live-code-talks (:fetcher "github" :repo "david-christiansen/live-code-talks" :files nil :deps (:emacs (24) :cl-lib (0 5) :narrowed-page-navigation (0 1)))
     live-preview (:fetcher "github" :repo "lassik/emacs-live-preview" :files nil :deps (:emacs (24 4)))

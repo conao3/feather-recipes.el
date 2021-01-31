@@ -3727,7 +3727,7 @@
     ssh-tunnels (:fetcher "github" :repo "death/ssh-tunnels" :files nil :deps (:cl-lib (0 5) :emacs (24)))
     stack-mode (:fetcher "github" :repo "commercialhaskell/stack-ide" :files ("stack-mode/*.el") :deps (:haskell-mode (13 14) :cl-lib (0 5) :flycheck (0 23)))
     stan-mode (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-mode/*.el") :deps (:emacs (24 4)))
-    stan-snippets (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-snippets/stan-snippets.el" "snippets/stan-mode" "stan-snippets/snippets/stan-mode/.yas-*") :deps (:emacs (24 3) :stan-mode (10 1 0) :yasnippet (0 8 0)))
+    stan-snippets (:fetcher "github" :repo "stan-dev/stan-mode" :files ("stan-snippets/stan-snippets.el" "snippets/stan-mode" "stan-snippets/snippets/stan-mode/.yas-*") :deps (:emacs (24 3) :stan-mode (10 2 1) :yasnippet (0 8 0)))
     standoff-mode (:fetcher "github" :repo "lueck/standoff-mode" :files nil :deps nil)
     start-menu (:fetcher "github" :repo "lujun9972/el-start-menu" :files nil :deps (:cl-lib (0 5) :config-parser (0 1)))
     stash (:fetcher "github" :repo "vermiculus/stash.el" :files nil :deps nil)

@@ -1096,7 +1096,7 @@
   image-dired+ (:fetcher "github" :repo "mhayashi1120/Emacs-image-diredx" :files nil :deps (:cl-lib (0 3)))
   imake (:fetcher "github" :repo "tarsius/imake" :files nil :deps (:emacs (24 3)))
   imapfilter (:fetcher "github" :repo "tarsius/imapfilter" :files nil :deps nil)
-  imenu-anywhere (:fetcher "github" :repo "vspinu/imenu-anywhere" :files nil :deps (:cl-lib (0 5)))
+  imenu-anywhere (:fetcher "github" :repo "vspinu/imenu-anywhere" :files nil :deps (:cl-lib (0 5) :emacs (25)))
   imenu-list (:fetcher "github" :repo "bmag/imenu-list" :files nil :deps (:cl-lib (0 5)))
   imenus (:fetcher "github" :repo "alezost/imenus.el" :files nil :deps (:cl-lib (0 5)))
   immaterial-theme (:fetcher "github" :repo "petergardfjall/emacs-immaterial-theme" :files nil :deps (:emacs (25)))

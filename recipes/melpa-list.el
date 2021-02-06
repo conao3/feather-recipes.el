@@ -940,7 +940,7 @@
   elfeed-org (:fetcher "github" :repo "remyhonig/elfeed-org" :files nil :deps (:elfeed (1 1 1) :org (8 2 7) :dash (2 10 0) :s (1 9 0) :cl-lib (0 5)))
   elfeed-protocol (:fetcher "github" :repo "fasheng/elfeed-protocol" :files nil :deps (:emacs (24 4) :elfeed (2 1 1) :cl-lib (0 5)))
   elfeed-web (:fetcher "github" :repo "skeeto/elfeed" :files ("web/*") :deps (:simple-httpd (1 5 1) :elfeed (3 2 0) :emacs (24 3)))
-  elgrep (:fetcher "github" :repo "TobiasZawada/elgrep" :files nil :deps (:emacs (26 1) :async (1 5)))
+  elgrep (:fetcher "github" :repo "TobiasZawada/elgrep" :files nil :deps (:emacs (26 2) :async (1 5)))
   elhome (:fetcher "github" :repo "demyanrogozhin/elhome" :files ("elhome.el" "startup") :deps (:initsplit (20120630)))
   elisp-def (:fetcher "github" :repo "Wilfred/elisp-def" :files nil :deps (:dash (2 12 0) :f (0 19 0) :s (1 11 0) :emacs (24 3)))
   elisp-demos (:fetcher "github" :repo "xuchunyang/elisp-demos" :files ("//:defaults//" "*.org") :deps (:emacs (24 4)))

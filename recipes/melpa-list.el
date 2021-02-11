@@ -2354,7 +2354,7 @@
   lsp-intellij (:fetcher "github" :repo "Ruin0x11/lsp-intellij" :files nil :deps (:emacs (25 1) :lsp-mode (4 1)))
   lsp-java (:fetcher "github" :repo "emacs-lsp/lsp-java" :files ("//:defaults//" "icons") :deps (:emacs (25 1) :lsp-mode (6 0) :markdown-mode (2 3) :dash (2 14 1) :f (0 20 0) :ht (2 0) :dash-functional (1 2 0) :request (0 3 0) :treemacs (2 5) :dap-mode (0 5)))
   lsp-javacomp (:fetcher "github" :repo "tigersoldier/lsp-javacomp" :files nil :deps (:emacs (25 1) :lsp-mode (3 0) :s (1 2 0)))
-  lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (26 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 0) :spinner (1 7 3) :markdown-mode (2 3) :lv (0)))
+  lsp-mode (:fetcher "github" :repo "emacs-lsp/lsp-mode" :files nil :deps (:emacs (26 1) :dash (2 14 1) :dash-functional (2 14 1) :f (0 20 0) :ht (2 3) :spinner (1 7 3) :markdown-mode (2 3) :lv (0)))
   lsp-origami (:fetcher "github" :repo "emacs-lsp/lsp-origami" :files nil :deps (:origami (1 0) :lsp-mode (6 1)))
   lsp-p4 (:fetcher "github" :repo "dmakarov/p4ls" :files ("clients/emacs/*.el") :deps (:lsp-mode (3 0)))
   lsp-pyre (:fetcher "github" :repo "jra3/lsp-pyre" :files nil :deps (:lsp-mode (6 0)))

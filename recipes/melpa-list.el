@@ -1698,7 +1698,7 @@
   hcl-mode (:fetcher "github" :repo "syohex/emacs-hcl-mode" :files nil :deps (:emacs (24 3)))
   headlong (:fetcher "github" :repo "abo-abo/headlong" :files nil :deps nil)
   heaven-and-hell (:fetcher "github" :repo "valignatev/heaven-and-hell" :files nil :deps (:emacs (24 4)))
-  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" (:exclude ("helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el"))) :deps (:emacs (25 1) :async (1 9 4) :popup (0 5 3) :helm-core (3 6 5)))
+  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" (:exclude ("helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el"))) :deps (:emacs (25 1) :async (1 9 4) :popup (0 5 3) :helm-core (3 7 1)))
   helm-R (:fetcher "github" :repo "myuhe/helm-R.el" :files nil :deps (:helm (20120517) :ess (20120509)))
   helm-ack (:fetcher "github" :repo "syohex/emacs-helm-ack" :files nil :deps (:helm (1 0) :cl-lib (0 5)))
   helm-ad (:fetcher "github" :repo "tnoda/helm-ad" :files nil :deps (:dash (2 8 0) :helm (1 6 2)))

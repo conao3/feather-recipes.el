@@ -2187,7 +2187,7 @@
   kaesar-file (:fetcher "github" :repo "mhayashi1120/Emacs-kaesar" :files ("kaesar-file.el") :deps (:kaesar (0 1 1)))
   kaesar-mode (:fetcher "github" :repo "mhayashi1120/Emacs-kaesar" :files ("kaesar-mode.el") :deps (:kaesar (0 1 4) :cl-lib (0 3)))
   kakapo-mode (:fetcher "github" :repo "listx/kakapo-mode" :files nil :deps (:cl-lib (0 5)))
-  kakoune (:fetcher "github" :repo "jmorag/kakoune.el" :files nil :deps (:ryo-modal (0 4) :multiple-cursors (1 4) :expand-region (0 11 0) :emacs (25 1)))
+  kakoune (:fetcher "github" :repo "jmorag/kakoune.el" :files nil :deps (:ryo-modal (0 45) :multiple-cursors (1 4) :expand-region (0 11 0) :emacs (25 1)))
   kaleidoscope (:fetcher "github" :repo "algernon/kaleidoscope.el" :files ("kaleidoscope.el") :deps (:s (1 11 0)))
   kaleidoscope-evil-state-flash (:fetcher "github" :repo "algernon/kaleidoscope.el" :files ("kaleidoscope-evil-state-flash.el") :deps (:evil (1 2 12) :kaleidoscope (0 1 0) :s (1 11 0)))
   kanban (:fetcher "bitbucket" :repo "ArneBab/kanban.el" :files nil :deps nil)

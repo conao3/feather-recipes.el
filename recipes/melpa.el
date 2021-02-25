@@ -2334,7 +2334,7 @@
     load-relative (:fetcher "github" :repo "rocky/emacs-load-relative" :files nil :deps nil)
     load-theme-buffer-local (:fetcher "github" :repo "vic/color-theme-buffer-local" :files ("load-theme-buffer-local.el") :deps nil)
     loc-changes (:fetcher "github" :repo "rocky/emacs-loc-changes" :files ("loc-changes.el") :deps nil)
-    loccur (:fetcher "github" :repo "fourier/loccur" :files nil :deps (:emacs (24 3)))
+    loccur (:fetcher "github" :repo "fourier/loccur" :files nil :deps (:emacs (25 1)))
     lockfile-mode (:fetcher "github" :repo "preetpalS/emacs-lockfile-mode" :files nil :deps nil)
     lodgeit (:fetcher "github" :repo "ionrock/lodgeit-el" :files nil :deps nil)
     log4e (:fetcher "github" :repo "aki2o/log4e" :files nil :deps nil)

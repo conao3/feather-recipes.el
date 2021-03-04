@@ -2826,7 +2826,7 @@
   org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el") :deps (:s (0) :dash (2 17 0) :emacs (24 4) :org (9 1)))
   org-kindle (:fetcher "github" :repo "stardiviner/org-kindle" :files nil :deps (:emacs (25) :cl-lib (0 5) :seq (2 20)))
   org-link-travis (:fetcher "github" :repo "aki2o/org-link-travis" :files nil :deps (:org (7)))
-  org-listcruncher (:fetcher "github" :repo "dfeich/org-listcruncher" :files nil :deps (:cl-lib (0 5) :seq (2 3) :emacs (24 4)))
+  org-listcruncher (:fetcher "github" :repo "dfeich/org-listcruncher" :files nil :deps (:seq (2 3) :emacs (26 1)))
   org-make-toc (:fetcher "github" :repo "alphapapa/org-make-toc" :files nil :deps (:emacs (26 1) :dash (2 12) :s (1 10 0) :org (9 0)))
   org-mime (:fetcher "github" :repo "org-mime/org-mime" :files nil :deps (:emacs (25 1) :cl-lib (0 5)))
   org-mind-map (:fetcher "github" :repo "theodorewiles/org-mind-map" :files nil :deps (:emacs (24) :dash (1 8 0) :org (8 2 10)))

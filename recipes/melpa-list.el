@@ -2893,7 +2893,7 @@
   org-vcard (:fetcher "github" :repo "flexibeast/org-vcard" :files ("org-vcard.el" "styles") :deps nil)
   org-wc (:fetcher "github" :repo "tesujimath/org-wc" :files nil :deps nil)
   org-web-tools (:fetcher "github" :repo "alphapapa/org-web-tools" :files nil :deps (:emacs (25 1) :org (9 0) :dash (2 12) :esxml (0 3 4) :s (1 10 0) :request (0 3 0)))
-  org-wild-notifier (:fetcher "github" :repo "akhramov/org-wild-notifier.el" :files nil :deps (:alert (1 2) :async (1 9 3) :dash (2 13 0) :dash-functional (1 2 0) :emacs (24 4)))
+  org-wild-notifier (:fetcher "github" :repo "akhramov/org-wild-notifier.el" :files nil :deps (:alert (1 2) :async (1 9 3) :dash (2 18 0) :emacs (24 4)))
   org-wunderlist (:fetcher "github" :repo "myuhe/org-wunderlist.el" :files nil :deps (:request-deferred (0 2 0) :alert (1 1) :emacs (24) :cl-lib (0 5) :org (8 2 4) :s (1 9 0)))
   org2blog (:fetcher "github" :repo "org2blog/org2blog" :files nil :deps (:htmlize (1 54) :hydra (0 15 0) :xml-rpc (1 6 12) :metaweblog (1 1 1)))
   org2ctex (:fetcher "github" :repo "tumashu/org2ctex" :files nil :deps (:emacs (24 4)))

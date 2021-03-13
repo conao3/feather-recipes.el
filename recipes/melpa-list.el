@@ -782,7 +782,7 @@
   distel-completion-lib (:fetcher "github" :repo "sebastiw/distel-completion" :files ("distel-completion-lib.el") :deps nil)
   distinguished-theme (:fetcher "github" :repo "Lokaltog/distinguished-theme" :files nil :deps nil)
   ditz-mode (:fetcher "bitbucket" :repo "zondo/ditz-mode" :files nil :deps nil)
-  dix (:fetcher "github" :repo "unhammer/dix" :files ("dix.el" "schemas.xml" "local-schemas.xml") :deps (:cl-lib (0 5) :emacs (24 4)))
+  dix (:fetcher "github" :repo "unhammer/dix" :files ("dix.el" "schemas.xml" "local-schemas.xml") :deps (:cl-lib (0 5) :emacs (26 2)))
   dix-evil (:fetcher "github" :repo "unhammer/dix" :files ("dix-evil.el") :deps (:dix (0 3 0) :evil (1 0 7)))
   dizzee (:fetcher "github" :repo "davidmiller/dizzee" :files nil :deps nil)
   django-commands (:fetcher "github" :repo "muffinmad/emacs-django-commands" :files nil :deps (:emacs (25 1)))

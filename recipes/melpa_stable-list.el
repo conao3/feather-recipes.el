@@ -936,7 +936,7 @@
   haxor-mode (:fetcher "github" :repo "krzysztof-magosa/haxor-mode" :files nil :deps (:emacs (24 0)))
   hcl-mode (:fetcher "github" :repo "syohex/emacs-hcl-mode" :files nil :deps (:emacs (24 3)))
   heaven-and-hell (:fetcher "github" :repo "valignatev/heaven-and-hell" :files nil :deps (:emacs (24 4)))
-  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" (:exclude ("helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el"))) :deps (:emacs (25 1) :async (1 9 4) :popup (0 5 3) :helm-core (3 6 5)))
+  helm (:fetcher "github" :repo "emacs-helm/helm" :files ("*.el" "emacs-helm.sh" (:exclude ("helm.el" "helm-lib.el" "helm-source.el" "helm-multi-match.el" "helm-core-pkg.el"))) :deps (:emacs (25 1) :async (1 9 4) :popup (0 5 3) :helm-core (3 7 1)))
   helm-ack (:fetcher "github" :repo "syohex/emacs-helm-ack" :files nil :deps (:helm (1 0) :cl-lib (0 5)))
   helm-ag (:fetcher "github" :repo "syohex/emacs-helm-ag" :files nil :deps (:emacs (25 1) :helm (2 0)))
   helm-aws (:fetcher "github" :repo "istib/helm-aws" :files nil :deps (:helm (1 5 3)))

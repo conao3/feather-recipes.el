@@ -950,7 +950,7 @@
     elisp-refs (:fetcher "github" :repo "Wilfred/elisp-refs" :files ("//:defaults//" (:exclude ("elisp-refs-bench.el"))) :deps (:dash (2 12 0) :s (1 11 0)))
     elisp-sandbox (:fetcher "github" :repo "joelmccracken/elisp-sandbox" :files ("elisp-sandbox.el") :deps nil)
     elisp-slime-nav (:fetcher "github" :repo "purcell/elisp-slime-nav" :files nil :deps (:emacs (24 1) :cl-lib (0 2)))
-    elixir-mode (:fetcher "github" :repo "elixir-editors/emacs-elixir" :files nil :deps (:emacs (24) :pkg-info (0 4)))
+    elixir-mode (:fetcher "github" :repo "elixir-editors/emacs-elixir" :files nil :deps (:emacs (25) :pkg-info (0 6)))
     elixir-yasnippets (:fetcher "github" :repo "hisea/elixir-yasnippets" :files ("//:defaults//" "snippets") :deps (:yasnippet (0 8 0)))
     ellocate (:fetcher "github" :repo "walseb/ellocate" :files nil :deps (:emacs (25 1) :s (1 12 0) :f (0 20 0)))
     elm-mode (:fetcher "github" :repo "jcollard/elm-mode" :files ("//:defaults//" "elm.tags") :deps (:f (0 17) :s (1 7 0) :emacs (25 1) :dash (2 13 0) :reformatter (0 3)))

@@ -538,7 +538,7 @@
   company-phpactor (:fetcher "github" :repo "emacs-php/phpactor.el" :files ("company-phpactor.el") :deps (:emacs (24 3) :company (0 9 6) :phpactor (0 1 0)))
   company-plsense (:fetcher "github" :repo "CeleritasCelery/company-plsense" :files nil :deps (:company (0 9 3) :cl-lib (0 5 0) :dash (2 12 0) :s (1 12) :emacs (24)))
   company-pollen (:fetcher "github" :repo "lijunsong/pollen-mode" :files ("company-pollen.el") :deps (:company (0 9 0) :pollen-mode (1 0)))
-  company-posframe (:fetcher "github" :repo "tumashu/company-posframe" :files nil :deps (:emacs (26 0) :company (0 9 0) :posframe (0 1 0)))
+  company-posframe (:fetcher "github" :repo "tumashu/company-posframe" :files nil :deps (:emacs (26 0) :company (0 9 0) :posframe (0 9 0)))
   company-prescient (:fetcher "github" :repo "raxod502/prescient.el" :files ("company-prescient.el") :deps (:emacs (25 1) :prescient (5 1) :company (0 9 6)))
   company-qml (:fetcher "github" :repo "cute-jumper/company-qml" :files nil :deps (:qml-mode (0 1) :company (0 8 12)))
   company-quickhelp (:fetcher "github" :repo "expez/company-quickhelp" :files nil :deps (:emacs (24 3) :company (0 8 9) :pos-tip (0 4 6)))

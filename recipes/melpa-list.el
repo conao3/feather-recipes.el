@@ -3160,7 +3160,7 @@
   popup-edit-menu (:fetcher "github" :repo "debugfan/popup-edit-menu" :files nil :deps (:emacs (24)))
   popup-imenu (:fetcher "github" :repo "ancane/popup-imenu" :files nil :deps (:dash (2 12 1) :popup (0 5 3) :flx-ido (0 6 1)))
   popup-kill-ring (:fetcher "github" :repo "waymondo/popup-kill-ring" :files nil :deps (:popup (0 4) :pos-tip (0 4)))
-  popup-switcher (:fetcher "github" :repo "kostafey/popup-switcher" :files nil :deps (:cl-lib (0 3) :popup (0 5 3)))
+  popup-switcher (:fetcher "github" :repo "kostafey/popup-switcher" :files nil :deps (:cl-lib (0 3) :popup (0 5 3) :dash (2 10 0)))
   popwin (:fetcher "github" :repo "m2ym/popwin-el" :files nil :deps (:emacs (24 3)))
   portage-navi (:fetcher "github" :repo "kiwanami/emacs-portage-navi" :files nil :deps (:concurrent (0 3 1) :ctable (0 1 2)))
   porthole (:fetcher "github" :repo "jcaw/porthole" :files nil :deps (:emacs (26) :web-server (0 1 2) :f (0 19 0) :json-rpc-server (0 1 2)))

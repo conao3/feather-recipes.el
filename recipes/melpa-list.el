@@ -2886,7 +2886,7 @@
   org-tracktable (:fetcher "github" :repo "tty-tourist/org-tracktable" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   org-transform-tree-table (:fetcher "github" :repo "jplindstrom/emacs-org-transform-tree-table" :files nil :deps (:dash (2 10 0) :s (1 3 0)))
   org-tree-slide (:fetcher "github" :repo "takaxp/org-tree-slide" :files nil :deps (:emacs (24 4)))
-  org-trello (:fetcher "github" :repo "org-trello/org-trello" :files ("org-trello*.el" (:exclude ("org-trello-tools*.el"))) :deps (:request-deferred (0 2 0) :deferred (0 4 0) :s (1 11 0) :dash-functional (2 12 1) :dash (2 12 1)))
+  org-trello (:fetcher "github" :repo "org-trello/org-trello" :files ("org-trello*.el" (:exclude ("org-trello-tools*.el"))) :deps (:emacs (24 3) :request-deferred (0 2 0) :deferred (0 4 0) :s (1 11 0) :dash (2 18 0)))
   org-variable-pitch (:fetcher "github" :repo "cadadr/elisp" :files ("org-variable-pitch.el") :deps (:emacs (25)))
   org-vcard (:fetcher "github" :repo "flexibeast/org-vcard" :files ("org-vcard.el" "styles") :deps nil)
   org-wc (:fetcher "github" :repo "tesujimath/org-wc" :files nil :deps nil)

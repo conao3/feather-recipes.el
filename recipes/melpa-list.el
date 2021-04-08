@@ -2463,7 +2463,7 @@
   memoize (:fetcher "github" :repo "skeeto/emacs-memoize" :files nil :deps nil)
   memolist (:fetcher "github" :repo "mikanfactory/memolist.el" :files nil :deps (:markdown-mode (22 0) :ag (0 45)))
   mentor (:fetcher "github" :repo "skangas/mentor" :files nil :deps (:xml-rpc (1 6 12) :seq (1 11) :cl-lib (0 5) :async (1 9 3)))
-  merlin (:fetcher "github" :repo "ocaml/merlin" :files ("emacs/*.el") :deps nil)
+  merlin (:fetcher "github" :repo "ocaml/merlin" :files ("emacs/*.el") :deps (:emacs (25 1)))
   merlin-eldoc (:fetcher "github" :repo "Khady/merlin-eldoc" :files nil :deps (:emacs (24 4) :merlin (3 0)))
   mermaid-mode (:fetcher "github" :repo "abrochard/mermaid-mode" :files nil :deps (:f (0 20 0) :emacs (25 3)))
   meson-mode (:fetcher "github" :repo "wentasah/meson-mode" :files nil :deps (:emacs (26 1)))

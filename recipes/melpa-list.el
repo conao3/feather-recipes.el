@@ -3445,7 +3445,7 @@
   rust-auto-use (:fetcher "github" :repo "vmalloc/rust-auto-use.el" :files nil :deps nil)
   rust-mode (:fetcher "github" :repo "rust-lang/rust-mode" :files nil :deps (:emacs (25 1)))
   rust-playground (:fetcher "github" :repo "grafov/rust-playground" :files nil :deps (:emacs (24 3)))
-  rustic (:fetcher "github" :repo "brotzeit/rustic" :files nil :deps (:emacs (26 1) :xterm-color (1 6) :dash (2 13 0) :s (1 10 0) :f (0 18 2) :markdown-mode (2 3) :spinner (1 7 3) :let-alist (1 0 4) :seq (2 3) :ht (2 0)))
+  rustic (:fetcher "github" :repo "brotzeit/rustic" :files nil :deps (:emacs (26 1) :xterm-color (1 6) :dash (2 13 0) :s (1 10 0) :f (0 18 2) :markdown-mode (2 3) :spinner (1 7 3) :let-alist (1 0 4) :seq (2 3) :ht (2 0) :project (0 3 0)))
   rvm (:fetcher "github" :repo "senny/rvm.el" :files nil :deps nil)
   ryo-modal (:fetcher "github" :repo "Kungsgeten/ryo-modal" :files nil :deps (:emacs (25 1)))
   s (:fetcher "github" :repo "magnars/s.el" :files ("s.el") :deps nil)

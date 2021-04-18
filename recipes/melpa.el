@@ -3814,7 +3814,7 @@
     term+key-intercept (:fetcher "github" :repo "tarao/term-plus-ki-el" :files nil :deps (:term+ (0 1) :key-intercept (0 1)))
     term+mux (:fetcher "github" :repo "tarao/term-plus-mux-el" :files nil :deps (:term+ (0 1) :tab-group (0 1)))
     term-alert (:fetcher "github" :repo "CallumCameron/term-alert" :files ("//:defaults//" "setup") :deps (:emacs (24 0) :term-cmd (1 1) :alert (1 1) :f (0 18 2)))
-    term-cmd (:fetcher "github" :repo "CallumCameron/term-cmd" :files ("//:defaults//" "bin") :deps (:emacs (24 0) :dash (2 12 0) :f (0 18 2)))
+    term-cmd (:fetcher "github" :repo "CallumCameron/term-cmd" :files ("//:defaults//" "bin") :deps (:emacs (27 2) :dash (2 12 0) :f (0 18 2)))
     term-manager (:fetcher "github" :repo "IvanMalison/term-manager" :files ("term-manager*.el") :deps (:dash (2 12 0) :emacs (24 4)))
     term-projectile (:fetcher "github" :repo "IvanMalison/term-manager" :files ("term-projectile.el") :deps (:emacs (24) :term-manager (0 1 0) :projectile (0 13 0)))
     term-run (:fetcher "github" :repo "10sr/term-run-el" :files nil :deps nil)

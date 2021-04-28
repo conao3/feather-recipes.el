@@ -3258,7 +3258,7 @@
     pyim (:fetcher "github" :repo "tumashu/pyim" :files ("pyim*.el") :deps (:emacs (24 4) :async (1 6) :xr (1 13)))
     pyim-basedict (:fetcher "github" :repo "tumashu/pyim-basedict" :files ("//:defaults//" "*.pyim" "*.pyim.gz") :deps nil)
     pyim-cangjie5dict (:fetcher "github" :repo "HesperusArcher/pyim-cangjie5dict" :files ("//:defaults//" "*.pyim") :deps (:pyim (1 0)))
-    pyim-wbdict (:fetcher "github" :repo "tumashu/pyim-wbdict" :files ("//:defaults//" "*.pyim" "*.pyim.gz") :deps (:pyim (1 0)))
+    pyim-wbdict (:fetcher "github" :repo "tumashu/pyim-wbdict" :files ("//:defaults//" "*.pyim" "*.pyim.gz") :deps (:pyim (3 7)))
     pyimport (:fetcher "github" :repo "Wilfred/pyimport" :files nil :deps (:dash (2 8 0) :s (1 9 0) :shut-up (0 3 2)))
     pyimpsort (:fetcher "github" :repo "emacs-pe/pyimpsort.el" :files ("pyimpsort.el" "pyimpsort.py") :deps (:emacs (24 3)))
     pylint (:fetcher "github" :repo "PyCQA/pylint" :files ("elisp/pylint.el") :deps nil)

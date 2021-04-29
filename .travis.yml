@@ -4,8 +4,8 @@ dist: trusty
 install:
   - openssl aes-256-cbc -K $encrypted_875c55c1bd3d_key -iv $encrypted_875c55c1bd3d_iv -in .travis_rsa.enc -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
-  - git config --global user.name conao3
-  - git config --global user.email conao3@gmail.com
+  - git config --global user.name garario3
+  - git config --global user.email garario3@gmail.com
 
   - git remote -v
   - git remote set-url origin git@github.com:conao3/feather-recipes.git

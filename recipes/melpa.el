@@ -996,7 +996,7 @@
     emidje (:fetcher "github" :repo "nubank/emidje" :files nil :deps (:emacs (25) :cider (0 17 0) :seq (2 16) :magit-popup (2 4 0)))
     emlib (:fetcher "github" :repo "narendraj9/emlib" :files nil :deps (:dash (2 13 0) :cl-lib (0 5)))
     emmet-mode (:fetcher "github" :repo "smihica/emmet-mode" :files nil :deps nil)
-    emms (:fetcher "git" :repo "https://git.savannah.gnu.org/git/emms.git" :files ("lisp/*.el" "doc/emms.texinfo") :deps (:cl-lib (0 5) :seq (0)))
+    emms (:fetcher "git" :repo "https://git.savannah.gnu.org/git/emms.git" :files ("lisp/*.el" "doc/emms.texinfo") :deps (:cl-lib (0 5) :nadvice (0 3) :seq (0)))
     emms-bilibili (:fetcher "github" :repo "0xDEATHCODE/emms-bilibili" :files nil :deps (:emacs (25) :cl-lib (0 5)))
     emms-info-mediainfo (:fetcher "github" :repo "fgallina/emms-info-mediainfo" :files ("emms-info-mediainfo.el") :deps (:emms (0)))
     emms-mark-ext (:fetcher "github" :repo "vapniks/emms-mark-ext" :files nil :deps (:emms (3 0)))

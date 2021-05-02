@@ -1660,7 +1660,7 @@
   pkgbuild-mode (:fetcher "github" :repo "juergenhoetzel/pkgbuild-mode" :files ("pkgbuild-mode.el") :deps nil)
   plain-theme (:fetcher "github" :repo "yegortimoshenko/plain-theme" :files nil :deps (:emacs (24)))
   plantuml-mode (:fetcher "github" :repo "skuro/plantuml-mode" :files nil :deps (:dash (2 0 0) :emacs (25 0)))
-  platformio-mode (:fetcher "github" :repo "ZachMassia/PlatformIO-Mode" :files nil :deps (:projectile (0 13 0)))
+  platformio-mode (:fetcher "github" :repo "ZachMassia/PlatformIO-Mode" :files nil :deps (:emacs (25 1) :async (1 9 0) :projectile (0 13 0)))
   play-crystal (:fetcher "github" :repo "veelenga/play-crystal.el" :files nil :deps (:emacs (24 4) :dash (2 12 0) :request (0 2 0)))
   play-routes-mode (:fetcher "github" :repo "brocode/play-routes-mode" :files nil :deps nil)
   plenv (:fetcher "github" :repo "karupanerura/plenv.el" :files nil :deps nil)

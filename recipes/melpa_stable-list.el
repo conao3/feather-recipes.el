@@ -115,7 +115,7 @@
   auto-package-update (:fetcher "github" :repo "rranelli/auto-package-update.el" :files nil :deps (:emacs (24 4) :dash (2 1 0)))
   auto-rename-tag (:fetcher "github" :repo "elpa-host/auto-rename-tag" :files nil :deps (:emacs (24 4)))
   auto-shell-command (:fetcher "github" :repo "ongaeshi/auto-shell-command" :files nil :deps (:deferred (20130312) :popwin (20130329)))
-  auto-sudoedit (:fetcher "github" :repo "ncaq/auto-sudoedit" :files nil :deps (:emacs (24 4) :f (0 19 0)))
+  auto-sudoedit (:fetcher "github" :repo "ncaq/auto-sudoedit" :files nil :deps (:emacs (26 1) :f (0 19 0)))
   auto-yasnippet (:fetcher "github" :repo "abo-abo/auto-yasnippet" :files nil :deps (:yasnippet (0 8 0)))
   autodisass-java-bytecode (:fetcher "github" :repo "gbalats/autodisass-java-bytecode" :files nil :deps nil)
   autodisass-llvm-bitcode (:fetcher "github" :repo "gbalats/autodisass-llvm-bitcode" :files nil :deps nil)

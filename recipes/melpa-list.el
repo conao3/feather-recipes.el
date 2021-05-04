@@ -157,7 +157,7 @@
   auth-source-pass (:fetcher "github" :repo "DamienCassou/auth-password-store" :files nil :deps (:emacs (27 1)))
   auto-async-byte-compile (:fetcher "github" :repo "rubikitch/auto-async-byte-compile" :files nil :deps nil)
   auto-auto-indent (:fetcher "github" :repo "sabof/auto-auto-indent" :files nil :deps (:es-lib (0 1) :cl-lib (1 0)))
-  auto-compile (:fetcher "github" :repo "emacscollective/auto-compile" :files nil :deps (:emacs (25 1) :packed (3 0 1)))
+  auto-compile (:fetcher "github" :repo "emacscollective/auto-compile" :files nil :deps (:emacs (25 1) :packed (3 0 3)))
   auto-complete (:fetcher "github" :repo "auto-complete/auto-complete" :files ("*.el" "dict") :deps (:popup (0 5 0) :cl-lib (0 5)))
   auto-complete-auctex (:fetcher "github" :repo "monsanto/auto-complete-auctex" :files nil :deps (:yasnippet (0 6 1) :auto-complete (1 4)))
   auto-complete-c-headers (:fetcher "github" :repo "mooz/auto-complete-c-headers" :files nil :deps (:auto-complete (1 4)))

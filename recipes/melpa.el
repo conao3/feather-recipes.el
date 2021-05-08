@@ -1656,7 +1656,7 @@
     guix (:fetcher "github" :repo "alezost/guix.el" :files ("elisp/*.el" "doc/*.texi" "images" "images/*.svg" "scheme" "scheme/*" (:exclude ("scheme/Makefile.am"))) :deps (:emacs (24 3) :dash (2 11 0) :geiser (0 8) :bui (1 2 0) :magit-popup (2 1 0) :edit-indirect (0 1 4)))
     gulp-task-runner (:fetcher "github" :repo "NicolasPetton/gulp-task-runner" :files nil :deps nil)
     guru-mode (:fetcher "github" :repo "bbatsov/guru-mode" :files ("guru-mode.el") :deps nil)
-    gvariant (:fetcher "github" :repo "wbolster/emacs-gvariant" :files nil :deps (:emacs (24) :parsec (0 1 3)))
+    gvariant (:fetcher "github" :repo "wbolster/emacs-gvariant" :files nil :deps (:emacs (24) :parsec (0 1 4)))
     gvpr-mode (:fetcher "github" :repo "rodw/gvpr-lib" :files ("extra/*.el") :deps nil)
     gxref (:fetcher "github" :repo "dedi/gxref" :files nil :deps (:emacs (25)))
     habamax-theme (:fetcher "github" :repo "habamax/habamax-theme" :files nil :deps (:emacs (24)))

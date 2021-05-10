@@ -715,7 +715,7 @@
     flycheck-nimsuggest (:fetcher "github" :repo "yuutayamada/flycheck-nimsuggest" :files nil :deps (:flycheck (0 23) :nim-mode (0 4 1) :emacs (24)))
     flycheck-objc-clang (:fetcher "github" :repo "GyazSquare/flycheck-objc-clang" :files nil :deps (:emacs (24 4) :flycheck (26)))
     flycheck-ocaml (:fetcher "github" :repo "flycheck/flycheck-ocaml" :files nil :deps (:emacs (24 1) :flycheck (0 22) :merlin (2 3) :let-alist (1 0 3)))
-    flycheck-package (:fetcher "github" :repo "purcell/flycheck-package" :files nil :deps (:flycheck (0 22) :package-lint (0 2)))
+    flycheck-package (:fetcher "github" :repo "purcell/flycheck-package" :files nil :deps (:emacs (24 1) :flycheck (0 22) :package-lint (0 2)))
     flycheck-phpstan (:fetcher "github" :repo "emacs-php/phpstan.el" :files ("flycheck-phpstan.el") :deps (:emacs (24 3) :flycheck (26) :phpstan (0 5 0)))
     flycheck-pony (:fetcher "github" :repo "ponylang/flycheck-pony" :files nil :deps (:flycheck (0 25 1)))
     flycheck-popup-tip (:fetcher "github" :repo "flycheck/flycheck-popup-tip" :files nil :deps (:flycheck (0 22) :popup (0 5) :emacs (24)))

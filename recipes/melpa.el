@@ -1074,7 +1074,7 @@
     eshell-up (:fetcher "github" :repo "peterwvj/eshell-up" :files nil :deps (:emacs (24)))
     eshell-z (:fetcher "github" :repo "xuchunyang/eshell-z" :files nil :deps (:cl-lib (0 5)))
     eslint-fix (:fetcher "github" :repo "codesuki/eslint-fix" :files nil :deps nil)
-    eslintd-fix (:fetcher "github" :repo "aaronjensen/eslintd-fix" :files nil :deps (:dash (2 12 0) :emacs (24 3)))
+    eslintd-fix (:fetcher "github" :repo "aaronjensen/eslintd-fix" :files nil :deps (:dash (2 12 0) :emacs (26 3)))
     esonify (:fetcher "github" :repo "oflatt/esonify" :files ("//:defaults//" "sounds") :deps (:deferred (0 3 1) :cl-lib (0 5)))
     espresso-theme (:fetcher "github" :repo "dgutov/espresso-theme" :files nil :deps nil)
     espuds (:fetcher "github" :repo "ecukes/espuds" :files nil :deps (:s (1 7 0) :dash (2 2 0) :f (0 12 1)))

@@ -2424,7 +2424,7 @@
     mark-tools (:fetcher "github" :repo "stsquad/emacs-mark-tools" :files nil :deps nil)
     markdown-mode (:fetcher "github" :repo "jrblevin/markdown-mode" :files nil :deps (:emacs (25 1)))
     markdown-preview-eww (:fetcher "github" :repo "niku/markdown-preview-eww" :files nil :deps (:emacs (24 4)))
-    markdown-preview-mode (:fetcher "github" :repo "ancane/markdown-preview-mode" :files ("//:defaults//" "preview.html" "favicon.ico") :deps (:emacs (24 3) :websocket (1 6) :markdown-mode (2 0) :cl-lib (0 5) :web-server (0 1 1)))
+    markdown-preview-mode (:fetcher "github" :repo "ancane/markdown-preview-mode" :files ("//:defaults//" "preview.html" "favicon.ico") :deps (:emacs (24 4) :websocket (1 6) :markdown-mode (2 0) :cl-lib (0 5) :web-server (0 1 1)))
     markdown-toc (:fetcher "github" :repo "ardumont/markdown-toc" :files nil :deps (:s (1 9 0) :dash (2 11 0) :markdown-mode (2 1)))
     markdownfmt (:fetcher "github" :repo "nlamirault/emacs-markdownfmt" :files nil :deps (:emacs (24)))
     markless (:fetcher "github" :repo "shirakumo/markless.el" :files nil :deps (:emacs (24 4)))

@@ -1309,7 +1309,7 @@
     mark-thing-at (:fetcher "github" :repo "plandes/mark-thing-at" :files nil :deps (:emacs (26) :choice-program (0 13)))
     mark-tools (:fetcher "github" :repo "stsquad/emacs-mark-tools" :files nil :deps nil)
     markdown-mode (:fetcher "github" :repo "jrblevin/markdown-mode" :files nil :deps (:emacs (25 1)))
-    markdown-preview-mode (:fetcher "github" :repo "ancane/markdown-preview-mode" :files ("//:defaults//" "preview.html" "favicon.ico") :deps (:emacs (24 3) :websocket (1 6) :markdown-mode (2 0) :cl-lib (0 5) :web-server (0 1 1)))
+    markdown-preview-mode (:fetcher "github" :repo "ancane/markdown-preview-mode" :files ("//:defaults//" "preview.html" "favicon.ico") :deps (:emacs (24 4) :websocket (1 6) :markdown-mode (2 0) :cl-lib (0 5) :web-server (0 1 1)))
     markdown-toc (:fetcher "github" :repo "ardumont/markdown-toc" :files nil :deps (:s (1 9 0) :dash (2 11 0) :markdown-mode (2 1)))
     markup (:fetcher "github" :repo "leoc/markup.el" :files ("markup.el") :deps (:cl-lib (0 5)))
     markup-faces (:fetcher "github" :repo "sensorflo/markup-faces" :files nil :deps nil)

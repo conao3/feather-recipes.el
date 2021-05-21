@@ -1136,7 +1136,7 @@
   evil-multiedit (:fetcher "github" :repo "hlissner/evil-multiedit" :files nil :deps (:emacs (24 4) :evil (1 2 12) :iedit (0 9) :cl-lib (0 5)))
   evil-nerd-commenter (:fetcher "github" :repo "redguardtoo/evil-nerd-commenter" :files nil :deps (:emacs (24 4)))
   evil-nl-break-undo (:fetcher "github" :repo "VanLaser/evil-nl-break-undo" :files nil :deps nil)
-  evil-numbers (:fetcher "github" :repo "cofi/evil-numbers" :files nil :deps (:emacs (24 1)))
+  evil-numbers (:fetcher "github" :repo "cofi/evil-numbers" :files nil :deps (:emacs (24 1) :evil (1 2 0)))
   evil-opener (:fetcher "github" :repo "0robustus1/opener.el" :files ("evil-opener.el" "evil-opener.texi") :deps (:evil (1 2 12) :opener (0 2 2)))
   evil-org (:fetcher "github" :repo "Somelauw/evil-org-mode" :files nil :deps (:emacs (24 4) :evil (1 0)))
   evil-owl (:fetcher "github" :repo "mamapanda/evil-owl" :files nil :deps (:emacs (25 1) :evil (1 2 13)))

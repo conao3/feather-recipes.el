@@ -900,7 +900,7 @@
     ego (:fetcher "github" :repo "emacs-china/EGO" :files ("//:defaults//" "themes") :deps (:emacs (24 5) :ht (1 5) :mustache (0 22) :htmlize (1 47) :org (8 0) :dash (2 0 0)))
     eide (:fetcher "git" :repo "https://framagit.org/eide/eide.git" :files ("src/*.el" "src/themes/*.el") :deps nil)
     eimp (:fetcher "github" :repo "nicferrier/eimp" :files nil :deps nil)
-    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (20190620) :anaphora (20180618) :request (20200117) :deferred (0 5) :polymode (20190714) :dash (2 13 0) :with-editor (20200522)))
+    ein (:fetcher "github" :repo "millejoh/emacs-ipython-notebook" :files ("lisp/*" (:exclude ("lisp/zeroein.el"))) :deps (:emacs (25) :websocket (1 12) :anaphora (1 0 4) :request (0 3 3) :deferred (0 5) :polymode (0 2 2) :dash (2 13 0) :with-editor (0 -1)))
     ein-mumamo (:fetcher "github" :repo "millejoh/ein-mumamo" :files nil :deps (:ein (0 4)))
     eink-theme (:fetcher "github" :repo "maio/eink-emacs" :files nil :deps nil)
     ejc-sql (:fetcher "github" :repo "kostafey/ejc-sql" :files ("//:defaults//" "project.clj" "src" "snippets") :deps (:emacs (26 3) :clomacs (0 0 5) :dash (2 16 0) :spinner (1 7 3) :direx (1 0 0)))

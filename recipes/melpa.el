@@ -1968,7 +1968,7 @@
     idle-require (:fetcher "github" :repo "nschum/idle-require.el" :files nil :deps nil)
     ido-at-point (:fetcher "github" :repo "katspaugh/ido-at-point" :files nil :deps (:emacs (24)))
     ido-complete-space-or-hyphen (:fetcher "github" :repo "doitian/ido-complete-space-or-hyphen" :files nil :deps nil)
-    ido-completing-read+ (:fetcher "github" :repo "DarwinAwardWinner/ido-completing-read-plus" :files ("ido-completing-read+.el") :deps (:emacs (24 4) :seq (0 5) :cl-lib (0 5) :memoize (1 1)))
+    ido-completing-read+ (:fetcher "github" :repo "DarwinAwardWinner/ido-completing-read-plus" :files ("ido-completing-read+.el") :deps (:emacs (24 4) :seq (0 5) :memoize (1 1)))
     ido-exit-target (:fetcher "github" :repo "waymondo/ido-exit-target" :files nil :deps (:emacs (24 4)))
     ido-flex-with-migemo (:fetcher "github" :repo "ROCKTAKEY/ido-flex-with-migemo" :files nil :deps (:flx-ido (0 6 1) :migemo (1 9 1) :emacs (24 4)))
     ido-gnus (:fetcher "github" :repo "vapniks/ido-gnus" :files nil :deps (:gnus (5 13)))

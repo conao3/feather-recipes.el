@@ -59,7 +59,7 @@
     alda-mode (:fetcher "gitlab" :repo "jgkamat/alda-mode" :files nil :deps (:emacs (24 0)))
     alect-themes (:fetcher "github" :repo "alezost/alect-themes" :files nil :deps (:emacs (24 0)))
     alert (:fetcher "github" :repo "jwiegley/alert" :files nil :deps (:gntp (0 1) :log4e (0 3 0) :cl-lib (0 5)))
-    all-the-icons (:fetcher "github" :repo "domtronn/all-the-icons.el" :files ("//:defaults//" "data") :deps (:emacs (24 3) :memoize (1 0 1)))
+    all-the-icons (:fetcher "github" :repo "domtronn/all-the-icons.el" :files ("//:defaults//" "data") :deps (:emacs (24 3)))
     all-the-icons-ivy (:fetcher "github" :repo "asok/all-the-icons-ivy" :files nil :deps (:emacs (24 4) :all-the-icons (2 4 0) :ivy (0 8 0)))
     alt-codes (:fetcher "github" :repo "elpa-host/alt-codes" :files nil :deps (:emacs (24 4)))
     amd-mode (:fetcher "github" :repo "NicolasPetton/amd-mode.el" :files nil :deps (:emacs (25) :projectile (20161008 47) :s (1 9 0) :f (0 16 2) :seq (2 16) :makey (0 3) :js2-mode (20140114) :js2-refactor (0 6 1)))

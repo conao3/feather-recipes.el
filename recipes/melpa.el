@@ -2485,7 +2485,7 @@
     miniedit (:fetcher "github" :repo "emacsorphanage/miniedit" :files nil :deps nil)
     minimal-session-saver (:fetcher "github" :repo "rolandwalker/minimal-session-saver" :files nil :deps nil)
     minimal-theme (:fetcher "github" :repo "anler/minimal-theme" :files nil :deps nil)
-    minions (:fetcher "github" :repo "tarsius/minions" :files nil :deps (:emacs (25 2) :dash (2 13 0)))
+    minions (:fetcher "github" :repo "tarsius/minions" :files nil :deps (:emacs (25 2)))
     minitest (:fetcher "github" :repo "arthurnn/minitest-emacs" :files ("minitest.el" "snippets") :deps (:dash (1 0 0)))
     minizinc-mode (:fetcher "github" :repo "m00nlight/minizinc-mode" :files nil :deps (:emacs (24 1)))
     minor-mode-hack (:fetcher "github" :repo "rubikitch/minor-mode-hack" :files nil :deps nil)

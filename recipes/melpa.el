@@ -2644,7 +2644,7 @@
     no-emoji (:fetcher "github" :repo "ecraven/no-emoji" :files nil :deps (:emacs (24)))
     no-littering (:fetcher "github" :repo "emacscollective/no-littering" :files nil :deps (:cl-lib (0 5)))
     no-spam (:fetcher "github" :repo "mamapanda/no-spam" :files nil :deps (:emacs (25 1)))
-    noaa (:fetcher "github" :repo "thomp/noaa" :files nil :deps (:request (0 2 0) :cl-lib (0 5) :emacs (24) :dash (2 14 1)))
+    noaa (:fetcher "github" :repo "thomp/noaa" :files nil :deps (:emacs (27 1) :request (0 2 0) :dash (2 14 1)))
     noccur (:fetcher "github" :repo "NicolasPetton/noccur.el" :files nil :deps nil)
     nocomments-mode (:fetcher "github" :repo "Lindydancer/nocomments-mode" :files nil :deps nil)
     noctilux-theme (:fetcher "github" :repo "sjrmanning/noctilux-theme" :files nil :deps (:emacs (24)))

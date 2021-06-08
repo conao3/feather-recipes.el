@@ -582,7 +582,7 @@
     counsel-codesearch (:fetcher "github" :repo "abingham/emacs-counsel-codesearch" :files nil :deps (:codesearch (1) :counsel (0 10 0) :emacs (24) :ivy (0 10 0)))
     counsel-css (:fetcher "github" :repo "hlissner/emacs-counsel-css" :files nil :deps (:emacs (24 4) :counsel (0 7 0) :cl-lib (0 5)))
     counsel-dash (:fetcher "github" :repo "nathankot/counsel-dash" :files nil :deps (:emacs (24 4) :dash-docs (1 4 0) :counsel (0 8 0) :cl-lib (0 5)))
-    counsel-etags (:fetcher "github" :repo "redguardtoo/counsel-etags" :files nil :deps (:emacs (25 1) :counsel (0 13 0)))
+    counsel-etags (:fetcher "github" :repo "redguardtoo/counsel-etags" :files nil :deps (:emacs (25 1) :counsel (0 13 4)))
     counsel-ffdata (:fetcher "github" :repo "cireu/counsel-ffdata" :files nil :deps (:emacs (25 1) :counsel (0 11 0) :emacsql (3 0 0)))
     counsel-gtags (:fetcher "github" :repo "FelipeLema/emacs-counsel-gtags" :files nil :deps (:emacs (25 1) :counsel (0 8 0) :seq (1 0)))
     counsel-notmuch (:fetcher "github" :repo "fuxialexander/counsel-notmuch" :files nil :deps (:emacs (24) :ivy (0 10 0) :notmuch (0 21) :s (1 12 0)))

@@ -1210,7 +1210,7 @@
   ksp-cfg-mode (:fetcher "github" :repo "lashtear/ksp-cfg-mode" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   kubel (:fetcher "github" :repo "abrochard/kubel" :files ("//:defaults//" (:exclude ("kubel-evil.el"))) :deps (:transient (0 1 0) :emacs (25 3) :dash (2 12 0) :s (1 2 0) :yaml-mode (0 0 14)))
   kubernetes (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("//:defaults//" (:exclude ("kubernetes-evil.el"))) :deps (:emacs (25 1) :dash (2 12 0) :magit (2 8 0) :magit-popup (2 13 0)))
-  kubernetes-evil (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("kubernetes-evil.el") :deps (:kubernetes (0 13 0) :evil (1 2 12)))
+  kubernetes-evil (:fetcher "github" :repo "chrisbarrett/kubernetes-el" :files ("kubernetes-evil.el") :deps (:kubernetes (0 14 0) :evil (1 2 12)))
   kurecolor (:fetcher "github" :repo "emacsfodder/kurecolor" :files nil :deps (:emacs (24 1) :s (1 0)))
   labburn-theme (:fetcher "github" :repo "ksjogo/labburn-theme" :files nil :deps nil)
   langtool (:fetcher "github" :repo "mhayashi1120/Emacs-langtool" :files ("langtool.el") :deps (:cl-lib (0 3)))

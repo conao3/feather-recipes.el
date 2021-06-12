@@ -1613,7 +1613,7 @@
     parseedn (:fetcher "github" :repo "clojure-emacs/parseedn" :files nil :deps (:emacs (25) :a (0 1 0 -3 4) :parseclj (0 1 0)))
     pass (:fetcher "github" :repo "NicolasPetton/pass" :files nil :deps (:emacs (25) :password-store (2 1 0) :password-store-otp (0 1 5) :f (0 17)))
     passmm (:fetcher "github" :repo "pjones/passmm" :files ("lisp/*.el") :deps (:emacs (24 4) :password-store (0)))
-    password-store (:fetcher "github" :repo "zx2c4/password-store" :files ("contrib/emacs/*.el") :deps (:emacs (24) :f (0 11 0) :s (1 9 0) :with-editor (2 5 11)))
+    password-store (:fetcher "github" :repo "zx2c4/password-store" :files ("contrib/emacs/*.el") :deps (:emacs (25) :s (1 9 0) :with-editor (2 5 11) :auth-source-pass (5 0 0)))
     password-store-otp (:fetcher "github" :repo "volrath/password-store-otp.el" :files nil :deps (:emacs (25) :s (1 9 0) :password-store (0 1)))
     pastehub (:fetcher "github" :repo "kiyoka/pastehub" :files ("client/emacs/pastehub.el") :deps nil)
     pastelmac-theme (:fetcher "github" :repo "bmastenbrook/pastelmac-theme-el" :files nil :deps (:emacs (24 1)))

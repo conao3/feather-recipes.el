@@ -3196,7 +3196,7 @@
     projectile (:fetcher "github" :repo "bbatsov/projectile" :files ("projectile.el") :deps (:emacs (25 1) :pkg-info (0 4)))
     projectile-codesearch (:fetcher "github" :repo "abingham/emacs-codesearch" :files ("projectile-codesearch.el") :deps (:codesearch (20171122 431) :projectile (20150405 126)))
     projectile-git-autofetch (:fetcher "github" :repo "andrmuel/projectile-git-autofetch" :files nil :deps (:emacs (25 1) :projectile (0 14 0)))
-    projectile-rails (:fetcher "github" :repo "asok/projectile-rails" :files nil :deps (:emacs (24 3) :projectile (0 12 0) :inflections (1 1) :inf-ruby (2 2 6) :f (0 13 0) :rake (0 3 2)))
+    projectile-rails (:fetcher "github" :repo "asok/projectile-rails" :files nil :deps (:emacs (24 3) :projectile (0 12 0) :inflections (1 1) :inf-ruby (2 2 6) :f (0 13 0) :rake (0 3 2) :dash (2 18 1)))
     projectile-ripgrep (:fetcher "github" :repo "nlamirault/ripgrep.el" :files ("projectile-ripgrep.el") :deps (:ripgrep (0 3 0) :projectile (0 14 0)))
     projectile-sift (:fetcher "github" :repo "nlamirault/sift.el" :files ("projectile-sift.el") :deps (:sift (0 2 0) :projectile (0 13 0)))
     projectile-speedbar (:fetcher "github" :repo "anshulverma/projectile-speedbar" :files nil :deps (:projectile (0 11 0) :sr-speedbar (0)))

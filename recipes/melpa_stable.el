@@ -665,7 +665,7 @@
     fcitx (:fetcher "github" :repo "cute-jumper/fcitx.el" :files nil :deps nil)
     fd-dired (:fetcher "github" :repo "yqrashawn/fd-dired" :files nil :deps nil)
     feature-mode (:fetcher "github" :repo "michaelklishin/cucumber.el" :files ("*.el" "i18n.yml" "snippets" "support") :deps nil)
-    fennel-mode (:fetcher "gitlab" :repo "technomancy/fennel-mode" :files nil :deps nil)
+    fennel-mode (:fetcher "gitlab" :repo "technomancy/fennel-mode" :files nil :deps (:emacs (25 1)))
     fill-column-indicator (:fetcher "github" :repo "alpaker/Fill-Column-Indicator" :files nil :deps nil)
     fill-function-arguments (:fetcher "github" :repo "davidshepherd7/fill-function-arguments" :files nil :deps (:emacs (24 4)))
     finalize (:fetcher "github" :repo "skeeto/elisp-finalize" :files nil :deps (:emacs (24 1) :cl-generic (0 3) :cl-lib (0 3) :eieio (1 4)))

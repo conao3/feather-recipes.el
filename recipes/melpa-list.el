@@ -2380,7 +2380,7 @@
   magit-gitflow (:fetcher "github" :repo "jtatarik/magit-gitflow" :files nil :deps (:magit (2 1 0) :magit-popup (2 2 0)))
   magit-imerge (:fetcher "github" :repo "magit/magit-imerge" :files nil :deps (:emacs (24 4) :magit (3 0 0)))
   magit-lfs (:fetcher "github" :repo "Ailrun/magit-lfs" :files nil :deps (:emacs (24 4) :magit (2 10 3) :dash (2 13 0)))
-  magit-libgit (:fetcher "github" :repo "magit/magit" :files ("lisp/magit-libgit.el") :deps (:emacs (26 1) :magit (3 1 0) :libgit (0)))
+  magit-libgit (:fetcher "github" :repo "magit/magit" :files ("lisp/magit-libgit.el") :deps (:emacs (26 1) :magit (3 1 1) :libgit (0)))
   magit-org-todos (:fetcher "github" :repo "danielma/magit-org-todos.el" :files nil :deps (:magit (2 0 0) :emacs (24)))
   magit-p4 (:fetcher "github" :repo "qoocku/magit-p4" :files nil :deps (:magit (2 1) :magit-popup (2 1) :p4 (12 0) :cl-lib (0 5)))
   magit-popup (:fetcher "github" :repo "magit/magit-popup" :files nil :deps (:emacs (24 4) :dash (2 13 0)))

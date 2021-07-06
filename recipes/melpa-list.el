@@ -2630,7 +2630,7 @@
   ninja-mode (:fetcher "github" :repo "ninja-build/ninja" :files ("misc/*.el") :deps (:emacs (24)))
   nix-buffer (:fetcher "github" :repo "shlevy/nix-buffer" :files nil :deps (:f (0 17 3) :emacs (24 4)))
   nix-haskell-mode (:fetcher "github" :repo "matthewbauer/nix-haskell-mode" :files nil :deps (:emacs (25) :haskell-mode (16 0) :nix-mode (1 3 0)))
-  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" (:exclude ("nix-company.el" "nix-mode-mmm.el"))) :deps (:emacs (25 1)))
+  nix-mode (:fetcher "github" :repo "NixOS/nix-mode" :files ("//:defaults//" (:exclude ("nix-company.el" "nix-mode-mmm.el"))) :deps (:emacs (25 1) :f (0 20 0)))
   nix-sandbox (:fetcher "github" :repo "travisbhartwell/nix-emacs" :files ("nix-sandbox.el") :deps (:dash (2 12 1) :s (1 10 0)))
   nix-update (:fetcher "github" :repo "jwiegley/nix-update-el" :files nil :deps (:emacs (25)))
   nixos-options (:fetcher "github" :repo "travisbhartwell/nix-emacs" :files ("nixos-options.el") :deps (:emacs (24)))

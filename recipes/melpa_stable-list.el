@@ -109,7 +109,7 @@
   auto-complete-pcmp (:fetcher "github" :repo "aki2o/auto-complete-pcmp" :files nil :deps (:auto-complete (1 4 0) :log4e (0 2 0) :yaxception (0 1)))
   auto-complete-sage (:fetcher "github" :repo "stakemori/auto-complete-sage" :files nil :deps (:auto-complete (1 5 0) :sage-shell-mode (0 0 8)))
   auto-dictionary (:fetcher "github" :repo "nschum/auto-dictionary-mode" :files nil :deps nil)
-  auto-highlight-symbol (:fetcher "github" :repo "gennad/auto-highlight-symbol" :files nil :deps nil)
+  auto-highlight-symbol (:fetcher "github" :repo "gennad/auto-highlight-symbol" :files nil :deps (:emacs (26 1) :ht (2 3)))
   auto-indent-mode (:fetcher "github" :repo "mattfidler/auto-indent-mode.el" :files nil :deps nil)
   auto-minor-mode (:fetcher "github" :repo "joewreschnig/auto-minor-mode" :files nil :deps (:emacs (24 4)))
   auto-package-update (:fetcher "github" :repo "rranelli/auto-package-update.el" :files nil :deps (:emacs (24 4) :dash (2 1 0)))

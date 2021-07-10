@@ -171,7 +171,7 @@
   auto-complete-sage (:fetcher "github" :repo "stakemori/auto-complete-sage" :files nil :deps (:auto-complete (1 5 1) :sage-shell-mode (0 1 0)))
   auto-dictionary (:fetcher "github" :repo "nschum/auto-dictionary-mode" :files nil :deps nil)
   auto-dim-other-buffers (:fetcher "github" :repo "mina86/auto-dim-other-buffers.el" :files nil :deps nil)
-  auto-highlight-symbol (:fetcher "github" :repo "gennad/auto-highlight-symbol" :files nil :deps (:emacs (24 4) :ht (2 3)))
+  auto-highlight-symbol (:fetcher "github" :repo "gennad/auto-highlight-symbol" :files nil :deps (:emacs (26 1) :ht (2 3)))
   auto-indent-mode (:fetcher "github" :repo "mattfidler/auto-indent-mode.el" :files nil :deps nil)
   auto-minor-mode (:fetcher "github" :repo "joewreschnig/auto-minor-mode" :files nil :deps (:emacs (24 4)))
   auto-org-md (:fetcher "github" :repo "jamcha-aa/auto-org-md" :files nil :deps (:emacs (24 4)))

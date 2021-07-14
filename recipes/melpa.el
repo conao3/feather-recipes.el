@@ -670,7 +670,7 @@
     dash-at-point (:fetcher "github" :repo "stanaka/dash-at-point" :files nil :deps nil)
     dash-docs (:fetcher "github" :repo "gilbertw1/dash-docs" :files nil :deps (:emacs (24 4) :cl-lib (0 5) :async (1 9 3)))
     dash-functional (:fetcher "github" :repo "magnars/dash.el" :files ("dash-functional.el") :deps (:dash (2 18 0)))
-    dashboard (:fetcher "github" :repo "emacs-dashboard/emacs-dashboard" :files ("//:defaults//" "banners") :deps (:emacs (25 3) :page-break-lines (0 11)))
+    dashboard (:fetcher "github" :repo "emacs-dashboard/emacs-dashboard" :files ("//:defaults//" "banners") :deps (:emacs (25 3)))
     dashboard-hackernews (:fetcher "github" :repo "hyakt/emacs-dashboard-hackernews" :files nil :deps (:emacs (24) :dashboard (1 2 5) :request (0 3 0)))
     dashboard-project-status (:fetcher "github" :repo "functionreturnfunction/dashboard-project-status" :files nil :deps (:emacs (24) :git (0 1 1) :dashboard (1 2 5)))
     date-at-point (:fetcher "github" :repo "alezost/date-at-point.el" :files nil :deps nil)

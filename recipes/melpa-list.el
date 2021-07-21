@@ -3016,7 +3016,7 @@
   pc-bufsw (:fetcher "github" :repo "ibukanov/pc-bufsw" :files nil :deps nil)
   pcache (:fetcher "github" :repo "sigma/pcache" :files nil :deps (:emacs (25 1)))
   pcap-mode (:fetcher "github" :repo "orgcandman/pcap-mode" :files nil :deps (:emacs (24 3)))
-  pcmpl-args (:fetcher "github" :repo "JonWaltman/pcmpl-args.el" :files nil :deps nil)
+  pcmpl-args (:fetcher "github" :repo "JonWaltman/pcmpl-args.el" :files nil :deps (:emacs (24 3)))
   pcmpl-git (:fetcher "github" :repo "leoliu/pcmpl-git-el" :files ("*.el" "git-options") :deps nil)
   pcmpl-homebrew (:fetcher "github" :repo "kaihaosw/pcmpl-homebrew" :files nil :deps nil)
   pcmpl-pip (:fetcher "github" :repo "kaihaosw/pcmpl-pip" :files nil :deps (:s (1 12 0) :f (0 19 0) :seq (2 15)))

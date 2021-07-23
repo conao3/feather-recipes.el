@@ -1206,7 +1206,7 @@
     kill-ring-search (:fetcher "github" :repo "nschum/kill-ring-search.el" :files nil :deps nil)
     killer (:fetcher "github" :repo "tarsius/killer" :files nil :deps nil)
     kivy-mode (:fetcher "github" :repo "kivy/kivy" :files ("kivy/tools/highlight/kivy-mode.el") :deps nil)
-    kiwix (:fetcher "github" :repo "stardiviner/kiwix.el" :files nil :deps (:emacs (24 4) :cl-lib (0 5)))
+    kiwix (:fetcher "github" :repo "stardiviner/kiwix.el" :files nil :deps (:emacs (24 4) :request (0 3 0) :elquery (0 1 0)))
     know-your-http-well (:fetcher "github" :repo "for-GET/know-your-http-well" :files ("emacs/*.el") :deps nil)
     ksp-cfg-mode (:fetcher "github" :repo "lashtear/ksp-cfg-mode" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     kubel (:fetcher "github" :repo "abrochard/kubel" :files ("//:defaults//" (:exclude ("kubel-evil.el"))) :deps (:transient (0 1 0) :emacs (25 3) :dash (2 12 0) :s (1 2 0) :yaml-mode (0 0 14)))

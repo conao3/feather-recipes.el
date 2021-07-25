@@ -970,7 +970,7 @@
     helm-flycheck (:fetcher "github" :repo "yasuyk/helm-flycheck" :files nil :deps (:dash (2 12 1) :flycheck (28) :helm-core (1 9 8)))
     helm-fuz (:fetcher "github" :repo "cireu/fuz.el" :files ("helm-fuz.el") :deps (:emacs (25 1) :fuz (1 3 0) :helm (3 2)))
     helm-fuzzy (:fetcher "github" :repo "elpa-host/helm-fuzzy" :files nil :deps (:emacs (24 4) :helm (1 7 9) :flx (0 5)))
-    helm-ghq (:fetcher "github" :repo "masutaka/emacs-helm-ghq" :files nil :deps (:emacs (24) :helm (2 2 0)))
+    helm-ghq (:fetcher "github" :repo "masutaka/emacs-helm-ghq" :files nil :deps (:emacs (24) :helm (3 8 0)))
     helm-git-grep (:fetcher "github" :repo "yasuyk/helm-git-grep" :files nil :deps (:helm-core (2 2 0)))
     helm-github-stars (:fetcher "github" :repo "Sliim/helm-github-stars" :files nil :deps (:helm (1 6 8) :emacs (24 4)))
     helm-gitlab (:fetcher "github" :repo "nlamirault/emacs-gitlab" :files ("helm-gitlab.el") :deps (:s (1 9 0) :dash (2 9 0) :helm (1 0) :gitlab (0 8 0)))

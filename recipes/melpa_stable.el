@@ -514,7 +514,7 @@
     elpa-audit (:fetcher "github" :repo "purcell/elpa-audit" :files nil :deps nil)
     elpa-clone (:fetcher "github" :repo "dochang/elpa-clone" :files nil :deps (:emacs (24 4) :cl-lib (0)))
     elpa-mirror (:fetcher "github" :repo "redguardtoo/elpa-mirror" :files ("elpa-mirror.el" "elpa-mirror.js" "index.html") :deps (:emacs (25 1)))
-    elpher (:fetcher "github" :repo "tgvaughan/elpher" :files nil :deps (:emacs (26 2)))
+    elpher (:fetcher "github" :repo "tgvaughan/elpher" :files nil :deps (:emacs (27 1)))
     elpy (:fetcher "github" :repo "jorgenschaefer/elpy" :files ("*.el" "NEWS.rst" "snippets" "elpy") :deps (:company (0 9 2) :emacs (24 4) :highlight-indentation (0 5 0) :pyvenv (1 3) :yasnippet (0 8 0) :s (1 11 0)))
     elscreen (:fetcher "github" :repo "knu/elscreen" :files nil :deps (:emacs (24)))
     elscreen-fr (:fetcher "github" :repo "rocher/elscreen-fr" :files nil :deps (:elscreen (0) :seq (1 11)))

@@ -1124,7 +1124,7 @@
   evil-lisp-state (:fetcher "github" :repo "syl20bnr/evil-lisp-state" :files nil :deps (:evil (1 0 9) :bind-map (0) :smartparens (1 6 1)))
   evil-lispy (:fetcher "github" :repo "sp3ctum/evil-lispy" :files nil :deps (:lispy (0 26 0) :evil (1 2 12) :hydra (0 13 5)))
   evil-mark-replace (:fetcher "github" :repo "redguardtoo/evil-mark-replace" :files nil :deps (:evil (1 14 0)))
-  evil-matchit (:fetcher "github" :repo "redguardtoo/evil-matchit" :files nil :deps (:evil (1 2 0) :emacs (25 1)))
+  evil-matchit (:fetcher "github" :repo "redguardtoo/evil-matchit" :files nil :deps (:evil (1 14 0) :emacs (25 1)))
   evil-mc (:fetcher "github" :repo "gabesoft/evil-mc" :files nil :deps (:emacs (24 3) :evil (1 2 14) :cl-lib (0 5)))
   evil-mc-extras (:fetcher "github" :repo "gabesoft/evil-mc-extras" :files nil :deps (:emacs (24 3) :evil (1 2 12) :cl-lib (0 5) :evil-mc (0 0 2) :evil-numbers (0 4)))
   evil-mu4e (:fetcher "github" :repo "JorisE/evil-mu4e" :files nil :deps (:emacs (24 4) :evil (1 2 10)))

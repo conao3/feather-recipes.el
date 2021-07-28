@@ -602,7 +602,7 @@
   evil-leader (:fetcher "github" :repo "cofi/evil-leader" :files nil :deps (:evil (0)))
   evil-lisp-state (:fetcher "github" :repo "syl20bnr/evil-lisp-state" :files nil :deps (:evil (1 0 9) :bind-map (0) :smartparens (1 6 1)))
   evil-mark-replace (:fetcher "github" :repo "redguardtoo/evil-mark-replace" :files nil :deps (:evil (1 14 0)))
-  evil-matchit (:fetcher "github" :repo "redguardtoo/evil-matchit" :files nil :deps (:evil (1 2 0) :emacs (25 1)))
+  evil-matchit (:fetcher "github" :repo "redguardtoo/evil-matchit" :files nil :deps (:evil (1 14 0) :emacs (25 1)))
   evil-mc (:fetcher "github" :repo "gabesoft/evil-mc" :files nil :deps (:emacs (24 3) :evil (1 2 12) :cl-lib (0 5)))
   evil-multiedit (:fetcher "github" :repo "hlissner/evil-multiedit" :files nil :deps (:emacs (24 4) :evil (1 2 12) :iedit (0 9) :cl-lib (0 5)))
   evil-nerd-commenter (:fetcher "github" :repo "redguardtoo/evil-nerd-commenter" :files nil :deps (:emacs (25 1)))

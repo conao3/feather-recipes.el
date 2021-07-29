@@ -347,7 +347,7 @@
     calfw-howm (:fetcher "github" :repo "kiwanami/emacs-calfw" :files ("calfw-howm.el") :deps nil)
     calfw-ical (:fetcher "github" :repo "kiwanami/emacs-calfw" :files ("calfw-ical.el") :deps nil)
     calfw-org (:fetcher "github" :repo "kiwanami/emacs-calfw" :files ("calfw-org.el") :deps nil)
-    call-graph (:fetcher "github" :repo "beacoder/call-graph" :files nil :deps (:emacs (25) :cl-lib (0 6 1) :hierarchy (0 7 0) :tree-mode (1 0 0) :ivy (0 10 0) :anaconda-mode (0 1 13)))
+    call-graph (:fetcher "github" :repo "beacoder/call-graph" :files nil :deps (:emacs (25 1) :cl-lib (0 6 1) :hierarchy (0 7 0) :tree-mode (1 0 0) :ivy (0 10 0) :anaconda-mode (0 1 13)))
     calmer-forest-theme (:fetcher "github" :repo "caldwell/calmer-forest-theme" :files nil :deps nil)
     camcorder (:fetcher "github" :repo "Malabarba/camcorder.el" :files nil :deps (:emacs (24) :names (20150000) :cl-lib (0 5)))
     caml (:fetcher "github" :repo "ocaml/caml-mode" :files nil :deps nil)

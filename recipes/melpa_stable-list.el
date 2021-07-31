@@ -768,7 +768,7 @@
   foreman-mode (:fetcher "github" :repo "zweifisch/foreman-mode" :files nil :deps (:s (1 9 0) :dash (2 10 0) :dash-functional (1 2 0) :f (0 17 2) :emacs (24)))
   forge (:fetcher "github" :repo "magit/forge" :files ("lisp/*.el" "docs/forge.texi") :deps (:emacs (25 1) :closql (1 0 6) :dash (2 18 1) :emacsql-sqlite (3 0 0) :ghub (3 5 2) :let-alist (1 0 6) :magit (3 0 0) :markdown-mode (2 4) :transient (0 3 3)))
   form-feed (:fetcher "github" :repo "wasamasa/form-feed" :files nil :deps nil)
-  format-all (:fetcher "github" :repo "lassik/emacs-format-all-the-code" :files nil :deps (:emacs (24 3) :inheritenv (0 1) :language-id (0 12)))
+  format-all (:fetcher "github" :repo "lassik/emacs-format-all-the-code" :files nil :deps (:emacs (24 3) :inheritenv (0 1) :language-id (0 15)))
   format-sql (:fetcher "github" :repo "paetzke/format-sql.el" :files nil :deps nil)
   format-table (:fetcher "github" :repo "functionreturnfunction/format-table" :files nil :deps (:emacs (25) :dash (2 14 1)))
   fortune-cookie (:fetcher "github" :repo "andschwa/fortune-cookie" :files nil :deps nil)

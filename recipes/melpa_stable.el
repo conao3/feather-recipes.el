@@ -237,7 +237,7 @@
     cl-format (:fetcher "github" :repo "alvinfrancis/cl-format" :files nil :deps nil)
     cl-libify (:fetcher "github" :repo "purcell/cl-libify" :files nil :deps (:emacs (25)))
     click-mode (:fetcher "github" :repo "bmalehorn/click-mode" :files nil :deps (:emacs (24)))
-    cliphist (:fetcher "github" :repo "redguardtoo/cliphist" :files nil :deps (:emacs (24 3) :ivy (0 9 0)))
+    cliphist (:fetcher "github" :repo "redguardtoo/cliphist" :files nil :deps (:emacs (25 1)))
     clips-mode (:fetcher "github" :repo "clips-mode/clips-mode" :files nil :deps nil)
     clj-refactor (:fetcher "github" :repo "clojure-emacs/clj-refactor.el" :files ("//:defaults//" "CHANGELOG.md") :deps (:emacs (25 1) :seq (2 19) :yasnippet (0 6 1) :paredit (24) :multiple-cursors (1 2 2) :clojure-mode (5 9) :cider (0 24 0) :parseedn (0 1) :inflections (2 3) :hydra (0 13 2)))
     cljr-helm (:fetcher "github" :repo "philjackson/cljr-helm" :files nil :deps (:clj-refactor (0 13 0) :helm-core (1 7 7) :cl-lib (0 5)))

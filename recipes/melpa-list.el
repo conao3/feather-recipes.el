@@ -2386,7 +2386,7 @@
   magit-stgit (:fetcher "github" :repo "emacsorphanage/magit-stgit" :files nil :deps nil)
   magit-svn (:fetcher "github" :repo "emacsorphanage/magit-svn" :files nil :deps (:emacs (25 1) :magit (2 90 1) :transient (0 3 2)))
   magit-tbdiff (:fetcher "github" :repo "magit/magit-tbdiff" :files nil :deps (:emacs (24 4) :magit (3 0 0)))
-  magit-todos (:fetcher "github" :repo "alphapapa/magit-todos" :files nil :deps (:emacs (25 2) :async (1 9 2) :dash (2 13 0) :f (0 17 2) :hl-todo (1 9 0) :magit (2 13 0) :pcre2el (1 8) :s (1 12 0)))
+  magit-todos (:fetcher "github" :repo "alphapapa/magit-todos" :files nil :deps (:emacs (25 2) :async (1 9 2) :dash (2 13 0) :f (0 17 2) :hl-todo (1 9 0) :magit (2 13 0) :pcre2el (1 8) :s (1 12 0) :transient (0 2 0)))
   magit-topgit (:fetcher "github" :repo "greenrd/magit-topgit" :files nil :deps (:emacs (24 4) :magit (2 1 0)))
   magit-vcsh (:fetcher "gitlab" :repo "stepnem/magit-vcsh-el" :files nil :deps (:magit (2 90 1) :vcsh (0 4) :emacs (24 4)))
   magithub (:fetcher "github" :repo "vermiculus/magithub" :files nil :deps (:emacs (25) :magit (2 12) :s (1 12 0) :ghub+ (0 3) :git-commit (2 12) :markdown-mode (2 3)))

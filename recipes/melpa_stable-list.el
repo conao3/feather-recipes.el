@@ -232,7 +232,7 @@
   circadian (:fetcher "github" :repo "guidoschmidt/circadian.el" :files nil :deps (:emacs (24 4)))
   circe (:fetcher "github" :repo "jorgenschaefer/circe" :files nil :deps (:cl-lib (0 5)))
   circe-notifications (:fetcher "github" :repo "eqyiel/circe-notifications" :files nil :deps (:emacs (24 4) :circe (2 3) :alert (1 2)))
-  citeproc (:fetcher "github" :repo "andras-simonyi/citeproc-el" :files nil :deps (:emacs (25) :dash (2 13 0) :s (1 12 0) :f (0 18 0) :queue (0 2) :string-inflection (1 0) :org (9)))
+  citeproc (:fetcher "github" :repo "andras-simonyi/citeproc-el" :files nil :deps (:emacs (25) :dash (2 13 0) :s (1 12 0) :f (0 18 0) :queue (0 2) :string-inflection (1 0) :org (9) :parsebib (2 4)))
   cl-format (:fetcher "github" :repo "alvinfrancis/cl-format" :files nil :deps nil)
   cl-libify (:fetcher "github" :repo "purcell/cl-libify" :files nil :deps (:emacs (25)))
   click-mode (:fetcher "github" :repo "bmalehorn/click-mode" :files nil :deps (:emacs (24)))

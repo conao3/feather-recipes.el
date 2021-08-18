@@ -1283,7 +1283,7 @@
     magit-annex (:fetcher "github" :repo "magit/magit-annex" :files nil :deps (:cl-lib (0 3) :magit (3 0 0)))
     magit-filenotify (:fetcher "github" :repo "ruediger/magit-filenotify" :files nil :deps (:magit (1 3 0) :emacs (24 4)))
     magit-find-file (:fetcher "github" :repo "bradwright/magit-find-file.el" :files nil :deps (:magit (2 1 0) :dash (2 8 0)))
-    magit-gerrit (:fetcher "github" :repo "terranpro/magit-gerrit" :files nil :deps (:magit (2 3 1)))
+    magit-gerrit (:fetcher "github" :repo "terranpro/magit-gerrit" :files nil :deps (:emacs (25 1) :magit (2 90 1) :transient (0 3 0)))
     magit-gh-pulls (:fetcher "github" :repo "sigma/magit-gh-pulls" :files nil :deps (:emacs (24 4) :gh (0 9 1) :magit (2 1 0) :pcache (0 2 3) :s (1 6 1)))
     magit-gitflow (:fetcher "github" :repo "jtatarik/magit-gitflow" :files nil :deps (:magit (2 1 0) :magit-popup (2 2 0)))
     magit-imerge (:fetcher "github" :repo "magit/magit-imerge" :files nil :deps (:emacs (24 4) :magit (3 0 0)))

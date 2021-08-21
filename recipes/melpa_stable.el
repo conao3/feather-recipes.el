@@ -1508,7 +1508,7 @@
     org-kanban (:fetcher "github" :repo "gizmomogwai/org-kanban" :files ("org-kanban.el") :deps (:s (0) :dash (2 17 0) :emacs (24 4) :org (9 1)))
     org-link-travis (:fetcher "github" :repo "aki2o/org-link-travis" :files nil :deps (:org (7)))
     org-make-toc (:fetcher "github" :repo "alphapapa/org-make-toc" :files nil :deps (:emacs (26 1) :dash (2 12) :s (1 10 0) :org (9 0)))
-    org-mime (:fetcher "github" :repo "org-mime/org-mime" :files nil :deps (:emacs (25 1) :cl-lib (0 5)))
+    org-mime (:fetcher "github" :repo "org-mime/org-mime" :files nil :deps (:emacs (25 1)))
     org-mru-clock (:fetcher "github" :repo "unhammer/org-mru-clock" :files nil :deps (:emacs (25 1)))
     org-multiple-keymap (:fetcher "github" :repo "myuhe/org-multiple-keymap.el" :files nil :deps (:org (8 2 4) :emacs (24) :cl-lib (0 5)))
     org-noter (:fetcher "github" :repo "weirdNox/org-noter" :files nil :deps (:emacs (24 4) :cl-lib (0 6) :org (9 0)))

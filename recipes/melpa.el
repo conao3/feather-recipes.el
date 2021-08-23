@@ -3625,7 +3625,7 @@
     soft-morning-theme (:fetcher "github" :repo "mswift42/soft-morning-theme" :files nil :deps nil)
     soft-stone-theme (:fetcher "github" :repo "mswift42/soft-stone-theme" :files nil :deps (:emacs (24)))
     solaire-mode (:fetcher "github" :repo "hlissner/emacs-solaire-mode" :files nil :deps (:emacs (25 1) :cl-lib (0 5)))
-    solarized-theme (:fetcher "github" :repo "bbatsov/solarized-emacs" :files nil :deps (:emacs (24 1) :dash (2 16)))
+    solarized-theme (:fetcher "github" :repo "bbatsov/solarized-emacs" :files nil :deps (:emacs (24 1)))
     solidity-flycheck (:fetcher "github" :repo "ethereum/emacs-solidity" :files ("solidity-flycheck.el") :deps (:flycheck (32 -4) :solidity-mode (0 1 9) :dash (2 17 0)))
     solidity-mode (:fetcher "github" :repo "ethereum/emacs-solidity" :files ("//:defaults//" (:exclude ("company-solidity.el" "solidity-flycheck.el"))) :deps nil)
     sonic-pi (:fetcher "github" :repo "repl-electric/sonic-pi.el" :files nil :deps (:cl-lib (0 5) :osc (0 1) :dash (2 2 0) :emacs (24) :highlight (0)))

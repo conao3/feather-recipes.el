@@ -1524,7 +1524,7 @@
     org-re-reveal (:fetcher "gitlab" :repo "oer/org-re-reveal" :files ("//:defaults//" "LICENSES" "Readme.org" "local.css" "images") :deps (:emacs (24 4) :org (8 3) :htmlize (1 34)))
     org-re-reveal-ref (:fetcher "gitlab" :repo "oer/org-re-reveal-ref" :files ("//:defaults//" "LICENSES" "README.org" "references.bib") :deps (:emacs (25 1) :org-ref (1 1 1) :org-re-reveal (0 9 3)))
     org-recent-headings (:fetcher "github" :repo "alphapapa/org-recent-headings" :files nil :deps (:emacs (25 1) :org (9 0 5) :dash (2 13 0) :frecency (0 1)))
-    org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc") :deps (:dash (2 11 0) :helm (1 5 5) :helm-bibtex (2 0 0) :ivy (0 8 0) :hydra (0 13 2) :key-chord (0) :s (1 10 0) :f (0 18 0) :emacs (24 4) :pdf-tools (0 7)))
+    org-ref (:fetcher "github" :repo "jkitchin/org-ref" :files ("//:defaults//" "org-ref.org" "org-ref.bib" "citeproc") :deps (:dash (2 11 0) :htmlize (1 51) :helm (1 5 5) :helm-bibtex (2 0 0) :ivy (0 8 0) :hydra (0 13 2) :key-chord (0) :s (1 10 0) :f (0 18 0) :pdf-tools (0 7) :bibtex-completion (0)))
     org-repo-todo (:fetcher "github" :repo "waymondo/org-repo-todo" :files nil :deps nil)
     org-reverse-datetree (:fetcher "github" :repo "akirak/org-reverse-datetree" :files nil :deps (:emacs (26 1) :dash (2 12) :org (9 3)))
     org-rich-yank (:fetcher "github" :repo "unhammer/org-rich-yank" :files nil :deps (:emacs (24 4)))

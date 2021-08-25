@@ -350,7 +350,7 @@
     call-graph (:fetcher "github" :repo "beacoder/call-graph" :files nil :deps (:emacs (25 1) :cl-lib (0 6 1) :hierarchy (0 7 0) :tree-mode (1 0 0) :ivy (0 10 0) :anaconda-mode (0 1 13)))
     calmer-forest-theme (:fetcher "github" :repo "caldwell/calmer-forest-theme" :files nil :deps nil)
     camcorder (:fetcher "github" :repo "Malabarba/camcorder.el" :files nil :deps (:emacs (24) :names (20150000) :cl-lib (0 5)))
-    caml (:fetcher "github" :repo "ocaml/caml-mode" :files nil :deps (:emacs (22) :cl-lib (0 5)))
+    caml (:fetcher "github" :repo "ocaml/caml-mode" :files nil :deps (:emacs (24 3) :cl-lib (0 5)))
     cangjie (:fetcher "github" :repo "kisaragi-hiu/cangjie.el" :files nil :deps (:emacs (24 4) :s (1 12 0) :dash (2 14 1) :f (0 2 0)))
     capture (:fetcher "github" :repo "pashinin/capture.el" :files ("src/*.el") :deps nil)
     carbon-now-sh (:fetcher "github" :repo "veelenga/carbon-now-sh.el" :files nil :deps (:emacs (24 4)))

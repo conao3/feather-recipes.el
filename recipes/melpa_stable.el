@@ -901,7 +901,7 @@
     grip-mode (:fetcher "github" :repo "seagle0128/grip-mode" :files nil :deps (:emacs (24 4)))
     grizzl (:fetcher "github" :repo "grizzl/grizzl" :files nil :deps nil)
     groovy-imports (:fetcher "github" :repo "mbezjak/emacs-groovy-imports" :files nil :deps (:emacs (24 4) :s (1 10 0) :pcache (0 3 2)))
-    groovy-mode (:fetcher "github" :repo "Groovy-Emacs-Modes/groovy-emacs-modes" :files ("*groovy*.el") :deps (:s (1 12 0) :emacs (24 3)))
+    groovy-mode (:fetcher "github" :repo "Groovy-Emacs-Modes/groovy-emacs-modes" :files ("*groovy*.el") :deps (:s (1 12 0) :emacs (24 3) :dash (2 13 0)))
     gruber-darker-theme (:fetcher "github" :repo "rexim/gruber-darker-theme" :files nil :deps nil)
     grunt (:fetcher "github" :repo "gempesaw/grunt.el" :files nil :deps (:dash (2 9 0) :ansi-color (3 4 2)))
     gruvbox-theme (:fetcher "github" :repo "greduan/emacs-theme-gruvbox" :files nil :deps (:autothemer (0 2)))

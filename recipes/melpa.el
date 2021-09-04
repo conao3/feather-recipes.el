@@ -2574,7 +2574,7 @@
     mynt-mode (:fetcher "github" :repo "crshd/mynt-mode" :files nil :deps (:virtualenvwrapper (20131514)))
     myrddin-mode (:fetcher "git" :repo "https://git.sr.ht/~jakob/myrddin-mode" :files nil :deps (:emacs (24 3)))
     mysql-to-org (:fetcher "github" :repo "mallt/mysql-to-org-mode" :files nil :deps (:emacs (24 3) :s (1 11 0)))
-    myterminal-controls (:fetcher "github" :repo "myTerminal/myterminal-controls" :files nil :deps (:emacs (24)))
+    myterminal-controls (:fetcher "github" :repo "myTerminal/myterminal-controls" :files nil :deps (:emacs (24) :cl-lib (0 5)))
     n4js (:fetcher "github" :repo "tmtxt/n4js.el" :files nil :deps (:emacs (24) :cypher-mode (0)))
     name-this-color (:fetcher "github" :repo "knl/name-this-color.el" :files nil :deps (:emacs (24) :cl-lib (0 5) :dash (2 11 0)))
     named-timer (:fetcher "github" :repo "DarwinAwardWinner/emacs-named-timer" :files nil :deps (:emacs (24 4)))

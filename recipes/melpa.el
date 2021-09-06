@@ -2826,7 +2826,7 @@
     org-present (:fetcher "github" :repo "rlister/org-present" :files nil :deps (:org (7)))
     org-present-remote (:fetcher "gitlab" :repo "duncan-bayne/org-present-remote" :files nil :deps (:org-present (9) :elnode (0 9) :emacs (25)))
     org-pretty-tags (:fetcher "gitlab" :repo "marcowahl/org-pretty-tags" :files nil :deps (:emacs (25)))
-    org-preview-html (:fetcher "github" :repo "lujun9972/org-preview-html" :files nil :deps (:org (8 0) :emacs (24 4)))
+    org-preview-html (:fetcher "github" :repo "lujun9972/org-preview-html" :files nil :deps (:emacs (27 1) :org (8 0)))
     org-projectile (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-projectile.el") :deps (:projectile (0 11 0) :dash (2 10 0) :emacs (24) :s (1 9 0) :org-category-capture (0 0 0)))
     org-projectile-helm (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-projectile-helm*.el") :deps (:org-projectile (1 0 0) :helm (2 3 1) :emacs (25)))
     org-protocol-jekyll (:fetcher "github" :repo "vonavi/org-protocol-jekyll" :files nil :deps (:cl-lib (0 5)))

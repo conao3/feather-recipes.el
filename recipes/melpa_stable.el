@@ -198,7 +198,7 @@
     calfw-org (:fetcher "github" :repo "kiwanami/emacs-calfw" :files ("calfw-org.el") :deps nil)
     call-graph (:fetcher "github" :repo "beacoder/call-graph" :files nil :deps (:emacs (25 1) :cl-lib (0 6 1) :hierarchy (0 7 0) :tree-mode (1 0 0) :ivy (0 10 0)))
     camcorder (:fetcher "github" :repo "Malabarba/camcorder.el" :files nil :deps (:emacs (24) :names (20150000) :cl-lib (0 5)))
-    caml (:fetcher "github" :repo "ocaml/caml-mode" :files nil :deps nil)
+    caml (:fetcher "github" :repo "ocaml/caml-mode" :files nil :deps (:emacs (24 3)))
     cangjie (:fetcher "github" :repo "kisaragi-hiu/cangjie.el" :files nil :deps (:emacs (24 4) :s (1 12 0) :dash (2 14 1) :f (0 2 0)))
     cargo (:fetcher "github" :repo "kwrooijen/cargo.el" :files nil :deps (:emacs (24 3) :rust-mode (0 2 0)))
     caseformat (:fetcher "github" :repo "HKey/caseformat" :files nil :deps (:emacs (24) :cl-lib (0 5) :dash (2 12 1) :s (1 10 0)))

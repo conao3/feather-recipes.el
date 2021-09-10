@@ -1914,7 +1914,7 @@
     horoscope (:fetcher "github" :repo "mschuldt/horoscope.el" :files nil :deps (:emacs (24)))
     hound (:fetcher "github" :repo "ryoung786/hound.el" :files nil :deps (:request (0 2 0) :cl-lib (0 5)))
     howdoi (:fetcher "github" :repo "atykhonov/emacs-howdoi" :files nil :deps nil)
-    howdoyou (:fetcher "github" :repo "thanhvg/emacs-howdoyou" :files nil :deps (:emacs (25 1) :promise (1 1) :request (0 3 0) :org (9 2)) :branch "master")
+    howdoyou (:fetcher "github" :repo "thanhvg/emacs-howdoyou" :files nil :deps (:emacs (25 1) :promise (1 1) :request (0 3 3) :org (9 2)) :branch "master")
     howm (:fetcher "git" :repo "https://scm.osdn.net/gitroot/howm/howm.git" :files ("//:defaults//" (:exclude ("*.el.in"))) :deps (:cl-lib (0 5)))
     hsluv (:fetcher "github" :repo "hsluv/hsluv-emacs" :files nil :deps (:seq (2 20)))
     ht (:fetcher "github" :repo "Wilfred/ht.el" :files ("ht.el") :deps (:dash (2 12 0)))

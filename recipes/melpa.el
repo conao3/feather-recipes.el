@@ -954,7 +954,7 @@
     elogcat (:fetcher "github" :repo "youngker/elogcat.el" :files nil :deps (:s (1 9 0) :dash (2 10 0)))
     eloud (:fetcher "github" :repo "smythp/eloud" :files nil :deps (:emacs (24 4)))
     elpa-audit (:fetcher "github" :repo "purcell/elpa-audit" :files nil :deps nil)
-    elpa-clone (:fetcher "github" :repo "dochang/elpa-clone" :files nil :deps (:emacs (24 4) :cl-lib (0)))
+    elpa-clone (:fetcher "github" :repo "dochang/elpa-clone" :files nil :deps (:emacs (24 4)))
     elpa-mirror (:fetcher "github" :repo "redguardtoo/elpa-mirror" :files ("elpa-mirror.el" "elpa-mirror.js" "index.html") :deps (:emacs (25 1)))
     elpher (:fetcher "github" :repo "tgvaughan/elpher" :files nil :deps (:emacs (27 1)))
     elpl (:fetcher "github" :repo "twlz0ne/elpl" :files nil :deps (:emacs (24 4)))

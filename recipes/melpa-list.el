@@ -2431,7 +2431,7 @@
   maude-mode (:fetcher "github" :repo "rudi/maude-mode" :files nil :deps (:emacs (25)))
   maven-test-mode (:fetcher "github" :repo "rranelli/maven-test-mode" :files nil :deps (:s (1 9) :emacs (24)))
   maxframe (:fetcher "github" :repo "rmm5t/maxframe.el" :files nil :deps nil)
-  mb-url (:fetcher "github" :repo "dochang/mb-url" :files nil :deps (:cl-lib (0)))
+  mb-url (:fetcher "github" :repo "dochang/mb-url" :files nil :deps (:emacs (24 4)))
   mbe (:fetcher "github" :repo "ijp/mbe.el" :files ("mbe.el") :deps (:emacs (24) :cl-lib (0 5)))
   mbo70s-theme (:fetcher "github" :repo "emacsfodder/emacs-mbo70s-theme" :files nil :deps (:emacs (24 0)))
   mbsync (:fetcher "github" :repo "dimitri/mbsync-el" :files nil :deps nil)

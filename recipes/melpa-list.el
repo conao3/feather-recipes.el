@@ -1253,7 +1253,7 @@
   flatui-dark-theme (:fetcher "github" :repo "theasp/flatui-dark-theme" :files nil :deps (:emacs (24)))
   flatui-theme (:fetcher "github" :repo "john2x/flatui-theme.el" :files nil :deps nil)
   flex-autopair (:fetcher "github" :repo "uk-ar/flex-autopair" :files nil :deps nil)
-  flex-compile (:fetcher "github" :repo "plandes/flex-compile" :files nil :deps (:emacs (26 1) :dash (2 17 0) :buffer-manage (0 11)))
+  flex-compile (:fetcher "github" :repo "plandes/flex-compile" :files nil :deps (:emacs (26 1) :dash (2 17 0) :buffer-manage (1 0)))
   flex-isearch (:fetcher "bitbucket" :repo "jpkotta/flex-isearch" :files nil :deps nil)
   flim (:fetcher "github" :repo "wanderlust/flim" :files ("*.texi" "*.el" (:exclude ("md5-dl.el" "md5-el.el" "mel-b-dl.el" "sha1-dl.el" "smtpmail.el"))) :deps (:emacs (24 5) :apel (10 8) :oauth2 (0 11)))
   flimenu (:fetcher "github" :repo "IvanMalison/flimenu" :files nil :deps (:emacs (24 4)))

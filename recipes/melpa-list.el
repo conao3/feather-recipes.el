@@ -3836,7 +3836,7 @@
   tinypng (:fetcher "github" :repo "xuchunyang/tinypng.el" :files nil :deps (:emacs (25 1)))
   tinysegmenter (:fetcher "github" :repo "myuhe/tinysegmenter.el" :files nil :deps (:cl-lib (0 5)))
   tj3-mode (:fetcher "github" :repo "csrhodes/tj3-mode" :files nil :deps nil)
-  tldr (:fetcher "github" :repo "kuanyui/tldr.el" :files nil :deps (:emacs (24 3) :request (0 3 0)))
+  tldr (:fetcher "github" :repo "kuanyui/tldr.el" :files nil :deps (:emacs (24 3)))
   tmmofl (:fetcher "github" :repo "phillord/tmmofl" :files nil :deps nil)
   tmux-pane (:fetcher "github" :repo "laishulu/emacs-tmux-pane" :files nil :deps (:names (0 5) :emacs (24) :s (0)))
   toc-org (:fetcher "github" :repo "snosov1/toc-org" :files nil :deps nil)

@@ -1515,7 +1515,7 @@
   org-projectile (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-projectile.el") :deps (:projectile (0 11 0) :dash (2 10 0) :emacs (24) :s (1 9 0) :org-category-capture (0 0 0)))
   org-projectile-helm (:fetcher "github" :repo "IvanMalison/org-projectile" :files ("org-projectile-helm*.el") :deps (:org-projectile (1 0 0) :helm (2 3 1) :emacs (25)))
   org-protocol-jekyll (:fetcher "github" :repo "vonavi/org-protocol-jekyll" :files nil :deps nil)
-  org-ql (:fetcher "github" :repo "alphapapa/org-ql" :files nil :deps (:emacs (26 1) :dash (2 13) :dash-functional (1 2 0) :f (0 17 2) :map (2 1) :org (9 0) :org-super-agenda (1 2) :ov (1 0 6) :peg (0 6) :s (1 12 0) :transient (0 1) :ts (0 2 -1)))
+  org-ql (:fetcher "github" :repo "alphapapa/org-ql" :files nil :deps (:emacs (26 1) :dash (2 18 1) :f (0 17 2) :map (2 1) :org (9 0) :org-super-agenda (1 2) :ov (1 0 6) :peg (1 0) :s (1 12 0) :transient (0 1) :ts (0 2 -1)))
   org-random-todo (:fetcher "github" :repo "unhammer/org-random-todo" :files ("org-random-todo.el") :deps (:emacs (24 3) :alert (1 2)))
   org-re-reveal (:fetcher "gitlab" :repo "oer/org-re-reveal" :files ("//:defaults//" "LICENSES" "Readme.org" "local.css" "images") :deps (:emacs (24 4) :org (8 3) :htmlize (1 34)))
   org-re-reveal-ref (:fetcher "gitlab" :repo "oer/org-re-reveal-ref" :files ("//:defaults//" "LICENSES" "README.org" "references.bib") :deps (:emacs (25 1) :org-ref (1 1 1) :org-re-reveal (0 9 3)))

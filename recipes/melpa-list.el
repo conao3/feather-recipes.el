@@ -1894,7 +1894,7 @@
   hive (:fetcher "github" :repo "r0man/hive-el" :files nil :deps (:sql (3 0)))
   hiwin (:fetcher "github" :repo "yoshida-mediba/hiwin-mode" :files nil :deps nil)
   hl-anything (:fetcher "github" :repo "hl-anything/hl-anything-emacs" :files ("//:defaults//" "images" "images/*.xpm" "images/*.png") :deps (:emacs (24 3)))
-  hl-block-mode (:fetcher "github" :repo "ideasman42/emacs-hl-block-mode" :files nil :deps (:emacs (26 0)))
+  hl-block-mode (:fetcher "github" :repo "ideasman42/emacs-hl-block-mode" :files nil :deps (:emacs (26 1)))
   hl-fill-column (:fetcher "github" :repo "laishulu/hl-fill-column" :files nil :deps (:names (0 5) :emacs (24)))
   hl-indent (:fetcher "github" :repo "ikirill/hl-indent" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   hl-sentence (:fetcher "github" :repo "milkypostman/hl-sentence" :files nil :deps nil)

@@ -1955,7 +1955,7 @@
     idea-darkula-theme (:fetcher "github" :repo "fourier/idea-darkula-theme" :files nil :deps (:emacs (24 1)))
     identica-mode (:fetcher "github" :repo "gabrielsaldana/Emacs-Identica-mode" :files nil :deps nil)
     idle-highlight-in-visible-buffers-mode (:fetcher "github" :repo "ignacy/idle-highlight-in-visible-buffers-mode" :files nil :deps nil)
-    idle-highlight-mode (:fetcher "github" :repo "nonsequitur/idle-highlight-mode" :files nil :deps nil)
+    idle-highlight-mode (:fetcher "github" :repo "nonsequitur/idle-highlight-mode" :files nil :deps (:emacs (27 1)))
     idle-org-agenda (:fetcher "github" :repo "enisozgen/idle-org-agenda" :files nil :deps nil)
     idle-require (:fetcher "github" :repo "nschum/idle-require.el" :files nil :deps nil)
     ido-at-point (:fetcher "github" :repo "katspaugh/ido-at-point" :files nil :deps (:emacs (24)))

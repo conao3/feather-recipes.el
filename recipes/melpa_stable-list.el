@@ -1605,7 +1605,7 @@
   parsebib (:fetcher "github" :repo "joostkremers/parsebib" :files nil :deps (:emacs (25 1)))
   parsec (:fetcher "github" :repo "cute-jumper/parsec.el" :files nil :deps (:emacs (24) :cl-lib (0 5)))
   parseclj (:fetcher "github" :repo "clojure-emacs/parseclj" :files nil :deps (:emacs (25)))
-  parseedn (:fetcher "github" :repo "clojure-emacs/parseedn" :files nil :deps (:emacs (25) :parseclj (1 0 0) :map (2)))
+  parseedn (:fetcher "github" :repo "clojure-emacs/parseedn" :files nil :deps (:emacs (25) :parseclj (1 0 3) :map (2)))
   pass (:fetcher "github" :repo "NicolasPetton/pass" :files nil :deps (:emacs (25) :password-store (2 1 0) :password-store-otp (0 1 5) :f (0 17)))
   passmm (:fetcher "github" :repo "pjones/passmm" :files ("lisp/*.el") :deps (:emacs (24 4) :password-store (0)))
   password-store (:fetcher "github" :repo "zx2c4/password-store" :files ("contrib/emacs/*.el") :deps (:emacs (25) :s (1 9 0) :with-editor (2 5 11) :auth-source-pass (5 0 0)))

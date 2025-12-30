@@ -1,61 +1,65 @@
-#+author: conao
+#+title: feather-recipes.el
+#+author: Naoya Yamashita
 #+date: <2018-10-25 Thu>
 
-[[https://github.com/conao3/coder][https://raw.githubusercontent.com/conao3/files/master/blob/headers/png/feather-recipes.el.png]]
+[[https://github.com/conao3/feather-recipes.el][https://raw.githubusercontent.com/conao3/files/master/blob/headers/png/feather-recipes.el.png]]
 [[https://github.com/conao3/feather-recipes.el/blob/master/LICENSE][https://img.shields.io/github/license/conao3/feather-recipes.el.svg?style=flat-square]]
 [[https://github.com/conao3/feather-recipes.el/releases][https://img.shields.io/github/tag/conao3/feather-recipes.el.svg?style=flat-square]]
-[[https://travis-ci.org/conao3/feather-recipes.el][https://img.shields.io/travis/conao3/feather-recipes.el/master.svg?style=flat-square]]
-[[https://app.codacy.com/project/conao3/feather-recipes.el/dashboard][https://img.shields.io/codacy/grade/ea694311037f43938335ed40d312e431.svg?logo=codacy&style=flat-square]]
-[[https://www.patreon.com/conao3][https://img.shields.io/badge/patreon-become%20a%20patron-orange.svg?logo=patreon&style=flat-square]]
-[[https://twitter.com/conao_3][https://img.shields.io/badge/twitter-@conao__3-blue.svg?logo=twitter&style=flat-square]]
-[[https://join.slack.com/t/conao3-support/shared_invite/enQtNjUzMDMxODcyMjE1LTA4ZGRmOWYwZWE3NmE5NTkyZjk3M2JhYzU2ZmRkMzdiMDdlYTQ0ODMyM2ExOGY0OTkzMzZiMTNmZjJjY2I5NTM][https://img.shields.io/badge/chat-on_slack-blue.svg?logo=slack&style=flat-square]]
+
+* Overview
+
+feather-recipes.el provides the package recipe repository for [[https://github.com/conao3/feather.el][feather.el]], a lightweight Emacs package manager.
+
+This repository contains recipe definitions that specify how to fetch and build packages from various sources, enabling feather.el to manage package installations efficiently.
 
 * Table of Contents
-- [[#description][Description]]
-- [[#install][Install]]
+
+- [[#overview][Overview]]
+- [[#installation][Installation]]
 - [[#usage][Usage]]
-- [[#information][Information]]
-  - [[#donation][Donation]]
-  - [[#community][Community]]
-  - [[#contribution][Contribution]]
-  - [[#license][License]]
-  - [[#author][Author]]
-  - [[#contributors][Contributors]]
+- [[#recipe-format][Recipe Format]]
+- [[#contributing][Contributing]]
+- [[#license][License]]
 
-* Description
-This is [[https://github.com/conao3/feather.el][feather.el]] fetching recipes repository.
+* Installation
 
-* Install
+feather-recipes.el is automatically fetched by feather.el when needed. No manual installation is required for typical usage.
+
+If you want to use a local copy or contribute to the recipes:
+
+#+begin_src shell
+git clone https://github.com/conao3/feather-recipes.el.git
+#+end_src
 
 * Usage
 
-* Information
-** Donation
-I love OSS and I am dreaming of working on it as *full-time* job.
+The recipes in this repository are consumed by feather.el. Once feather.el is installed and configured, it will automatically access these recipes to resolve package dependencies and fetch sources.
 
-*With your support*, I will be able to spend more time at OSS!
+For details on using feather.el itself, see the [[https://github.com/conao3/feather.el][feather.el documentation]].
 
-[[https://www.patreon.com/conao3][https://c5.patreon.com/external/logo/become_a_patron_button.png]]
+* Recipe Format
 
-** Community
-All feedback and suggestions are welcome!
+Each recipe specifies the source location and build instructions for an Emacs package. The recipe format follows conventions similar to other Emacs package recipe systems.
 
-You can use github issues, but you can also use [[https://join.slack.com/t/conao3-support/shared_invite/enQtNjUzMDMxODcyMjE1LTA4ZGRmOWYwZWE3NmE5NTkyZjk3M2JhYzU2ZmRkMzdiMDdlYTQ0ODMyM2ExOGY0OTkzMzZiMTNmZjJjY2I5NTM][Slack]]
-if you want a more casual conversation.
+* Contributing
 
-** Contribution
-Feel free to send PR!
+Contributions are welcome. To add or update a recipe:
 
-** License
+1. Fork this repository
+2. Add or modify the recipe file
+3. Test the recipe with feather.el
+4. Submit a pull request
+
+Please ensure your recipes follow the existing conventions in this repository.
+
+* License
+
 #+begin_example
-  Affero General Public License Version 3 (AGPLv3)
-  Copyright (c) Naoya Yamashita - https://conao3.com
-  https://github.com/conao3/feather-recipes.el/blob/master/LICENSE
+Affero General Public License Version 3 (AGPLv3)
+Copyright (c) Naoya Yamashita - https://conao3.com
+https://github.com/conao3/feather-recipes.el/blob/master/LICENSE
 #+end_example
 
-** Author
-- Naoya Yamashita ([[https://github.com/conao3][conao3]])
+* Author
 
-** Contributors
-- Not yet... Now send PR and add your name!!
-
+Naoya Yamashita ([[https://github.com/conao3][conao3]])
